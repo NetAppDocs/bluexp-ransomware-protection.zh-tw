@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: rp-use-overview.html 
+keywords: ransomware protection, ransomware protection, detect ransomware attacks, recover from ransomware attack 
+summary: 使用 BlueXP 勒索軟體保護、您可以檢視工作負載健全狀況並保護工作負載。 
+---
+= 使用 BlueXP 勒索軟體保護
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+使用 BlueXP 勒索軟體保護、您可以檢視工作負載健全狀況並保護工作負載。
+
+* link:rp-start-discover.html["探索 BlueXP 勒索軟體保護的工作負載"]。
+* link:rp-use-dashboard.html["從儀表板檢視保護和工作負載健全狀況"]。
++
+** 審查勒索軟體保護建議並採取行動。
+
+
+* link:rp-use-protect.html["保護工作負載"]：
++
+** 將勒索軟體保護原則指派給工作負載。
+** 加強應用程式保護、以防止未來的勒索軟體攻擊。
+** 建立、變更或刪除保護原則。
+
+
+* link:rp-use-alert.html["回應偵測可能的勒索軟體攻擊"]。
+* link:rp-use-recover.html["從攻擊中恢復"] （事件被消除之後）。
+* link:rp-use-settings.html["設定保護設定"]。
+

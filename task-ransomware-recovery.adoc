@@ -1,0 +1,48 @@
+---
+sidebar: sidebar 
+permalink: task-ransomware-recovery.html 
+keywords: ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, recovery 
+summary: 勒索軟體恢復儀表板提供選項、可用來恢復可能受勒索軟體感染的資料。這有助於您快速備份和執行系統。 
+---
+= 從勒索軟體攻擊中恢復
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 勒索軟體保護恢復儀表板提供多種選項、可用來還原可能受勒索軟體感染的資料。這有助於您快速備份和執行系統。
+
+如果 BlueXP 勒索軟體保護儀表板中的勒索軟體事件面板顯示某個或多個磁碟區已受到勒索軟體的感染、您可以按一下 * 恢復 * 按鈕來嘗試解決問題。
+
+此時、勒索軟體恢復儀表板可讓您以不受勒索軟體影響的 Snapshot 複本來取代受感染的 Volume 。
+
+.步驟
+. 在勒索軟體事件面板中、按一下*恢復*以查看已感染勒索軟體的磁碟區。
++
+勒索軟體的「恢復儀表板」會顯示磁碟區名稱。
+
++
+image:screenshot_ransomware_recovery_dashboard.png["BlueXP 勒索軟體保護恢復儀表板的螢幕快照。"]
+
+. 按一下 * 顯示即時資料 * 、檢視該磁碟區可用的即時資料複本清單。
++
+image:screenshot_ransomware_recovery_select_snap.png["可用Snapshot複本的快照快照快照、可用來恢復毀損的磁碟區。"]
+
+. 選取沒有加密資料的 Snapshot 、然後按一下 * 恢復 * 。
+. 在「從選取的 Snapshot 復原資料」對話方塊中、按一下 * 是 * 、即可從 Snapshot 復原資料。
++
+您可以查看 Snapshot 的恢復狀態、並查看 Snapshot 何時還原毀損的 Volume 。
+
++
+image:screenshot_ransomware_recovery_snap_complete.png["顯示 Snapshot 已恢復毀損的 Volume 的螢幕擷取畫面。"]
+
+
+
+.結果
+損毀的磁碟區已使用過去建立的 Snapshot 來復原。
+
+如果還原作業是從非最新 Snapshot 的 Snapshot 完成、則還原之後、所有最新的 Snapshot 複本都會從 ONTAP 系統中刪除、因為它們也可能毀損（如上圖所示）。

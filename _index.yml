@@ -1,0 +1,52 @@
+---
+indexpage:
+  title: BlueXP 勒索軟體保護文件
+  summary: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM
+    資料存放區、 以及內部部署 NAS 儲存設備上的檔案共用、以及 Amazon Web Services （使用 NFS 傳輸協定）中的 Cloud Volumes
+    ONTAP 、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
+    。
+  keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
+    web services, aws, storagegrid
+  lead: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、
+    以及內部部署 NAS 儲存設備上的檔案共用、以及 Amazon Web Services （使用 NFS 傳輸協定）中的 Cloud Volumes ONTAP
+    、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
+    。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 瞭解 BlueXP 勒索軟體保護
+      url: "/concept-ransomware-protection.html"
+    - title: BlueXP 勒索軟體保護的新功能
+      url: "/whats-new.html"
+    - title: 先決條件
+      url: "/rp-start-prerequisites.html"
+    - title: 快速入門
+      url: "/rp-start-quick-start.html"
+    - title: 設定 BlueXP 勒索軟體保護
+      url: "/rp-start-setup.html"
+    - title: 存取 BlueXP 勒索軟體保護
+      url: "/rp-start-login.html"
+    - title: 常見問題集
+      url: "/rp-start-faq.html"
+  - title: 使用 BlueXP 勒索軟體保護
+    links:
+    - title: 請使用 BlueXP 勒索軟體保護總覽
+      url: "/rp-use-overview.html"
+    - title: 探索工作負載
+      url: "/rp-start-discover.html"
+    - title: 使用儀表板檢視工作負載健全狀況
+      url: "/rp-use-dashboard.html"
+    - title: 保護工作負載
+      url: "/rp-use-protect.html"
+    - title: 回應偵測到的警示
+      url: "/rp-use-alert.html"
+    - title: 從攻擊中恢復
+      url: "/rp-use-recover.html"
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 雲端網路研討會
+      url: https://bluexp.netapp.com/events
+    - title: NetApp.com 上的 BlueXP 勒索軟體保護
+      url: https://www.netapp.com/cyber-resilience/ransomware-protection/

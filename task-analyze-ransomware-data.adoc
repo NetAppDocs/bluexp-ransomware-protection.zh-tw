@@ -1,0 +1,345 @@
+---
+sidebar: sidebar 
+permalink: task-analyze-ransomware-data.html 
+keywords: personal data, personal information, sensitive, personal sensitive data, governance, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, permissions 
+summary: 使用 BlueXP 勒索軟體保護儀表板、深入瞭解所有 BlueXP 工作環境和其他資料來源的網路恢復能力。您可以深入瞭解每個區域、以瞭解更多詳細資料和可能的修正。 
+---
+= 管理資料來源的網路安全建議
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+請使用 BlueXP 勒索軟體保護儀表板、深入瞭解您所有 BlueXP （前身為 Cloud Manager ）工作環境和其他資料來源的網路恢復能力。您可以深入瞭解每個區域、以瞭解更多詳細資料和可能的修正。
+
+從BlueXP左側導覽功能表中、選取*管理>勒索軟體保護*。
+
+image:screenshot_ransomware_dashboard.png["BlueXP 勒索軟體保護儀表板的螢幕快照。"]
+
+
+
+== 勒索軟體保護分數和建議行動
+
+勒索軟體保護分數面板提供簡單的方法、讓您瞭解資料對勒索軟體攻擊的恢復能力。這是建議採取的所有行動的集合體、以改善您的資料安全態勢和網路恢復能力。此面板可搭配「建議的動作」面板使用。勒索軟體保護分數面板分為兩部分：
+
+* 資料的整體保護分數（受0-100%保護）。
++
+分數是以所有可能建議的加權計算為基礎。
+
+* 如果您實作建議、有多少建議行動可將保護提升至100%。
++
+建議採取的三種行動均符合 https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/nist-framework["NIST網路安全架構"^]：
+
++
+** 保護
+** 偵測
+** 恢復
+
+
+
+
+image:screenshot_ransomware_protection_score1.png["顯示勒索軟體保護分數面板和「建議動作」面板的快照。"]
+
+在此範例頁面中、有七項建議的「保護」類別動作。第一項建議與258個檔案有關。
+
+此面板支援已新增至 BlueXP 分類的工作環境和資料來源。
+
+請注意、建議適用於每個資料來源。因此、如果相同的建議與3個資料來源有關、則會被視為3項建議。
+
+您可以按一下 image:button_down_caret.png["向下箭號按鈕"] 展開每個建議的行動、如下所示。
+
+image:screenshot_ransomware_rec_actions_expanded.png["顯示「建議動作」面板的快照已展開、顯示每個資料來源的總動作。"]
+
+若要查看已識別為採取建議行動的詳細資料清單、請按一下 * 調查 * 按鈕、您將會重新導向至 BlueXP 分類調查頁面、其中列出所有符合建議行動準則的檔案。
+
+然後您可以決定要將建議的動作套用至所有檔案、或只套用其中的部分檔案。
+
+修正建議的動作之後、下次重新整理勒索軟體保護分數面板（每5分鐘）將會調整分數。您也可以按一下*重新掃描*按鈕、立即更新頁面。
+
+
+
+=== 建議行動清單
+
+這些是目前追蹤的建議行動和建議解決方案。
+
+[cols="25,40,35"]
+|===
+| 建議採取的行動 | 說明 | 可能的解決方案 
+
+
+| 減少具有廣泛權限的X敏感項目權限 | 在您的資料來源中、可以依 BlueXP 分類找到具有開放權限的敏感檔案。這包括所有具有「開放給組織」或「開放給大眾」權限的敏感資料（個人資料和敏感個人資料）。 | 按一下每個資料來源的 * 調查 * 按鈕、您就會被重新導向至 BlueXP 分類調查頁面、您可以在其中檢視所有有風險的敏感檔案、並採取進一步行動以降低風險。這包括如何減少這些檔案的廣泛權限。 
+
+
+| 將X個敏感項目從Y個未受保護的資料來源移至安全位置 | 根據 BlueXP 分類、在未受保護的資料來源上發現敏感資料；這些資料是勒索軟體無法保護資料的位置。一般而言、您的IT組織有限制特定公司位置敏感資料的原則。此建議動作可讓您識別具有敏感資料的檔案、並將其移至更安全的資料來源、以便儲存敏感的*是*。 | 您可以使用 BlueXP 分類、將這些檔案快速移至受保護效果更好的資料來源。您將使用 BlueXP 分類功能進行分類 https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#moving-source-files-to-an-nfs-share["將來源檔案移至NFS共用區"^]。 
+
+
+| 跨Y資料來源修補X個開放式CVE | 未修補的CVE（常見弱點和曝光）已出現在內部部署ONTAP 的作業系統上和（或）Cloud Volumes ONTAP 無法修復的系統上。只有當 BlueXP 數位顧問產品（前身為 Active IQ Digital Advisor ）與您的儲存系統整合時、才會發現這些問題。這些是NetApp儲存系統上已知的弱點、其中有可用來解決CVE的修正程式。NetApp CVE列於 https://security.netapp.com/advisory/["產品安全頁面"^]。 | 按一下每個資料來源的 * 數位顧問 * 按鈕、您就會被重新導向至 BlueXP 數位顧問中的 _ 安全性弱點 _ 頁面。您可以在這裡查看有關開啟的CVE的詳細資料、以及解決每個CVE的建議行動。解決方法通常是升級ONTAP 系統上的支援軟體。 https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["深入瞭解「安全性弱點」頁面"]。 
+
+
+| 設定您的業務關鍵資料 | 您尚未在「業務關鍵資料組態」頁面中定義業務關鍵資料原則。請務必確認您認為哪些是業務關鍵資料、以便引起您注意此資料可能存在的勒索軟體問題。 | 按一下 image:button_down_caret.png["向下箭號按鈕"] 若要展開建議、請按一下連結以開啟「業務關鍵資料組態」頁面。然後您可以選取定義業務關鍵資料的原則。 link:task-select-business-critical-policies.html["深入瞭解如何設定及選擇業務關鍵資料原則"]。 
+
+
+| 備份 Y 資料來源中的 X 個業務關鍵檔案 | 這可識別您最重要的資料類別如何使用 BlueXP 備份與還原、全面備份至公有雲或私有雲。只有在您定義了業務關鍵資料時、建議才會顯示建議。如果您因為勒索軟體攻擊而需要恢復任何資料、這一點非常重要。本建議僅指出內部部署 ONTAP 和 Cloud Volumes ONTAP 工作環境。 | 按一下 image:button_down_caret.png["向下箭號按鈕"] 若要展開建議、然後按一下每個資料來源的 * 備份 * 按鈕、您就會被重新導向至 BlueXP 備份與還原服務。您可以在必要的磁碟區上啟用備份。 
+
+
+| 開啟 X 資料來源的網路儲存組態  a| 
+本建議說明是否啟用或停用六種 ONTAP 功能來協助保護資料安全。應啟用所有項目。項目如下：
+
+* Snapshot ：您應該建立磁碟區的 Snapshot 複本、以便在需要時還原磁碟區資料。 https://docs.netapp.com/us-en/ontap/concepts/snapshot-copies-concept.html["深入瞭解"^]。
+* FPolicy - 您應該擷取資料、以便在需要知道誰變更檔案時監控檔案作業。 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["深入瞭解"^]。
+* SnapMirror - 您應該在次要儲存設備上建立磁碟區的複本、以便在需要時還原磁碟區資料。 https://docs.netapp.com/us-en/ontap/task_dp_configure_mirror.html["深入瞭解"^]。
+* MAV - 您應該啟用多重管理驗證、以便某些作業（例如刪除磁碟區）只能在系統管理員核准後執行。 https://docs.netapp.com/us-en/ontap/multi-admin-verify/index.html["深入瞭解"^]。
+* ARP ：您應該啟用自動勒索軟體保護（ Onbox 反勒索軟體）、這樣系統就能偵測勒索軟體的嘗試、並自動回應。 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["深入瞭解"^]。
+* 版本：您應該執行最新版的 ONTAP 軟體、以獲得最佳效能與安全性。深入瞭解 https://docs.netapp.com/us-en/ontap/upgrade/index.html["內部部署 ONTAP 系統"^] 以及for https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["Cloud Volumes ONTAP 系統"^]。
+
+| 如需如何啟用這六種 ONTAP 功能的詳細資訊、請參閱上一欄的連結。 
+|===
+
+
+== 網路恢復地圖
+
+網路還原地圖是儀表板的主要區域。它可讓您以視覺化的方式查看所有工作環境和資料來源、並能檢視相關的網路恢復能力資訊。
+
+image:screenshot_ransomware_cyber_map.png["BlueXP 勒索軟體保護儀表板上的網路恢復力圖快照。"]
+
+地圖由三個部分組成：
+
+左側面板:: 顯示服務正在監控所有資料來源的警示清單。也會指出您環境中每個作用中警示的數目。有大量一種警示類型、可能是嘗試先解決這些警示的好理由。
+中央面板:: 以圖形格式顯示所有資料來源、服務和Active Directory。健全的環境具有綠色指標、而具有警示的環境則有紅色指標。
+右側面板:: 按一下具有紅色指標的資料來源之後、此面板會顯示該資料來源的警示、並提供解決警示的建議。警示會排序、以便先列出最新的警示。許多建議都會引導您使用另一項可解決此問題的BlueXP服務。
+
+
+這些是目前追蹤的警示和建議的修正。
+
+[cols="25,40,35"]
+|===
+| 警示 | 說明 | 補救 
+
+
+| 偵測到高資料加密率 | 資料來源中加密檔案或毀損檔案的百分比發生異常增加。這表示在過去7天內、加密檔案的百分比增加超過20%。例如、如果50%的檔案已加密、則一天之後此數字會增加至60%、您會看到此警示。 | 按一下連結以啟動 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["BlueXP 分類調查頁面"^]。您可以在其中選取特定_Working Environment_和_Category（加密和毀損）_的篩選器、以檢視所有加密和毀損檔案的清單。 
+
+
+| 找到具有廣泛權限的敏感資料 | 敏感資料位於檔案中、而資料來源的存取權限等級太高。 | 按一下連結以啟動 https://docs.netapp.com/us-en/bluexp-classification/task-controlling-private-data.html["BlueXP 分類調查頁面"^]。您可以在其中選取特定_Working Environment_、_Sensitivity Level（敏感個人）_和_Open權限_的篩選條件、以檢視發生此問題的檔案清單。 
+
+
+| 一或多個磁碟區未使用 BlueXP 備份與還原進行備份 | 工作環境中的部分磁碟區未受到使用保護 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["BlueXP 備份與還原"^]。 | 按一下連結以啟動 BlueXP 備份與還原、然後您可以識別工作環境中未備份的磁碟區、然後決定是否要在這些磁碟區上啟用備份。 
+
+
+| BlueXP 分類無法掃描您資料來源中的一或多個儲存庫（磁碟區、貯體等） | 您的資料來源中有些資料並未使用進行掃描 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"^] 找出法規遵循與隱私權方面的考量、並找出最佳化商機。 | 按一下連結以啟動 BlueXP 分類、並啟用未掃描項目的掃描和對應。 
+
+
+| 內建的勒索軟體並非適用於所有磁碟區 | 內部ONTAP 的某些Volume無法使用 https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["NetApp反勒索軟體功能"^] 已啟用。 | 按一下連結、即可將您重新導向至 <<鞏固不均系統的狀態ONTAP,強化ONTAP 您的「需求環境」面板>> 以及問題所在的工作環境。您可以在這裡調查解決問題的最佳方式。 
+
+
+| 不更新版本ONTAP | 安裝在叢集上的版本不符合所提供的建議ONTAP https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["《NetApp ONTAP 資訊系統安全強化指南》"^]。 | 按一下連結、即可將您重新導向至 <<鞏固不均系統的狀態ONTAP,強化ONTAP 您的「需求環境」面板>> 以及問題所在的工作環境。您可以在這裡調查解決問題的最佳方式。 
+
+
+| 未針對所有磁碟區設定快照 | 工作環境中的部分磁碟區無法透過建立磁碟區快照來保護。 | 按一下連結、即可將您重新導向至 <<鞏固不均系統的狀態ONTAP,強化ONTAP 您的「需求環境」面板>> 以及問題所在的工作環境。您可以在這裡調查解決問題的最佳方式。 
+
+
+| 並非所有SVM都會開啟檔案作業稽核功能 | 工作環境中的部分儲存VM未啟用檔案系統稽核。建議您追蹤使用者對您檔案的行動。 | 按一下連結、即可將您重新導向至 <<鞏固不均系統的狀態ONTAP,強化ONTAP 您的「需求環境」面板>> 以及問題所在的工作環境。您可以在此調查是否需要在SVM上啟用NAS稽核。 
+|===
+
+
+== 偵測到系統上的勒索軟體事件
+
+在您的Managed System上偵測到的勒索軟體事件、將會在「_勒索 軟體事件_」面板中顯示為警示。這包括加密事件、可疑的副檔名、勒索軟體活動及惡意活動。面板會顯示事件類型、以及是否已執行任何自動動作來嘗試解決問題。例如、可以產生Volume Snapshot複本並傳送至雲端。
+
+image:screenshot_ransomware_incidents.png["勒索軟體事件面板的快照。"]
+
+目前支援ONTAP 內部部署的支援功能是執行自主勒索軟體保護（Arp）的內部環境。在NAS（NFS和SMB）環境中、Arp會使用工作負載分析來主動偵測並警告可能表示勒索軟體攻擊的異常活動。 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["深入瞭解ONTAP 功能性的勒索軟體保護"^]。
+
+您可以按一下 image:button_down_caret.png["向下箭號按鈕"] 若要擴充事件、以檢視可疑磁碟區中識別的加密檔案數量、副檔名類型、以及攻擊發生時間。
+
+image:screenshot_ransomware_incidents_expanded.png["顯示勒索軟體事件面板的快照已展開、顯示您磁碟區的自動動作。"]
+
+如果您想要從勒索軟體攻擊中恢復、請按一下「*恢復*」按鈕。這將帶您前往 BlueXP 勒索軟體保護回復儀表板、您可以在其中使用舊版 Snapshot 複本來取代 Volume 、而該複本並未受到勒索軟體的影響。 link:task-ransomware-recovery.html["瞭解如何使用「恢復」儀表板"]。
+
+.先決條件
+* 您必須擁有ONTAP 內部部署的不支援叢集、才能執行ONTAP 版本不支援的功能。
+* 您必須ONTAP 在叢集中的至少一個節點上安裝*防勒索軟體*授權（VMware版）（VMware版）。
+* 您要保護的每個磁碟區都必須啟用ARP。 https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["瞭解如何啟用自動勒索軟體保護"^]。
+* 在切換至「主動模式」之前、NetApp自發勒索軟體保護（Arp）必須在初始學習期間（也稱為「乾式執行」）啟用30天、以便有足夠時間評估工作負載特性、並適當報告可疑的勒索軟體攻擊。
+
+
+
+
+== 以加密檔案列出的資料
+
+「_加密檔案_」面板會顯示前4大資料來源、其檔案經過一段時間加密的百分比最高。這些項目通常是受密碼保護的項目。它會比較過去7天的加密速率、以查看哪些資料來源的資料增加率超過20%。增加此金額可能表示勒索軟體已經攻擊您的系統。
+
+image:screenshot_ransomware_encrypt_files.png["BlueXP 勒索軟體保護儀表板上加密檔案圖表的螢幕擷取畫面。"]
+
+按一下其中一個資料來源的一行、即可在中檢視篩選的結果 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["BlueXP 分類調查頁面"^] 以便進一步調查。
+
+
+
+== 依資料敏感度排名第一的資料儲存庫
+
+「_依敏感度等級_排名前四的資料儲存庫」面板最多會列出包含最敏感項目的前四個資料儲存庫（工作環境和資料來源）。每個工作環境的長條圖分為：
+
+* 非敏感資料
+* 個人資料
+* 敏感的個人資料
+
+
+image:screenshot_ransomware_sensitivity.png["BlueXP 勒索軟體保護儀表板上的資料敏感度圖表快照。"]
+
+您可以將游標停留在每個區段上、查看每個類別中的項目總數。
+
+按一下每個區域、即可在中檢視篩選的結果 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["BlueXP 分類調查頁面"^] 以便進一步調查。
+
+
+
+== 網域管理群組控制權
+
+_ 網域管理群組控制面板會顯示已新增至網域管理員群組的最近使用者、以便您查看這些群組中是否應允許所有使用者。您必須擁有 https://docs.netapp.com/us-en/bluexp-classification/task-add-active-directory-datasense.html["整合全域Active Directory"^] 進入 BlueXP 分類、讓此面板成為作用中狀態。
+
+image:screenshot_ransomware_domain_admin.png["在 BlueXP 勒索軟體保護儀表板上新增為網域管理員的使用者螢幕快照。"]
+
+預設的管理管理群組包括「系統管理員」、「網域管理員」、「企業系統管理員」、「企業金鑰管理員」及「金鑰管理員」。
+
+
+
+== 依開啟權限類型列出的資料
+
+「_開啟權限_」面板會顯示所有要掃描檔案的每種權限類型百分比。圖表是從 BlueXP 分類中提供、並顯示下列類型的權限：
+
+* 無開放存取權
+* 開放給組織使用
+* 開放給大眾使用
+* 不明存取
+
+
+image:screenshot_ransomware_permissions.png["BlueXP 勒索軟體保護儀表板上加密檔案圖表的螢幕擷取畫面。"]
+
+您可以將游標停在每個區段上、查看每個類別中的檔案百分比和總數。
+
+按一下每個區域、即可在中檢視篩選的結果 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["BlueXP 分類調查頁面"^] 以便進一步調查。
+
+
+
+== 儲存系統弱點
+
+儲存系統弱點 _ 面板會顯示 BlueXP 數位顧問工具在每個 ONTAP 叢集上發現的高、中、低安全性弱點總數。應立即檢查高弱點、確保您的系統不會遭受攻擊。
+
+.先決條件
+* BlueXP Connector必須安裝在內部部署環境中、而非部署在雲端供應商。
+* 您必須擁有內部部署ONTAP 的叢集
+* 叢集是在 BlueXP 數位顧問中設定
+* 您必須在 BlueXP 中註冊現有的 NSS 帳戶、才能檢視叢集、以及檢視 BlueXP 數位顧問 UI 。
+
+
+請注意、您可以從 BlueXP 功能表中選取 * 健全狀況 > 數位顧問 * 、直接檢視 BlueXP 數位顧問。
+
+image:screenshot_ransomware_vulnerabilities.png["快照顯示ONTAP 您的不穩定儲存系統中的安全漏洞數量。"]
+
+按一下您要檢視其中一個叢集的弱點類型（高、中、低）、然後將您重新導向至 BlueXP 數位顧問中的「安全性弱點」頁面。（如需此頁面的詳細資訊、請參閱 https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["BlueXP 數位顧問文件"]） 您可以檢視這些弱點、然後依照建議的行動來解決問題。解決方法通常是使用ONTAP 能解決此弱點的點位版本或完整版本來升級您的不穩定軟體。
+
+
+
+== 鞏固不均系統的狀態ONTAP
+
+_ 硬化您的 ONTAP 環境 _ 面板提供 ONTAP 系統中特定設定的狀態、可追蹤部署的安全性 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["《NetApp ONTAP 資訊系統安全強化指南》"^] 以及 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["介紹防勒索軟體功能ONTAP"^] 主動偵測異常活動並提出警告。
+
+您可以檢閱建議、然後決定如何解決潛在問題。您可以依照步驟變更叢集上的設定、將變更延後至其他時間、或忽略建議。
+
+此面板ONTAP 目前支援Cloud Volumes ONTAP 內部的NetApp ONTAP 支援功能、包括內部的功能、功能、功能、以及Amazon FSX for NetApp等系統。
+
+image:screenshot_ransomware_harden_ontap.png["BlueXP 勒索軟體保護儀表板上 ONTAP 強化狀態的螢幕擷取畫面。"]
+
+正在追蹤的設定包括：
+
+[cols="25,40,35"]
+|===
+| 強化目標 | 說明 | 補救 
+
+
+| 不勒索軟體ONTAP | 啟動內建勒索軟體的磁碟區百分比。僅對內部ONTAP 的供應系統有效。
+綠色狀態圖示表示已啟用超過85%的磁碟區。黃色表示啟用40-85%。紅色表示啟用< 40%。 | https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["瞭解如何在磁碟區上啟用反勒索軟體"^] 使用System Manager。 
+
+
+| NAS稽核 | 已啟用檔案系統稽核的儲存VM數目。
+綠色狀態圖示表示超過85%的SVM已啟用NAS檔案系統稽核。黃色表示啟用40-85%。紅色表示啟用< 40%。 | https://docs.netapp.com/us-en/ontap/nas-audit/auditing-events-concept.html["瞭解如何在SVM上啟用NAS稽核"^] 使用CLI。 
+
+
+| 版本ONTAP | 叢集上安裝的更新版本。ONTAP
+綠色狀態圖示表示版本為最新版本。黃色圖示表示叢集落後1或2個內部部署系統的修補版本或1個次要版本、Cloud Volumes ONTAP 或落後1個主要版本的更新版本。紅色圖示表示叢集落後3個修補程式版本、2個次要版本、或1個主要版本的內部部署系統、或2個主要Cloud Volumes ONTAP 版本的內部更新。 | https://docs.netapp.com/us-en/ontap/setup-upgrade/index.html["瞭解升級內部叢集的最佳方法"^] 或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["您的系統Cloud Volumes ONTAP"^]。 
+
+
+| Snapshot複本 | 資料磁碟區上的 Snapshot 功能是否已啟動、以及有 Snapshot 複本的磁碟區百分比為何。
+綠色狀態圖示表示超過 85% 的磁碟區已啟用「快照」。黃色表示啟用40-85%。紅色表示啟用< 40%。 | https://docs.netapp.com/us-en/ontap/task_dp_configure_snapshot.html["瞭解如何在內部叢集上啟用Volume快照"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-volumes.html#manage-volumes["在您的系統上Cloud Volumes ONTAP"^]或 https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-snapshot-copies["在FSXfor ONTAP Sfor Sf系 上"^]。 
+|===
+
+
+== 關鍵業務資料的權限狀態
+
+「業務關鍵資料權限分析」面板會顯示對您的業務至關重要的資料權限狀態。如此一來、您就能快速評估保護業務關鍵資料的能力。
+
+image:screenshot_ransomware_critical_permissions.png["BlueXP 勒索軟體保護儀表板上所管理資料的權限狀態快照。"]
+
+此面板會根據您在「業務關鍵資料組態」頁面中選取的原則來顯示資料。其中顯示兩個業務關鍵原則的資料、這些原則的檔案總數最多。按一下連結以檢視或定義其他原則。 link:task-select-business-critical-policies.html["深入瞭解如何設定及選擇業務關鍵資料原則"]。
+
+此圖表顯示符合原則條件的所有資料之權限分析。它會列出下列項目數量：
+
+* 開放給公開權限： BlueXP 分類視為公開的項目
+* 開放給組織權限 - BlueXP 分類認為對組織開放的項目
+* 無開放權限 - BlueXP 分類視為無開放權限的項目
+* 未知權限 - BlueXP 分類視為未知權限的項目
+
+
+將游標移到圖表中的每個長條上、即可檢視每個類別中的結果數目。按一下列和 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["BlueXP 分類調查頁面"^] 會顯示、以便您進一步調查哪些項目具有開啟權限、以及是否應調整檔案權限。
+
+
+
+== 關鍵業務資料的備份狀態
+
+_ 備份狀態 _ 面板會顯示如何使用 BlueXP 備份與還原來保護不同類別的資料。這可辨識出備份最重要的資料類別、以因勒索軟體攻擊而需要恢復時、最重要的資料類別有多全面。此資料是工作環境中特定類別項目的備份數量的視覺化表示。
+
+此面板僅會顯示已使用 BlueXP 備份和還原（以及使用 BlueXP 分類掃描的）進行備份的內部 ONTAP 和 Cloud Volumes ONTAP 工作環境。
+
+image:screenshot_ransomware_backups.png["BlueXP 勒索軟體保護儀表板上所管理資料的備份狀態快照。"]
+
+此面板一開始會根據我們所選的預設類別顯示資料。但您可以選取要追蹤的資料類別、例如程式碼檔案、合約等。請參閱完整清單 https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-categories["類別"] 可從 BlueXP 分類中取得、適用於您的工作環境。然後選取最多4個類別。
+
+填入資料後、將游標移到圖表中的每個方塊上、即可檢視工作環境中所有檔案中備份的檔案數量。綠色方塊表示85%以上的檔案正在備份中。黃色方塊表示40%到85%的檔案正在備份中。紅色方塊表示有40%或更少的檔案正在備份。
+
+您可以按一下列結尾的 * 備份 * 按鈕、前往 BlueXP 備份與還原介面、在每個工作環境中的更多磁碟區上啟用備份。
+
+
+
+== 您的磁碟區中正在使用SnapLock 無法完整保護的資料
+
+您可以在SnapLock 您的支援資料冊上使用NetApp的支援技術ONTAP 、以未經修改的形式保留檔案、以利法規遵循與治理。您可以將檔案和Snapshot複本提交至「一次寫入、多次讀取」（WORM）儲存設備、並設定此受WORM保護資料的保留期間。 https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["深入瞭SnapLock 解功能"]。
+
+「關鍵資料不可變性」面板會顯示您工作環境中、使用ONTAP SnapLock NetApp技術在WORM儲存設備上受到保護、不受修改和刪除的項目數量。如此一來、您就能檢視有多少資料具有不可改變的複本、以便更瞭解針對勒索軟體的備份與還原計畫。
+
+.先決條件
+* BlueXP Connector必須安裝在內部部署環境中、而非部署在雲端供應商。
+* 您必須擁有內部部署ONTAP 的叢集
+* 您必須SnapLock 在叢集中的至少一個節點上安裝*不支援*的授權
+
+
+image:screenshot_ransomware_data_snaplocked.png["適用於ONTAP 您的SHOTSH儲存 系統的關鍵資料不可變面板快照。"]
+
+此面板會根據您在「業務關鍵資料組態」頁面中選取的原則來顯示資料。按一下連結以檢視或定義其他原則。 link:task-select-business-critical-policies.html["深入瞭解如何設定及選擇業務關鍵資料原則"]。
+
+面板會顯示符合所選原則之資料的下列資訊：
+
+* 所有掃描的工作環境中設定為使用SnapLock 資訊的業務關鍵檔案數量。
+* 所有掃描工作環境中的業務關鍵檔案數量、但不包括設定SnapLock 為供使用的檔案。請注意、有些檔案可能會使用SnapLock 非功能保護機制來保護。
+
+
+包含下列篩選器的 BlueXP 分類原則無法在下拉式清單中找到、因為它們會排除重要的搜尋範圍：
+
+* 工作環境名稱
+* 工作環境類型
+* 儲存儲存庫
+* 檔案路徑
+
+
+因此在建立原則以檢視「關鍵資料不可變性」面板中的關鍵業務資料時、請務必謹記這一點。

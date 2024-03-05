@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: rp-start-discover.html 
+keywords: bluexp, ransomware protection, 
+summary: 在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶中工作環境中的所有磁碟區和檔案。 
+---
+= 探索 BlueXP 勒索軟體保護的工作負載
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶內工作空間中的所有工作環境中的所有磁碟區和檔案。
+
+
+NOTE: 對於預覽版本、 BlueXP 勒索軟體保護會評估 MySQL 應用程式、 Oracle 應用程式、 VMware 資料存放區和檔案共用。
+
+此服務會評估現有的保護層級、包括目前的備份保護、 Snapshot 複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。
+
+.步驟
+. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
+. 從初始登錄頁面中選擇 * 探索工作負載 * 。
++
+服務會探索工作負載資料、並在儀表板中顯示資料保護的健全狀況。
+
++
+image:screen-dashboard.png["BlueXP 勒索軟體保護儀表板"]
+
+

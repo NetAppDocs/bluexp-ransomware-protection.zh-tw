@@ -1,0 +1,147 @@
+---
+sidebar: sidebar 
+permalink: rp-use-settings.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware settings, backup destination 
+summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包括備份目的地。 
+---
+= 設定 BlueXP 勒索軟體保護設定
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+您可以檢閱儀表板上的建議、來設定備份目的地。
+
+
+
+== 新增備份目的地
+
+BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚未指派任何備份目的地的工作負載。
+
+若要保護這些工作負載、您應該新增備份目的地。您可以選擇下列其中一個備份目的地：
+
+* NetApp StorageGRID
+* Amazon Web Services（AWS）
+
+
+您可以根據儀表板的建議動作來新增備份目的地。
+
+
+
+=== 從儀表板的建議動作存取備份目的地選項
+
+儀表板提供許多建議。其中一項建議可能是設定備份目的地。
+
+.步驟
+. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
+. 檢閱儀表板的建議動作窗格。
++
+image:screen-dashboard-recommended-actions-configure-backup-destinations.png["儀表板頁面"]
+
+. 在儀表板中、針對「設定備份目的地」的建議、選取 * 檢閱和修正 * 。
+. 根據備份供應商的不同、繼續執行相關指示。
+
+
+
+
+== 將 StorageGRID 新增為備份目的地
+
+若要將 NetApp StorageGRID 設定為備份目的地、請輸入下列資訊。
+
+. 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
+. 輸入備份目的地的名稱。
++
+image:screen-settings-backup-destination-storagegrid.png["備份目的地頁面"]
+
+. 選擇* StorageGRID 《*》*《*》。
+. 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
++
+** * 供應商設定 * ：
++
+*** 建立新的儲存庫或自帶儲存備份的儲存庫。
+*** StorageGRID 閘道節點完整網域名稱、連接埠、 StorageGRID 存取金鑰和秘密金鑰認證。
+
+
+** * 網路 * ：選擇 IPspace 。
++
+*** IPspace 是您要備份的磁碟區所在的叢集。此IPspace的叢集間生命體必須具有傳出網際網路存取。
+
+
+** * 備份鎖定 * ：選擇是否要讓服務保護備份不被修改或刪除。此選項使用 NetApp DataLock 技術。每個備份都會在保留期間內鎖定、或至少 30 天、再加上最多 14 天的緩衝期間。
++
+
+CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目的地之後再變更設定。
+
++
+*** * 法規遵循模式 * ：使用者無法在保留期間覆寫或刪除受保護的備份檔案。
+
+
+
+
+. 選取*「Add*」。
+
+
+.結果
+新的備份目的地會新增至備份目的地清單。
+
+image:screen-settings-backup-destinations-list-storagegrid.png["「備份目的地」頁面上的「設定」選項"]
+
+
+
+== 將 Amazon Web Services 新增為備份目的地
+
+若要將 AWS 設定為備份目的地、請輸入下列資訊。
+
+如需在 BlueXP 中管理 AWS 儲存設備的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["管理您的Amazon S3儲存庫"^]。
+
+. 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
+. 輸入備份目的地的名稱。
++
+image:screen-settings-backup-destination-storagegrid.png["備份目的地頁面"]
+
+. 選擇* Amazon Web Services*。
+. 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
++
+** * 供應商設定 * ：
++
+*** 建立新的儲存庫、如果 BlueXP 中已有現有儲存庫、請選取現有的儲存庫、或是自帶儲存備份的儲存庫。
+*** AWS 帳戶、區域、存取金鑰和 AWS 認證的秘密金鑰
++
+https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["如果您想要自行攜帶貯體、請參閱新增 S3 貯體"^]。
+
+
+
+** * 加密 * ：如果您要建立新的 S3 儲存區、請輸入供應商提供給您的加密金鑰資訊。如果您選擇現有的儲存區、則加密資訊已可供使用。
++
+根據預設、儲存區中的資料會使用 AWS 管理的金鑰進行加密。您可以繼續使用 AWS 管理的金鑰、或是使用自己的金鑰來管理資料加密。
+
+** * 網路連線 * ：選擇 IPspace 、以及是否要使用私有端點。
++
+*** IPspace 是您要備份的磁碟區所在的叢集。此IPspace的叢集間生命體必須具有傳出網際網路存取。
+*** 您也可以選擇是否要使用先前設定的 AWS 私有端點（ Private Link ）。
++
+如果您想要使用 AWS Private Link 、請參閱 https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html["適用於 Amazon S3 的 AWS Private Link"^]。
+
+
+
+** * 備份鎖定 * ：選擇是否要讓服務保護備份不被修改或刪除。此選項使用 NetApp DataLock 技術。每個備份都會在保留期間內鎖定、或至少 30 天、再加上最多 14 天的緩衝期間。
++
+
+CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目的地之後再變更設定。
+
++
+*** * 監管模式 * ：特定使用者（具有 S3 ： BypassGovernanceRetention 權限）可在保留期間覆寫或刪除受保護的檔案。
+*** * 法規遵循模式 * ：使用者無法在保留期間覆寫或刪除受保護的備份檔案。
+
+
+
+
+. 選取*「Add*」。
+
+
+.結果
+新的備份目的地會新增至備份目的地清單。
+
+image:screen-settings-backup-destinations-list-aws.png["「備份目的地」頁面上的「設定」選項"]
