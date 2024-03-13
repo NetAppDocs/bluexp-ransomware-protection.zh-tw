@@ -45,12 +45,7 @@ sidebar:
       url: "/rp-use-alert.html"
     - title: 從勒索軟體攻擊中恢復
       url: "/rp-use-recover.html"
-  - title: 知識與支援
-    entries:
-    - title: 註冊以取得支援
-      url: "/task-support-registration.html"
-    - title: 取得協助
-      url: "/task-get-help.html"
+  - section: support
   - title: 法律聲明
     url: "/legal-notices.html"
 product-family:
