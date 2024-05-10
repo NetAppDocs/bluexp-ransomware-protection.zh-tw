@@ -808,4 +808,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="9583d75cd4c629fc5e8bc18b167335c7" category="list-text">採用 NetApp NAS 內部部署儲存設備的 BlueXP 工作環境</block>
   <block id="8bea151378448834f662f674981096f7" category="list-text">BlueXP 帳戶、至少有一個作用中的 Connector 連線至內部部署 ONTAP 叢集。所有來源和工作環境都必須位於相同的 BlueXP 帳戶。</block>
   <block id="baea1fd040c528a3cf05517592d54383" category="list-text">具備帳戶管理權限的 BlueXP 使用者帳戶、可用於探索資源</block>
+  <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 關鍵 * ：每小時拍攝超過 1 份快照複本（極具挑戰性的保護排程）</block>
+  <block id="1adc4b459e7f50d96280424fb7e06709" category="list-text">* 重要 * ：快照複本每小時拍攝不到 1 份、但每天超過 1 份</block>
 </blocks>
