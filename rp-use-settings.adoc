@@ -12,7 +12,9 @@ summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包
 
 
 [role="lead"]
-您可以檢閱儀表板上的建議、來設定備份目的地。
+您可以檢視儀表板上的建議、來設定備份目的地或啟用威脅偵測。
+
+啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。
 
 
 
@@ -38,7 +40,7 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 . 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
 . 檢閱儀表板的建議動作窗格。
 +
-image:screen-dashboard-recommended-actions-configure-backup-destinations.png["儀表板頁面"]
+image:screen-dashboard.png["儀表板頁面"]
 
 . 在儀表板中、針對「設定備份目的地」的建議、選取 * 檢閱和修正 * 。
 . 根據備份供應商的不同、繼續執行相關指示。
@@ -46,7 +48,7 @@ image:screen-dashboard-recommended-actions-configure-backup-destinations.png["�
 
 
 
-== 將 StorageGRID 新增為備份目的地
+=== 將 StorageGRID 新增為備份目的地
 
 若要將 NetApp StorageGRID 設定為備份目的地、請輸入下列資訊。
 
@@ -90,7 +92,7 @@ image:screen-settings-backup-destinations-list-storagegrid.png["「備份目的�
 
 
 
-== 將 Amazon Web Services 新增為備份目的地
+=== 將 Amazon Web Services 新增為備份目的地
 
 若要將 AWS 設定為備份目的地、請輸入下列資訊。
 
@@ -145,3 +147,29 @@ CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目�
 新的備份目的地會新增至備份目的地清單。
 
 image:screen-settings-backup-destinations-list-aws.png["「備份目的地」頁面上的「設定」選項"]
+
+
+
+== 啟用威脅偵測
+
+您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。
+
+. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
+. 檢閱儀表板的建議動作窗格。
+. 在儀表板中、選取 * 檢視和修正 * 以取得「啟用威脅偵測」的建議。
++
+隨即顯示「設定」頁面。
+
++
+image:screen-settings-threat-detection2.png["設定頁面"]
+
+. 在「設定」頁面中、選取威脅偵測窗格中的 * 連線 * 。
++
+image:screen-settings-threat-detection-details.png["啟用威脅偵測詳細資料頁面"]
+
+. 輸入 SIEM 伺服器詳細資料以啟用威脅偵測。
+. 選取 * 啟用 * 。
++
+「設定」頁面上的威脅偵測窗格會顯示「已連線」。
+
+

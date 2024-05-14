@@ -4,7 +4,7 @@ permalink: concept-ransomware-protection.html
 keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
 summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。BlueXP 勒索軟體保護服務可讓您檢視有關網路安全的相關資訊、並評估組織對於網路攻擊的恢復能力。它也提供警示與修正清單、讓您的資料更安全。 
 ---
-= 瞭解 BlueXP 勒索軟體保護預覽
+= 瞭解 BlueXP 勒索軟體保護
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,10 +16,7 @@ summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。Bl
 [role="lead"]
 勒索軟體攻擊可能會封鎖對您系統和資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
 
-BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、 以及在內部部署 NAS 儲存設備上的檔案共用、以及在 Amazon Web Services （使用 NFS 傳輸協定）中跨 BlueXP 帳戶的 Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services 雲端儲存設備或 NetApp StorageGRID 。
-
-
-NOTE: 本文件以技術預覽形式提供。  透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。
+BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP 帳戶中 Amazon Web Services 中的 Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services 雲端儲存設備和 NetApp StorageGRID 。
 
 
 
@@ -27,12 +24,10 @@ NOTE: 本文件以技術預覽形式提供。  透過此預覽方案、 NetApp �
 
 BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的儲存管理員、資料安全管理員或安全作業工程師能夠達成下列目標：
 
-* * 識別 * 在 BlueXP 中、 BlueXP 帳戶、工作區和 BlueXP Connectors 中、透過 NFS 工作環境、在 NetApp 內部部署 NAS 中的所有應用程式型、檔案共用或 VMware 管理的工作負載。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。
+* * 識別 * BlueXP 中 NetApp 內部部署 NAS 中所有應用程式型、檔案共用或 VMware 託管的工作負載、包括 NFS 或 CIFS 工作環境、以及 BlueXP 帳戶、工作區和 BlueXP Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。
 * * 在您的資料上啟用備份與 Snapshot 複本、以保護 * 您的工作負載。
 * * 偵測 * 可能是勒索軟體攻擊的異常。
-
-
-* * 自動啟動 NetApp ONTAP Snapshot 複本、以回應 * 可能的勒索軟體攻擊。
+* * 回應 * 自動啟動防竄改的 NetApp ONTAP 快照、以防止意外或惡意刪除複本、以因應可能的勒索軟體攻擊。您的備份資料將永遠不變、端點對端都受到保護、不受來源和目的地的勒索軟體攻擊。
 * * 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復磁碟區、資料夾或特定檔案。本服務針對最佳選項提供建議。
 
 
@@ -51,30 +46,27 @@ BlueXP 勒索軟體保護提供下列優點：
 * 保護主要應用程式型工作負載中的資料、例如 MySQL 、 Oracle 、 VMware 資料存放區和檔案共用。
 * 使用 AI 技術、在主要儲存設備上即時偵測勒索軟體對資料的攻擊。
 * 建立 Snapshot 複本、並針對異常活動發出警示、以針對偵測到的潛在攻擊啟動自動化動作。
-* 套用精心規劃的恢復、以符合 RPO 原則。BlueXP 勒索軟體保護利用多項 NetApp 恢復服務（包括 BlueXP 備份與還原（前身為雲端備份））來協調從勒索軟體事件中恢復的工作。
+* 套用精心規劃的恢復、以符合 RPO 原則。BlueXP 勒索軟體保護利用多項 NetApp 恢復服務（包括 BlueXP 備份與還原（前身為雲端備份）和 SnapCenter ）來協調從勒索軟體事件中恢復的工作。
 
 
 
 
 == 成本
 
-使用 BlueXP 勒索軟體保護的預覽版本、 NetApp 不會向您收取費用。
+NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。BlueXP 勒索軟體的完整版本可搭配 NetApp 授權或 AWS 訂閱使用。
 
 
 
 == 授權
 
-BlueXP 勒索軟體保護預覽本身不需要任何特殊授權。  所有預覽授權均為評估授權。
+有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或自帶授權。
+
+BlueXP 勒索軟體保護需要 NetApp ONTAP 授權。
 
 
-TIP: 對於預覽版本、 NetApp 可協助您設定試用版和任何必要的授權。
+NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 NetApp 自主勒索軟體保護技術的授權。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^] 以取得詳細資料。
 
-BlueXP 勒索軟體保護預覽需要下列授權：
-
-* ONTAP
-* NetApp 自主勒索軟體保護技術。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^] 以取得詳細資料。
-* BlueXP 備份與還原服務
-
+如需詳細資訊、請參閱 link:rp-start-licenses.html["設定授權"]。
 
 
 
@@ -90,8 +82,8 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 
 | * 識別 *  a| 
-* 尋找所有連線至 BlueXP 的客戶內部部署 NAS （ NFS 裝載）資料。
-* 識別來自 ONTAP 服務 API 的客戶資料、並將其與工作負載相關聯。深入瞭解 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 和 https://docs.netapp.com/us-en/snapcenter/index.html["軟件SnapCenter"^]。
+* 尋找連接至 BlueXP 的所有客戶內部部署 NAS （ NFS 和 CIFS 通訊協定）資料。
+* 識別來自 ONTAP 和 SnapCenter 服務 API 的客戶資料、並將其與工作負載建立關聯。深入瞭解 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 和 https://docs.netapp.com/us-en/snapcenter/index.html["軟件SnapCenter"^]。
 * 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 BlueXP 數位顧問、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
 深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/active-iq/index.html["BlueXP 數位顧問"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。
@@ -101,7 +93,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 
 | * 保護 *  a| 
-* 透過將原則套用至每個已識別的工作負載、主動監控工作負載、並協調 BlueXP 備份與還原及 ONTAP API 的使用。
+* 透過將原則套用至每個已識別的工作負載、主動監控工作負載、並協調 BlueXP 備份與還原、 SnapCenter 和 ONTAP API 的使用。
 
 
 
@@ -131,7 +123,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 == 支援的備份目標、工作環境和資料來源
 
-使用 BlueXP 勒索軟體保護預覽、瞭解您的資料對於下列類型的備份目標、工作環境和資料來源的網路攻擊有何彈性：
+使用 BlueXP 勒索軟體保護、瞭解您的資料對於下列類型的備份目標、工作環境和資料來源的網路攻擊有何彈性：
 
 * 支援的備份目標 *
 
@@ -141,18 +133,20 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 * 支援的工作環境 *
 
-* 內部部署 ONTAP NAS （使用 NFS 傳輸協定）
-* ONTAP Select
-* AWS 中的 Cloud Volumes ONTAP （使用 NFS 傳輸協定）
+* 內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）
++
+不支援 FlexGroups 。
+
+* AWS 中的 Cloud Volumes ONTAP （使用 NFS 和 CIFS 通訊協定）
 
 
 * 資料來源 *
 
-對於預覽版本、此服務可保護下列應用程式型工作負載：
+此服務可在主要資料磁碟區上保護下列應用程式型工作負載：
 
 * NetApp 檔案共用
 * VMware資料存放區
-* 資料庫（適用於預覽版本、 Oracle 和 MySQL ）
+* 資料庫（ MySQL 和 Oracle ）
 
 
 
@@ -162,5 +156,5 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 瞭解與勒索軟體保護相關的一些術語、可能會讓您獲益良多。
 
 * * 保護 * ： BlueXP 勒索軟體保護的保護、意味著使用保護原則、確保 Snapshot 和不可變備份定期發生在不同的安全網域。
-* * 工作負載 * ： BlueXP 勒索軟體保護預覽中的工作負載可包括 MySQL 或 Oracle 資料庫、 VMware 資料存放區或檔案共用區。
+* * 工作負載 * ： BlueXP 勒索軟體保護的工作負載可能包括 MySQL 或 Oracle 資料庫、 VMware 資料存放區或檔案共用區。
 

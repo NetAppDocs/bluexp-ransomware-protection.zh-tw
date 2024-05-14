@@ -1,0 +1,208 @@
+---
+sidebar: sidebar 
+permalink: rp-start-licenses.html 
+keywords: bluexp license, ransomware protection license, netapp 
+summary: 設定授權、開始使用 BlueXP 勒索軟體保護。 
+---
+= 設定 BlueXP 勒索軟體保護授權
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media
+
+
+[role="lead"]
+有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或自帶授權。
+
+您可以使用下列授權類型：
+
+* 註冊 90 天免費試用。
+* 透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。
+* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
+
+
+在 AWS 中設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP 數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP 數位錢包 * 訂閱 * 標籤中查看作用中的 AWS 訂閱。
+
+免費試用結束或授權或 AWS 訂閱過期後、您仍可在服務中執行下列動作：
+
+* 檢視工作負載和工作負載健全狀況。
+* 刪除任何資源、例如工作負載或原則。
+* 執行試用期間或授權期間所建立的所有排程作業。
+
+
+
+
+== 試用 90 天免費試用
+
+您可以使用 90 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是帳戶管理員才能開始免費試用。
+
+
+NOTE: 試用期間不會強制執行容量限制。
+
+您可以隨時取得授權或訂閱、直到 90 天試用期結束為止、您將不會被收取費用。若要在 90 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO AWS 訂閱。
+
+試用期間、您擁有完整功能。
+
+.步驟
+. 存取 https://console.bluexp.netapp.com/["BlueXP主控台"^]。
+. 登入 BlueXP 。
+. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
++
+如果這是您第一次登入此服務、就會出現登陸頁面。
+
++
+image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
+
+. 如果您尚未新增 Connector for 其他服務、請新增一個。
++
+若要新增 Connector 、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]。
+
+. 設定 Connector 之後、在 BlueXP 勒索軟體保護登陸頁面中、新增 Connector 的按鈕會變更為開始免費試用的按鈕。選擇 * 開始免費試用 * 。
+. 檢閱免費試用資訊、然後選擇 * Let's Go* 。
+
+
+* 試用結束後、請取得訂閱或授權 *
+
+免費試用結束後、您可以透過 AWS Marketplace 訂閱、或是向 NetApp 購買授權。
+
+<<透過 AWS Marketplace 訂閱>>
+<<自帶授權（ BYOL ）>>
+
+
+
+== 透過 AWS Marketplace 訂閱
+
+本程序提供如何直接在 AWS Marketplace 中訂閱的高階概觀。
+
+.步驟
+. 在 BlueXP 勒索軟體保護中、執行下列其中一項：
++
+** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
+** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
++
+image:screen-license-payment-methods.png["BlueXP 勒索軟體保護付款方法頁面"]
+
+
+
+. 在「付款方式」頁面中、選取 * 在 AWS Marketplace* 中訂閱。
+. 在 AWS Marketplace 中、選取 * 檢視購買選項 * 。
+. 使用 AWS Marketplace 訂閱 BlueXP 勒索軟體保護。
+. 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
++
+
+NOTE: 系統會傳送一封電子郵件給您、其中包含 BlueXP 勒索軟體保護序號、並指出已在 AWS Marketplace 中訂閱 BlueXP 勒索軟體保護。
+
+. 返回 BlueXP 勒索軟體保護付款方法頁面。
+. 選擇 * 將授權新增至 BlueXP* 、將授權新增至 BlueXP 。
++
+BlueXP 數位錢包服務會顯示「新增授權」頁面。
+
++
+image:screen-license-dw-add-license.png["BlueXP 數位錢包新增授權頁面"]
+
+. 在 BlueXP 數位錢包的「新增授權」頁面中、選取 * 輸入序號 * 、輸入傳送給您的電子郵件中所包含的序號、然後選取 * 新增授權 * 。
+. 若要在 BlueXP 數位錢包中檢視授權詳細資料、請從 BlueXP 左側瀏覽器中選取 * Governance * > * Digital wall* 。
+. 若要查看訂閱資訊、請選取 * 訂閱 * 。若要查看 BYOL 授權、請選取 * 資料服務授權 * 。
++
+image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權頁面"]
+
+. 返回 BlueXP 勒索軟體保護。從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
++
+此時會出現訊息、表示已新增授權。
+
+
+
+
+
+== 自帶授權（ BYOL ）
+
+如果您想要自帶授權（ BYOL ）、您必須購買授權、取得 NetApp 授權檔案（ NLF ）、並將授權新增至 BlueXP 數位錢包。
+
+* 將您的授權檔案新增至 BlueXP 數位錢包 *
+
+向 NetApp 銷售代表購買 BlueXP 勒索軟體保護授權後、您可以輸入 BlueXP 勒索軟體保護序號和 NetApp 支援網站 （ NSS ）帳戶資訊來啟動授權。
+
+.開始之前
+開始之前、您必須先取得下列資訊：
+
+* BlueXP 勒索軟體保護序號
++
+請從您的銷售訂單中找出此號碼、或聯絡客戶團隊以取得此資訊。
+
+* BlueXP 帳戶 ID
++
+您可以從 BlueXP 頂端選取「 * 帳戶 * 」下拉式清單、然後選取帳戶旁邊的「 * 管理帳戶 * 」、以找到您的 BlueXP 帳戶 ID 。您的帳戶ID位於「總覽」索引標籤。
+
+
+
+.步驟
+. 取得授權後、請返回 BlueXP 勒索軟體保護。選取右上角的 * 檢視付款方式 * 選項。或者、在免費試用即將到期的訊息中、選取 * 訂閱或購買授權 * 。
+. 選取 * 新增授權至 BlueXP* 。
++
+您將會被引導至 BlueXP 數位錢包。
+
+. 在 BlueXP 數位錢包中、從 * 資料服務授權 * 標籤中、選取 * 新增授權 * 。
++
+image:screen-license-dw-add-license.png["BlueXP 數位錢包新增授權頁面"]
+
+. 在「新增授權」頁面中、輸入序號和 NetApp 支援網站 帳戶資訊。
++
+** 如果您有 BlueXP 授權序號、而且知道您的 NSS 帳戶、請選取 * 輸入序號 * 選項、然後輸入該資訊。
++
+如果下拉式清單中沒有您的 NetApp 支援網站帳戶， https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["將新增至BlueXP的NSS帳戶"^]。
+
+** 如果您有 BlueXP 授權檔案（安裝在黑暗網站時為必填）、請選取 * 上傳授權檔案 * 選項、然後依照提示附加檔案。
+
+
+. 選擇*新增授權*。
+
+
+.結果
+BlueXP 數位錢包現在以授權方式提供 BlueXP 勒索軟體保護。
+
+
+
+== BlueXP 授權到期時請更新
+
+如果您的授權期限即將到期、或是您的授權容量已達到上限、您將會在 BlueXP 災難勒索軟體保護 UI 中收到通知。您可以在 BlueXP 勒索軟體保護授權過期前更新、以避免存取掃描資料的能力中斷。
+
+
+TIP: 此訊息也會出現在 BlueXP 數位錢包和中 https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#monitoring-operations-status-using-the-notification-center["通知"]。
+
+.步驟
+. 選取 BlueXP 右下角的聊天圖示、以申請延長您的期限、或申請額外的授權容量、以取得特定序號。您也可以傳送電子郵件要求更新授權。
++
+在您支付授權費用並向 NetApp 支援網站 註冊之後、 BlueXP 會自動更新 BlueXP 數位錢包中的授權、而「資料服務授權」頁面則會在 5 到 10 分鐘內反映變更。
+
+. 如果BlueXP無法自動更新授權（例如、安裝在暗點）、則您需要手動上傳授權檔案。
++
+.. 您可以從 NetApp 支援網站 取得授權檔案。
+.. 存取 BlueXP 數位錢包。
+.. 選取 * 資料服務授權 * 標籤、選取要更新之服務序號的 * 動作 ... * 圖示、然後選取 * 更新授權 * 。
+
+
+
+
+
+
+== 結束免費試用
+
+您可以隨時停止免費試用、也可以等到免費試用到期。
+
+.步驟
+. 在 BlueXP 勒索軟體保護中、於右上角選擇 * 免費試用 - 檢視詳細資料 * 。
+. 在下拉式詳細資料中、選取 * 結束免費試用 * 。
++
+image:screen-license-trial-end.png["結束免費試用頁面"]
+
+. 如果要刪除所有資料、請在免費試用結束後勾選 * 刪除資料 * 選項。
++
+這會刪除所有排程、複寫計畫、資源群組、 vCenter 和站台。稽核資料、作業記錄和工作記錄會保留到產品生命週期結束為止。
+
++
+
+NOTE: 如果您結束免費試用、而不要求刪除資料、而且您沒有購買授權或訂閱、則在免費試用結束 60 天後、 BlueXP 勒索軟體保護會刪除您所有的資料。
+
+. 在文字方塊中輸入「 End 試用」。
+. 選取 * 結束 * 。
+

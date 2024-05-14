@@ -14,8 +14,10 @@ summary: 在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Conn
 [role="lead"]
 若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶內工作空間中的所有工作環境中的所有磁碟區和檔案。
 
+BlueXP 勒索軟體保護可評估 MySQL 應用程式、 Oracle 應用程式、 VMware 資料存放區和檔案共用。
 
-NOTE: 對於預覽版本、 BlueXP 勒索軟體保護會評估 MySQL 應用程式、 Oracle 應用程式、 VMware 資料存放區和檔案共用。
+
+NOTE: 不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。
 
 此服務會評估現有的保護層級、包括目前的備份保護、 Snapshot 複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。
 

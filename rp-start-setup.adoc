@@ -56,23 +56,9 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 === 在 BlueXP 中建立 Connector
 
-您應該聯絡 NetApp 銷售代表、試用這項服務。然後、當您使用 BlueXP Connector 時、它會包含勒索軟體保護服務的適當功能。
+您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP Connector 時、它會包含勒索軟體保護服務的適當功能。
 
 若要在使用此服務之前在 BlueXP 中建立 Connector 、請參閱說明的 BlueXP 文件 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["如何建立 BlueXP Connector"^]。
 
 
 NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此帳戶相關的所有工作區和所有 Connector 。
-
-
-
-=== 存取 BlueXP 勒索軟體保護
-
-您可以使用 NetApp BlueXP 登入 BlueXP 勒索軟體保護服務。從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
-
-如需詳細資訊、請參閱 link:rp-start-login.html["存取 BlueXP 勒索軟體保護"]。
-
-
-
-=== 在 BlueXP 勒索軟體保護中設定備份目的地
-
-使用 BlueXP 勒索軟體保護備份目的地選項來設定備份目的地。如需詳細資訊、請參閱 link:rp-use-settings.html["設定設定選項"]。
