@@ -29,7 +29,6 @@
   <block id="7fc964519860ed011389afb142e2370e" category="list-text">在 BlueXP 中：</block>
   <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">設定 Connector 的 BlueXP 文件</block>
   <block id="00c15e6000f2ee7d33421ec117c11c12" category="admonition">如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。</block>
-  <block id="c5c84330043d2e887d72c591baa2b9c1" category="list-text">在工作環境中啟用備份的 BlueXP 備份與還原服務</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">標準 BlueXP 需求</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
   <block id="4d6682b21a77873fe9ae34d7fc255020" category="summary">NetApp BlueXP 勒索軟體保護服務只需幾個步驟即可開始使用。</block>
@@ -1041,4 +1040,7 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP Connector 時、它會包含勒索軟體保護服務的適當功能。</block>
   <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、 以及內部部署 NAS 儲存設備上的檔案共享、以及 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes ONTAP 、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID 。</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">設定備份目的地並啟用威脅偵測</block>
+  <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">設定</block>
+  <block id="56ff02f12c9bfc12762be5191b6a6ce5" category="admonition">BlueXP 備份與還原服務不再需要在工作環境中啟用。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
 </blocks>

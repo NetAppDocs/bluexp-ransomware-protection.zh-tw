@@ -40,11 +40,13 @@ NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 
 
 NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。
 
-** 在工作環境中啟用備份的 BlueXP 備份與還原服務
-** 採用 NetApp 內部部署儲存設備（使用 NAS 或 CIFS 通訊協定）的 BlueXP 工作環境
 ** BlueXP 帳戶、至少有一個作用中的 Connector 連線至內部部署 ONTAP 叢集。所有來源和工作環境都必須位於相同的 BlueXP 帳戶。
 ** 具備帳戶管理權限的 BlueXP 使用者帳戶、可用於探索資源
+** 採用 NetApp 內部部署儲存設備（使用 NAS 或 CIFS 通訊協定）的 BlueXP 工作環境
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]
 
 
 
+
+
+NOTE: BlueXP 備份與還原服務不再需要在工作環境中啟用。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 link:rp-use-settings.html["設定"]。

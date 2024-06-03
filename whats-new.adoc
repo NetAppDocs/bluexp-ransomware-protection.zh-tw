@@ -58,6 +58,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-reports.html["深入瞭解如何從儀表板和其他頁面下載 CSV 檔案"]。
 
 * * 檢視文件 * 連結現在已包含在 UI 中。您可以從 Dasbhoard Vertical * Actions* 存取此文件 image:button-actions-vertical.png["垂直動作選項"] 選項。選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。
+* * BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 link:rp-start-prerequisites.html["先決條件"]。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 link:rp-use-settings.html["設定"]。
 
 
 
