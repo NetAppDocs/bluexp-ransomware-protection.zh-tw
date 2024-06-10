@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-setup.html 
-keywords: bluexp, ransomware protection, 
+keywords: bluexp, ransomware protection, aws, azure 
 summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定。 
 ---
 = 設定 BlueXP 勒索軟體保護
@@ -24,6 +24,7 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 * NetApp StorageGRID
 * Amazon Web Services
+* Microsoft Azure
 
 
 在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。
@@ -43,6 +44,16 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 
 如需在 BlueXP 中管理 AWS 儲存設備的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/task-viewing-amazon-s3.html["管理您的Amazon S3儲存庫"^]。
+
+
+
+=== 準備 Azure 成為備份目的地
+
+* 在 Azure 中設定帳戶。
+* 設定 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["Azure權限"^] 在Azure中。
+
+
+如需在 BlueXP 中管理 Azure 儲存設備的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-blob-storage/task-view-azure-blob-storage.html["管理 Azure 儲存帳戶"^]。
 
 
 

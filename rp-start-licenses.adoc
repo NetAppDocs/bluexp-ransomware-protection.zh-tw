@@ -12,13 +12,13 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 
 
 [role="lead"]
-有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或自帶授權。
+有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案。
 
 您可以使用下列授權類型：
 
 * 註冊 90 天免費試用。
-* 透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。
-* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
+* 透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。  這項服務即將推出。
+* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。這項服務即將推出。
 
 
 在 AWS 中設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP 數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP 數位錢包 * 訂閱 * 標籤中查看作用中的 AWS 訂閱。
@@ -57,8 +57,8 @@ image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 +
 若要新增 Connector 、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]。
 
-. 設定 Connector 之後、在 BlueXP 勒索軟體保護登陸頁面中、新增 Connector 的按鈕會變更為開始免費試用的按鈕。選擇 * 開始免費試用 * 。
-. 檢閱免費試用資訊、然後選擇 * Let's Go* 。
+. 設定 Connector 之後、在 BlueXP 勒索軟體保護登陸頁面中、將 Connector 變更新增至探索工作負載按鈕的按鈕。選取 * 探索工作負載 * 以開始。
+. 若要檢閱免費試用資訊、請選取右上角的下拉式選項。
 
 
 * 試用結束後、請取得訂閱或授權 *
@@ -80,7 +80,7 @@ image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 ** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
 ** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
 +
-image:screen-license-payment-methods.png["BlueXP 勒索軟體保護付款方法頁面"]
+image:screen-license-payment-methods2.png["BlueXP 勒索軟體保護付款方法頁面"]
 
 
 
@@ -102,9 +102,61 @@ image:screen-license-dw-add-license.png["BlueXP 數位錢包新增授權頁面"]
 
 . 在 BlueXP 數位錢包的「新增授權」頁面中、選取 * 輸入序號 * 、輸入傳送給您的電子郵件中所包含的序號、然後選取 * 新增授權 * 。
 . 若要在 BlueXP 數位錢包中檢視授權詳細資料、請從 BlueXP 左側瀏覽器中選取 * Governance * > * Digital wall* 。
-. 若要查看訂閱資訊、請選取 * 訂閱 * 。若要查看 BYOL 授權、請選取 * 資料服務授權 * 。
++
+** 若要查看訂閱資訊、請選取 * 訂閱 * 。
+** 若要查看 BYOL 授權、請選取 * 資料服務授權 * 。
 +
 image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權頁面"]
+
+
+
+. 返回 BlueXP 勒索軟體保護。從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
++
+此時會出現訊息、表示已新增授權。
+
+
+
+
+
+== 透過 Microsoft Azure Marketplace 訂閱
+
+本程序提供如何直接在 Azure Marketplace 中訂閱的高階概觀。
+
+.步驟
+. 在 BlueXP 勒索軟體保護中、執行下列其中一項：
++
+** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
+** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
++
+image:screen-license-payment-methods2.png["BlueXP 勒索軟體保護付款方法頁面"]
+
+
+
+. 在「付款方式」頁面中、選取 * 在 Azure Marketplace 中訂閱 * 。
+. 在 Azure Marketplace 中、選取 * 檢視購買選項 * 。
+. 使用 Azure Marketplace 訂閱 BlueXP 勒索軟體保護。
+. 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
++
+
+NOTE: 系統會傳送一封電子郵件給您、其中包含 BlueXP 勒索軟體保護序號、並指出 BlueXP 勒索軟體保護已在 Azure Marketplace 中訂閱。
+
+. 返回 BlueXP 勒索軟體保護付款方法頁面。
+. 選擇 * 將授權新增至 BlueXP* 、將授權新增至 BlueXP 。
++
+BlueXP 數位錢包服務會顯示「新增授權」頁面。
+
++
+image:screen-license-dw-add-license.png["BlueXP 數位錢包新增授權頁面"]
+
+. 在 BlueXP 數位錢包的「新增授權」頁面中、選取 * 輸入序號 * 、輸入傳送給您的電子郵件中所包含的序號、然後選取 * 新增授權 * 。
+. 若要在 BlueXP 數位錢包中檢視授權詳細資料、請從 BlueXP 左側瀏覽器中選取 * Governance * > * Digital wall* 。
++
+** 若要查看訂閱資訊、請選取 * 訂閱 * 。
+** 若要查看 BYOL 授權、請選取 * 資料服務授權 * 。
++
+image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權頁面"]
+
+
 
 . 返回 BlueXP 勒索軟體保護。從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
 +
@@ -181,28 +233,4 @@ TIP: 此訊息也會出現在 BlueXP 數位錢包和中 https://docs.netapp.com/
 .. 選取 * 資料服務授權 * 標籤、選取要更新之服務序號的 * 動作 ... * 圖示、然後選取 * 更新授權 * 。
 
 
-
-
-
-
-== 結束免費試用
-
-您可以隨時停止免費試用、也可以等到免費試用到期。
-
-.步驟
-. 在 BlueXP 勒索軟體保護中、於右上角選擇 * 免費試用 - 檢視詳細資料 * 。
-. 在下拉式詳細資料中、選取 * 結束免費試用 * 。
-+
-image:screen-license-trial-end.png["結束免費試用頁面"]
-
-. 如果要刪除所有資料、請在免費試用結束後勾選 * 刪除資料 * 選項。
-+
-這會刪除所有排程、複寫計畫、資源群組、 vCenter 和站台。稽核資料、作業記錄和工作記錄會保留到產品生命週期結束為止。
-
-+
-
-NOTE: 如果您結束免費試用、而不要求刪除資料、而且您沒有購買授權或訂閱、則在免費試用結束 60 天後、 BlueXP 勒索軟體保護會刪除您所有的資料。
-
-. 在文字方塊中輸入「 End 試用」。
-. 選取 * 結束 * 。
 

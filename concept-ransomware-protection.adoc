@@ -16,7 +16,7 @@ summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。Bl
 [role="lead"]
 勒索軟體攻擊可能會封鎖對您系統和資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
 
-BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP 帳戶中 Amazon Web Services 中的 Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services 雲端儲存設備和 NetApp StorageGRID 。
+BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP 帳戶中適用於 Amazon Web Services 和 Cloud Volumes ONTAP for Microsoft Azure 的 Cloud Volumes ONTAP 。此服務會將資料備份至 Amazon Web Services 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
 
 
 
@@ -29,9 +29,10 @@ BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的�
 * * 偵測 * 可能是勒索軟體攻擊的異常。
 * * 回應 * 自動啟動防竄改的 NetApp ONTAP 快照、以防止意外或惡意刪除複本、以因應可能的勒索軟體攻擊。您的備份資料將永遠不變、端點對端都受到保護、不受來源和目的地的勒索軟體攻擊。
 * * 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復磁碟區、資料夾或特定檔案。本服務針對最佳選項提供建議。
+* * 治理 * ：實施勒索軟體保護策略、並監控結果。
 
 
-image:diagram-rp-features-phases2.png["顯示 BlueXP 勒索軟體保護策略的圖表、包括識別、保護、偵測、回應及恢復"]
+image:diagram-rp-features-phases3.png["顯示 BlueXP 勒索軟體保護策略的圖表、包括識別、保護、偵測、回應及恢復"]
 
 
 
@@ -39,7 +40,7 @@ image:diagram-rp-features-phases2.png["顯示 BlueXP 勒索軟體保護策略的
 
 BlueXP 勒索軟體保護提供下列優點：
 
-* 探索工作負載和資料集、根據使用率指數分析優先順序、並將其相對重要性排名。
+* 探索工作負載及其現有的快照和備份排程、並評等其相對重要性。
 * 評估您的勒索軟體保護狀態、並將其顯示在易於理解的儀表板中。
 * 根據探索和保護狀態分析、提供後續步驟的建議。
 * 只需按一下滑鼠即可套用 AI / ML 導向的資料保護建議。
@@ -53,18 +54,15 @@ BlueXP 勒索軟體保護提供下列優點：
 
 == 成本
 
-NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。BlueXP 勒索軟體的完整版本可搭配 NetApp 授權或 AWS 訂閱使用。
+NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。
 
 
 
 == 授權
 
-有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或自帶授權。
+有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或是儘快自帶授權。
 
-BlueXP 勒索軟體保護需要 NetApp ONTAP 授權。
-
-
-NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 NetApp 自主勒索軟體保護技術的授權。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^] 以取得詳細資料。
+BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。
 
 如需詳細資訊、請參閱 link:rp-start-licenses.html["設定授權"]。
 
@@ -82,10 +80,10 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 
 | * 識別 *  a| 
-* 尋找連接至 BlueXP 的所有客戶內部部署 NAS （ NFS 和 CIFS 通訊協定）資料。
+* 尋找所有連線至 BlueXP 的客戶內部 NAS （ NFS 和 CIFS 通訊協定）和 Cloud Volumes ONTAP 資料。
 * 識別來自 ONTAP 和 SnapCenter 服務 API 的客戶資料、並將其與工作負載建立關聯。深入瞭解 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 和 https://docs.netapp.com/us-en/snapcenter/index.html["軟件SnapCenter"^]。
-* 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 BlueXP 數位顧問、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
-深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]、 https://docs.netapp.com/us-en/active-iq/index.html["BlueXP 數位顧問"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
+* 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
+深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。
 * 勒索軟體保護也會學習原則關聯、並建議您針對類似的工作負載使用自訂原則。
 
@@ -118,6 +116,13 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 協調工作負載的恢復、包括 VM 、檔案共用和資料庫、並確保應用程式一致性。
 
 
+
+
+| * 管轄 *  a| 
+* 指派勒索軟體保護策略
+* 協助您監控成果。
+
+
 |===
 
 
@@ -128,25 +133,28 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 支援的備份目標 *
 
 * Amazon Web Services （ AWS ） S3
+* Microsoft Azure Blob
 * NetApp StorageGRID
 
 
 * 支援的工作環境 *
 
 * 內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）
-+
-不支援 FlexGroups 。
-
-* AWS 中的 Cloud Volumes ONTAP （使用 NFS 和 CIFS 通訊協定）
+* Cloud Volumes ONTAP for AWS （使用 NFS 和 CIFS 通訊協定）
+* Cloud Volumes ONTAP for Azure （使用 NFS 和 CIFS 通訊協定）
 
 
-* 資料來源 *
+
+NOTE: 不支援下列項目： FlexGroup Volume 、早於 9.11.1 的 ONTAP 版本、 iSCSI 磁碟區和資料保護（ DP ）磁碟區。
+
+* 支援的資料來源 *
 
 此服務可在主要資料磁碟區上保護下列應用程式型工作負載：
 
 * NetApp 檔案共用
 * VMware資料存放區
 * 資料庫（ MySQL 和 Oracle ）
+* 更多資訊即將推出
 
 
 

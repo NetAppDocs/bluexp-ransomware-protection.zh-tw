@@ -26,6 +26,7 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 
 * NetApp StorageGRID
 * Amazon Web Services（AWS）
+* Microsoft Azure
 
 
 您可以根據儀表板的建議動作來新增備份目的地。
@@ -42,8 +43,19 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 +
 image:screen-dashboard.png["儀表板頁面"]
 
-. 在儀表板中、針對「設定備份目的地」的建議、選取 * 檢閱和修正 * 。
+. 從儀表板中、選取 * 檢閱和修正 * 、以取得「準備 <backup provider> 做為備份目的地」的建議。
 . 根據備份供應商的不同、繼續執行相關指示。
+
+
+
+
+=== 從功能表存取「設定」頁面
+
+您可以從功能表輕鬆存取「設定」頁面。
+
+. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
+. 從功能表中選取 * 設定 * 。
+. 若要新增備份目的地、請選取 * 新增 * 。
 
 
 
@@ -55,7 +67,7 @@ image:screen-dashboard.png["儀表板頁面"]
 . 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
 . 輸入備份目的地的名稱。
 +
-image:screen-settings-backup-destination-storagegrid.png["備份目的地頁面"]
+image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
 
 . 選擇* StorageGRID 《*》*《*》。
 . 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
@@ -88,7 +100,7 @@ CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目�
 .結果
 新的備份目的地會新增至備份目的地清單。
 
-image:screen-settings-backup-destinations-list-storagegrid.png["「備份目的地」頁面上的「設定」選項"]
+image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
 
 
 
@@ -101,7 +113,7 @@ image:screen-settings-backup-destinations-list-storagegrid.png["「備份目的�
 . 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
 . 輸入備份目的地的名稱。
 +
-image:screen-settings-backup-destination-storagegrid.png["備份目的地頁面"]
+image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
 
 . 選擇* Amazon Web Services*。
 . 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
@@ -146,7 +158,65 @@ CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目�
 .結果
 新的備份目的地會新增至備份目的地清單。
 
-image:screen-settings-backup-destinations-list-aws.png["「備份目的地」頁面上的「設定」選項"]
+image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
+
+
+
+=== 將 Microsoft Azure 新增為備份目的地
+
+若要將 Azure 設定為備份目的地、請輸入下列資訊。
+
+如需在 BlueXP 中管理 Azure 認證和市場訂閱的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-azure-accounts.html["管理您的 Azure 認證和市場訂閱"^]。
+
+. 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
+. 輸入備份目的地的名稱。
++
+image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
+
+. 選擇 * Azure * 。
+. 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
++
+** * 供應商設定 * ：
++
+*** 建立新的儲存帳戶、如果 BlueXP 中已有現有帳戶、請選取現有帳戶、或是帶上您自己的儲存帳戶來儲存備份。
+*** Azure 認證的 Azure 訂閱、區域和資源群組
++
+https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["如果您想要攜帶自己的儲存帳戶、請參閱新增 Azure Blob 儲存帳戶"^]。
+
+
+
+** * 加密 * ：如果您要建立新的儲存帳戶、請輸入供應商提供給您的加密金鑰資訊。如果您選擇現有的帳戶、則加密資訊已可供使用。
++
+根據預設、帳戶中的資料會使用 Microsoft 管理的金鑰進行加密。您可以繼續使用 Microsoft 託管的金鑰、也可以使用自己的金鑰來管理資料加密。
+
+** * 網路連線 * ：選擇 IPspace 、以及是否要使用私有端點。
++
+*** IPspace 是您要備份的磁碟區所在的叢集。此IPspace的叢集間生命體必須具有傳出網際網路存取。
+*** 您也可以選擇是否要使用先前設定的 Azure 私有端點。
++
+如果您想要使用 Azure Private Link 、請參閱 https://azure.microsoft.com/en-us/products/private-link/["Azure Private Link"^]。
+
+
+
+** * 備份鎖定 * ：選擇是否要讓服務保護備份不被修改或刪除。此選項使用 NetApp DataLock 技術。每個備份都會在保留期間內鎖定、或至少 30 天、再加上最多 14 天的緩衝期間。
++
+
+CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目的地之後再變更設定。
+
++
+*** * 解除鎖定 * ：特定使用者可以在保留期間覆寫或刪除受保護的檔案。
+*** * 鎖定 * ：在保留期間、使用者無法覆寫或刪除受保護的備份檔案。此選項可滿足完整的法規遵循要求。
+
+
+
+
+. 選取*「Add*」。
+
+
+.結果
+新的備份目的地會新增至備份目的地清單。
+
+image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
 
 
 
@@ -155,21 +225,18 @@ image:screen-settings-backup-destinations-list-aws.png["「備份目的地」頁
 您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。
 
 . 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
-. 檢閱儀表板的建議動作窗格。
-. 在儀表板中、選取 * 檢視和修正 * 以取得「啟用威脅偵測」的建議。
+. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
+. 選取 * 設定 * 。
 +
 隨即顯示「設定」頁面。
 
 +
-image:screen-settings-threat-detection2.png["設定頁面"]
+image:screen-settings-threat-detection3.png["設定頁面"]
 
-. 在「設定」頁面中、選取威脅偵測窗格中的 * 連線 * 。
-+
-image:screen-settings-threat-detection-details.png["啟用威脅偵測詳細資料頁面"]
-
+. 在「設定」頁面中、選取 SIEM 連線窗格中的 * 連線 * 。
 . 輸入 SIEM 伺服器詳細資料以啟用威脅偵測。
 . 選取 * 啟用 * 。
 +
-「設定」頁面上的威脅偵測窗格會顯示「已連線」。
+「設定」頁面會顯示「已連線」。
 
 

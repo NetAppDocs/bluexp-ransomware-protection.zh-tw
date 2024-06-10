@@ -35,6 +35,7 @@ NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 
 
 * 在 BlueXP 中：
 +
+** 採用 NetApp 內部部署儲存設備（使用 NAS 或 CIFS 通訊協定）的 BlueXP 工作環境
 ** BlueXP 必須在 BlueXP 中設定每個虛擬私有雲（ VPC ）或內部部署區域的 BlueXP Connector 。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["設定 Connector 的 BlueXP 文件"^]。
 +
 
