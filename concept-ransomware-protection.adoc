@@ -14,7 +14,7 @@ summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。Bl
 
 
 [role="lead"]
-勒索軟體攻擊可能會封鎖對您系統和資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
+勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
 
 BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP 帳戶中適用於 Amazon Web Services 和 Cloud Volumes ONTAP for Microsoft Azure 的 Cloud Volumes ONTAP 。此服務會將資料備份至 Amazon Web Services 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
 
@@ -25,10 +25,10 @@ BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務�
 BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的儲存管理員、資料安全管理員或安全作業工程師能夠達成下列目標：
 
 * * 識別 * BlueXP 中 NetApp 內部部署 NAS 中所有應用程式型、檔案共用或 VMware 託管的工作負載、包括 NFS 或 CIFS 工作環境、以及 BlueXP 帳戶、工作區和 BlueXP Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。
-* * 在您的資料上啟用備份與 Snapshot 複本、以保護 * 您的工作負載。
+* * 透過在資料上啟用備份、 Snapshot 複本和勒索軟體保護策略來保護 * 您的工作負載。
 * * 偵測 * 可能是勒索軟體攻擊的異常。
 * * 回應 * 自動啟動防竄改的 NetApp ONTAP 快照、以防止意外或惡意刪除複本、以因應可能的勒索軟體攻擊。您的備份資料將永遠不變、端點對端都受到保護、不受來源和目的地的勒索軟體攻擊。
-* * 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復磁碟區、資料夾或特定檔案。本服務針對最佳選項提供建議。
+* * 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復特定的磁碟區。本服務針對最佳選項提供建議。
 * * 治理 * ：實施勒索軟體保護策略、並監控結果。
 
 
@@ -85,7 +85,6 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
 深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。
-* 勒索軟體保護也會學習原則關聯、並建議您針對類似的工作負載使用自訂原則。
 
 
 

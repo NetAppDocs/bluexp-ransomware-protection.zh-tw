@@ -67,7 +67,7 @@ image:screen-dashboard.png["儀表板頁面"]
 . 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
 . 輸入備份目的地的名稱。
 +
-image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
+image:screen-settings-backup-destination.png["備份目的地頁面"]
 
 . 選擇* StorageGRID 《*》*《*》。
 . 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
@@ -113,7 +113,7 @@ image:screen-settings-backup-destinations-list-azure.png["「備份目的地」�
 . 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
 . 輸入備份目的地的名稱。
 +
-image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
+image:screen-settings-backup-destination.png["備份目的地頁面"]
 
 . 選擇* Amazon Web Services*。
 . 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
@@ -171,7 +171,7 @@ image:screen-settings-backup-destinations-list-azure.png["「備份目的地」�
 . 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
 . 輸入備份目的地的名稱。
 +
-image:screen-settings-backup-destination-azure.png["備份目的地頁面"]
+image:screen-settings-backup-destination.png["備份目的地頁面"]
 
 . 選擇 * Azure * 。
 . 選取每個設定旁邊的向下箭頭、然後輸入或選取值：

@@ -24,7 +24,7 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 
 * * 主儲存設備上的 Snapshot 複本鎖定 * ：啟用此選項可鎖定主儲存設備上的 Snapshot 複本、即使勒索軟體攻擊管理其通往備份儲存目的地的路由、也無法在一段時間內修改或刪除 Snapshot 複本。
 +
-link:rp-use-protect.html["深入瞭解如何保護工作負載、並在勒索軟體保護策略中啟用備份鎖定功能"]。
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何保護工作負載、並在勒索軟體保護策略中啟用備份鎖定功能"]。
 
 * * 本版本除了支援 Cloud Volumes ONTAP for AWS 和內部部署 ONTAP NAS 之外、還支援 Microsoft Azure * 的 Cloud Volumes ONTAP 作為工作環境。
 +
@@ -37,7 +37,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-pr
 
 * * Microsoft Azure 新增為備份目的地 * 。您現在可以將 Microsoft Azure 新增為 AWS 和 NetApp StorageGRID 的備份目的地。
 +
-link:rp-use-settings.html["請參閱設定保護設定"]。
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定保護設定"]。
 
 
 
@@ -82,7 +82,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-reports.html["深入瞭解如何從儀表板和其他頁面下載 CSV 檔案"]。
 
-* * 檢視文件 * 連結現在已包含在 UI 中。您可以從 Dasbhoard Vertical * Actions* 存取此文件 image:button-actions-vertical.png["垂直動作選項"] 選項。選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。
+* * 檢視文件 * 連結現在已包含在 UI 中。您可以從儀表板垂直方向 * 動作 * 存取此文件 image:button-actions-vertical.png["垂直動作選項"] 選項。選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。
 * * BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 link:rp-start-prerequisites.html["先決條件"]。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 link:rp-use-settings.html["設定"]。
 
 
@@ -92,11 +92,11 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-reports.html["
 
 此 BlueXP 勒索軟體保護的預覽版本包含下列更新：
 
-* * 保護原則管理 * ：除了使用預先定義的原則之外、您現在還可以建立、變更及刪除原則。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解管理原則"]。
+* * 保護原則管理 * ：除了使用預先定義的原則之外、您現在還可以建立原則。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解管理原則"]。
 * * 次要儲存設備（ DataLock ）的不可變性 * ：您現在可以使用物件存放區中的 NetApp DataLock 技術、在次要儲存設備中製作不可變的備份。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何建立保護原則"]。
 * * 自動備份至 NetApp StorageGRID * ：除了使用 AWS 之外、您現在可以選擇 StorageGRID 作為備份目的地。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解設定備份目的地"]。
 * * 調查潛在攻擊的其他功能 * ：您現在可以檢視更多鑑識詳細資料、以調查偵測到的潛在攻擊。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["深入瞭解如何回應偵測到的勒索軟體警示"]。
-* * 恢復程序 * 。恢復程序已增強。現在、您可以在單一工作流程中、依磁碟區、工作負載的所有磁碟區、甚至是從磁碟區中恢復數個檔案。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復（在事件被消除之後）"]。
+* * 恢復程序 * 。恢復程序已增強。現在、您可以針對工作負載、依磁碟區或所有磁碟區來恢復磁碟區。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復（在事件被消除之後）"]。
 
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP 勒索軟體保護"]。
