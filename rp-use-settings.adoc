@@ -83,15 +83,6 @@ image:screen-settings-backup-destination.png["備份目的地頁面"]
 *** IPspace 是您要備份的磁碟區所在的叢集。此IPspace的叢集間生命體必須具有傳出網際網路存取。
 
 
-** * 備份鎖定 * ：選擇是否要讓服務保護備份不被修改或刪除。此選項使用 NetApp DataLock 技術。每個備份都會在保留期間內鎖定、或至少 30 天、再加上最多 14 天的緩衝期間。
-+
-
-CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目的地之後再變更設定。
-
-+
-*** * 法規遵循模式 * ：使用者無法在保留期間覆寫或刪除受保護的備份檔案。
-
-
 
 
 . 選取*「Add*」。
@@ -196,16 +187,6 @@ https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["�
 +
 如果您想要使用 Azure Private Link 、請參閱 https://azure.microsoft.com/en-us/products/private-link/["Azure Private Link"^]。
 
-
-
-** * 備份鎖定 * ：選擇是否要讓服務保護備份不被修改或刪除。此選項使用 NetApp DataLock 技術。每個備份都會在保留期間內鎖定、或至少 30 天、再加上最多 14 天的緩衝期間。
-+
-
-CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目的地之後再變更設定。
-
-+
-*** * 解除鎖定 * ：特定使用者可以在保留期間覆寫或刪除受保護的檔案。
-*** * 鎖定 * ：在保留期間、使用者無法覆寫或刪除受保護的備份檔案。此選項可滿足完整的法規遵循要求。
 
 
 

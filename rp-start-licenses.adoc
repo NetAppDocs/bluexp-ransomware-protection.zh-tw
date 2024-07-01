@@ -18,7 +18,7 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 
 * 註冊 90 天免費試用。
 * 透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。  這項服務即將推出。
-* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。這項服務即將推出。
+* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
 在 AWS 中設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP 數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP 數位錢包 * 訂閱 * 標籤中查看作用中的 AWS 訂閱。

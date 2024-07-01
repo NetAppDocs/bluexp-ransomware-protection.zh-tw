@@ -56,7 +56,6 @@
   <block id="9ae83eb049c6b5251c9298d8a8d40241" category="list-text"><block ref="8b134bf38fb096386395972987c1b025" category="inline-link-macro-rx"></block>。</block>
   <block id="d0e838baedf172c0903a5f0cb7724cef" category="summary">攻擊後、 BlueXP 勒索軟體保護會驗證二次儲存設備上的備份資料是否乾淨、建議使用實際還原點（ RPA ）、並協調工作流程以進行防損還原。</block>
   <block id="97236d1d6456b91de75d53d6249f5af0" category="doc">從勒索軟體攻擊中恢復（在事件被消除之後）</block>
-  <block id="a5c86fbc12a646be8062107e988d5224" category="paragraph">將工作負載標記為「準備好恢復」之後、 BlueXP 勒索軟體保護就會建議實際的還原點（ RPA ）、並協調工作流程以進行防損恢復。</block>
   <block id="f591728141675d7a289dcb31f31fde56" category="section-title">檢視準備還原的工作負載</block>
   <block id="9e307871a02cb271c0a3a1a008a2e4e1" category="paragraph">檢閱處於「還原所需」恢復狀態的工作負載。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項：</block>
@@ -169,7 +168,6 @@
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">探索 BlueXP 勒索軟體保護的工作負載</block>
   <block id="dd8c2f6ce83a7e8f073c2a0dc70477fb" category="paragraph">若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶內工作空間中的所有工作環境中的所有磁碟區和檔案。</block>
   <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">此服務會評估現有的保護層級、包括目前的備份保護、 Snapshot 複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。</block>
-  <block id="6b4241f75c7b162e9914d322d5beb0f9" category="list-text">從初始登錄頁面中選擇 * 探索工作負載 * 。</block>
   <block id="675a1549facd94d16faf6e60d17eac34" category="paragraph">服務會探索工作負載資料、並在儀表板中顯示資料保護的健全狀況。</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載、以保護工作負載免受勒索軟體攻擊。</block>
   <block id="64086e522631840f7f453586e2c9736d" category="doc">保護工作負載免受勒索軟體攻擊</block>
@@ -544,11 +542,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="7946ca9134fecb1e363f88a194b4e259" category="inline-link-macro">回應偵測到的警示</block>
   <block id="3aedfdbc12c705760fde4f9c539d02d7" category="list-text">* 警示與工作負載資料恢復 * ：按一下 * 檢視全部 * 、即可查看影響工作負載的作用中事件、在事件失效或正在恢復後、準備好進行恢復。請參閱 <block ref="a57b82018dcad508c33f5a5c54351028" category="inline-link-macro-rx"></block>。</block>
   <block id="8cdbaff59230fdce1ca498813a54b0c1" category="paragraph">事件分為下列其中一種狀態：</block>
-  <block id="ca0c9c245586cc05941c1a8b84209afc" category="list-text">受影響（顯示於警示頁面）</block>
-  <block id="35b7fd96ef9b744c7c764135fabdecc0" category="list-text">準備好恢復（顯示在「恢復」頁面上）</block>
-  <block id="7d7bb43a31d297aee59498ff198872e9" category="list-text">恢復（顯示在恢復頁面）</block>
-  <block id="704da275af0b622e206a0af9c06ade6c" category="list-text">恢復失敗（顯示在恢復頁面上）</block>
-  <block id="0e645a267bfad78391e9ba300248f4c8" category="list-text">已恢復（顯示在「恢復」頁面）</block>
   <block id="e1ea3e4666c6bde33b99591d46854931" category="list-text">* 建議行動 * ：若要加強保護、請檢閱每項建議、然後按一下 * 審查與修正 * 。</block>
   <block id="c09a3324882f0d3d76129ae7f12aff7c" category="inline-link-macro">檢閱儀表板上的保護建議</block>
   <block id="d05a1c13f5b6a28e222f869b1414a93a" category="paragraph">請參閱 <block ref="299e61f449baeabd97c5a478162c3894" category="inline-link-macro-rx"></block> 或 <block ref="2b2daeeb32402291362fa9fa843a5c7e" category="inline-link-macro-rx"></block>。</block>
@@ -606,18 +599,15 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="33df12dff3df6675b3ec75e3dbb10d98" category="list-text">檢閱「警示」頁面上的警示。</block>
   <block id="7d7a6605822e5e46b113d7680a89f703" category="inline-image-macro">警示頁面</block>
   <block id="a31e44b45b823ec61483db05b99be2cb" category="paragraph"><block ref="a31e44b45b823ec61483db05b99be2cb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8f549e4759d495bc4745201a44641739" category="list-text">繼續 <block ref="7b8fc6583551e56b0c8a96f4e8f63c8a" category="inline-xref-macro-rx"></block>。</block>
   <block id="705db8b34cf00efb73abf6403278e299" category="section-title">將勒索軟體事件標示為準備好進行恢復（在事件被消除之後）</block>
   <block id="8fb2d851794e1ddcd8d8d4c39baf1823" category="paragraph">緩解攻擊並準備好恢復工作負載之後、您應該與儲存管理團隊溝通、告知資料已準備好進行恢復、以便開始恢復程序。</block>
   <block id="4c2e2c58b4d44a1ec632011d2229f343" category="list-text">從 BlueXP 勒索軟體保護功能表中、選取 * 警示 * 。</block>
   <block id="9d6e925ee1290815ef828d96d28218c6" category="list-text">在「警示」頁面中、選取警示。</block>
   <block id="d60f513868a8fce63eaa0a934a11b3a3" category="list-text">檢閱警示中的事件。</block>
   <block id="44dd4f71dc5510ad8843ca6c09b8fa4f" category="inline-image-macro">警示事件頁面</block>
-  <block id="03ebe9a49447aea1edcf15a10984a858" category="paragraph"><block ref="03ebe9a49447aea1edcf15a10984a858" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7653f5c79b2366b4b1f0ef3befb20349" category="list-text">如果您確定事件已準備好進行恢復，請選擇 *Mark restore 需求 * 。</block>
   <block id="07ccfc9aed173b3b6e1c64cf6a14d4b0" category="list-text">確認動作、然後選取 * 標示需要還原 * 。</block>
   <block id="6faff9d182a89c619b1ad36913af4fa5" category="list-text">若要啟動工作負載恢復、請在訊息中選取 * 恢復 * 工作負載、或選取 * 恢復 * 索引標籤。</block>
-  <block id="755a4d87145ff4fe3a4534c4daddb33e" category="paragraph">警示標示為恢復後、警示會從警示索引標籤移至恢復索引標籤。</block>
   <block id="c46018c3f1a4be706610d0facdaae6d9" category="sidebar">BlueXP 勒索軟體保護文件</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="bc242e036eaaf1bb732b252253346306" category="sidebar">BlueXP 勒索軟體保護的新功能</block>
@@ -635,7 +625,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="db9538daf4223bfc37b7351935f76d06" category="paragraph">* 如果您使用 BlueXP 勒索軟體保護設定原則、您是否必須在未來僅在此服務中進行變更？ *
 我們建議您從 BlueXP 勒索軟體保護服務進行原則變更。</block>
-  <block id="ff9f5559340f731afb5ba49547474182" category="list-text">* 偵測 * 可能是勒索軟體攻擊的異常。</block>
   <block id="f90af1ae1e0fb166621b4480576b55ac" category="list-text">利用整合式機器學習（ ML ）模式偵測潛在的攻擊、以偵測可能異常的加密和活動。</block>
   <block id="1cb5f4b5b1383db0b2bfabd8c3cafd79" category="list-text">使用 ONTAP 、自主勒索軟體保護和 FPolicy 技術、判斷攻擊相關工作負載的特定可疑檔案和地圖。</block>
   <block id="7114c26cbae366caf9400a8157631c87" category="list-text">使用 NetApp 技術和產品（例如 ONTAP 、自主勒索軟體保護和 FPolicy ）來啟動快速 Snapshot 複本。</block>
@@ -658,7 +647,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="0101be00694088a1944bea83a894d482" category="list-text">識別來自 ONTAP 和 SnapCenter 服務 API 的客戶資料、並將其與工作負載建立關聯。深入瞭解<block ref="a16fd9a0601d0464b4c9ce4f59c2454b" category="inline-link-rx"></block> 和<block ref="d4e2312364a2363181c5807750f77d43" category="inline-link-rx"></block>。</block>
   <block id="116c331399b20c1dde2c20d7a0f1116b" category="list-text">透過將原則套用至每個已識別的工作負載、主動監控工作負載、並協調 BlueXP 備份與還原、 SnapCenter 和 ONTAP API 的使用。</block>
   <block id="959eb758375bab19e06d24bc3cf21528" category="paragraph">使用 BlueXP 勒索軟體保護、瞭解您的資料對於下列類型的備份目標、工作環境和資料來源的網路攻擊有何彈性：</block>
-  <block id="6c5c43c100bc7b3641e8887adc905bc3" category="list-text">內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）</block>
   <block id="a6196bcffcb3dd9e7a558b359145ecc3" category="paragraph">此服務可在主要資料磁碟區上保護下列應用程式型工作負載：</block>
   <block id="3560990ee46f2f17d59094ab9e308c5e" category="list-text">資料庫（ MySQL 和 Oracle ）</block>
   <block id="9854786e6453f63d9549281586b11092" category="list-text">* 工作負載 * ： BlueXP 勒索軟體保護的工作負載可能包括 MySQL 或 Oracle 資料庫、 VMware 資料存放區或檔案共用區。</block>
@@ -666,10 +654,7 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="2959d474ff1650966063b3116dafc4bc" category="admonition">不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。</block>
   <block id="f5d4cfd3f280702438726c83d3842f49" category="summary">使用 BlueXP 勒索軟體保護、您可以下載顯示保護、警示和還原詳細資料的報告、並將其另存為。 CSV 檔案。</block>
   <block id="df6e3c89245cdc5bf0a7191c642d6997" category="doc">下載報告</block>
-  <block id="2afc9e2a51c18c30f6fb06db09a74df0" category="paragraph">您可以下載 CSV 檔案、其中會顯示保護、警示和還原的詳細資料、並將其另存為。 CSV 檔案。</block>
-  <block id="e11f52290db7a663ec0339474b2be24a" category="paragraph">下載 CSV 檔案之前、您應該先重新整理資料、也會重新整理檔案中顯示的資料。</block>
   <block id="3552519b559cc4327d8af9c95f1e3298" category="paragraph">您可以從任何主功能表選項下載 CSV 檔案：</block>
-  <block id="b3b349c0bf1a5ae6412253200ac58cb0" category="list-text">* 儀表板： * 包含所有工作負載的所有摘要資訊。</block>
   <block id="9e3cf45f94aa890af53ce59cfb5a0bac" category="list-text">* 保護 * ：包含所有工作負載的狀態和詳細資料、包括受保護和面臨風險的總數量。</block>
   <block id="0457793eace04e6f92be18bf06e90138" category="list-text">* 警示 * ：包括所有警示的狀態和詳細資料、包括警示總數和自動快照。</block>
   <block id="a7e404e1296fea04d0cd654b84867b5a" category="list-text">* 恢復 * ：包括所有需要還原的工作負載的狀態和詳細資料、包括標示為「需要還原」、「進行中」、「還原失敗」和「已成功還原」的工作負載總數。</block>
@@ -679,7 +664,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="88720d11d44ed6c674eee114228c0d69" category="inline-image-macro">重新整理選項</block>
   <block id="9e0c2bff29b02cc0054b8ebf63b422d9" category="list-text">從儀表板或其他頁面、選取 * 重新整理 * <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 右上角的選項、可重新整理將出現在報告中的資料。</block>
   <block id="c4b039b69c313acc38209c4b1d1da8ef" category="inline-image-macro">下載選項</block>
-  <block id="5a5716b7dd7f7ba5322cd2fe15683ad4" category="list-text">從儀表板或其他頁面、選取 * 下載 * <block ref="c05ed6b7dc469ce447520bacbf36b3ca" category="inline-image-macro-rx" type="image"></block> 選項。</block>
   <block id="b77e52b2729a45733366be275a2b1834" category="list-text">從 BlueXP 勒索軟體保護功能表中、選取 * 報告 * 。</block>
   <block id="2bb8f47d5dd5e5e9025658aa3c0fc126" category="list-text">如果您選取 * 報告 * 選項、請選取其中一個預先設定的 CSV 檔案名稱、然後選取 * 下載（ CSV ） * 或 * 下載（ JSON ） * 。</block>
   <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">報告頁面</block>
@@ -702,16 +686,10 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="9c592743fe6a292e0be5b9e6343dc1ba" category="cell">保護頁面會顯示不受保護的關鍵或高度重要（根據指派的優先順序層級）應用程式工作負載。</block>
   <block id="09ac1a414033303cc9f61ba014837263" category="cell">保護關鍵或高度重要的檔案共享工作負載、防範勒索軟體。</block>
   <block id="723aa86a592f3ac7a3d0c493a7f7f6f8" category="cell">「保護」頁面會顯示檔案共用或資料存放區類型的關鍵或高度重要工作負載、這些工作負載並未受到保護。</block>
-  <block id="fce32b147d3fc1e111905c3a3bf6fd69" category="section-title">下載 CSV 檔案</block>
-  <block id="aa3043954c9338ec669360a4800fee7f" category="paragraph">您可以下載 CSV 檔案、以顯示保護、警示和恢復的詳細資料。</block>
   <block id="ebf1e03de732c4c5bd4514ba8f17370f" category="paragraph">如果您從「保護」、「警示」或「恢復」頁面下載 CSV 檔案、則只有該頁面上的資料會包含在 CSV 檔案中。</block>
-  <block id="82cf6d5522070615843ea06fae2d2747" category="list-text">從儀表板或其他頁面、選取 * 重新整理 * <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 右上角的選項、可重新整理將出現在檔案中的資料。</block>
-  <block id="e5196728829b2d2162d974441a543c15" category="list-text">如果您選取 * 報告 * 選項、請選取其中一個預先設定的命名檔案、然後選取 * 下載（ CSV ） * 。</block>
   <block id="baa62fd9411df2ee7b4bf7a3fcdeb9c4" category="section-title">存取技術文件</block>
-  <block id="a89163caa71394508979cf11201dab6e" category="paragraph">您可以從 docs.netapp.com 或 BlueXP 勒索軟體保護服務內部存取技術文件。</block>
   <block id="858c0eb001d380e6c1276da7ebebbd32" category="inline-image-macro">垂直動作選項</block>
   <block id="8d50761a01ad46cdf490d2b5652e5a19" category="list-text">從儀表板選取垂直 * 動作 * <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 選項。</block>
-  <block id="ff021c059adb29b9b2168c5a4bb4ab89" category="list-text">選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。</block>
   <block id="b1d7aabfcefbd532aacad2c3c9107ac0" category="list-text">變更現有的工作負載保護詳細資料。</block>
   <block id="413b4c22ab2c40818a71fe8112e4d991" category="list-text">啟用工作負載一致的保護功能、可與 SnapCenter 軟體或 SnapCenter Plug-in for VMware vSphere 搭配使用。</block>
   <block id="c9ffc0073001c2f61bcae33a10e3142c" category="list-text">建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體偵測所建立的原則。</block>
@@ -737,7 +715,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="631014fb608aae26275f461a597abc09" category="section-title">檢視工作負載的勒索軟體保護</block>
   <block id="1178945c6ac5c3d230f56a7ae6f7233f" category="list-text">應用程式工作負載</block>
   <block id="78c48c7c6239e944a5c23274f2e1a24b" category="list-text">從儀表板的資料保護窗格中、選取 * 檢視全部 * 。</block>
-  <block id="11e758e51080918cef113dd3b9acb4a5" category="paragraph"><block ref="11e758e51080918cef113dd3b9acb4a5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4dc51b8615944f599801153cc7777840" category="list-text">您可以在此頁面檢視及變更工作負載的保護詳細資料。</block>
   <block id="7a9c7b649217c1b088e23c8199ebddb5" category="list-text">從「保護」頁面選取工作負載。</block>
   <block id="589b98ae625f87f0bf06d1fdd5cc6ef6" category="inline-image-macro">保護頁面中的工作負載詳細資料</block>
@@ -747,23 +724,8 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
 如需詳細資訊、請參閱 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>。</block>
   <block id="39b649553c2deef3d750057602cfacdb" category="section-title">使用 SnapCenter 實現應用程式或 VM 一致的保護</block>
   <block id="50140fc820086d654fdd4e90a5104aef" category="paragraph">啟用應用程式或 VM 一致的保護功能、可協助您以一致的方式保護應用程式或 VM 工作負載、達到靜止且一致的狀態、以避免日後需要恢復時可能發生的資料遺失。</block>
-  <block id="f242540c003ba86fc378d7a26980e7be" category="paragraph">此程序會針對虛擬機器啟動安裝適用於應用程式的 SnapCenter 軟體或適用於 VMware vSphere 的 SnapCenter 外掛程式。</block>
   <block id="f3cf311da16549e7de0fd3a5cec20af8" category="paragraph">啟用工作負載一致的保護之後、您就可以在 BlueXP 勒索軟體保護中管理保護策略。保護策略包括在其他地方管理的 Snapshot 和 Backup 原則、以及在 BlueXP 勒索軟體保護中管理的勒索軟體偵測原則。</block>
-  <block id="19364cb59f8d59226d0f91981f248975" category="paragraph">若要深入瞭解 SnapCenter 、請參閱下列資訊：</block>
-  <block id="b347b25ec8a1a711e426fe2d82b3c927" category="list-text"><block ref="b347b25ec8a1a711e426fe2d82b3c927" category="inline-link-rx"></block></block>
-  <block id="3390e3575b3e341afa2b7172ff5b33a7" category="inline-link">VMware vSphere的插件SnapCenter</block>
-  <block id="7d2910017eeb5b47246a3c48a500a64e" category="list-text"><block ref="7d2910017eeb5b47246a3c48a500a64e" category="inline-link-rx"></block></block>
   <block id="3b38fb1cff0115f63e5d56c7c77aa619" category="inline-image-macro">動作按鈕</block>
-  <block id="eda776e15928b07b071ca4d58a3c6b42" category="list-text">在「保護」頁面上、選取 * 動作 * <block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 選項、然後在下拉式功能表中、選取 * 啟用工作負載一致保護 * 以啟用 SnapCenter 。</block>
-  <block id="0e3dc1b18b91d6e863bde5f970e16c47" category="admonition">如果您選擇 VM 型工作負載、則會顯示安裝 SnapCenter Plug-in for VMware vSphere 的連結、而非「安裝 SnapCenter 」。</block>
-  <block id="d8d9a69cba0ce26c3a7e582e3f05a6b5" category="inline-image-macro">啟用工作負載一致的保護頁面</block>
-  <block id="181729806b24ba6258a24178969e9f19" category="paragraph"><block ref="181729806b24ba6258a24178969e9f19" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="abeb14149d46a66563aaeb0b17a06a46" category="list-text">在工作負載位置欄位中、選取 * 複製 * 、將工作負載位置複製到剪貼簿、以便在 SnapCenter 安裝中使用。向下捲動以查看剩餘的工作負載詳細資料。</block>
-  <block id="fe85e18fb7036af182e8d6eb0c91effb" category="list-text">選取 * 安裝 SnapCenter * 。</block>
-  <block id="77e00d7bb6eea33c894781a91f292ac5" category="list-text">如果您選取應用程式型工作負載、則會顯示 SnapCenter 軟體資訊。</block>
-  <block id="64288117871961db5469a774b26fe6c3" category="list-text">如果您選取了 VM 型工作負載、則會顯示 SnapCenter Plug-in for VMware vSphere 資訊。</block>
-  <block id="e968515cbf45927fec06b5eabac5f6a9" category="list-text">請遵循資訊來安裝 SnapCenter 。</block>
-  <block id="1bab8df0a1ee7a00c74581c09ff74f4a" category="list-text">返回 BlueXP 勒索軟體保護。選取 * 保護 * 以檢視保護頁面。</block>
   <block id="d6e15b96f3ab87f60f2179fe9bdcbef5" category="list-text">檢閱「保護」頁面上「 Snapshot and backup Policies 」（快照和備份原則）欄位中的詳細資料、查看原則是否在其他地方受到管理。</block>
   <block id="ef02e5f2283fb78cd889ac8ac18e2c7a" category="section-title">建立勒索軟體保護策略（如果您沒有 Snapshot 或備份原則）</block>
   <block id="edd328e50d43ccd88288f7f5cc8844aa" category="paragraph">如果工作負載上不存在 Snapshot 或 Backup 原則、您可以建立勒索軟體保護策略、其中可能包含您在 BlueXP 勒索軟體保護中建立的下列原則：</block>
@@ -771,9 +733,7 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="7759a4720271a1ab3b4e6b1c36a67058" category="list-text">備份原則</block>
   <block id="43963265d27ac7360fe50e98bde4f748" category="list-text">勒索軟體偵測原則</block>
   <block id="fe818592d516f26e58602635e76b8664" category="list-title">建立勒索軟體保護策略的步驟</block>
-  <block id="e430ade04b9385f9a2374530ace8f522" category="list-text">從「保護」頁面選取 * 管理勒索軟體保護策略 * 。</block>
   <block id="5d6ce0940be901e67c0f14481e54ccc9" category="inline-image-macro">管理策略頁面</block>
-  <block id="9487f702546174182293443da31463be" category="paragraph"><block ref="9487f702546174182293443da31463be" category="inline-image-macro-rx" type="image"></block></block>
   <block id="197c283a01f19c77a4081693cf2ef5bf" category="list-text">從勒索軟體保護策略頁面、選取 * 新增 * 。</block>
   <block id="2eaf03a47e19fb4342355aea7247f987" category="list-text">輸入新的策略名稱、或輸入現有名稱以進行複製。如果您輸入現有名稱、請選擇要複製的名稱、然後選取 * 複製 * 。</block>
   <block id="dfe4ea6e0e8118a4c5e897167a865579" category="admonition">如果您選擇複製及修改現有策略、服務會將「 _copy 」附加至原始名稱。您應該變更名稱和至少一個設定、使其成為唯一的。</block>
@@ -783,11 +743,8 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="30b98e7f1d0bcbae5dce8a9dd12f29ba" category="list-text">* 主要偵測 * ：啟用勒索軟體偵測功能、讓服務偵測可能的勒索軟體攻擊。</block>
   <block id="7c06fadd4f73e4b63eb519df7d9880fc" category="paragraph">如果您要變更封鎖的副檔名、請在 System Manager 中編輯副檔名。</block>
   <block id="c8499d03897189696e5af26fc5ab9f45" category="list-text">* Snapshot 原則 * ：</block>
-  <block id="4e60847e5553a76836bcce753ed379b6" category="list-text">* Snapshot 原則名稱 * ：輸入 Snapshot 原則的名稱。</block>
   <block id="59714bd29f177a9285c8fe77822f2c65" category="list-text">* Snapshot 排程 * ：選擇排程選項、要保留的 Snapshot 複本數量、然後選擇以啟用排程。</block>
   <block id="bec83ad5f3237718ad523140fca8ac2b" category="list-text">* 備份原則 * ：</block>
-  <block id="5d7616050e543dbf2d3b28690aa5bf03" category="list-text">* 備份原則名稱 * ：輸入新名稱或現有名稱。</block>
-  <block id="b8f51f9f596ad459ab0df13ae9a32469" category="list-text">* 備份鎖定 * ：選擇此選項可防止在一段時間內修改或刪除次要儲存設備上的備份。這也稱為 _immutable 儲存設備 _ 。</block>
   <block id="d83f2d40799ec15e1d684166606bc27f" category="section-title">將偵測原則新增至已有 Snapshot 和 Backup 原則的工作負載</block>
   <block id="b86bb40ac4d446009cf89e8363d4e3e2" category="paragraph">透過 BlueXP 勒索軟體保護、您可以將勒索軟體偵測原則指派給已有 Snapshot 和 Backup 原則的工作負載、這些原則是在其他 NetApp 產品或服務中管理的。偵測原則不會變更在其他產品中管理的原則。</block>
   <block id="aadd6f26574b76b3ee798f3c4c8ab40f" category="paragraph">其他服務（例如 BlueXP 備份與還原及 SnapCenter ）則使用下列類型的原則來管理工作負載：</block>
@@ -833,8 +790,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="df142910ec0f256cf3fe94834edd616c" category="paragraph"><block ref="2db9e604787e93c0ca53ebeb4c1a3e79" category="inline-link-rx"></block>。</block>
   <block id="ca8c09727e8b36d15981c9455d697516" category="inline-link">深入瞭解如何從儀表板和其他頁面下載 CSV 檔案</block>
   <block id="db81907bf6476a20c8b94b94556f627f" category="paragraph"><block ref="29cf990dea934b0f767d4567074aaff5" category="inline-link-rx"></block>。</block>
-  <block id="97f0f6f42727f3dac1719d7b22f2111b" category="list-text">如果應用程式或 VM 是由 SnapCenter 管理、 BlueXP 勒索軟體保護會使用應用程式一致或 VM 一致的程序、將應用程式或 VM 還原回先前的狀態和上次的交易。</block>
-  <block id="bf2e85fdfd662459fd1c8c44e308e695" category="list-text">如果應用程式或虛擬機器並非由 SnapCenter 管理、 BlueXP 勒索軟體保護會還原應用程式或虛擬機器、您可以選取所有磁碟區、磁碟區或檔案來還原工作負載。</block>
   <block id="b5ccdb3dc0dc7a8afa4ba1ad3929e36a" category="admonition">工作負載恢復可能會影響執行中的工作負載。您應與適當的關係人協調恢復程序。</block>
   <block id="926aaeb3693d20413ab32b7da19a4c24" category="paragraph"><block ref="926aaeb3693d20413ab32b7da19a4c24" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c88ce586395ff50170d86c2e66f0f11f" category="section-title">還原由 SnapCenter 管理的工作負載</block>
@@ -967,8 +922,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="6c2708162873644f82108cfcad8ae099" category="list-text">您也可以選擇是否要使用先前設定的 Azure 私有端點。</block>
   <block id="8044b0463892d9d29dbab8cfd03e8863" category="inline-link">Azure Private Link</block>
   <block id="13ed98575f9b615f49abab3355f19c34" category="paragraph">如果您想要使用 Azure Private Link 、請參閱<block ref="dc49bf79d1a3da34447e7543d00fee44" category="inline-link-rx"></block>。</block>
-  <block id="e14d6bbbb1a0bcf6e29f29088efbc967" category="list-text">* 解除鎖定 * ：特定使用者可以在保留期間覆寫或刪除受保護的檔案。</block>
-  <block id="f6a77917268207de6f7d43f3aae70c62" category="list-text">* 鎖定 * ：在保留期間、使用者無法覆寫或刪除受保護的備份檔案。此選項可滿足完整的法規遵循要求。</block>
   <block id="376ec8b3e51e6597fb939c31a3fe0e59" category="list-text">選取 * 設定 * 。</block>
   <block id="1cdcea7c45b8df103d376e317e51d6f3" category="paragraph"><block ref="1cdcea7c45b8df103d376e317e51d6f3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="23a7d0d134ea346b7c44f3e9e5086d22" category="list-text">在「設定」頁面中、選取 SIEM 連線窗格中的 * 連線 * 。</block>
@@ -979,7 +932,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="f543761d662a5051911ae04c98a64d2a" category="cell">* 重要工作負載原則 *</block>
   <block id="f4e76e01f80db61a6180d7fa5d9656c3" category="cell">每 30 分鐘</block>
   <block id="fb6b1dc56e2496ef3292658ce35a3d3a" category="paragraph"><block ref="fb6b1dc56e2496ef3292658ce35a3d3a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d77e9cbb14b2e9028c3e1f18848486a6" category="admonition">對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載、如果 BlueXP 勒索軟體已在其他服務中啟動、則 BlueXP 勒索軟體可啟用自動勒索軟體保護及 / 或 FPolicy 保護。深入瞭解<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 和<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>和<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>。</block>
   <block id="a25b448eaf9cb75510668e7b35ff5f32" category="section-title">檢閱工作負載保護詳細資料</block>
   <block id="5dca9f15484f0a68f38a48af57cb6098" category="paragraph">您可以檢閱保護詳細資料、例如工作負載優先順序、保護原則和儲存資訊。</block>
   <block id="6516d85a459e942594b2633776aac322" category="paragraph"><block ref="6516d85a459e942594b2633776aac322" category="inline-image-macro-rx" type="image"></block></block>
@@ -992,7 +944,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="e7375f9ce866d5c2bd923a1f2382635d" category="list-text">您很快就能自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。</block>
   <block id="f338cd7c055f777422d1369d7cd7e16f" category="paragraph">有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案。</block>
   <block id="5534ee4e6e2df32f8b3fd4bb6f77fc7d" category="list-text">透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。  這項服務即將推出。</block>
-  <block id="35dfb219f1abc9d0c7cd5f9936dee226" category="list-text">請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。這項服務即將推出。</block>
   <block id="b5749d1384caedc71e5b2ec43e7afab4" category="list-text">設定 Connector 之後、在 BlueXP 勒索軟體保護登陸頁面中、將 Connector 變更新增至探索工作負載按鈕的按鈕。選取 * 探索工作負載 * 以開始。</block>
   <block id="7fd2f910bce182f3bed45cb0ffe3f2b7" category="list-text">若要檢閱免費試用資訊、請選取右上角的下拉式選項。</block>
   <block id="7a53e8b3f925c0bda3a00402c18b0881" category="paragraph"><block ref="7a53e8b3f925c0bda3a00402c18b0881" category="inline-image-macro-rx" type="image"></block></block>
@@ -1014,7 +965,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="25b79915ef7b5ee03ffec649fd035b25" category="paragraph"><block ref="25b79915ef7b5ee03ffec649fd035b25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b271e9c6be36aff67404f5d3ab5006f5" category="list-text">探索工作負載及其現有的快照和備份排程、並評等其相對重要性。</block>
   <block id="f9139206de5b0d603d23f42e66a50c61" category="paragraph">NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。</block>
-  <block id="d47727cc2d78a32f193927ebe862ffe7" category="paragraph">有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或是儘快自帶授權。</block>
   <block id="2b3b1b768938b223c30e68bd9490011a" category="paragraph">BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。</block>
   <block id="d0e4a743e8ed40dbf01bacaa0ec70fe1" category="list-text">尋找所有連線至 BlueXP 的客戶內部 NAS （ NFS 和 CIFS 通訊協定）和 Cloud Volumes ONTAP 資料。</block>
   <block id="6ac0e32d07ae2f28e1f7e737144ba563" category="list-text">探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
@@ -1051,9 +1001,6 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="1dd6a4919bb3486348521d221ec659ba" category="list-text">選取要還原的檔案共用或資料存放區之後、在「還原」頁面上的「還原」範圍中、選取 * 依 Volume * 。</block>
   <block id="2ee50d53d7474747be1bcd118f94fa54" category="inline-link-macro">準備 NetApp StorageGRID 、 Amazon Web Services 或 Microsoft Azure 作為備份目的地</block>
   <block id="1ba64763d51f8c1aa85b17f2c5d95a50" category="list-text"><block ref="e4ac2374a696381099055121381c8366" category="inline-link-macro-rx"></block>。</block>
-  <block id="827541907ba6873ebf770b4e03175c3f" category="cell">將備份目的地新增至此工作負載以保護它。
-請參閱 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>。
-請參閱 <block ref="8451c8808a80959dcb5e4c769b7fcdd6" category="inline-link-macro-rx"></block>。</block>
   <block id="e7c81f7323ce88fb040e5538bda0ea2a" category="paragraph">勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。</block>
   <block id="3bc7f17536f804ec9b3bc76d03bfd36b" category="list-text">* 透過在資料上啟用備份、 Snapshot 複本和勒索軟體保護策略來保護 * 您的工作負載。</block>
   <block id="dface268a2071eff798d124445615938" category="list-text">* 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復特定的磁碟區。本服務針對最佳選項提供建議。</block>
@@ -1064,4 +1011,152 @@ BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</blo
   <block id="9863ce048fc9f300b1fbc248aa66783e" category="list-text">* 檢視文件 * 連結現在已包含在 UI 中。您可以從儀表板垂直方向 * 動作 * 存取此文件 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 選項。選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。</block>
   <block id="56b38de12238825d4032ca408bf71807" category="list-text">* 保護原則管理 * ：除了使用預先定義的原則之外、您現在還可以建立原則。<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block>。</block>
   <block id="bdf0c88a77cd9c31482e0fe8ce0cfb56" category="list-text">* 恢復程序 * 。恢復程序已增強。現在、您可以針對工作負載、依磁碟區或所有磁碟區來恢復磁碟區。<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>。</block>
+  <block id="bb492c0cc0bbb54e0a73ab4e5dfcd476" category="list-text">* 偵測 * 可能是勒索軟體攻擊的異常狀況。註腳： [ 不得偵測或防範勒索軟體系統、完全保證勒索軟體攻擊的安全性。雖然攻擊可能無法偵測、但 NetApp 技術卻是重要的額外防禦層。 ]</block>
+  <block id="25e8dea7aabddf32a7ff28410bb492f4" category="paragraph">有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或是自行攜帶授權。</block>
+  <block id="5f35d0b4a7930f14f1022ee1f942ee64" category="list-text">內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）、搭配 ONTAP 9.11.1 版及更新版本</block>
+  <block id="27a22ff8cea8c84583985661c68afc5b" category="list-text">從初始登錄頁面中、選取 * 探索工作負載 * 以開始。</block>
+  <block id="7aa859cab6bf5bccbd16604f19eefa93" category="inline-link-macro">瞭解儀表板顯示的內容。</block>
+  <block id="6363fabfdf63bcf12dfba9fd9de06ba3" category="paragraph"><block ref="6363fabfdf63bcf12dfba9fd9de06ba3" category="inline-link-macro-rx"></block></block>
+  <block id="2caf85d76a31b7bef7132937ff28e9dc" category="list-text">請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。</block>
+  <block id="4c8cd66676ad1c434108e699d9777408" category="paragraph">您可以排除誤報、或決定立即恢復資料。</block>
+  <block id="a6353f372e3179976808720c16462be2" category="admonition">如果您決定關閉警示、服務將會學習此行為、並將其與正常作業相關聯、而不會再次針對此類行為發出警示。</block>
+  <block id="64c00e9ea78abe412d8db56dd1df0462" category="paragraph">警示可能具有下列其中一種狀態：</block>
+  <block id="adf79604cd73ac69e1173c85b1070d09" category="list-text">*新增*</block>
+  <block id="001af4b9160bf93cb0c3215a7180e3b7" category="list-text">* 非使用中 *</block>
+  <block id="737800f3b87bbfcc4f5933e339fd4ba3" category="paragraph">警示事件分為下列其中一種狀態：</block>
+  <block id="be48871d3fcb22d62d5de71b2de11ab9" category="list-text">* 新 * ：所有事件在首次識別時都會標示為「新」。</block>
+  <block id="d2b7a3286df55d9570e26ad7450dfeb9" category="list-text">* 遭駁回 * ：如果您懷疑該活動並非勒索軟體攻擊、您可以將狀態變更為「遭駁回」。</block>
+  <block id="e55bcf4db44e30e58f05adee9dde89a9" category="admonition">在您解除攻擊之後、您無法再變更此項。如果您解除工作負載、系統會永久刪除所有自動取得的 Snapshot 複本、以因應可能的勒索軟體攻擊。</block>
+  <block id="abcc01ccddba81d6df2f14e786d4b375" category="list-text">* 失蹤 * ：事件正在被駁回。</block>
+  <block id="398de6d9c45665c96903335be2218817" category="list-text">* 已解決 * ：事件已減輕。</block>
+  <block id="0eb84a756a0efb96624e019ea3d9cc23" category="list-text">繼續：</block>
+  <block id="3de551d699ac2cc6d8ee45100e3c09c2" category="list-text"><block ref="7b8fc6583551e56b0c8a96f4e8f63c8a" category="inline-xref-macro-rx"></block>。</block>
+  <block id="ab66e5346633f4af4f4982dc29ca7015" category="list-text"><block ref="e99b3e15cfc7ea44c087b4875208c217" category="inline-xref-macro-rx"></block>。</block>
+  <block id="ef35dbc1c892eb98e8055a8fda65dbe1" category="paragraph"><block ref="ef35dbc1c892eb98e8055a8fda65dbe1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dbb2ae89216b8dfda3662d01ab32469f" category="paragraph">警示標記為還原後、警示會從警示索引標籤移至恢復索引標籤。</block>
+  <block id="d3870301348c9947a819b7a9ed0c25df" category="section-title">消除非潛在攻擊事件</block>
+  <block id="cb63edc78c92917e2d7fe2ed30ab1021" category="paragraph">審查事件之後、您需要判斷事件是否為潛在攻擊。如果沒有、可以將其解僱。</block>
+  <block id="277895e3fc934fb81f78adafb4126aea" category="paragraph">您可以排除誤報、或決定立即恢復資料。如果您決定關閉警示、服務將會學習此行為、並將其與正常作業相關聯、而不會再次針對此類行為發出警示。</block>
+  <block id="042f9b76c4a17d99f53d67f6d02ab42e" category="paragraph">如果您解除工作負載、系統會永久刪除所有自動取得的 Snapshot 複本、以因應可能的勒索軟體攻擊。</block>
+  <block id="e092b1515493abdb05e77ec47a53f36f" category="admonition">如果您關閉警示、則無法將該狀態變更回任何其他狀態、也無法復原此變更。</block>
+  <block id="46b4f01c45e92cd2d2fe7d4406168b5d" category="list-text">選取一或多個事件。或者、選取表格左上角的事件 ID 方塊、以選取所有事件。</block>
+  <block id="c4229f2836db3c8f0198619d853bad27" category="list-text">如果您確定事件並非威脅、請將其視為假陽性：</block>
+  <block id="66ed8697fa597e32e69eb60b0b25e886" category="list-text">如果您選擇了一個事件，請選擇 *Actions* … 圖示在右側、選取 * 編輯狀態 * 。</block>
+  <block id="062e8909f657a749c096df92e4afae27" category="list-text">如果您選取多個事件、請選取表格上方的 * 編輯狀態 * 按鈕。</block>
+  <block id="cae6793a9f947fdb33e9ebb9c2913794" category="inline-image-macro">警示編輯狀態頁面</block>
+  <block id="e6fe1dbe41a0d14f05208f5ee0593783" category="paragraph"><block ref="e6fe1dbe41a0d14f05208f5ee0593783" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a3766d306cdb80badf038a83067d73d3" category="list-text">從「編輯」狀態方塊中、選取 * 「已解除」 * 狀態。</block>
+  <block id="5d9bf477d69597bbfef05524974440cd" category="paragraph">此時會顯示有關工作負載及將刪除哪些 Snapshot 複本的其他資訊。</block>
+  <block id="982b96cbcd987b2495b15ba07dd59831" category="paragraph">事件或事件的狀態會變更為「已解僱」。</block>
+  <block id="03449fca76164b6dcb5b9e314b4a5c2b" category="section-title">檢視受影響檔案的清單</block>
+  <block id="0fd4c032e8d9638089eca51930a25305" category="paragraph">在檔案層級還原應用程式工作負載之前、您可以檢視受影響檔案的清單。您可以存取「警示」頁面、下載受影響檔案的清單。然後使用「恢復」頁面上傳清單、並選擇要還原的檔案。</block>
+  <block id="6162015141ec2e05b3da3316c594dc7a" category="paragraph">使用「警示」頁面可擷取受影響檔案的清單。</block>
+  <block id="adb36d0a41dcf531bb715bb815c75586" category="admonition">如果某個磁碟區有多個警示、您可能需要為每個警示下載受影響檔案的 CSV 清單。</block>
+  <block id="eab85082296138dfa241a48f81820ee9" category="list-text">在「警示」頁面上、依工作負載排序結果、以顯示您要還原之應用程式工作負載的警示。</block>
+  <block id="4901f4d01c8a64589f2641ea221c79ee" category="list-text">從該工作負載的警示清單中、選取警示。</block>
+  <block id="020c63db3b1b6d893f5b8e59d6f4f282" category="list-text">針對該警示、請選取單一事件。</block>
+  <block id="3da0517dff453f03b4448de6079af196" category="inline-image-macro">特定警示的受影響檔案清單</block>
+  <block id="a0fd18fc337758e79e647649d69f4149" category="paragraph"><block ref="a0fd18fc337758e79e647649d69f4149" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="955d1101c1424d23d653984e03cf7099" category="list-text">針對該事件、請選取下載圖示、然後下載 CSV 格式的受影響檔案清單。</block>
+  <block id="03c2e7e41ffc181a4e84080b4710e81e" category="list-text">新功能</block>
+  <block id="e2ccdd369c3ae64bfd036d550bee4d1d" category="list-text">已遭解僱</block>
+  <block id="c3b0f3e971491baeeeb59faf1152e130" category="list-text">消失</block>
+  <block id="f691f042a559b1c1a4f89826c6f75760" category="list-text">已解決</block>
+  <block id="3cab03c00dbd11bc3569afa0748013f0" category="list-text">非使用中</block>
+  <block id="36cc9c16a0ac840b50731116377fca76" category="list-text">工作負載可以有下列其中一個還原狀態：</block>
+  <block id="8acdb503601d1dafe21efee4c311fafc" category="list-text">需要還原</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">進行中</block>
+  <block id="5fdf564f22be6bd901a690f1c5a6d9eb" category="list-text">已還原</block>
+  <block id="d7c8c85bf79bbe1b7188497c32c3b0ca" category="list-text">失敗</block>
+  <block id="600a7b18be10701f94a8ee3667ed9056" category="cell">將備份目的地新增至此工作負載以保護它。請參閱 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>。</block>
+  <block id="aae170456f649f914ee9e2ffe6225001" category="cell">在 BlueXP 中註冊 VMware vSphere （ SCV ）可用的 SnapCenter 外掛程式</block>
+  <block id="8b335c02365a669f37c5c422d345fe5a" category="cell">VM 工作負載未受到保護。</block>
+  <block id="3d633ea629c6ab6d6eb434edb9bad015" category="cell">啟用適用於 VMware vSphere 的 SnapCenter 外掛程式、將 VM 一致的保護指派給 VM 工作負載。請參閱 <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>。</block>
+  <block id="31999eb6d208165bcae7f3d17f6e8d0b" category="cell">在 BlueXP 中註冊可用的 SnapCenter 伺服器</block>
+  <block id="2ece652cbde6f187c5192710497e20cc" category="cell">應用程式未受到保護。</block>
+  <block id="9fbd0a5b8d780df80cfc32e0668ad4b0" category="cell">啟用 SnapCenter 伺服器、為工作負載指派應用程式一致的保護。請參閱 <block ref="cc10c371e1aab359fa44a886d5e79433" category="inline-link-macro-rx"></block>。</block>
+  <block id="00a080932e73f4d8ad7b946bbd5191d6" category="section-title">將保護資料匯出至 CSV 檔案</block>
+  <block id="daed4261480079bedadbb918fa15519d" category="paragraph">您可以匯出資料並下載 CSV 檔案、以顯示保護、警示和恢復的詳細資料。</block>
+  <block id="ca2c7b61db4fca32a940552e9d295d4b" category="list-text">從頁面中、選取右上角的 * 重新整理 * <block ref="94d384894f036157c348eadc55c40952" category="inline-image-macro-rx" type="image"></block> 選項、以重新整理將出現在檔案中的資料。</block>
+  <block id="fdf229b723a77d85d0134f45f3d183ce" category="list-text">從頁面中、選取 * 下載 * <block ref="c05ed6b7dc469ce447520bacbf36b3ca" category="inline-image-macro-rx" type="image"></block> 選項。</block>
+  <block id="5c642143c637288108b06423d16dfcfb" category="list-text">如果您選取 * 報告 * 選項、請選取其中一個預先設定的命名檔案、然後選取 * 下載（ CSV ） * 或 * 下載（ JSON ） * 。</block>
+  <block id="ee0e4c0a4f10747e23810b484cf81b62" category="paragraph">您可以從 docs.netapp.com 或 BlueXP 勒索軟體保護服務內部存取本技術文件。</block>
+  <block id="da9b0b803342ecbbfeed5ada41b8ed48" category="list-text">選取下列其中一個選項：</block>
+  <block id="9cd2fdc543bd545d0901aa3a644323f5" category="list-text">* 新功能 * 可檢視版本資訊中目前或先前版本的功能資訊。</block>
+  <block id="641b2727bf35132b14f4d7d15dbcc36e" category="list-text">* 文件 * 檢視 BlueXP 勒索軟體保護文件首頁及本文件。</block>
+  <block id="d90ac49acd1ad23fcb68b1306e400fb2" category="list-text">刪除保護策略。</block>
+  <block id="126bd3757ebb93ac0d390d13f9b73284" category="admonition">對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載、如果 BlueXP 勒索軟體已在其他服務中啟動、則 BlueXP 勒索軟體可啟用自動勒索軟體保護及 / 或 FPolicy 保護。深入瞭解<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block>、<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>和<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>。</block>
+  <block id="e3d677577c431440029c2189661b7337" category="paragraph">此程序會針對使用 BlueXP 備份與還原的虛擬機器、起始登錄適用於應用程式的 SnapCenter 軟體伺服器或適用於 VMware vSphere 的 SnapCenter 外掛程式。</block>
+  <block id="01744c5f4e5131b7e42034d08b8839ab" category="paragraph">若要深入瞭解如何使用 BlueXP 備份與還原為 VMware vSphere 註冊 SnapCenter 或 SnapCenter 外掛程式、請參閱下列資訊：</block>
+  <block id="9b210cd0fa0a7fe3694561f1949c72e3" category="inline-link">註冊 SnapCenter 伺服器軟體</block>
+  <block id="68b1fa75b928bc442b23193dc7306ea7" category="list-text"><block ref="68b1fa75b928bc442b23193dc7306ea7" category="inline-link-rx"></block></block>
+  <block id="8f2653c5938080ffdd57904f850bc430" category="inline-link">註冊SnapCenter VMware vSphere的VMware外掛程式</block>
+  <block id="10199b17546f423c831ed4ec01ea41f8" category="list-text"><block ref="10199b17546f423c831ed4ec01ea41f8" category="inline-link-rx"></block></block>
+  <block id="21ac56d074982cd460176919a4a15003" category="list-text">從 BlueXP 勒索軟體保護功能表中、選取 * 儀表板 * 。</block>
+  <block id="37253b6a1f32230b01d647f42b9b6e8f" category="list-text">從「建議」窗格中、找到下列其中一項建議、然後選取 * 「審查與修正」 * ：</block>
+  <block id="09133e0e805dc45102304048f4a9224f" category="list-text">在 BlueXP 中註冊 VMware vSphere （ SCV ）可用的 SnapCenter 外掛程式</block>
+  <block id="e64cc4d864037812a9599e7c5d937de9" category="list-text">請依照相關資訊、使用 BlueXP 備份與還原、為 VMware vSphere 主機註冊 SnapCenter 或 SnapCenter 外掛程式。</block>
+  <block id="0d793ce6c24acfe5b63d8e0ef4cd8c62" category="list-text">返回 BlueXP 勒索軟體保護。</block>
+  <block id="a0bcd228903cff8ca5c5de971f78b647" category="list-text">從 BlueXP 勒索軟體保護開始、請前往儀表板、再次啟動探索程序。</block>
+  <block id="733f41aae97f52087b0ed39ff3235bb1" category="list-text">從 BlueXP 勒索軟體保護中、選取 * 保護 * 以檢視保護頁面。</block>
+  <block id="90f081941b9ec4d54a22065d524e3c77" category="list-text">從「保護」頁面選取 * 管理保護策略 * 。</block>
+  <block id="b31c0b0f3924529ae8c58dded54c65d9" category="paragraph"><block ref="b31c0b0f3924529ae8c58dded54c65d9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc320fc2fe6059741c5bcdd0356015b6" category="inline-image-macro">新增策略頁面、顯示「 Snapshot 」（快照）區段</block>
+  <block id="b22829d43a5fd38ac0de77f7d3f676e1" category="paragraph"><block ref="b22829d43a5fd38ac0de77f7d3f676e1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8d2813ee55655a795b740341e0443bd0" category="list-text">* Snapshot 原則基礎名稱 * ：選取原則或選取 * Create * 並輸入 Snapshot 原則的名稱。</block>
+  <block id="4c2335d5c61b4722f3bc7508bd4a0ada" category="list-text">* 備份原則基礎名稱 * ：輸入新名稱或選擇現有名稱。</block>
+  <block id="02fe451dde6aa884097ca3b7c67707a5" category="admonition">若要在次要儲存設備上啟用備份鎖定、請使用 * 設定 * 選項來設定備份目的地。如需詳細資訊、請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
+  <block id="ccf23ad1bfca8f3c51caa8c9d8745378" category="section-title">刪除勒索軟體保護策略</block>
+  <block id="1eade84fa2646ea13dc54a4b35f61c1c" category="paragraph">您可以刪除目前未與任何工作負載相關聯的保護策略。</block>
+  <block id="c8cd789e206e54a63057fa842fd87d4b" category="list-text">從「保護」頁面選取 * 管理勒索軟體策略 * 。</block>
+  <block id="571f33f6eea9a8d4cbc40d9ea733c1e9" category="list-text">在「管理策略」頁面中、針對您要刪除的策略選取 * 動作 * <block ref="c25b92b317848c2a66dcfecc2a02ad99" category="inline-image-macro-rx" type="image"></block> 選項。</block>
+  <block id="8a53049a356954d41eabcdf210f44bf3" category="list-text">從「動作」功能表中、選取 * 刪除策略 * 。</block>
+  <block id="71725737d3cbd97049f21319ef51a4e3" category="paragraph">將工作負載標記為「需要還原」之後、 BlueXP 勒索軟體保護就會建議實際的還原點（ RPA ）、並協調工作流程以進行防損還原。</block>
+  <block id="1434644b6ed79a6c6ecce3fea9f32af5" category="list-text">如果應用程式或 VM 是由 SnapCenter 管理、 BlueXP 勒索軟體保護會使用應用程式一致或 VM 一致的程序、將應用程式或 VM 還原回先前的狀態和上次的交易。應用程式或 VM 一致的還原會將任何無法將資料新增至儲存區的資料、例如快取或 I/O 作業中的資料、新增至磁碟區中的資料。</block>
+  <block id="3319a63068300e3eb6664e17dfdc3016" category="list-text">如果應用程式或 VM 由 SnapCenter 管理、並由 BlueXP 備份與還原或 BlueXP 勒索軟體保護來管理、則 BlueXP 勒索軟體保護會執行損毀一致的還原、其中會還原同一時間點磁碟區中的所有資料、例如 如果系統當機。</block>
+  <block id="57a6bb038991f08ac0fdcf64095bd0af" category="paragraph">您可以選取所有磁碟區、特定磁碟區或特定檔案來還原工作負載。</block>
+  <block id="3ab57f205469e682011f73cdb8f98562" category="list-text">* 需要還原 * ：工作負載需要還原。</block>
+  <block id="bdd9e72e12a062beb8f8266df56158ae" category="list-text">* 進行中 * ：還原作業目前正在進行中。</block>
+  <block id="961876c092196c079efa643f73732e93" category="list-text">* 已還原 * ：工作負載已還原。</block>
+  <block id="a70aafb0a2b8a5a46157e22ae8d2dd99" category="list-text">* 失敗 * ：無法完成工作負載還原程序。</block>
+  <block id="901060cf242d01a64de2ee17d7f4cd49" category="list-text">選取處於「還原所需」狀態的應用程式工作負載。</block>
+  <block id="6412a45d589675b39a03f4d8c440e7a7" category="section-title">在檔案層級還原應用程式工作負載</block>
+  <block id="5d81d72e3642b3ef6c911f0a5a12cca4" category="paragraph">您可以將檔案層級的應用程式工作負載還原至相同或不同的工作環境。</block>
+  <block id="c859754ec0a06e9f1e87879e1e8a4b78" category="paragraph-title">取得受影響檔案清單的步驟</block>
+  <block id="e962fee54eeb3df3283d6d28bb1f073b" category="admonition">如果某個磁碟區有多個警示、您將需要為每個警示下載受影響檔案的 CSV 清單。</block>
+  <block id="632b8e66b02aebebfc5b46583ee30222" category="list-text">若要查看檔案的完整清單、請選取「受影響的檔案」窗格頂端的 * 按一下此處 * 。</block>
+  <block id="d4ea49f7c37230203af54722c95962fe" category="list-title">還原這些檔案的步驟</block>
+  <block id="3e64769073a6ebfad26862c552f42c72" category="list-text">在「還原」頁面的「還原範圍」中、選取 * 依檔案 * 。</block>
+  <block id="f1760e95914fef75d7a25a4643d9128a" category="list-text">在磁碟區清單中、選取包含您要還原之檔案的磁碟區。</block>
+  <block id="a47287face7d6331a60273ac64f1cb53" category="list-text">* 還原點 * ：選取 * 還原點 * 旁的向下箭頭以查看詳細資料。選取您要用來還原資料的還原點。</block>
+  <block id="89c5d2273bc3120d23e6dc06bad6e547" category="admonition">「還原點」窗格中的「原因」欄會顯示「快照」或「備份」的原因、例如「排程」或「自動回應勒索軟體事件」。</block>
+  <block id="64322160e8eb71f84f745786b7bdc1f5" category="list-text">* 檔案 * ：</block>
+  <block id="360083a61f4c813bc6a94742d84d6704" category="list-text">* 自動選取檔案 * ：讓 BlueXP 勒索軟體保護選取要還原的檔案。</block>
+  <block id="efa06f25e8be792589ac049e4a546ae2" category="list-text">* 上傳檔案清單 * ：上傳 CSV 檔案、其中包含您從「警示」頁面或您擁有的受影響檔案清單。您一次最多可還原 10,000 個檔案。</block>
+  <block id="00545c76e075511e972b54ce7f15142e" category="inline-image-macro">上傳 CSV 檔案、列出警示的受影響檔案</block>
+  <block id="453eb1a4fcf3da7c5d50564d18527816" category="paragraph"><block ref="453eb1a4fcf3da7c5d50564d18527816" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b51d5a63ac285869debe34288ae77f55" category="list-text">* 手動選取檔案 * ：最多選取 10,000 個檔案或單一資料夾進行還原。</block>
+  <block id="3e40dd949eead76427aabc0a89a9d82d" category="inline-image-macro">手動選取要還原的檔案</block>
+  <block id="8656333b0bf3d302f543a417f8ae1491" category="paragraph"><block ref="8656333b0bf3d302f543a417f8ae1491" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4418857d5483aee441de43ba5de903e2" category="admonition">如果無法使用選取的還原點還原任何檔案、系統會顯示訊息、指出無法還原的檔案數量、並可讓您選取 * 下載受影響檔案清單 * 來下載這些檔案清單。</block>
+  <block id="ef1c56b1eb5c67ecb14b04c651ca5722" category="paragraph">您可以匯出保護資料、並下載 CSV 或 JSON 檔案、以顯示保護、警示和還原的詳細資料。</block>
+  <block id="27e40708042cfbcf2a506b2900162479" category="paragraph">下載 CSV 或 JSON 檔案之前、您應該先重新整理資料、也會重新整理檔案中出現的資料。</block>
+  <block id="df7d398faf1de90a0c101fbc7640a2fe" category="paragraph">您可以從任何主功能表選項下載檔案：</block>
+  <block id="a36d9f25fe7ecafe45db2fd45823c6e7" category="list-text">* 報告 * ：您可以從任何頁面匯出資料並下載檔案。</block>
+  <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024 年 7 月 1 日</block>
+  <block id="fdb1f5ab91dd63ebda3ff72247aa7b2b" category="list-text">* 自帶授權（ BYOL ） * ：此版本可讓您使用 BYOL 授權、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）</block>
+  <block id="0c379e4399020bc48ac7da5510998e1a" category="list-text">* 在檔案層級還原應用程式工作負載 * ：在檔案層級還原應用程式工作負載之前、您現在可以檢視可能受攻擊影響的檔案清單、並識別您要還原的檔案。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。</block>
+  <block id="f117dfa6c0387d743ec4a20f0d5de0bc" category="admonition">在此版本中、如果帳戶中的所有 BlueXP Connector 都未使用 Podman 、則會啟用單一檔案還原功能。否則、該帳戶將停用此功能。</block>
+  <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">深入瞭解如何從勒索軟體攻擊中恢復</block>
+  <block id="48e006c40a370e7b0dcc3f4f1e42eda7" category="paragraph"><block ref="17c138513bf5a78d755bed4038999b20" category="inline-link-rx"></block>。</block>
+  <block id="47882b8bc0a2b23d26218cd1691e4099" category="list-text">* 在檔案層級還原應用程式工作負載之前、請先下載受影響檔案的清單 * 。您現在可以存取「警示」頁面、下載 CSV 檔案中受影響檔案的清單、然後使用「恢復」頁面上傳 CSV 檔案。</block>
+  <block id="eb7455ff51d7f3745fb801aa3ad0fb2a" category="inline-link">深入瞭解如何在還原應用程式之前下載受影響的檔案</block>
+  <block id="2b133b12308ff6cab26bdc5342a3372d" category="paragraph"><block ref="008791716c908b75ddd12a1a3f620fa8" category="inline-link-rx"></block>。</block>
+  <block id="1acc112f7ac5f0e2374f0e20883a6c5a" category="list-text">* 刪除保護計畫 * ：現在您可以使用此版本刪除勒索軟體保護策略。</block>
+  <block id="5bc0cd3e3204e2ab72bd03661373648f" category="inline-link">深入瞭解如何保護工作負載及管理勒索軟體保護策略</block>
+  <block id="20eb1918e9de308789133c5a0b0cc2c4" category="paragraph"><block ref="88ddee768f79e382777baf84277fe57c" category="inline-link-rx"></block>。</block>
+  <block id="c51b576406612c0f56215101f8705f83" category="list-text">* 解除誤判警示 * ：從「警示」索引標籤、您現在可以排除誤判或決定立即恢復資料。</block>
+  <block id="b439d3ca10048f7d11cd05477ca961a7" category="inline-link">深入瞭解如何回應勒索軟體警示</block>
+  <block id="e7e38bb442294e991be246059534377b" category="paragraph"><block ref="b68da660865dc415a1fefb8516e82d73" category="inline-link-rx"></block>。</block>
+  <block id="ea8652a0fce10e4424e5611e6298f09b" category="list-text">* 設定選項 * ：您現在可以在 BlueXP 勒索軟體保護設定中設定備份目的地。</block>
 </blocks>
