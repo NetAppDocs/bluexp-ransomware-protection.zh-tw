@@ -14,16 +14,34 @@ summary: 開始使用 BlueXP 勒索軟體保護、驗證您的環境、網路存
 [role="lead"]
 開始使用 BlueXP 勒索軟體保護、驗證您的作業環境、登入、網路存取和網頁瀏覽器是否準備就緒。
 
-若要使用 BlueXP 勒索軟體保護、您需要下列先決條件：
+若要使用 BlueXP  勒索軟體保護、您需要具備這些必要條件。
 
-* NetApp StorageGRID 或 AWS S3 中用於備份目標和存取權限集的帳戶
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 權限清單"^] 以取得詳細資料。
 
-* 更新版本ONTAP
+
+== 在 BlueXP  中
+
+* 帳戶管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。
+* BlueXP  帳戶、至少有一個 Active BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。
+* 在 AWS 或 Azure 中至少有一個 BlueXP  工作環境、其中有 NetApp 內部部署 ONTAP 叢集或 Cloud Volume ONTAP （使用 NAS 或 CIFS 通訊協定）。
 +
-** 叢集管理 ONTAP 權限
-** NetApp 自主勒索軟體保護授權、由 BlueXP 勒索軟體保護所使用、可在內部部署 ONTAP 執行個體上啟用、視您使用的 ONTAP 版本而定。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^]。
+** 支援使用 ONTAP OS 9.11.1 版或更新版本的 ONTAP 或 Cloud Volume ONTAP 叢集。
+** 如果您的內部部署 ONTAP 叢集或 AWS 或 Azure 雲端中的 Cloud Volume ONTAP 尚未在 BlueXP  中加入、則您需要 BlueXP  Connector 。
++
+請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["瞭解如何設定 BlueXP  Connector"] 和 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]。
+
++
+
+NOTE: 如果您在單一 BlueXP  帳戶中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。
+
+
+
+
+
+
+
+== 在 ONTAP 9.11.1 及更新版本中
+
+* NetApp 自主勒索軟體保護授權、由 BlueXP 勒索軟體保護所使用、可在內部部署 ONTAP 執行個體上啟用、視您使用的 ONTAP 版本而定。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^]。
 +
 
 NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 NetApp 自主勒索軟體保護技術的授權。請參閱 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護總覽"^] 以取得詳細資料。
@@ -31,23 +49,45 @@ NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 
 +
 如需更多授權詳細資料、請參閱 link:concept-ransomware-protection.html["瞭解 BlueXP 勒索軟體保護"]。
 
+* 若要套用保護組態（例如啟用自主勒索軟體保護等）、 BlueXP  勒索軟體保護需要 ONTAP 叢集的管理權限。ONTAP 叢集應該只能使用 ONTAP 叢集管理使用者認證來登入。
+* 如果 ONTAP 叢集已使用非管理員使用者認證在 BlueXP  中登入、則必須登入 ONTAP 叢集、以必要的權限更新非管理員使用者權限、如本頁所述。
 
 
-* 在 BlueXP 中：
+
+
+== 用於資料備份
+
+* NetApp StorageGRID 、 AWS S3 或 Azure Blob 中用於備份目標和存取權限集的帳戶。
 +
-** 採用 NetApp 內部部署儲存設備（使用 NAS 或 CIFS 通訊協定）的 BlueXP 工作環境
-** BlueXP 必須在 BlueXP 中設定每個虛擬私有雲（ VPC ）或內部部署區域的 BlueXP Connector 。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["設定 Connector 的 BlueXP 文件"^]。
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 、 Azure 或 S3 權限清單"^] 。
+
+* 不需要在工作環境中啟用 BlueXP  備份與還原服務。
 +
-
-NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。
-
-** BlueXP 帳戶、至少有一個作用中的 Connector 連線至內部部署 ONTAP 叢集。所有來源和工作環境都必須位於相同的 BlueXP 帳戶。
-** 具備帳戶管理權限的 BlueXP 使用者帳戶、可用於探索資源
-** 採用 NetApp 內部部署儲存設備（使用 NAS 或 CIFS 通訊協定）的 BlueXP 工作環境
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]
+BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱。 link:rp-use-settings.html["設定"]
 
 
 
 
 
-NOTE: BlueXP 備份與還原服務不再需要在工作環境中啟用。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 link:rp-use-settings.html["設定"]。
+== 更新 ONTAP 工作環境中的非管理員使用者權限
+
+如果您需要更新特定工作環境的非管理員使用者權限、請完成這些步驟。
+
+. 登入 BlueXP  帳戶、尋找需要更新其 ONTAP 使用者權限的工作環境。
+. 按兩下工作環境以查看詳細資料。
+. 按一下 * 檢視顯示使用者名稱的其他資訊 * 。
+. 使用管理員使用者登入 ONTAP 叢集 CLI 。
+. 顯示該使用者的現有角色。輸入：
++
+[listing]
+----
+security login show -user-or-group-name <username>
+----
+. 變更使用者的角色。輸入：
++
+[listing]
+----
+security login modify -user-or-group-name <username> -application console|http|ontapi|ssh|telnet -authentication-method password -role admin
+----
+. 返回 BlueXP  勒索軟體保護使用者介面使用。
+

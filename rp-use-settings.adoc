@@ -12,9 +12,25 @@ summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包
 
 
 [role="lead"]
-您可以檢視儀表板上的建議、來設定備份目的地或啟用威脅偵測。
+您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。
 
-啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。
+啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析。
+
+
+
+== 直接存取「設定」頁面
+
+您可以從上方功能表附近的「動作」選項輕鬆存取「設定」頁面。
+
+. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
+. 從下拉式功能表中、選取 * 設定 * 。
+. 在「設定」頁面中、您可以執行下列動作：
++
+** 新增備份目的地。
+** 連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。
+
+
+
 
 
 
@@ -49,12 +65,12 @@ image:screen-dashboard.png["儀表板頁面"]
 
 
 
-=== 從功能表存取「設定」頁面
+=== 從「動作」下拉式功能表存取「備份目的地」選項
 
-您可以從功能表輕鬆存取「設定」頁面。
+您可以從上方功能表附近的「動作」選項輕鬆存取「設定」頁面。
 
 . 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
-. 從功能表中選取 * 設定 * 。
+. 從下拉式功能表中、選取 * 設定 * 。
 . 若要新增備份目的地、請選取 * 新增 * 。
 
 
@@ -203,9 +219,83 @@ image:screen-settings-backup-destinations-list-azure.png["「備份目的地」�
 
 == 啟用威脅偵測
 
-您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。
+您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
 
-. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
+在 BlueXP  勒索軟體保護中啟用 SIEM 之前、您必須先設定 AWS Security Hub 或 Splunk Cloud 。
+
+
+
+=== 設定 AWS Security Hub 進行威脅偵測
+
+在 BlueXP  勒索軟體保護中啟用 AWS Security Hub 之前、您必須先在 AWS Security Hub 中執行下列高階步驟：
+
+* 在 AWS Security Hub 中設定權限。
+* 在 AWS Security Hub 中設定驗證存取金鑰和秘密金鑰。（此處不提供這些步驟。）
+
+
+.在 AWS Security Hub 中設定權限的步驟
+. 前往 * AWS IAM 主控台 * 。
+. 選取 * 原則 * 。
+. 使用以下 JSON 格式的程式碼建立原則：
++
+[listing]
+----
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "NetAppSecurityHubFindings",
+      "Effect": "Allow",
+      "Action": [
+        "securityhub:BatchImportFindings",
+        "securityhub:BatchUpdateFindings"
+      ],
+      "Resource": [
+        "arn:aws:securityhub:*:*:product/*/default",
+        "arn:aws:securityhub:*:*:hub/default"
+      ]
+    }
+  ]
+}
+----
+
+
+
+
+=== 設定 Splunk Cloud 進行威脅偵測
+
+在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須在 Splunk Enterprise 中執行下列高階步驟：
+
+* 啟用 Splunk Cloud 中的 HTTP 事件收集器、以透過 BlueXP  的 HTTP 或 HTTPS 接收事件資料。
+* 在 Splunk Cloud 中建立事件收集器權杖。
+
+
+.在 Splunk 中啟用 HTTP 事件收集器的步驟
+. 前往 Splunk Cloud 。
+. 選擇 * 設定 * > * 資料輸入 * 。
+. 選取 *HTTP 事件收集器 * > * 全域設定 * 。
+. 在 All Tokens （所有令牌）切換中，選擇 *Enabled* （ * 啓用 * ）。
+. 若要讓事件收集器透過 HTTPS （而非 HTTP ）接聽及通訊、請選取 * 啟用 SSL* 。
+. 在 *HTTP 連接埠編號 * 中輸入 HTTP 事件收集器的連接埠。
+
+
+.在 Splunk 中建立事件收集器權杖的步驟
+. 前往 Splunk Cloud 。
+. 選取 * 設定 * > * 新增資料 * 。
+. 選取 * 監控 * > * HTTP 事件收集器 * 。
+. 輸入 Token 的名稱、然後選取 * 下一步 * 。
+. 選擇一個 * 預設索引 * 、其中會推送事件、然後選擇 * 審查 * 。
+. 確認端點的所有設定都正確、然後選取 * 提交 * 。
+. 複製權杖並貼到另一份文件中、讓它準備好進行驗證步驟。
+
+
+
+
+=== 在 BlueXP  勒索軟體保護中連線 SIEM
+
+啟用 SIEM 會將 BlueXP  勒索軟體保護的資料傳送至 SIEM 伺服器、以進行威脅分析和報告。
+
+. 從 BlueXP  功能表中、選取 * 保護 * > * 勒索軟體保護 * 。
 . 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
 . 選取 * 設定 * 。
 +
@@ -215,9 +305,27 @@ image:screen-settings-backup-destinations-list-azure.png["「備份目的地」�
 image:screen-settings-threat-detection3.png["設定頁面"]
 
 . 在「設定」頁面中、選取 SIEM 連線窗格中的 * 連線 * 。
-. 輸入 SIEM 伺服器詳細資料以啟用威脅偵測。
+. 輸入您在 AWS Security Hub 或 Splunk Cloud 中設定的權杖和驗證詳細資料。
++
+
+NOTE: 您輸入的資訊取決於您選擇的 SIEM 。
+
 . 選取 * 啟用 * 。
 +
 「設定」頁面會顯示「已連線」。
 
+
+
+
+
+=== 中斷 SIEM 連線
+
+中斷 SIEM 連線會停止服務傳送資料至 SIEM 伺服器。
+
+.步驟
+. 從 BlueXP  功能表中、選取 * 保護 * > * 勒索軟體保護 * 。
+. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
+. 選取 * 設定 * 。
+. 在 SIEM 連線窗格中、選取 * 中斷連線 * 。
+. 在確認頁面中、選取 * 中斷連線 * 。
 

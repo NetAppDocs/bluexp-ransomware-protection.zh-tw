@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-ransomware-protection.html 
-keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp 
 summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。BlueXP 勒索軟體保護服務可讓您檢視有關網路安全的相關資訊、並評估組織對於網路攻擊的恢復能力。它也提供警示與修正清單、讓您的資料更安全。 
 ---
 = 瞭解 BlueXP 勒索軟體保護
@@ -56,6 +56,12 @@ BlueXP 勒索軟體保護提供下列優點：
 
 NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。
 
+如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
+
+購買授權或 PayGo 訂閱後、任何已啟用勒索軟體偵測原則（自主勒索軟體保護）（由 BlueXP  勒索軟體保護所探索或設定）的工作負載、 而且 BlueXP  勒索軟體保護至少有一個快照或備份原則會將其歸類為「受保護」、並根據購買的容量或 PayGo 訂閱來計費。如果發現工作負載時沒有偵測原則（ ARP ）、即使它有備份或快照原則、也會將其分類為「有風險」、而且不會根據購買的容量來計算。
+
+受保護的工作負載會在 90 天試用期結束後、根據購買的容量或訂閱數量來計算。BlueXP  勒索軟體保護是以每 GB 為單位、針對與受保護工作負載相關的資料收取費用、然後再提高效率。
+
 
 
 == 授權
@@ -64,6 +70,8 @@ NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。
 
 BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。
 
+BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
+
 如需詳細資訊、請參閱 link:rp-start-licenses.html["設定授權"]。
 
 
@@ -71,6 +79,8 @@ BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。
 == BlueXP 勒索軟體保護的運作方式
 
 在高階的 BlueXP 勒索軟體保護之下、其運作方式就像這樣。
+
+BlueXP  勒索軟體保護使用 BlueXP  備份與還原功能來探索及設定檔案共用工作負載的快照與備份原則、而 SnapCenter 或 SnapCenter for VMware 則可探索及設定應用程式與 VM 工作負載的快照與備份原則。此外、 BlueXP  勒索軟體保護還使用 BlueXP  備份與還原、以及 SnapCenter / SnapCenter for VMware 來執行檔案與工作負載一致的還原。
 
 image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架構的圖表"]
 
@@ -84,7 +94,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 識別來自 ONTAP 和 SnapCenter 服務 API 的客戶資料、並將其與工作負載建立關聯。深入瞭解 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 和 https://docs.netapp.com/us-en/snapcenter/index.html["軟件SnapCenter"^]。
 * 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
 深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
-* 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。
+* 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。工作負載優先順序是根據已套用至與工作負載相關之每個 Volume 的 Snapshot 頻率。
 
 
 
@@ -125,9 +135,9 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 |===
 
 
-== 支援的備份目標、工作環境和資料來源
+== 支援的備份目標、工作環境和工作負載資料來源
 
-使用 BlueXP 勒索軟體保護、瞭解您的資料對於下列類型的備份目標、工作環境和資料來源的網路攻擊有何彈性：
+使用 BlueXP  勒索軟體保護功能、瞭解您的資料對於下列類型的備份目標、工作環境和工作負載資料來源的網路攻擊有何彈性：
 
 * 支援的備份目標 *
 
@@ -144,9 +154,9 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 
 
-NOTE: 不支援下列項目： FlexGroup Volume 、早於 9.11.1 的 ONTAP 版本、 iSCSI 磁碟區和資料保護（ DP ）磁碟區。
+NOTE: 不支援下列項目： FlexGroup Volume 、早於 9.11.1 的 ONTAP 版本、 iSCSI Volume 、掛載點 Volume 、掛載路徑 Volume 、離線 Volume 、 和資料保護（ DP ）磁碟區。
 
-* 支援的資料來源 *
+* 支援的工作負載資料來源 *
 
 此服務可在主要資料磁碟區上保護下列應用程式型工作負載：
 
@@ -155,6 +165,8 @@ NOTE: 不支援下列項目： FlexGroup Volume 、早於 9.11.1 的 ONTAP 版�
 * 資料庫（ MySQL 和 Oracle ）
 * 更多資訊即將推出
 
+
+此外、如果您使用 SnapCenter 或 SnapCenter for VMware 、則這些產品支援的所有工作負載也會在 BlueXP  勒索軟體保護中加以識別。BlueXP  勒索軟體保護可以工作負載一致的方式來保護及恢復這些資料。
 
 
 

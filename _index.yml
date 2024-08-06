@@ -22,10 +22,6 @@ indexpage:
       url: "/rp-start-prerequisites.html"
     - title: 快速入門
       url: "/rp-start-quick-start.html"
-    - title: 設定 BlueXP 勒索軟體保護
-      url: "/rp-start-setup.html"
-    - title: 存取 BlueXP 勒索軟體保護
-      url: "/rp-start-login.html"
     - title: 設定備份目的地並啟用威脅偵測
       url: "/rp-use-settings.html"
     - title: 常見問題集

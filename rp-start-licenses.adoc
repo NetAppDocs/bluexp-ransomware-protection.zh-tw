@@ -17,13 +17,18 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 您可以使用下列授權類型：
 
 * 註冊 90 天免費試用。
-* 透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。  這項服務即將推出。
+* 向 Amazon Web Services （ AWS ） Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
 * 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
-在 AWS 中設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP 數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP 數位錢包 * 訂閱 * 標籤中查看作用中的 AWS 訂閱。
+BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
 
-免費試用結束或授權或 AWS 訂閱過期後、您仍可在服務中執行下列動作：
+
+NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
+
+設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP  數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP  數位錢包 * 訂閱 * 標籤中查看有效訂閱。
+
+在免費試用結束或授權或訂閱過期之後、您仍可在服務中執行下列動作：
 
 * 檢視工作負載和工作負載健全狀況。
 * 刪除任何資源、例如工作負載或原則。
@@ -39,7 +44,7 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 
 NOTE: 試用期間不會強制執行容量限制。
 
-您可以隨時取得授權或訂閱、直到 90 天試用期結束為止、您將不會被收取費用。若要在 90 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO AWS 訂閱。
+您可以隨時取得授權或訂閱、直到 90 天試用期結束為止、您將不會被收取費用。若要在 90 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。
 
 試用期間、您擁有完整功能。
 
@@ -65,8 +70,7 @@ image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 免費試用結束後、您可以透過 AWS Marketplace 訂閱、或是向 NetApp 購買授權。
 
-<<透過 AWS Marketplace 訂閱>>
-<<自帶授權（ BYOL ）>>
+<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
 
 
 
