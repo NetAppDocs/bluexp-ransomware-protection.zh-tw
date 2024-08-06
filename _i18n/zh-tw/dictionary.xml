@@ -1240,7 +1240,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="bf6953a41efa897b0862fca0fe547641" category="list-text">選取 * 原則 * 。</block>
   <block id="2228b7980f61d80481608141744ecee0" category="list-text">使用以下 JSON 格式的程式碼建立原則：</block>
   <block id="9ccf45c8190b08c78e0be70f31ab71c4" category="section-title">設定 Splunk Cloud 進行威脅偵測</block>
-  <block id="e215e0c1eb10681907a819d2fd1344c9" category="paragraph">在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須在 Splunk Enterprise 中執行下列高階步驟：</block>
   <block id="2023b8ec64adfca5ffadf54679575f52" category="list-text">啟用 Splunk Cloud 中的 HTTP 事件收集器、以透過 BlueXP  的 HTTP 或 HTTPS 接收事件資料。</block>
   <block id="a0df7816503d32b52e0b8eaf94868e56" category="list-text">在 Splunk Cloud 中建立事件收集器權杖。</block>
   <block id="2c65d4e0cdac9c48880857277c1bc9e3" category="list-title">在 Splunk 中啟用 HTTP 事件收集器的步驟</block>
@@ -1271,4 +1270,5 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* 使用 Splunk Cloud 偵測威脅 * ：您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。在先前的版本中、您只能選擇 AWS Security Hub 做為 SIEM 。在此版本中、您可以選擇 AWS Security Hub 或 Splunk Cloud 做為您的 SIEM 。</block>
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">深入瞭解如何設定 BlueXP  勒索軟體保護設定</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>。</block>
+  <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須先在 Splunk Cloud 中執行下列高階步驟：</block>
 </blocks>

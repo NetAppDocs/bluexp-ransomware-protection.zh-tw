@@ -264,7 +264,7 @@ image:screen-settings-backup-destinations-list-azure.png["「備份目的地」�
 
 === 設定 Splunk Cloud 進行威脅偵測
 
-在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須在 Splunk Enterprise 中執行下列高階步驟：
+在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須先在 Splunk Cloud 中執行下列高階步驟：
 
 * 啟用 Splunk Cloud 中的 HTTP 事件收集器、以透過 BlueXP  的 HTTP 或 HTTPS 接收事件資料。
 * 在 Splunk Cloud 中建立事件收集器權杖。
