@@ -24,7 +24,7 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 
 * * 使用 Splunk Cloud 偵測威脅 * ：您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。在先前的版本中、您只能選擇 AWS Security Hub 做為 SIEM 。在此版本中、您可以選擇 AWS Security Hub 或 Splunk Cloud 做為您的 SIEM 。
 +
-如需詳細資訊、請 link:rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]參閱。
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
 
 
