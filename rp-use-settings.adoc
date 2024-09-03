@@ -42,6 +42,7 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 
 * NetApp StorageGRID
 * Amazon Web Services（AWS）
+* Google Cloud Platform
 * Microsoft Azure
 
 
@@ -107,7 +108,7 @@ image:screen-settings-backup-destination.png["備份目的地頁面"]
 .結果
 新的備份目的地會新增至備份目的地清單。
 
-image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
+image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面上的「設定」選項"]
 
 
 
@@ -165,7 +166,47 @@ CAUTION: 如果您現在設定備份鎖定設定、則無法在設定備份目�
 .結果
 新的備份目的地會新增至備份目的地清單。
 
-image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
+image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面上的「設定」選項"]
+
+
+
+=== 將 Google Cloud Platform 新增為備份目的地
+
+若要將 Google Cloud Platform （ GCP ）設定為備份目的地、請輸入下列資訊。
+
+如需在 BlueXP  中管理 GCP 儲存設備的詳細資訊 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-install-options-google.html["Google Cloud 中的 Connector 安裝選項"^]、請參閱。
+
+. 在 * 設定 > 備份目的地 * 頁面中、選取 * 新增 * 。
+. 輸入備份目的地的名稱。
++
+image:screen-settings-backup-destination-gcp.png["備份目的地頁面"]
+
+. 選擇* Google Cloud Platform *。
+. 選取每個設定旁邊的向下箭頭、然後輸入或選取值：
++
+** * 供應商設定 * ：
++
+*** 建立新的貯體。輸入存取金鑰和秘密金鑰。
+*** 輸入或選擇您的 Google Cloud Platform 專案和地區。
+
+
+** * 加密 * ：如果您要建立新的儲存格、請輸入供應商提供給您的加密金鑰資訊。如果您選擇現有的儲存區、則加密資訊已可供使用。
++
+依預設、儲存庫中的資料會使用 Google 託管的金鑰進行加密。您可以繼續使用 Google 託管的金鑰。
+
+** * 網路連線 * ：選擇 IPspace 、以及是否要使用私有端點。
++
+*** IPspace 是您要備份的磁碟區所在的叢集。此IPspace的叢集間生命體必須具有傳出網際網路存取。
+*** 您也可以選擇是否要使用先前設定的 GCP 私有端點（ Private Link ）。
+
+
+
+
+. 選取*「Add*」。
+
+
+.結果
+新的備份目的地會新增至備份目的地清單。
 
 
 
@@ -213,7 +254,7 @@ https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["�
 .結果
 新的備份目的地會新增至備份目的地清單。
 
-image:screen-settings-backup-destinations-list-azure.png["「備份目的地」頁面上的「設定」選項"]
+image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面上的「設定」選項"]
 
 
 

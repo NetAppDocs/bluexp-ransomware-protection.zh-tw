@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-login.html 
-keywords: bluexp login, ransomware protection log in 
+keywords: bluexp login, ransomware protection, bluexp,cyber attack, log in 
 summary: 透過 BlueXP 中的服務、開始使用 BlueXP 勒索軟體保護。 
 ---
 = 存取 BlueXP 勒索軟體保護
@@ -13,6 +13,8 @@ summary: 透過 BlueXP 中的服務、開始使用 BlueXP 勒索軟體保護。
 
 [role="lead"]
 您可以使用 NetApp BlueXP 登入 BlueXP 勒索軟體保護服務。
+
+BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定動作的存取。如需每個角色可執行之動作的詳細資訊，請參閱link:rp-reference-roles.html["BlueXP  勒索軟體保護角色型存取控制 Privileges"]。
 
 若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["深入瞭解登入"^]。
 

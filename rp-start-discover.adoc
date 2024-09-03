@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-discover.html 
-keywords: bluexp, ransomware protection, 
+keywords: bluexp, ransomware protection, protection, risk, cyber attack, security 
 summary: 在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶中工作環境中的所有磁碟區和檔案。 
 ---
 = 探索 BlueXP 勒索軟體保護的工作負載

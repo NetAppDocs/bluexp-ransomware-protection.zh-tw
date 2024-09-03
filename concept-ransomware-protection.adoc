@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept-ransomware-protection.html 
-keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, ransomware attack, detect, recover, cyberstorage, cyber attack, cybersecurity, protection, bluexp, netapp, role-based access control, rbac 
 summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。BlueXP 勒索軟體保護服務可讓您檢視有關網路安全的相關資訊、並評估組織對於網路攻擊的恢復能力。它也提供警示與修正清單、讓您的資料更安全。 
 ---
 = 瞭解 BlueXP 勒索軟體保護
@@ -16,7 +16,22 @@ summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。Bl
 [role="lead"]
 勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
 
-BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP 帳戶中適用於 Amazon Web Services 和 Cloud Volumes ONTAP for Microsoft Azure 的 Cloud Volumes ONTAP 。此服務會將資料備份至 Amazon Web Services 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
+BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud Platform 和 Cloud Volumes ONTAP for Microsoft Azure （跨 Cloud Volumes ONTAP 帳戶）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud Platform 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
+
+
+
+== 資料層的勒索軟體保護
+
+您的安全態勢通常涵蓋多層防禦、以抵禦各種網路威脅。
+
+* * 最外層 * ：這是您第一道防線、使用防火牆、入侵偵測系統和虛擬私有網路來保護網路邊界。
+* * 網路安全 * ：此層建構在網路分割、流量監控和加密的基礎之上。
+* * 身分識別安全 * ：使用驗證方法、存取控制及身分識別管理、確保只有授權的使用者才能存取機密資源。
+* * 應用程式安全 * ：使用安全編碼實務、安全測試及執行時間應用程式自我保護來保護軟體應用程式。
+* * 資料安全 * ：利用資料保護、備份及還原策略來保護您的資料。BlueXP  勒索軟體保護可在此層運作。
+
+
+image:concept-security-layer-diagram.png["安全層圖"]
 
 
 
@@ -48,6 +63,7 @@ BlueXP 勒索軟體保護提供下列優點：
 * 使用 AI 技術、在主要儲存設備上即時偵測勒索軟體對資料的攻擊。
 * 建立 Snapshot 複本、並針對異常活動發出警示、以針對偵測到的潛在攻擊啟動自動化動作。
 * 套用精心規劃的恢復、以符合 RPO 原則。BlueXP 勒索軟體保護利用多項 NetApp 恢復服務（包括 BlueXP 備份與還原（前身為雲端備份）和 SnapCenter ）來協調從勒索軟體事件中恢復的工作。
+* 使用角色型存取控制（ RBAC ）來控制對服務中功能和作業的存取、以增強安全性。
 
 
 
@@ -142,6 +158,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 支援的備份目標 *
 
 * Amazon Web Services （ AWS ） S3
+* Google Cloud Platform
 * Microsoft Azure Blob
 * NetApp StorageGRID
 
@@ -149,8 +166,9 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 支援的工作環境 *
 
 * 內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）、搭配 ONTAP 9.11.1 版及更新版本
-* Cloud Volumes ONTAP for AWS （使用 NFS 和 CIFS 通訊協定）
-* Cloud Volumes ONTAP for Azure （使用 NFS 和 CIFS 通訊協定）
+* 適用於 AWS 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
+* 適用於 Google Cloud Platform 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
+* 適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
 
 
 

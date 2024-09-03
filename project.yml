@@ -50,6 +50,10 @@ sidebar:
     - title: 下載報告
       url: "/rp-use-reports.html"
   - section: support
+  - title: 參考資料
+    entries:
+    - title: 角色型存取控制 Privileges
+      url: "/rp-reference-roles.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 product-family:
