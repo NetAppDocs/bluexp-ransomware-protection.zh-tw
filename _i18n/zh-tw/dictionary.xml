@@ -997,7 +997,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="da9b0b803342ecbbfeed5ada41b8ed48" category="list-text">選取下列其中一個選項：</block>
   <block id="9cd2fdc543bd545d0901aa3a644323f5" category="list-text">* 新功能 * 可檢視版本資訊中目前或先前版本的功能資訊。</block>
   <block id="641b2727bf35132b14f4d7d15dbcc36e" category="list-text">* 文件 * 檢視 BlueXP 勒索軟體保護文件首頁及本文件。</block>
-  <block id="d90ac49acd1ad23fcb68b1306e400fb2" category="list-text">刪除保護策略。</block>
   <block id="126bd3757ebb93ac0d390d13f9b73284" category="admonition">對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載、如果 BlueXP 勒索軟體已在其他服務中啟動、則 BlueXP 勒索軟體可啟用自動勒索軟體保護及 / 或 FPolicy 保護。深入瞭解<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block>、<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>和<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>。</block>
   <block id="e3d677577c431440029c2189661b7337" category="paragraph">此程序會針對使用 BlueXP 備份與還原的虛擬機器、起始登錄適用於應用程式的 SnapCenter 軟體伺服器或適用於 VMware vSphere 的 SnapCenter 外掛程式。</block>
   <block id="01744c5f4e5131b7e42034d08b8839ab" category="paragraph">若要深入瞭解如何使用 BlueXP 備份與還原為 VMware vSphere 註冊 SnapCenter 或 SnapCenter 外掛程式、請參閱下列資訊：</block>
@@ -1296,7 +1295,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">數位顧問文件</block>
   <block id="c422252635de9cce46903202ef695202" category="cell">檢閱 NetApp 數位顧問中的所有安全風險。請參閱<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block>。</block>
   <block id="569cb6f4f9666a29ec02382988684778" category="list-text">建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體偵測所建立的原則。</block>
-  <block id="e4eeb193640db0be3236081d76f52e99" category="list-text">編輯保護策略。</block>
   <block id="fce50e2060d77397ad723b03afeed2c1" category="paragraph">您可能會發現檢閱有關您可以變更的保護原則、以及保護策略中的原則類型等資訊很有幫助。</block>
   <block id="e38a78b6f8fec891a76f3e95f74a807d" category="paragraph">* 您可以變更哪些保護原則？ *</block>
   <block id="683e243f289e56afa9f8815dcba452b6" category="list-text">如果快照或備份原則是由 SnapCenter 、 SnapCenter for VMware 或 BlueXP  備份與還原管理、則這些原則將繼續由這些應用程式管理。使用 BlueXP  勒索軟體保護、您也可以將勒索軟體偵測原則套用至這些工作負載。</block>
@@ -1312,41 +1310,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="0ee473db21133faa7ce270707728209c" category="section-title">變更工作負載詳細資料</block>
   <block id="fe661c5d6ba0af0ece684143c7da827e" category="paragraph">啟用工作負載一致的保護之後、您就可以在 BlueXP 勒索軟體保護中管理保護策略。保護策略包括在其他地方管理的快照和備份原則、以及在 BlueXP  勒索軟體保護中管理的勒索軟體偵測原則。</block>
   <block id="cebfa4409b0603554b2d559a348328f3" category="list-text">檢閱「保護」頁面上「快照與備份原則」欄中的詳細資料、查看原則是否在其他地方受到管理。</block>
-  <block id="8d90cde420a05a39d1329a149e642633" category="section-title">使用 BlueXP  分類來掃描個人識別資訊</block>
-  <block id="372d7b38ffd58ebd707f5eed3daebfe5" category="paragraph">在 BlueXP  勒索軟體保護服務中、您可以使用 BlueXP  分類（ BlueXP  系列的核心元件）、在檔案共用工作負載上掃描及分類資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。</block>
-  <block id="076729a2004741ee7d92b63f5cb3fe9a" category="section-title">啟用 BlueXP  分類</block>
-  <block id="a43036419058d2ad4ca5da0ce6b97873" category="paragraph">在 BlueXP  勒索軟體保護服務中使用 BlueXP  分類之前、您必須先啟用 BlueXP  分類來掃描資料。</block>
-  <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">在「保護」頁面中、在「工作負載」欄中找出檔案共用工作負載。</block>
-  <block id="684ef7f908cedf00c137942b202a9317" category="inline-image-macro">顯示隱私曝光欄的保護畫面</block>
-  <block id="22e9a3250bd97b0a01c929300bb3e061" category="paragraph"><block ref="22e9a3250bd97b0a01c929300bb3e061" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="74e6620dc48af7264e35e6e1bd38a478" category="list-text">在隱私權曝光欄中、選擇 * 識別曝光 * 。</block>
-  <block id="04c2fdcb53dc660f7267061f2996a772" category="inline-image-macro">識別敏感資料畫面</block>
-  <block id="64af7ad3ab046769c51f4f24a86b7cf4" category="paragraph"><block ref="64af7ad3ab046769c51f4f24a86b7cf4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="969f986150648403974cc122eae60ccf" category="list-text">檢閱 BlueXP  分類的相關資訊。</block>
-  <block id="858cc0364fb5e649249551c7ef4f979a" category="list-text">選取 * 識別 * 。</block>
-  <block id="a61cb1d59ee37f20eafadff116934f64" category="paragraph">BlueXP  分類可從遠端連線至您的工作負載資料、並在 NetApp 雲端中進行掃描。只有已識別的洞見和指標會保留在 NetApp 雲端中、您的資料不會保留。</block>
-  <block id="e38116370a2dc507f80d013a938914d9" category="paragraph">「保護」頁面顯示 BlueXP  分類正在識別檔案、並提供正在掃描的檔案數量指示。</block>
-  <block id="70f91b9311063ebb918671e1632eea94" category="section-title">檢閱隱私權曝險</block>
-  <block id="69fb8dfc3b2247a2a33825a8a26cde0a" category="paragraph">BlueXP  分類掃描個人識別資訊（ PII ）之後、您可以查看 PII 資料風險。</block>
-  <block id="2eb84b98ed1ebf3d3faf114be4d6d3ce" category="paragraph">PII 資料可能具有下列風險狀態之一：</block>
-  <block id="9e16f8babacd7fca3112d8f50f34e9e8" category="list-text">* 高 * ： xnumber 或更多含有 PII 的檔案</block>
-  <block id="c0b4f8f5822fb08738949c94e80794cc" category="list-text">* 低 * ：</block>
-  <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">在「保護」頁面中、在「工作負載」欄中找到檔案共用工作負載、此欄會在「隱私權曝險」欄中顯示狀態。</block>
-  <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">選取工作負載欄中的工作負載連結、即可查看工作負載詳細資料。</block>
-  <block id="fbb3a837089f0da9e0cebd46602a970a" category="inline-image-macro">顯示隱私權曝光窗格的工作負載詳細資料畫面</block>
-  <block id="49c64cfb6f35d57ce67294767ff57c01" category="paragraph"><block ref="49c64cfb6f35d57ce67294767ff57c01" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="409501ac122ff644e6764e778fb7dbd8" category="list-text">在工作負載詳細資料頁面中、檢閱隱私權曝險窗格中的資訊。</block>
-  <block id="eab784efeec8f5c6a6edd9d398ba81ff" category="list-text">若要調查 BlueXP  分類中的曝光、請選取 * 調查 * 。</block>
-  <block id="02805e7a9841e159c892f77027e36b42" category="list-text">發生什麼事？您是否要立即前往分類？齒輪選項的用途為何？</block>
-  <block id="15e674d84786450a9efe801faaf91922" category="paragraph">如需 BlueXP  分類的詳細資訊、請參閱下列 BlueXP  分類主題：</block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link">瞭解 BlueXP 分類</block>
-  <block id="799ed37205c29a076a84d3694d53c585" category="list-text"><block ref="799ed37205c29a076a84d3694d53c585" category="inline-link-rx"></block></block>
-  <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">私有資料類別</block>
-  <block id="d66481d703fafde739dabfd3c44d96bc" category="list-text"><block ref="d66481d703fafde739dabfd3c44d96bc" category="inline-link-rx"></block></block>
-  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">調查組織中儲存的資料</block>
-  <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
-  <block id="79358c298db0eacc977af41b070c4abe" category="section-title">根據敏感度資料檢視工作負載優先順序的變更</block>
-  <block id="d4908b1e39cc61772e5d74e5fb77d241" category="paragraph">待定</block>
   <block id="cf077fd7afe54e3a0c2d1f4f171b9592" category="section-title">新增勒索軟體保護策略</block>
   <block id="54bdf309cd573298347b047ca6b07740" category="paragraph">您可以為工作負載新增勒索軟體保護策略。執行方式取決於快照和備份原則是否已經存在：</block>
   <block id="4a3696472e41e77b4b20caa5facc276d" category="list-text">* 如果您沒有快照或備份原則、請建立勒索軟體保護策略 * 。如果工作負載上不存在快照或備份原則、您可以建立勒索軟體保護策略、其中包括您在 BlueXP  勒索軟體保護中建立的下列原則：</block>
@@ -1415,4 +1378,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">角色型存取控制 Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">如需每個角色可執行之動作的詳細資訊，請參閱<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
   <block id="63d5049791d9d79d86e9a108b0a999ca" category="sidebar">參考資料</block>
+  <block id="35d7231cd1e70d9d7e80f676960dadc7" category="list-text">編輯勒索軟體保護策略。</block>
+  <block id="f408bca27d184a4c16751c8a466fdbd5" category="list-text">刪除勒索軟體保護策略。</block>
 </blocks>
