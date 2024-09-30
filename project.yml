@@ -42,7 +42,9 @@ sidebar:
     - title: 使用儀表板檢視工作負載健全狀況
       url: "/rp-use-dashboard.html"
     - title: 保護工作負載
-      url: "/rp-use-protect.html"
+      entries:
+      - title: 利用勒索軟體保護策略保護工作負載
+        url: "/rp-use-protect.html"
     - title: 回應偵測到的警示
       url: "/rp-use-alert.html"
     - title: 從勒索軟體攻擊中恢復

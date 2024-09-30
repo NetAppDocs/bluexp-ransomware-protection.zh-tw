@@ -262,7 +262,7 @@ image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面
 
 您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
 
-在 BlueXP  勒索軟體保護中啟用 SIEM 之前、您必須先設定 AWS Security Hub 或 Splunk Cloud 。
+在 BlueXP  勒索軟體保護中啟用 SIEM 之前、您必須先設定 SIEM 系統。
 
 
 
@@ -346,6 +346,7 @@ image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面
 image:screen-settings-threat-detection3.png["設定頁面"]
 
 . 在「設定」頁面中、選取 SIEM 連線窗格中的 * 連線 * 。
+. 選擇其中一個 SIEM 系統。
 . 輸入您在 AWS Security Hub 或 Splunk Cloud 中設定的權杖和驗證詳細資料。
 +
 

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: rp-use-protect.html 
-keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
 summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載、以保護工作負載免受勒索軟體攻擊。 
 ---
-= 保護工作負載免受勒索軟體攻擊
+= 使用勒索軟體策略保護工作負載
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -15,10 +15,17 @@ summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載
 您可以使用 BlueXP 勒索軟體保護來完成下列動作、以保護工作負載免受勒索軟體攻擊。
 
 * 啟用工作負載一致的保護功能、可與 SnapCenter 軟體或 SnapCenter Plug-in for VMware vSphere 搭配使用。
-* 建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體偵測所建立的原則。
+* 建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體保護所建立的原則（稱為 _ 偵測原則 _ ）。
 * 匯入策略並加以調整。
-* 編輯勒索軟體保護策略。
+* 群組檔案共用、讓您更容易保護工作負載、而非個別保護工作負載。
 * 刪除勒索軟體保護策略。
+
+
+* 哪些服務用於保護？ *下列服務可用於管理保護原則。BlueXP  勒索軟體保護中會顯示這些服務的保護資訊：
+
+* 檔案共用、 VM 檔案共用的 BlueXP  備份與還原
+* 適用於 VMware 的 SnapCenter for VM 資料存放區
+* SnapCenter for Oracle 和 MySQL
 
 
 
@@ -52,7 +59,35 @@ BlueXP  勒索軟體保護策略不需要備份原則。
 
 
 
-== 保護詳細資料請參閱保護頁面
+== 檢視工作負載的勒索軟體保護
+
+保護工作負載的第一步之一、就是檢視您目前的工作負載及其保護狀態。您可以看到下列類型的工作負載：
+
+* 應用程式工作負載
+* VM 工作負載
+* 檔案共用工作負載
+
+
+.步驟
+. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
+. 執行下列其中一項：
++
+** 從儀表板的資料保護窗格中、選取 * 檢視全部 * 。
+** 從功能表中選取 * 保護 * 。
++
+image:screen-protection3.png["保護頁面"]
+
+
+
+. 您可以在此頁面檢視及變更工作負載的保護詳細資料。
+
+
+
+NOTE: 對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載、如果 BlueXP 勒索軟體已在其他服務中啟動、則 BlueXP 勒索軟體可啟用自動勒索軟體保護及 / 或 FPolicy 保護。深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]、 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
+
+
+
+=== 保護詳細資料請參閱保護頁面
 
 「保護」頁面顯示工作負載保護的下列資訊：
 
@@ -166,65 +201,6 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 |===
 
 
-== 檢視工作負載的勒索軟體保護
-
-保護工作負載的第一步之一、就是檢視您目前的工作負載及其保護狀態。您可以看到下列類型的工作負載：
-
-* 應用程式工作負載
-* VM 工作負載
-* 檔案共用工作負載
-
-
-.步驟
-. 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
-. 執行下列其中一項：
-+
-** 從儀表板的資料保護窗格中、選取 * 檢視全部 * 。
-** 從功能表中選取 * 保護 * 。
-+
-image:screen-protection-sc-columns2.png["保護頁面"]
-
-
-
-. 您可以在此頁面檢視及變更工作負載的保護詳細資料。
-
-
-
-NOTE: 對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載、如果 BlueXP 勒索軟體已在其他服務中啟動、則 BlueXP 勒索軟體可啟用自動勒索軟體保護及 / 或 FPolicy 保護。深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]、 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
-
-
-
-== 變更工作負載詳細資料
-
-您可以檢閱工作負載詳細資料、例如工作負載名稱、保護原則和儲存資訊。
-
-如果工作負載不是由 SnapCenter 或 BlueXP  備份與還原管理、您可以變更工作負載的名稱。
-
-.「保護」頁面的步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面中、針對您要更新的工作負載選取 * 動作 * image:screenshot_horizontal_more_button.gif["動作按鈕"] 選項。
-. 從「動作」功能表中、選取 * 編輯工作負載名稱 * 。
-. 輸入新的工作負載名稱。
-. 選擇*保存*。
-
-
-.工作負載詳細資料頁面的步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面選取工作負載。
-+
-image:screen-protection-details3.png["保護頁面中的工作負載詳細資料"]
-
-. 若要變更工作負載名稱、請按一下工作負載名稱旁的 * 鉛筆 * image:button_pencil.png["鉛筆"] 圖示、然後變更名稱。
-. 若要檢視與工作負載相關的原則、請在工作負載詳細資料頁面的保護窗格中、按一下 * 檢視原則 * 。
-. 若要檢視工作負載備份目的地、請在工作負載詳細資料頁面的保護窗格中、按一下 * 檢視備份目的地 * 。
-+
-此時會顯示已設定備份目的地的清單。
-如需詳細資訊、請參閱 link:rp-use-settings.html["設定保護設定"]。
-
-
-
-
-
 == 使用 SnapCenter 實現應用程式或 VM 一致的保護
 
 啟用應用程式或 VM 一致的保護功能、可協助您以一致的方式保護應用程式或 VM 工作負載、達到靜止且一致的狀態、以避免日後需要恢復時可能發生的資料遺失。
@@ -283,9 +259,12 @@ image:screen-protection-details3.png["保護頁面中的工作負載詳細資料
 
 .建立勒索軟體保護策略的步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
++
+image:screen-protection3.png["管理策略頁面"]
+
 . 從「保護」頁面選取 * 管理保護策略 * 。
 +
-image:screen-protection-strategy-manage3.png["管理策略頁面"]
+image:screen-protection-strategy.png["管理策略"]
 
 . 從勒索軟體保護策略頁面、選取 * 新增 * 。
 +
@@ -352,7 +331,7 @@ TIP: 若要在次要儲存設備上啟用備份鎖定、請使用 * 設定 * 選
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
-image:screen-protection-strategy-manage3.png["管理策略頁面"]
+image:screen-protection3.png["管理策略頁面"]
 
 . 從「保護」頁面選取工作負載、然後選取 * 保護 * 。
 +
@@ -378,7 +357,7 @@ image:screen-protect-br-policies.png["顯示 BlueXP 備份與還原原則的「�
 
 
 
-== 指派不同的原則
+=== 指派不同的原則
 
 您可以指派不同的保護原則來取代目前的保護原則。
 
@@ -392,70 +371,160 @@ image:screen-protect-br-policies.png["顯示 BlueXP 備份與還原原則的「�
 
 
 
+== 群組檔案共用以更容易保護
+
+群組檔案共用可讓您更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區、而非分別保護每個磁碟區。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
++
+image:screen-protection3.png["管理策略頁面"]
+
+. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
++
+image:screen-protection-groups.png["保護群組頁面"]
+
+. 選取*「Add*」。
++
+image:screen-protection-groups-add.png["新增保護群組頁面"]
+
+. 輸入保護群組的名稱。
+. 請完成下列其中一個步驟：
++
+.. 如果您已經有保護原則、請根據工作負載是否由下列其中一項管理、選擇是否要將其分組：
++
+*** BlueXP 勒索軟體保護
+*** SnapCenter 或 BlueXP  備份與還原
+
+
+.. 如果您尚未制定保護原則、頁面會顯示預先設定的勒索軟體保護策略。
++
+... 選擇一個選項來保護您的群組、然後選取 * 下一步 * 。
+... 如果您選擇的工作負載在多個工作環境中都有磁碟區、請選取多個工作環境的備份目的地、以便將它們備份到雲端。
+
+
+
+
+. 選取要新增至群組的工作負載。
++
+
+TIP: 若要查看工作負載的詳細資料、請向右捲動。
+
+. 選擇*下一步*。
++
+image:screen-protection-groups-policy.png["新增保護群組 - 原則頁面"]
+
+. 選取管理此群組保護的原則。
+. 選擇*下一步*。
+. 檢閱保護群組的選項。
+. 選取*「Add*」。
+
+
+
+
+=== 新增更多工作負載至群組
+
+您稍後可能需要將更多工作負載新增至現有群組。
+
+如果群組包含僅由 BlueXP  勒索軟體保護（而非由 SnapCenter 或 BlueXP  備份與還原管理）所管理的工作負載、則應針對僅由 BlueXP  勒索軟體保護所管理的工作負載、使用個別群組、而針對由其他服務管理的工作負載、使用另一個群組。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
+. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
++
+image:screen-protection-groups.png["保護群組頁面"]
+
+. 選取您要新增更多工作負載的群組。
++
+image:screen-protection-groups-more-workloads.png["保護群組詳細資料頁面"]
+
+. 從選定的保護群組頁面中、選取 * 新增 * 。
++
+BlueXP  勒索軟體保護功能只會顯示群組中尚未使用與群組相同快照和備份原則的工作負載。
+
++
+
+TIP: 頁面頂端會顯示維護快照、備份和偵測原則的服務。
+
+. 選取應新增至群組的其他工作負載。
+. 選擇*保存*。
+
+
+
+
+=== 編輯群組保護
+
+您可以變更現有群組上的偵測原則。如果尚未將偵測原則新增至此群組、您可以立即新增。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
+. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
++
+image:screen-protection-groups-edit.png["顯示「編輯」選項的「保護群組」頁面"]
+
+. 從「保護」窗格中、選取 * 編輯保護 * 。
+. 選取或新增偵測原則至此群組。
+
+
+
+
+=== 移除群組中的工作負載
+
+您稍後可能需要從現有群組移除工作負載。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
+. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
+. 選取您要從中移除一或多個工作負載的群組。
++
+image:screen-protection-groups-more-workloads.png["保護群組詳細資料頁面"]
+
+. 在選定的保護群組頁面中、選取您要從群組中移除的工作負載、然後選取 * 動作 * image:screenshot_horizontal_more_button.gif["動作按鈕"] 選項。
+. 從「動作」功能表中、選取 * 移除工作負載 * 。
+. 確認您要移除工作負載、然後選取 * 移除 * 。
+
+
+
+
+=== 刪除保護群組
+
+刪除保護群組會移除群組及其保護、但不會移除個別工作負載。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
+. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
+. 選取您要從中移除一或多個工作負載的群組。
++
+image:screen-protection-groups-more-workloads.png["保護群組詳細資料頁面"]
+
+. 從選取的保護群組頁面右上角、選取 * 刪除保護群組 * 。
+. 確認您要刪除群組、然後選取 * 刪除 * 。
+
+
+
+
 == 管理勒索軟體保護策略
 
-您可以編輯或刪除勒索軟體策略。
+您可以刪除勒索軟體策略。
 
 
 
 === 檢視受勒索軟體保護策略保護的工作負載
 
-在您編輯或刪除勒索軟體保護策略之前、您可能會想要檢視哪些工作負載受到該策略的保護。
+刪除勒索軟體保護策略之前、您可能想要檢視哪些工作負載受到該策略的保護。
 
 您可以從策略清單或編輯特定策略時、檢視工作負載。
 
 .檢視策略清單時的步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面選取 * 管理勒索軟體保護策略 * 。
+. 從「保護」頁面選取 * 管理保護策略 * 。
 +
 勒索軟體保護策略頁面會顯示策略清單。
 
 +
 image:screen-protection-strategy-list.png["勒索軟體保護策略畫面會顯示策略清單"]
 
-. 在勒索軟體保護策略頁面的受保護工作負載欄中、按一下受保護工作負載數量旁邊的 * 檢視 * 。
-
-
-.編輯策略時的步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面選取 * 管理勒索軟體保護策略 * 。
-+
-image:screen-protection-strategy-list-edit.png["顯示「動作」功能表的勒索軟體保護策略畫面"]
-
-. 在「管理策略」頁面中、image:screenshot_horizontal_more_button.gif["動作按鈕"]針對您要變更的策略選取 * 動作 *  選項。
-. 從「動作」功能表中選取*「編輯」*。
-+
-image:screen-protection-strategy-edit.png["編輯勒索軟體保護策略頁面"]
-
-. 選取頁面頂端工作負載數量旁的 * 檢視 * 、即可檢視受此策略保護的工作負載。
-
-
-
-
-=== 編輯勒索軟體保護策略
-
-您可以選取不同的預先設定偵測原則策略、選取不同的原則或新增新的備份原則、來編輯保護策略。
-
-.步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面選取 * 管理勒索軟體保護策略 * 。
-+
-image:screen-protection-strategy-list-edit.png["顯示「動作」功能表的勒索軟體保護策略畫面"]
-
-. 在「管理策略」頁面中、image:screenshot_horizontal_more_button.gif["動作按鈕"]針對您要變更的策略選取 * 動作 *  選項。
-. 從「動作」功能表中選取*「編輯」*。
-+
-image:screen-protection-strategy-edit.png["編輯勒索軟體保護策略頁面"]
-
-. 執行下列其中一項：
-+
-** 從現有策略複製。
-** 選取不同的快照或備份原則。
-** 新增快照或備份原則。
-
-
-. 變更詳細資料。
-. 選取 * 儲存 * 以完成變更。
+. 在勒索軟體保護策略頁面的受保護工作負載欄中、按一下列結尾的向下箭頭。
 
 
 
@@ -466,7 +535,7 @@ image:screen-protection-strategy-edit.png["編輯勒索軟體保護策略頁面"
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面選取 * 管理勒索軟體保護策略 * 。
+. 從「保護」頁面選取 * 管理保護策略 * 。
 . 在「管理策略」頁面中、針對您要刪除的策略選取 * 動作 * image:screenshot_horizontal_more_button.gif["動作按鈕"] 選項。
-. 從「動作」功能表中、選取 * 刪除策略 * 。
+. 從「動作」功能表中、選取 * 刪除原則 * 。
 
