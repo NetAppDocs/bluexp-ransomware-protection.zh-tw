@@ -16,7 +16,7 @@ summary: 勒索軟體攻擊可能會耗費一定的時間、資源和商譽。Bl
 [role="lead"]
 勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。
 
-BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud Platform 和 Cloud Volumes ONTAP for Microsoft Azure （跨 Cloud Volumes ONTAP 帳戶）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud Platform 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
+BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud 和 Cloud Volumes ONTAP for Microsoft Azure （適用於 Cloud Volumes ONTAP 組織）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。
 
 
 
@@ -39,7 +39,7 @@ image:concept-security-layer-diagram.png["安全層圖"]
 
 BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的儲存管理員、資料安全管理員或安全作業工程師能夠達成下列目標：
 
-* * 識別 * BlueXP 中 NetApp 內部部署 NAS 中所有應用程式型、檔案共用或 VMware 託管的工作負載、包括 NFS 或 CIFS 工作環境、以及 BlueXP 帳戶、工作區和 BlueXP Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。
+* * 識別 * 在 NetApp 內部部署 NAS 中的所有應用程式型、檔案共用或 VMware 託管工作負載、以及 BlueXP  中的 NFS 或 CIFS 工作環境、以及 BlueXP  組織、專案和 BlueXP  Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。
 * * 透過在資料上啟用備份、 Snapshot 複本和勒索軟體保護策略來保護 * 您的工作負載。
 * * 偵測 * 可能是勒索軟體攻擊的異常狀況。註腳： [ 不得偵測或防範勒索軟體系統、完全保證勒索軟體攻擊的安全性。雖然攻擊可能無法偵測、但 NetApp 技術卻是重要的額外防禦層。 ]
 * * 回應 * 自動啟動防竄改的 NetApp ONTAP 快照、以防止意外或惡意刪除複本、以因應可能的勒索軟體攻擊。您的備份資料將永遠不變、端點對端都受到保護、不受來源和目的地的勒索軟體攻擊。

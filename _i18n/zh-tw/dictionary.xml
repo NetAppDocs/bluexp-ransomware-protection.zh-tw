@@ -154,7 +154,6 @@
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">先決條件</block>
   <block id="8e0410229b2f2463922444e9482ea909" category="summary">在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶中工作環境中的所有磁碟區和檔案。</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="doc">探索 BlueXP 勒索軟體保護的工作負載</block>
-  <block id="dd8c2f6ce83a7e8f073c2a0dc70477fb" category="paragraph">若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Connector 和帳戶內工作空間中的所有工作環境中的所有磁碟區和檔案。</block>
   <block id="c3eceaec7c4fe81904561526dfaeb25c" category="paragraph">此服務會評估現有的保護層級、包括目前的備份保護、 Snapshot 複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。</block>
   <block id="675a1549facd94d16faf6e60d17eac34" category="paragraph">服務會探索工作負載資料、並在儀表板中顯示資料保護的健全狀況。</block>
   <block id="8dcd51e6649f98a61593682647591540" category="summary">您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載、以保護工作負載免受勒索軟體攻擊。</block>
@@ -230,23 +229,18 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">註冊您的BlueXP帳戶ID支援訂閱（您的20位數960xxxxxxx序號位於BlueXP的「Support Resources（支援資源）」頁面）。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">這些序號通常稱為「_PAYGO」序號、並在Cloud Volumes ONTAP 部署時由BlueXP產生。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">註冊這兩種類型的序號、即可開啟支援服務單和自動建立個案。如下列所述、將 NetApp 支援網站 （ NSS ）帳戶新增至 BlueXP 即可完成登錄。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">註冊您的 BlueXP 帳戶以取得 NetApp 支援</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">若要註冊以取得支援並啟動支援授權、 BlueXP 帳戶中的一位使用者必須將 NetApp 支援網站 帳戶與其 BlueXP 登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是擁有NSS帳戶的NetApp客戶、您只需透過BlueXP註冊即可獲得支援。</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">在 BlueXP 主控台的右上角、選取「設定」圖示、然後選取 * 認證 * 。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">選取 * 使用者認證 * 。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">選取 * 新增 NSS 認證 * 、然後遵循 NetApp 支援網站 （ NSS ）驗證提示。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">若要確認註冊程序是否成功、請選取「說明」圖示、然後選取 * 「支援 * 」。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">「 * 資源 * 」頁面應顯示您的帳戶已註冊以取得支援。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP 帳戶尚未註冊支援。只要帳戶中有一位使用者已遵循這些步驟、您的帳戶就已登錄。</block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">如果您是現有的 NetApp 客戶、擁有現有的授權和序號、但沒有 NSS_ 帳戶、則需要建立一個 NSS 帳戶、並將其與您的 BlueXP 登入建立關聯。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
@@ -269,19 +263,15 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系統會立即將電子郵件傳送至提供的信箱、以完成此安全交易。如果驗證電子郵件在幾分鐘內未送達、請務必檢查您的垃圾郵件資料夾。</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">確認電子郵件中的行動。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加速帳戶處理。</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">擁有 NetApp 支援網站 帳戶後、請完成下的步驟、將帳戶與 BlueXP 登入建立關聯 <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">建立 NSS 認證的關聯、以取得 Cloud Volumes ONTAP 支援</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站 認證與 BlueXP 帳戶建立關聯：</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">註冊隨用隨付 Cloud Volumes ONTAP 系統以取得支援</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">您必須提供您的NSS帳戶、才能啟動系統支援、並取得NetApp技術支援資源的存取權。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">自帶授權（Cloud Volumes ONTAP BYOL）即可部署</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">您必須提供您的NSS帳戶、才能讓BlueXP上傳授權金鑰、並啟用您所購買期間的訂閱。這包括定期續約的自動更新。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">升級Cloud Volumes ONTAP 更新版的更新版</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">選取 *NSS Management &gt; Add NSS Account* 。</block>
@@ -359,7 +349,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">選擇 * 建立案例 * 、與 NetApp 支援專家一起開啟 Ticket ：</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
@@ -421,7 +410,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>。</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023 年 10 月 6 日</block>
   <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP 勒索軟體保護服務是 SaaS 解決方案、可保護資料、偵測潛在攻擊、以及從勒索軟體攻擊中恢復資料。</block>
-  <block id="4c77961875ba555ef50d5063c1b6fad0" category="paragraph">對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及個別 BlueXP 帳戶上 Cloud Volumes ONTAP on AWS （使用 NFS 傳輸協定）、並將資料備份至 Amazon Web Services 雲端儲存設備。</block>
   <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的資料安全管理員或安全營運工程師能夠達成下列目標：</block>
   <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">一眼就能檢視所有工作負載的勒索軟體保護。</block>
   <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">深入瞭解勒索軟體保護建議</block>
@@ -454,7 +442,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="ccaaa0b1fdb9afd84865d38039f74d41" category="section-title">在 BlueXP 中建立 Connector</block>
   <block id="780faaa43a4865ecb4711d9dd7329a52" category="inline-link">如何建立 BlueXP Connector</block>
   <block id="41c2dbad4db714d9e8ccd5fdc1897747" category="paragraph">若要在使用此服務之前在 BlueXP 中建立 Connector 、請參閱說明的 BlueXP 文件<block ref="32b465f89042a610ea5ceeabf276817a" category="inline-link-rx"></block>。</block>
-  <block id="779fc20b12e9e1861a89e1cfc6e249e7" category="admonition">如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此帳戶相關的所有工作區和所有 Connector 。</block>
   <block id="e3f610327d2879ec3e402da38d102535" category="summary">您可以變更工作負載名稱來管理工作負載、而非使用預設名稱、這種名稱更容易受到影響。</block>
   <block id="6f2a93bfea2a7a4f5489fce0d0a7a2e2" category="doc">管理工作負載</block>
   <block id="75174e635e94b33548188078b7b9c2a2" category="paragraph">您可以變更工作負載名稱來管理工作負載。使用預設名稱是勒索軟體攻擊的風險。</block>
@@ -604,7 +591,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1ad5d2b1df5750779a9e10432b0d7a7b" category="list-text">* 關鍵 * ：每小時拍攝超過 1 份快照複本（極具挑戰性的保護排程）</block>
   <block id="423d6f72a058a73e0111323e01e91fbb" category="list-text">如果您尚未這麼做、請選取 * 探索工作負載 * 選項。</block>
   <block id="effd67b82c5e86ef069736c6f439328e" category="paragraph">請參閱 <block ref="ab9e6aa8cb0ccab44206b8872f1470c4" category="inline-link-macro-rx"></block>。</block>
-  <block id="e40c6195bfb20b1926d79708fe600d95" category="list-text">* 識別 * BlueXP 中 NetApp 內部部署 NAS 中所有應用程式型、檔案共用或 VMware 託管的工作負載、包括 NFS 或 CIFS 工作環境、以及 BlueXP 帳戶、工作區和 BlueXP Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。</block>
   <block id="8715608a29a66307d518df37ac1aa548" category="list-text">* 回應 * 自動啟動防竄改的 NetApp ONTAP 快照、以防止意外或惡意刪除複本、以因應可能的勒索軟體攻擊。您的備份資料將永遠不變、端點對端都受到保護、不受來源和目的地的勒索軟體攻擊。</block>
   <block id="a0ffd27aaf0c391fcaf18565cfdcff5c" category="list-text">套用精心規劃的恢復、以符合 RPO 原則。BlueXP 勒索軟體保護利用多項 NetApp 恢復服務（包括 BlueXP 備份與還原（前身為雲端備份）和 SnapCenter ）來協調從勒索軟體事件中恢復的工作。</block>
   <block id="d0694d7f380a94bab7aae320f005b7a8" category="admonition">BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 NetApp 自主勒索軟體保護技術的授權。請參閱<block ref="9a25fd5e356132f930267232d70ad02b" category="inline-link-rx"></block> 以取得詳細資料。</block>
@@ -746,7 +732,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="feaff2de8b00885a4b2350b990a32d40" category="list-text">刪除任何資源、例如工作負載或原則。</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">執行試用期間或授權期間所建立的所有排程作業。</block>
   <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">試用 90 天免費試用</block>
-  <block id="bc022ca8d62ad7e7578fb992618c0546" category="paragraph">您可以使用 90 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是帳戶管理員才能開始免費試用。</block>
   <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">試用期間不會強制執行容量限制。</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">試用期間、您擁有完整功能。</block>
   <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">存取<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>。</block>
@@ -784,11 +769,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="cd429827b8589ab6bed0e5855dbbfb4d" category="paragraph">* 將您的授權檔案新增至 BlueXP 數位錢包 *</block>
   <block id="3d18eb613f1cc0e78f71cdb65f05af00" category="paragraph">向 NetApp 銷售代表購買 BlueXP 勒索軟體保護授權後、您可以輸入 BlueXP 勒索軟體保護序號和 NetApp 支援網站 （ NSS ）帳戶資訊來啟動授權。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
-  <block id="e3286b69a705d4ed944e904722ab7c8f" category="paragraph">開始之前、您必須先取得下列資訊：</block>
-  <block id="577048713d78842fa9a5be2124ec22a6" category="list-text">BlueXP 勒索軟體保護序號</block>
-  <block id="079aeecf06b109e4316b0a68ea943f2b" category="paragraph">請從您的銷售訂單中找出此號碼、或聯絡客戶團隊以取得此資訊。</block>
-  <block id="bcbbd9a155e07caa8b31001adc835c79" category="list-text">BlueXP 帳戶 ID</block>
-  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">您可以從 BlueXP 頂端選取「 * 帳戶 * 」下拉式清單、然後選取帳戶旁邊的「 * 管理帳戶 * 」、以找到您的 BlueXP 帳戶 ID 。您的帳戶ID位於「總覽」索引標籤。</block>
   <block id="514aa14459d7637de1827492db5bfa9a" category="list-text">取得授權後、請返回 BlueXP 勒索軟體保護。選取右上角的 * 檢視付款方式 * 選項。或者、在免費試用即將到期的訊息中、選取 * 訂閱或購買授權 * 。</block>
   <block id="adb29c497bad7d9605dc8b9d069648c2" category="list-text">選取 * 新增授權至 BlueXP* 。</block>
   <block id="6a72f286dc86a0c2122b1086a858405a" category="paragraph">您將會被引導至 BlueXP 數位錢包。</block>
@@ -817,7 +797,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1f60c8769abcb4f9589fae4ad1831a19" category="inline-link-macro">瞭解工作負載優先順序或重要性</block>
   <block id="581ad716354744440ad65ff13c86ca1e" category="paragraph"><block ref="1ba24f606c1b9584a2674b4003d5830a" category="inline-link-macro-rx"></block>。</block>
   <block id="7c332d8c3498456553e971642a5142fc" category="paragraph">您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP Connector 時、它會包含勒索軟體保護服務的適當功能。</block>
-  <block id="077eb8dcf08a34370634fa284781fbf5" category="sidebar">BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、 以及內部部署 NAS 儲存設備上的檔案共享、以及 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes ONTAP 、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID 。</block>
   <block id="03a0606ea5e305ef55dd39ee839003fd" category="sidebar">設定備份目的地並啟用威脅偵測</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">設定</block>
   <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
@@ -1081,7 +1060,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="ea355214fd4bc7c57f471bd92918879b" category="section-title">部署</block>
   <block id="72346e3829df980ee84f3586c08e1c73" category="paragraph">若要開始使用 BlueXP  勒索軟體保護功能、請從其初始登陸頁面按一下「開始探索工作負載」。</block>
   <block id="c425c2d1d56441ad45546778fd3b1859" category="paragraph">* BlueXP  勒索軟體保護是否提供標準、限制和私有模式？ *目前、 BlueXP 勒索軟體保護僅適用於標準模式。敬請期待更多資訊。</block>
-  <block id="a220e5524e88ca4eb7adfba0df35e51f" category="paragraph">* 如何處理存取權限？ *只有帳戶管理員才能啟動服務並探索工作負載（因為這涉及使用資源）。後續互動可由任何角色執行。</block>
   <block id="e8841ae1773b27a52c2f1f101474d8f0" category="paragraph">* 哪種裝置解析度最佳？ *BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</block>
   <block id="3462920d936c74204339015d2f24872a" category="paragraph">* 我應該使用哪個瀏覽器？ *任何現代化的瀏覽器都能正常運作。</block>
   <block id="cce2d0a4d9c9fd08fb80c75428dfd612" category="paragraph">* BlueXP  勒索軟體保護如何與 BlueXP  備份與還原及 SnapCenter 互動？ *</block>
@@ -1127,14 +1105,11 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="11227f8fef8f27540c3c439b9bdc197d" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
   <block id="15ac9f54f9fb2140c2336e6aa6dfc7c0" category="paragraph">若要使用 BlueXP  勒索軟體保護、您需要具備這些必要條件。</block>
   <block id="a83f1ed3639378d8a5c8766fc08ab842" category="section-title">在 BlueXP  中</block>
-  <block id="e79e38ccfbb74e0d961ff972979ed635" category="list-text">帳戶管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。</block>
-  <block id="6f0eed74827975e8f80db47d9a50f8c2" category="list-text">BlueXP  帳戶、至少有一個 Active BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。</block>
   <block id="d373cf4cd1bda4abc274d13ad2831391" category="list-text">在 AWS 或 Azure 中至少有一個 BlueXP  工作環境、其中有 NetApp 內部部署 ONTAP 叢集或 Cloud Volume ONTAP （使用 NAS 或 CIFS 通訊協定）。</block>
   <block id="437052b46bb04e16e3617994a6dc3e3b" category="list-text">支援使用 ONTAP OS 9.11.1 版或更新版本的 ONTAP 或 Cloud Volume ONTAP 叢集。</block>
   <block id="1c65e968a7f40931fc801e74436f80f4" category="list-text">如果您的內部部署 ONTAP 叢集或 AWS 或 Azure 雲端中的 Cloud Volume ONTAP 尚未在 BlueXP  中加入、則您需要 BlueXP  Connector 。</block>
   <block id="2859350d666beccb5f7f3adcb55da72a" category="inline-link">瞭解如何設定 BlueXP  Connector</block>
   <block id="d6533074153f439dd193d8acd5343357" category="paragraph">請參閱<block ref="56433f466b3d2b557361e0cd67da19f4" category="inline-link-rx"></block> 和<block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>。</block>
-  <block id="e5015cacadd79769df9bbde6dbe92f70" category="admonition">如果您在單一 BlueXP  帳戶中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。</block>
   <block id="2501cbb4187a9a6c7f42f035596578a4" category="section-title">在 ONTAP 9.11.1 及更新版本中</block>
   <block id="0c62671cec4cc1d20210f98a3f9fc05f" category="list-text">若要套用保護組態（例如啟用自主勒索軟體保護等）、 BlueXP  勒索軟體保護需要 ONTAP 叢集的管理權限。ONTAP 叢集應該只能使用 ONTAP 叢集管理使用者認證來登入。</block>
   <block id="1af62e464c9d7b123ffec7775c4c5385" category="list-text">如果 ONTAP 叢集已使用非管理員使用者認證在 BlueXP  中登入、則必須登入 ONTAP 叢集、以必要的權限更新非管理員使用者權限、如本頁所述。</block>
@@ -1146,7 +1121,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="d5c0c9e742bf6d635bc3574f0d00ffe7" category="paragraph">BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱。 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block></block>
   <block id="f41322f9f14cdcdf41a427fbee652476" category="section-title">更新 ONTAP 工作環境中的非管理員使用者權限</block>
   <block id="8297305d42008c5892a2f344fb12572c" category="paragraph">如果您需要更新特定工作環境的非管理員使用者權限、請完成這些步驟。</block>
-  <block id="0e861400d2c472d780e513defaec7463" category="list-text">登入 BlueXP  帳戶、尋找需要更新其 ONTAP 使用者權限的工作環境。</block>
   <block id="64e55ed1c9910b83fdba604d01c14d94" category="list-text">按兩下工作環境以查看詳細資料。</block>
   <block id="fd9987b033d105239454a8b09bbfc1d7" category="list-text">按一下 * 檢視顯示使用者名稱的其他資訊 * 。</block>
   <block id="9fe71dce626bd006ff641fd38ed29790" category="list-text">使用管理員使用者登入 ONTAP 叢集 CLI 。</block>
@@ -1214,7 +1188,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="0d0fda3a15e7f6f6406a0dde3997c91f" category="inline-link">深入瞭解如何設定 BlueXP  勒索軟體保護設定</block>
   <block id="5b0f75e0c31233c18e6f9318b8569cf7" category="paragraph"><block ref="25291e882ba76639fccc7a13f1838641" category="inline-link-rx"></block>。</block>
   <block id="38f076b49309ac077a903c6521bcf590" category="paragraph">在 BlueXP  勒索軟體保護中啟用 Splunk Cloud 之前、您必須先在 Splunk Cloud 中執行下列高階步驟：</block>
-  <block id="23399b80812af3201eee57d7b21730dd" category="paragraph">BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud Platform 和 Cloud Volumes ONTAP for Microsoft Azure （跨 Cloud Volumes ONTAP 帳戶）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud Platform 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。</block>
   <block id="c7eac6d9cd86eb05300d52e52a13413f" category="section-title">資料層的勒索軟體保護</block>
   <block id="1b5ac7659c93361ff5fa00f9dc0878ff" category="paragraph">您的安全態勢通常涵蓋多層防禦、以抵禦各種網路威脅。</block>
   <block id="e1e21525512158b10d87c17fe3eb8be1" category="list-text">* 最外層 * ：這是您第一道防線、使用防火牆、入侵偵測系統和虛擬私有網路來保護網路邊界。</block>
@@ -1462,4 +1435,27 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組</block>
   <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">* 自訂檔案共用工作負載群組 * ：使用此版本、您現在可以將檔案共用分組、以便更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。<block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>。</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">利用勒索軟體保護策略保護工作負載</block>
+  <block id="8f438477df4db40c8b526acbcdce5937" category="paragraph">BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud 和 Cloud Volumes ONTAP for Microsoft Azure （適用於 Cloud Volumes ONTAP 組織）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。</block>
+  <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* 識別 * 在 NetApp 內部部署 NAS 中的所有應用程式型、檔案共用或 VMware 託管工作負載、以及 BlueXP  中的 NFS 或 CIFS 工作環境、以及 BlueXP  組織、專案和 BlueXP  Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。</block>
+  <block id="28017f63775595195f8bc7296bf383df" category="paragraph">若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP  勒索軟體保護會分析組織內所有 BlueXP  Connectors 和專案中工作環境中的所有磁碟區和檔案。</block>
+  <block id="6b95918551f87e6ece870e17dd0bb85f" category="paragraph">* 如何處理存取權限？ *只有組織管理員才能啟動服務並探索工作負載（因為這涉及使用資源）。後續互動可由任何角色執行。</block>
+  <block id="deb3fe36dfe08c28dddf280186cdd385" category="paragraph">您可以使用 90 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是 BlueXP  組織管理員、才能開始免費試用。</block>
+  <block id="581365c1705cc0acc9951fa2431b194f" category="paragraph">您需要 BlueXP  勒索軟體保護序號。請從您的銷售訂單中找出此號碼、或聯絡客戶團隊以取得此資訊。</block>
+  <block id="03449b1d058ce8c279f7011c479deb0b" category="list-text">組織管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。</block>
+  <block id="6674b495a5c26c68ef2278fe3c1da714" category="list-text">BlueXP  組織、至少有一個使用中的 BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。</block>
+  <block id="ca455f87aae9ad05b9b56c1b2323a2c0" category="admonition">如果您在單一 BlueXP  組織中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。</block>
+  <block id="a2522bc84ab4c15eaa356f762fb3afc8" category="list-text">登入 BlueXP  、尋找需要更新其 ONTAP 使用者權限的工作環境。</block>
+  <block id="157728f4599cc3ddabf4c2d8076aa8c0" category="admonition">如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此組織相關的所有專案和所有 Connector 。</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">工作環境清單位於您在服務頂端橫幅中選取的 BlueXP  組織（或帳戶）、專案（或工作區）和 Connector 範圍內。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">註冊您的 BlueXP  帳戶序號（您的 20 位數 960xxxxxxxxx 序號位於 BlueXP  的「支援資源」頁面）。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">註冊 BlueXP  以獲得 NetApp 支援</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">若要註冊取得支援並啟動支援授權、您 BlueXP  組織（或帳戶）中的一位使用者必須將 NetApp 支援網站帳戶與其 BlueXP  登入建立關聯。您如何註冊NetApp支援取決於您是否已擁有NetApp 支援網站 一個NetApp（NSS）帳戶。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">「 * 資源 * 」頁面應顯示您的 BlueXP  組織已註冊取得支援。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP  組織尚未註冊取得支援。只要組織中有一位使用者遵循這些步驟、您的組織就已註冊。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加快處理速度。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">若要為 Cloud Volumes ONTAP 啟用下列關鍵工作流程、必須將 NetApp 支援網站認證與您的 BlueXP  組織建立關聯：</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">將 NSS 認證與您的 BlueXP  組織建立關聯、不同於與 BlueXP  使用者登入相關聯的 NSS 帳戶。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
+  <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Cloud Volumes ONTAP on AWS （使用 NFS 傳輸協定）、並將資料備份至 Amazon Web Services 雲端儲存設備。</block>
+  <block id="72066c262bc44f1ada77598ec3915f18" category="sidebar">BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID 。</block>
 </blocks>

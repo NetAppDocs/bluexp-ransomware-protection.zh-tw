@@ -1,15 +1,15 @@
 ---
 indexpage:
   title: BlueXP 勒索軟體保護文件
-  summary: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、
-    以及內部部署 NAS 儲存設備上的檔案共享、以及 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes
-    ONTAP 、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
+  summary: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署
+    NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的
+    Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
     。
   keywords: bluexp, ransomware, anti-ransomware, cyber attack, netapp, ontap, amazon
     web services, aws, storagegrid
-  lead: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、 以及內部部署
-    NAS 儲存設備上的檔案共享、以及 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes ONTAP
-    、橫跨每個 BlueXP 帳戶、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
+  lead: BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署
+    NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的
+    Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID
     。
   tiles:
   - title: 開始使用

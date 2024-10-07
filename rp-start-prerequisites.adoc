@@ -20,8 +20,8 @@ summary: 開始使用 BlueXP 勒索軟體保護、驗證您的環境、網路存
 
 == 在 BlueXP  中
 
-* 帳戶管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。
-* BlueXP  帳戶、至少有一個 Active BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。
+* 組織管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。
+* BlueXP  組織、至少有一個使用中的 BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。
 * 在 AWS 或 Azure 中至少有一個 BlueXP  工作環境、其中有 NetApp 內部部署 ONTAP 叢集或 Cloud Volume ONTAP （使用 NAS 或 CIFS 通訊協定）。
 +
 ** 支援使用 ONTAP OS 9.11.1 版或更新版本的 ONTAP 或 Cloud Volume ONTAP 叢集。
@@ -31,7 +31,7 @@ summary: 開始使用 BlueXP 勒索軟體保護、驗證您的環境、網路存
 
 +
 
-NOTE: 如果您在單一 BlueXP  帳戶中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。
+NOTE: 如果您在單一 BlueXP  組織中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。
 
 
 
@@ -73,7 +73,7 @@ BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目�
 
 如果您需要更新特定工作環境的非管理員使用者權限、請完成這些步驟。
 
-. 登入 BlueXP  帳戶、尋找需要更新其 ONTAP 使用者權限的工作環境。
+. 登入 BlueXP  、尋找需要更新其 ONTAP 使用者權限的工作環境。
 . 按兩下工作環境以查看詳細資料。
 . 按一下 * 檢視顯示使用者名稱的其他資訊 * 。
 . 使用管理員使用者登入 ONTAP 叢集 CLI 。

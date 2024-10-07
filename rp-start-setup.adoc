@@ -72,4 +72,4 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 若要在使用此服務之前在 BlueXP 中建立 Connector 、請參閱說明的 BlueXP 文件 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["如何建立 BlueXP Connector"^]。
 
 
-NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此帳戶相關的所有工作區和所有 Connector 。
+NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此組織相關的所有專案和所有 Connector 。
