@@ -1524,7 +1524,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">輸入金鑰。</block>
   <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">選取 * 顯示 * 。</block>
   <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  勒索軟體保護的新功能</block>
-  <block id="07c8845dbdef949b860ebfc99bd558ac" category="section-title">2024 年 11 月 6 日</block>
   <block id="7d02192f3436d747f16f0854f54cd837" category="list-text">* 啟用資料分類並掃描個人識別資訊（ PII ） * ：此版本可讓 BlueXP  系列的核心元件 BlueXP  分類功能，掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。</block>
   <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
   <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。</block>
@@ -1536,4 +1535,5 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">* 免費試用 30 天 * ：此版本推出後， BlueXP  勒索軟體保護的新部署現在可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
   <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* 在 Podman* 的檔案層級還原應用程式工作負載：在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。</block>
   <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">掃描個人識別資料</block>
+  <block id="21e938043b4ef6be41f16e95f7f5aaaa" category="section-title">2024 年 11 月 7 日</block>
 </blocks>
