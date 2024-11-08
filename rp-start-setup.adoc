@@ -8,7 +8,7 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: /media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,10 +24,11 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 * NetApp StorageGRID
 * Amazon Web Services
+* Google Cloud Platform
 * Microsoft Azure
 
 
-在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。
+在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。如需如何在 BlueXP  勒索軟體保護中設定備份目的地的詳細link:rp-use-settings.html["設定備份目的地"]資訊，請參閱。
 
 
 

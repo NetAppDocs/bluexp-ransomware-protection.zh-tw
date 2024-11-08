@@ -8,7 +8,7 @@ summary: 透過 BlueXP 中的服務、開始使用 BlueXP 勒索軟體保護。
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

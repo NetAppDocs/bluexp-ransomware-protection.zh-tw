@@ -8,7 +8,7 @@ summary: 攻擊後、 BlueXP 勒索軟體保護會驗證二次儲存設備上的
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

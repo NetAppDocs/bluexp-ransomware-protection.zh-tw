@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ransomware protection, bluexp, anti-ransomware, cyber attack, ransomware, protection, detection, ARP' 
 summary: 瞭解 BlueXP 勒索軟體保護的新功能。 
 ---
-= 版本資訊： BlueXP 勒索軟體保護的新功能
+= BlueXP  勒索軟體保護的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,6 +15,45 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 
 [role="lead"]
 瞭解 BlueXP 勒索軟體保護的新功能。
+
+
+
+== 2024 年 11 月 6 日
+
+此 BlueXP  勒索軟體保護版本包含下列更新。
+
+* * 啟用資料分類並掃描個人識別資訊（ PII ） * ：此版本可讓 BlueXP  系列的核心元件 BlueXP  分類功能，掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
++
+部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
+
++
+BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。
+
++
+請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
+
++
+若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。
+
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用 BlueXP  分類掃描個人識別敏感資料"]。
+
+* * 在即將推出的 Preview 功能發佈之前先試用 * ：您現在可以先試用一些標示為「 Preview 」的功能，再發行這些功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
+
+* * SIEM 與 Microsoft Sentinel* 整合：您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ）進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
+
+
+
+* * 免費試用 30 天 * ：此版本推出後， BlueXP  勒索軟體保護的新部署現在可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
+* * 在 Podman* 的檔案層級還原應用程式工作負載：在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
++
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復"]。
+
+
 
 
 
@@ -105,8 +144,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-az
 
 +
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP 勒索軟體保護"]。
-
-
 
 * * Microsoft Azure 新增為備份目的地 * 。您現在可以將 Microsoft Azure 新增為 AWS 和 NetApp StorageGRID 的備份目的地。
 +

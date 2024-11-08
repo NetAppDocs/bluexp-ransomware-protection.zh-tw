@@ -72,6 +72,9 @@ BlueXP 勒索軟體保護提供下列優點：
 
 NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。
 
+
+NOTE: 隨著 2024 年 10 月發行，新部署的 BlueXP  勒索軟體保護功能可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
+
 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
 
 購買授權或 PayGo 訂閱後、任何已啟用勒索軟體偵測原則（自主勒索軟體保護）（由 BlueXP  勒索軟體保護所探索或設定）的工作負載、 而且 BlueXP  勒索軟體保護至少有一個快照或備份原則會將其歸類為「受保護」、並根據購買的容量或 PayGo 訂閱來計費。如果發現工作負載時沒有偵測原則（ ARP ）、即使它有備份或快照原則、也會將其分類為「有風險」、而且不會根據購買的容量來計算。
@@ -84,7 +87,7 @@ NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。
 
 有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或是自行攜帶授權。
 
-BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。
+BlueXP  勒索軟體保護服務需要 NetApp ONTAP One 授權。
 
 BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
 
@@ -168,7 +171,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 內部部署 ONTAP NAS （使用 NFS 和 CIFS 通訊協定）、搭配 ONTAP 9.11.1 版及更新版本
 * 適用於 AWS 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
 * 適用於 Google Cloud Platform 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
-* 適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
+* 適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.12.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
 
 
 

@@ -8,7 +8,7 @@ summary: NetApp BlueXP 勒索軟體保護服務只需幾個步驟即可開始使
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

@@ -202,9 +202,6 @@
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
   <block id="d1f0457de3f3ac98f7efb1ccb116b0aa" category="doc">BlueXP 勒索軟體保護常見問題集</block>
   <block id="bf733d8a933c1601697f364223fc7ecb" category="section-title">存取</block>
-  <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
-  <block id="5da44ef4be887638fd785cd4d8805b94" category="paragraph">* 什麼是 BlueXP 勒索軟體保護 URL ？ *
-對於 URL 、請在瀏覽器中輸入：<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 存取 BlueXP 主控台。</block>
   <block id="d89fc98d5105c68a5fa1ddec42ae05bd" category="paragraph">* 如何啟用 BlueXP 勒索軟體保護？ *
 BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟用勒索軟體保護選項。</block>
   <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link">BlueXP 部署模式</block>
@@ -425,7 +422,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="7fada33e4007d6c45f21f39f8f564f62" category="section-title">準備備備份目的地</block>
   <block id="5ba5a444d582677cee050d2bd25e9ebb" category="paragraph">準備下列其中一個備份目的地：</block>
   <block id="6beccc67ff905f7da0b29dece26b0485" category="list-text">Amazon Web Services</block>
-  <block id="37540449259656da2cc8530c08536777" category="paragraph">在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。</block>
   <block id="367e12449a6cc346263c57cc7bc9d0b8" category="section-title">準備 StorageGRID 成為備份目的地</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">本文檔StorageGRID</block>
   <block id="02ab63403df798aee66e35261bb4cb6d" category="paragraph">如果您想要使用 StorageGRID 做為備份目的地、請參閱<block ref="4cc24fbab710afd2e2ecf5070c4cfaad" category="inline-link-rx"></block> 如需 StorageGRID 的詳細資訊、</block>
@@ -691,7 +687,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="b9e02bfe9506fcf186ee622509a30847" category="list-text">在「原則」頁面中、按一下您要指派的原則向下箭頭、以檢閱詳細資料。</block>
   <block id="bb5447070c795a6e8d29fa9cd98a5127" category="list-text">選取您要指派的原則。</block>
   <block id="427a5dfbb09ab1cc6737506e06431570" category="list-text">選取 * 保護 * 以完成變更。</block>
-  <block id="ffc0b4bc890e2f8eb6eccccf7295e80e" category="doc">版本資訊： BlueXP 勒索軟體保護的新功能</block>
   <block id="5e76a23879d0e6f7325f31678e623972" category="section-title">2024 年 5 月 14 日</block>
   <block id="8607002d4574854ad87d556bd31731f4" category="paragraph">此版本為 BlueXP 勒索軟體保護的一般可用性版本。其中包括下列更新：</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">深入瞭解設定授權</block>
@@ -727,11 +722,8 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="696d4d90d851ee4fe336a4b1827d52d7" category="summary">設定授權、開始使用 BlueXP 勒索軟體保護。</block>
   <block id="f8caca15ab9e55b2643391493d5c81c7" category="doc">設定 BlueXP 勒索軟體保護授權</block>
   <block id="924cc6eaf82618251de609e2689ed733" category="paragraph">您可以使用下列授權類型：</block>
-  <block id="06cda8527230b64a09b1c568fbd2a80e" category="list-text">註冊 90 天免費試用。</block>
   <block id="9f5e79cce3ac3e1b3962cddaef91e4e0" category="list-text">檢視工作負載和工作負載健全狀況。</block>
-  <block id="feaff2de8b00885a4b2350b990a32d40" category="list-text">刪除任何資源、例如工作負載或原則。</block>
   <block id="1594f78ebbb281f7b5359eb6d2b89912" category="list-text">執行試用期間或授權期間所建立的所有排程作業。</block>
-  <block id="d687b9bb1fc0385150b07b1a9aaae7d3" category="section-title">試用 90 天免費試用</block>
   <block id="88c474e49a0cbbc7ef17d052040cd008" category="admonition">試用期間不會強制執行容量限制。</block>
   <block id="f37d436fdc8600ce24709a8f4435ec79" category="paragraph">試用期間、您擁有完整功能。</block>
   <block id="39c87728ab108f5ab751a40319f03bc8" category="list-text">存取<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>。</block>
@@ -741,7 +733,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">深入瞭解連接器</block>
   <block id="7530875db6f7eceea689fdfeb6a12778" category="paragraph">若要新增 Connector 、請參閱<block ref="d6df7dcc2fc3105e10967a9194806ce5" category="inline-link-rx"></block>。</block>
   <block id="07b00cce8ecdc9955eb27940a652e625" category="paragraph">* 試用結束後、請取得訂閱或授權 *</block>
-  <block id="ea2f560ec82f01411a2a47fd221d66ad" category="paragraph">免費試用結束後、您可以透過 AWS Marketplace 訂閱、或是向 NetApp 購買授權。</block>
   <block id="286857925b326719163f0acf5623cc04" category="section-title">透過 AWS Marketplace 訂閱</block>
   <block id="7045a735dc2c2e1b96e77d22deb74463" category="paragraph">本程序提供如何直接在 AWS Marketplace 中訂閱的高階概觀。</block>
   <block id="7ae5589e6843c692b56795fe057b0e37" category="list-text">在 BlueXP 勒索軟體保護中、執行下列其中一項：</block>
@@ -820,8 +811,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="8044b0463892d9d29dbab8cfd03e8863" category="inline-link">Azure Private Link</block>
   <block id="13ed98575f9b615f49abab3355f19c34" category="paragraph">如果您想要使用 Azure Private Link 、請參閱<block ref="dc49bf79d1a3da34447e7543d00fee44" category="inline-link-rx"></block>。</block>
   <block id="376ec8b3e51e6597fb939c31a3fe0e59" category="list-text">選取 * 設定 * 。</block>
-  <block id="1cdcea7c45b8df103d376e317e51d6f3" category="paragraph"><block ref="1cdcea7c45b8df103d376e317e51d6f3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="23a7d0d134ea346b7c44f3e9e5086d22" category="list-text">在「設定」頁面中、選取 SIEM 連線窗格中的 * 連線 * 。</block>
   <block id="f29be3377655fbc2e89f86e482ef5ca2" category="paragraph">「設定」頁面會顯示「已連線」。</block>
   <block id="4b8c33ccd178e8dfdee1f3dff5df2868" category="paragraph"><block ref="4b8c33ccd178e8dfdee1f3dff5df2868" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2dfb24de1b8950ec0c2cb004f00ca5da" category="admonition">如果您沒有 BlueXP Connector 、或不是這項服務的連接器、您可能需要聯絡 NetApp 支援部門。</block>
@@ -830,8 +819,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="f4e76e01f80db61a6180d7fa5d9656c3" category="cell">每 30 分鐘</block>
   <block id="2a81a6cd6ac2a1bf9226055bf00ceada" category="inline-link">ONTAP 中的 SnapLock</block>
   <block id="df0d3afa881e0dbd0a73d2a79b4d08de" category="paragraph">ONTAP 9.12.1 及更新版本均提供 Snapshot 複本鎖定功能。若要深入瞭解 SnapLock 、請參閱<block ref="4a9cf5e778f625195d7ada1c294fe592" category="inline-link-rx"></block>。</block>
-  <block id="8b12b54f06668167b4aadce6c0400414" category="list-text">您很快就能透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。</block>
-  <block id="e7375f9ce866d5c2bd923a1f2382635d" category="list-text">您很快就能自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。</block>
   <block id="f338cd7c055f777422d1369d7cd7e16f" category="paragraph">有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案。</block>
   <block id="b5749d1384caedc71e5b2ec43e7afab4" category="list-text">設定 Connector 之後、在 BlueXP 勒索軟體保護登陸頁面中、將 Connector 變更新增至探索工作負載按鈕的按鈕。選取 * 探索工作負載 * 以開始。</block>
   <block id="7fd2f910bce182f3bed45cb0ffe3f2b7" category="list-text">若要檢閱免費試用資訊、請選取右上角的下拉式選項。</block>
@@ -852,7 +839,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="25b79915ef7b5ee03ffec649fd035b25" category="paragraph"><block ref="25b79915ef7b5ee03ffec649fd035b25" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b271e9c6be36aff67404f5d3ab5006f5" category="list-text">探索工作負載及其現有的快照和備份排程、並評等其相對重要性。</block>
   <block id="f9139206de5b0d603d23f42e66a50c61" category="paragraph">NetApp 不收取您使用 BlueXP 勒索軟體保護試用版的費用。</block>
-  <block id="2b3b1b768938b223c30e68bd9490011a" category="paragraph">BlueXP 勒索軟體保護服務需要 NetApp ONTAP 授權。</block>
   <block id="d0e4a743e8ed40dbf01bacaa0ec70fe1" category="list-text">尋找所有連線至 BlueXP 的客戶內部 NAS （ NFS 和 CIFS 通訊協定）和 Cloud Volumes ONTAP 資料。</block>
   <block id="6ac0e32d07ae2f28e1f7e737144ba563" category="list-text">探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
 深入瞭解<block ref="f30128629f1afb4b75b9a7fc6de548bc" category="inline-link-rx"></block> 和<block ref="eb41fa8ef2a588e65533beee945728a7" category="inline-link-rx"></block>和<block ref="591ebe16737e602cc342b68e859c040e" category="inline-link-rx"></block>。</block>
@@ -1062,7 +1048,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="c425c2d1d56441ad45546778fd3b1859" category="paragraph">* BlueXP  勒索軟體保護是否提供標準、限制和私有模式？ *目前、 BlueXP 勒索軟體保護僅適用於標準模式。敬請期待更多資訊。</block>
   <block id="e8841ae1773b27a52c2f1f101474d8f0" category="paragraph">* 哪種裝置解析度最佳？ *BlueXP 勒索軟體保護的建議裝置解析度為 1920x1080 或更高。</block>
   <block id="3462920d936c74204339015d2f24872a" category="paragraph">* 我應該使用哪個瀏覽器？ *任何現代化的瀏覽器都能正常運作。</block>
-  <block id="cce2d0a4d9c9fd08fb80c75428dfd612" category="paragraph">* BlueXP  勒索軟體保護如何與 BlueXP  備份與還原及 SnapCenter 互動？ *</block>
   <block id="eaa63380a99fa26d748a4864ad71a14d" category="paragraph">BlueXP  勒索軟體保護使用下列產品和服務：</block>
   <block id="648b0ce1911ee90e4316709d4eba2a09" category="list-text">BlueXP  備份與還原、探索及設定檔案共用工作負載的快照與備份原則</block>
   <block id="4e26d5c484cb7e3f966ce2c3cea227da" category="list-text">SnapCenter 或 SnapCenter for VMware 可探索及設定應用程式和 VM 工作負載的快照和備份原則。</block>
@@ -1098,11 +1083,8 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1f25ef09ab6fce0b56c79cd4246453be" category="paragraph">* 您可以停用原則嗎？ *</block>
   <block id="16bb1f43c7ea8d0bd89ed893a517b2de" category="paragraph">您可以使用 System Manager UI 、 API 或 CLI 在偵測原則中停用 ARP 。</block>
   <block id="389b413db649d1d5d2854fd3e4faf2e6" category="paragraph">您可以套用不包含 FPolicy 和備份原則的不同原則來停用 FPolicy 和備份原則。</block>
-  <block id="62fb50478db33581091bab0f2142bc5b" category="list-text">向 Amazon Web Services （ AWS ） Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。</block>
   <block id="65b0401d3f724e2259009131f8634056" category="paragraph">設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP  數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP  數位錢包 * 訂閱 * 標籤中查看有效訂閱。</block>
   <block id="81ecb148314373b6868cc327725a5c74" category="paragraph">在免費試用結束或授權或訂閱過期之後、您仍可在服務中執行下列動作：</block>
-  <block id="5b99f4bc86b1a4aefa4f1321fdae0c69" category="paragraph">您可以隨時取得授權或訂閱、直到 90 天試用期結束為止、您將不會被收取費用。若要在 90 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。</block>
-  <block id="11227f8fef8f27540c3c439b9bdc197d" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
   <block id="15ac9f54f9fb2140c2336e6aa6dfc7c0" category="paragraph">若要使用 BlueXP  勒索軟體保護、您需要具備這些必要條件。</block>
   <block id="a83f1ed3639378d8a5c8766fc08ab842" category="section-title">在 BlueXP  中</block>
   <block id="d373cf4cd1bda4abc274d13ad2831391" category="list-text">在 AWS 或 Azure 中至少有一個 BlueXP  工作環境、其中有 NetApp 內部部署 ONTAP 叢集或 Cloud Volume ONTAP （使用 NAS 或 CIFS 通訊協定）。</block>
@@ -1139,7 +1121,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="77ee40a66947b7375a410a1f2168b3ec" category="list-text">* 受保護 * ：套用原則。所有與工作負載相關的磁碟區都會啟用 ARP 。</block>
   <block id="2849b9294b844719ab6e63ff0e8d64a0" category="list-text">* 風險 * ：不套用任何原則。如果工作負載未啟用主要偵測原則、即使已啟用快照和備份原則、也會有「風險」。</block>
   <block id="af7c29ca6782b7ae5d91d2eb4d1c1dbd" category="admonition">在 BlueXP  勒索軟體保護中啟用保護功能時、警示偵測和報告會在勒索軟體偵測原則狀態從「學習」模式變更為「主動」模式後開始。</block>
-  <block id="c3e1bb58158cecbe933786ef28873165" category="paragraph">您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。</block>
   <block id="110a67ab5c5f2c3f8c4d31974a383280" category="paragraph">啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析。</block>
   <block id="f6de47008760d29836d5758a5a06bf0f" category="section-title">直接存取「設定」頁面</block>
   <block id="47ee39f07973e19ecd9ed033f5faabb1" category="paragraph">您可以從上方功能表附近的「動作」選項輕鬆存取「設定」頁面。</block>
@@ -1148,7 +1129,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="d9e0cef30d1fd79b64dd0675b6e2eb12" category="list-text">新增備份目的地。</block>
   <block id="276d02dfbae672be9018a2aa5bc7082a" category="list-text">連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。</block>
   <block id="d0c5496915b421a80c4626839a26d2fe" category="section-title">從「動作」下拉式功能表存取「備份目的地」選項</block>
-  <block id="3c3e8105202d21c6c519dee0d89a8f57" category="paragraph">您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。</block>
   <block id="0df177143ce12a3516098cd3329e85c2" category="section-title">設定 AWS Security Hub 進行威脅偵測</block>
   <block id="77eeb06d35de32fc726c13778206bae1" category="paragraph">在 BlueXP  勒索軟體保護中啟用 AWS Security Hub 之前、您必須先在 AWS Security Hub 中執行下列高階步驟：</block>
   <block id="de9b4f41a945df92e6c5b62f443f03f1" category="list-text">在 AWS Security Hub 中設定權限。</block>
@@ -1178,10 +1158,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="5fe2835152113f685a65ab4bd52bd7c1" category="paragraph">啟用 SIEM 會將 BlueXP  勒索軟體保護的資料傳送至 SIEM 伺服器、以進行威脅分析和報告。</block>
   <block id="530a14e5d66c979129b8b96f40e39621" category="list-text">從 BlueXP  功能表中、選取 * 保護 * &gt; * 勒索軟體保護 * 。</block>
   <block id="4cb0caa7f0c97dd44ed525e6237432d2" category="admonition">您輸入的資訊取決於您選擇的 SIEM 。</block>
-  <block id="67dd2fb75aaf6f4e4cf301da1e6bf57d" category="section-title">中斷 SIEM 連線</block>
-  <block id="5416ecda9cca6ac997c429c87a30b3b3" category="paragraph">中斷 SIEM 連線會停止服務傳送資料至 SIEM 伺服器。</block>
-  <block id="5fae13a9dd9ba66645dd05d45f43e40c" category="list-text">在 SIEM 連線窗格中、選取 * 中斷連線 * 。</block>
-  <block id="d05ff3dd43ab8c5bdfe212d6f607099c" category="list-text">在確認頁面中、選取 * 中斷連線 * 。</block>
   <block id="dd6b8bf5a56c8beb81b173991906c83e" category="section-title">2024 年 8 月 5 日</block>
   <block id="3660cbb805c1bf63e1967ed1339a3bbd" category="paragraph">此 BlueXP  勒索軟體保護版本包含下列更新。</block>
   <block id="11f5c2b9557e3c8b41afc65159260e17" category="list-text">* 使用 Splunk Cloud 偵測威脅 * ：您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。在先前的版本中、您只能選擇 AWS Security Hub 做為 SIEM 。在此版本中、您可以選擇 AWS Security Hub 或 Splunk Cloud 做為您的 SIEM 。</block>
@@ -1201,12 +1177,9 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="5c9ef0d871938dccceb29ee63fad8ddb" category="list-text">Google Cloud Platform</block>
   <block id="0479370d1a7f4250832bb43f782a1456" category="list-text">適用於 AWS 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）</block>
   <block id="692821f8e48f34e528c887a1bd9a5a50" category="list-text">適用於 Google Cloud Platform 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）</block>
-  <block id="b589aa914a2e2c16f2d6ba8e9b81efa4" category="list-text">適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）</block>
   <block id="ae72665b43b17f1ecc3f55a8fbc20e5f" category="doc">BlueXP  勒索軟體保護角色型存取控制 Privileges</block>
-  <block id="b0cf61f45678466f059ec8e08ef28c30" category="paragraph">BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用帳戶管理和檢視器（非帳戶管理 0 ）的核心 BlueXP  角色。</block>
   <block id="5bac227a5b1720d5ee51b7149ecac99d" category="paragraph">下表指出每個角色可以執行的動作。</block>
   <block id="4420e7353184ac575b539cdce1b991db" category="cell">功能與行動</block>
-  <block id="14161c2bac35eeb03807c3e9550d9c1b" category="cell">BlueXP  帳戶管理員</block>
   <block id="0371c9bce0004c4306667ba97106f696" category="cell">非管理員（檢視器）</block>
   <block id="78c7efbfa07116553a52f59800129dde" category="cell">開始免費試用</block>
   <block id="57cec4137b614c87cb4e24a3d003a3e0" category="paragraph">是</block>
@@ -1264,7 +1237,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="4da508e2244295be47c269e0c9fbc299" category="list-text">* 為已有快照和備份原則 * 的工作負載建立偵測原則、這些原則可在其他 NetApp 產品或服務中管理。偵測原則不會變更在其他產品中管理的原則。</block>
   <block id="1b49dfb35b7ec360208537cc7e5a9d62" category="section-title">建立勒索軟體保護策略（如果您沒有快照或備份原則）</block>
   <block id="c05b10a2aa016dc0b1a5a65345a1f104" category="paragraph">如果工作負載上不存在快照或備份原則、您可以建立勒索軟體保護策略、其中包括您在 BlueXP  勒索軟體保護中建立的下列原則：</block>
-  <block id="6c03aa1717232d545a44daaae4b5b0ad" category="list-text">備份原則</block>
   <block id="a5be5d648ce22c25337cedcc760abd3c" category="inline-image-macro">新增策略頁面、顯示快照區段</block>
   <block id="3c47a09fd51a5bf078b6b75c88195ad8" category="paragraph"><block ref="3c47a09fd51a5bf078b6b75c88195ad8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="564554ffee3adeca7b5ef87876d33434" category="list-text">* 封鎖副檔名 * ：啟用此選項可讓服務封鎖已知可疑的副檔名。啟用主要偵測時、服務會自動擷取快照複本。</block>
@@ -1322,28 +1294,20 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">調查組織中儲存的資料</block>
   <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
   <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">在「保護」頁面中、在「工作負載」欄中找出檔案共用工作負載。</block>
-  <block id="6edc605896d7822d0b10ddc7d324d464" category="paragraph"><block ref="6edc605896d7822d0b10ddc7d324d464" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5d2cc179d4b9e7ee123b6032133a9e75" category="list-text">若要啟用 BlueXP  分類來掃描您的資料以取得敏感資料、請在隱私權曝險欄位中、選取 * 識別曝光 * 。</block>
   <block id="04c2fdcb53dc660f7267061f2996a772" category="inline-image-macro">識別敏感資料畫面</block>
   <block id="64af7ad3ab046769c51f4f24a86b7cf4" category="paragraph"><block ref="64af7ad3ab046769c51f4f24a86b7cf4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="969f986150648403974cc122eae60ccf" category="list-text">檢閱 BlueXP  分類的相關資訊。</block>
   <block id="858cc0364fb5e649249551c7ef4f979a" category="list-text">選取 * 識別 * 。</block>
-  <block id="fe5c2f0a29dd6636cb2f1284a040407b" category="paragraph">BlueXP  分類會安裝 BlueXP  Connector 、從遠端連線至您的工作負載資料、並掃描 NetApp 雲端中的資料。只有已識別的洞見和指標會保留在 NetApp 雲端中、您的資料不會保留。</block>
   <block id="9878a7973fa7782f8c21d56eb79d0aad" category="admonition">視資料量而定、掃描可能需要幾分鐘的時間。「保護」頁面顯示 BlueXP  分類正在識別檔案、並提供正在掃描的檔案數量指示。</block>
-  <block id="a97106b04b1d7103b628393e4710e564" category="paragraph">掃描完成時、隱私權曝光欄會顯示曝光等級、例如高。</block>
   <block id="70f91b9311063ebb918671e1632eea94" category="section-title">檢閱隱私權曝險</block>
-  <block id="69fb8dfc3b2247a2a33825a8a26cde0a" category="paragraph">BlueXP  分類掃描個人識別資訊（ PII ）之後、您可以查看 PII 資料風險。</block>
   <block id="520cb83e421cf68c99eac9eb36fd6b63" category="paragraph">PII 資料可能具有下列其中一種隱私曝險狀態。</block>
   <block id="b95422bc34b35ddd671979e5775b2179" category="list-text">* 高 * ：超過 70% 的檔案有 PII</block>
   <block id="0bf36ba3c3aa07c4db543aecd256123f" category="list-text">* 中 * ：超過 30% 且少於 70% 的檔案有 PII</block>
   <block id="55d325ae2625ba4269051bf5ac42b2af" category="list-text">* 低 * ：大於 0 且少於 30% 的檔案有 PII</block>
   <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">在「保護」頁面中、在「工作負載」欄中找到檔案共用工作負載、此欄會在「隱私權曝險」欄中顯示狀態。</block>
-  <block id="684ef7f908cedf00c137942b202a9317" category="inline-image-macro">顯示隱私曝光欄的保護畫面</block>
-  <block id="3ef9ba34c48a980c46a8615a0d075539" category="paragraph"><block ref="3ef9ba34c48a980c46a8615a0d075539" category="inline-image-macro-rx" type="image"></block></block>
   <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">選取工作負載欄中的工作負載連結、即可查看工作負載詳細資料。</block>
   <block id="fbb3a837089f0da9e0cebd46602a970a" category="inline-image-macro">顯示隱私權曝光窗格的工作負載詳細資料畫面</block>
   <block id="49c64cfb6f35d57ce67294767ff57c01" category="paragraph"><block ref="49c64cfb6f35d57ce67294767ff57c01" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="409501ac122ff644e6764e778fb7dbd8" category="list-text">在工作負載詳細資料頁面中、檢閱隱私權曝險窗格中的資訊。</block>
   <block id="dffb203aa27226e3750f92c5c60829df" category="section-title">隱私權曝險對工作負載重要性的影響</block>
   <block id="61915adac4ce0b36ecdb70a5e446a80b" category="paragraph">隱私權曝險變更可能會影響工作負載的重要性。</block>
   <block id="a201dfb7539c6083e641a0bc8121201b" category="cell">隱私權曝險時：</block>
@@ -1362,10 +1326,8 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="f8307a8be7170a599a441165be60a2d7" category="cell">低或中</block>
   <block id="655d20c1ca69519ca647684edbb2db35" category="paragraph">高</block>
   <block id="f5bfc54a73042ca571add47438fea77e" category="cell">從「標準」或「重要」變更為「重大」</block>
-  <block id="8563d008cf2d982b5b75f98ebec1a56f" category="section-title">直接在 BlueXP  分類中調查敏感資料</block>
   <block id="520b356f51c07225dd16424209ff656e" category="list-text">在 Workload 欄中選擇工作負載以查看其詳細資料。</block>
   <block id="eab784efeec8f5c6a6edd9d398ba81ff" category="list-text">若要調查 BlueXP  分類中的曝光、請選取 * 調查 * 。</block>
-  <block id="22ee3679f1c789036e229111945642ef" category="paragraph">BlueXP  分類服務隨即開啟、顯示「調查」索引標籤。</block>
   <block id="15e674d84786450a9efe801faaf91922" category="paragraph">如需 BlueXP  分類的詳細資訊、請參閱下列 BlueXP  分類主題：</block>
   <block id="598d2be50cda45e73d61b0277fd8fe5b" category="doc">使用勒索軟體策略保護工作負載</block>
   <block id="c39a37a7df296279dc521553fc906d98" category="list-text">建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體保護所建立的原則（稱為 _ 偵測原則 _ ）。</block>
@@ -1374,7 +1336,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="e73ca9305dfbbe468d9b5345bda92144" category="list-text">檔案共用、 VM 檔案共用的 BlueXP  備份與還原</block>
   <block id="e10a2e4ef1f3cc661e89aa47c1655787" category="list-text">適用於 VMware 的 SnapCenter for VM 資料存放區</block>
   <block id="4a7e813ec2cbdfc4d32fb9d8fe51caf8" category="list-text">SnapCenter for Oracle 和 MySQL</block>
-  <block id="672e6f752baa39051ecd60dabd6f03e9" category="paragraph"><block ref="672e6f752baa39051ecd60dabd6f03e9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c00777a5fc73931b43c8deab8cfa46e" category="inline-image-macro">管理策略</block>
   <block id="8c3e123759e77036cb4a9cc98934b5d5" category="paragraph"><block ref="8c3e123759e77036cb4a9cc98934b5d5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ecdceb343294a7a296ceead052c3db6" category="section-title">群組檔案共用以更容易保護</block>
@@ -1398,22 +1359,8 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="a739b6145911af1f850b745cae737475" category="paragraph"><block ref="a739b6145911af1f850b745cae737475" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eeb66cc642f94e09fb2fea35f4da620a" category="list-text">選取管理此群組保護的原則。</block>
   <block id="0fc76de5572d1186f1358665dff6076f" category="list-text">檢閱保護群組的選項。</block>
-  <block id="ce14e32da8690b6aadac16a04c6ef9f8" category="section-title">新增更多工作負載至群組</block>
-  <block id="f1e753754f87afcc8354df163185c886" category="paragraph">您稍後可能需要將更多工作負載新增至現有群組。</block>
-  <block id="4a723b1c2d6879d15945564ffc50eab3" category="paragraph">如果群組包含僅由 BlueXP  勒索軟體保護（而非由 SnapCenter 或 BlueXP  備份與還原管理）所管理的工作負載、則應針對僅由 BlueXP  勒索軟體保護所管理的工作負載、使用個別群組、而針對由其他服務管理的工作負載、使用另一個群組。</block>
-  <block id="0f13c48ebf53ed79e220526451e83f02" category="list-text">選取您要新增更多工作負載的群組。</block>
   <block id="44264335870d783d6e7b840b5015b4b8" category="inline-image-macro">保護群組詳細資料頁面</block>
   <block id="b65981674e374f9759dbdb3ca4f23faf" category="paragraph"><block ref="b65981674e374f9759dbdb3ca4f23faf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a4f2c775292efe43eebe8c3bf6f564d3" category="list-text">從選定的保護群組頁面中、選取 * 新增 * 。</block>
-  <block id="77133ed1baa7fc4be1bdc40d2d5f713c" category="paragraph">BlueXP  勒索軟體保護功能只會顯示群組中尚未使用與群組相同快照和備份原則的工作負載。</block>
-  <block id="bc86a41b855d7a61a9560e7f775c577b" category="admonition">頁面頂端會顯示維護快照、備份和偵測原則的服務。</block>
-  <block id="cea4d748b791b6986b259dcab871a0de" category="list-text">選取應新增至群組的其他工作負載。</block>
-  <block id="eda3b9c0a863dbdeae5ac8cceaa9106b" category="section-title">編輯群組保護</block>
-  <block id="5ddc803fe9d698c46c210dd0441abf29" category="paragraph">您可以變更現有群組上的偵測原則。如果尚未將偵測原則新增至此群組、您可以立即新增。</block>
-  <block id="fcf57a51d508de6200d15dd2c378dac8" category="inline-image-macro">顯示「編輯」選項的「保護群組」頁面</block>
-  <block id="807a22e08a23017f2765108a69a7df6b" category="paragraph"><block ref="807a22e08a23017f2765108a69a7df6b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="77a65d75bb3b07997a6f71929addaf13" category="list-text">從「保護」窗格中、選取 * 編輯保護 * 。</block>
-  <block id="b051e0ab5030cac21c7b7158159edcc4" category="list-text">選取或新增偵測原則至此群組。</block>
   <block id="53522fa53710da57ddc6e0452516732b" category="section-title">移除群組中的工作負載</block>
   <block id="7fac60e8c61e94cf97a02abd83048b7d" category="paragraph">您稍後可能需要從現有群組移除工作負載。</block>
   <block id="35a8cf13ce382c8fdf2a7f51c0b2b8cc" category="list-text">選取您要從中移除一或多個工作負載的群組。</block>
@@ -1439,9 +1386,7 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* 識別 * 在 NetApp 內部部署 NAS 中的所有應用程式型、檔案共用或 VMware 託管工作負載、以及 BlueXP  中的 NFS 或 CIFS 工作環境、以及 BlueXP  組織、專案和 BlueXP  Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。</block>
   <block id="28017f63775595195f8bc7296bf383df" category="paragraph">若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP  勒索軟體保護會分析組織內所有 BlueXP  Connectors 和專案中工作環境中的所有磁碟區和檔案。</block>
   <block id="6b95918551f87e6ece870e17dd0bb85f" category="paragraph">* 如何處理存取權限？ *只有組織管理員才能啟動服務並探索工作負載（因為這涉及使用資源）。後續互動可由任何角色執行。</block>
-  <block id="deb3fe36dfe08c28dddf280186cdd385" category="paragraph">您可以使用 90 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是 BlueXP  組織管理員、才能開始免費試用。</block>
   <block id="581365c1705cc0acc9951fa2431b194f" category="paragraph">您需要 BlueXP  勒索軟體保護序號。請從您的銷售訂單中找出此號碼、或聯絡客戶團隊以取得此資訊。</block>
-  <block id="03449b1d058ce8c279f7011c479deb0b" category="list-text">組織管理 Privileges 的 BlueXP  使用者帳戶、用於探索資源。</block>
   <block id="6674b495a5c26c68ef2278fe3c1da714" category="list-text">BlueXP  組織、至少有一個使用中的 BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。</block>
   <block id="ca455f87aae9ad05b9b56c1b2323a2c0" category="admonition">如果您在單一 BlueXP  組織中有多個 BlueXP  Connectors 、 BlueXP  勒索軟體保護服務會掃描所有 Connector 的 ONTAP 資源、而不是目前在 BlueXP  UI 中選取的連接器。</block>
   <block id="a2522bc84ab4c15eaa356f762fb3afc8" category="list-text">登入 BlueXP  、尋找需要更新其 ONTAP 使用者權限的工作環境。</block>
@@ -1458,4 +1403,137 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
   <block id="978aa39e867fbe7badda46cb2834d11f" category="paragraph">對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Cloud Volumes ONTAP on AWS （使用 NFS 傳輸協定）、並將資料備份至 Amazon Web Services 雲端儲存設備。</block>
   <block id="72066c262bc44f1ada77598ec3915f18" category="sidebar">BlueXP 勒索軟體保護是一項協調服務、用於勒索軟體的保護、偵測及還原。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及跨 BlueXP  組織的 Amazon Web Services （使用 NFS 和 CIFS 通訊協定）中的 Cloud Volumes ONTAP 、並將資料備份至 Amazon Web Services （ AWS ）雲端儲存設備或 NetApp StorageGRID 。</block>
+  <block id="248b0512a0978346a77e8e8124cf2634" category="admonition">隨著 2024 年 10 月發行，新部署的 BlueXP  勒索軟體保護功能可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
+  <block id="19bb2bd2050ae1b493e68252954c103c" category="paragraph">BlueXP  勒索軟體保護服務需要 NetApp ONTAP One 授權。</block>
+  <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.12.1 或更新版本（使用 NFS 和 CIFS 通訊協定）</block>
+  <block id="8231c4d0bf8a7556608115dd91204c4f" category="summary">BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用組織管理和檢視器（非組織管理）的核心 BlueXP  角色。</block>
+  <block id="42f944e4939f6034a8d450266d2e5079" category="cell">BlueXP  組織管理員</block>
+  <block id="63f202b7fcd80e9277a9e585cd35c7ae" category="list-text">註冊 30 天免費試用。</block>
+  <block id="a50976a8a60ebbc86ce147a2bc58e5b2" category="list-text">向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。</block>
+  <block id="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link"><block ref="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link-rx"></block></block>
+  <block id="26907702c897b4840105eaeacdf31029" category="paragraph">* 什麼是 BlueXP 勒索軟體保護 URL ？ *對於 URL 、在瀏覽器中輸入：<block ref="af060db23189ba3a073087c2598bc50f" category="inline-link-rx"></block> 以存取 BlueXP  主控台。</block>
+  <block id="97efbae4c31fd11ab78b098ad04da4de" category="paragraph">* BlueXP  勒索軟體保護如何與 BlueXP  備份與還原及 SnapCenter 互動？ *</block>
+  <block id="792517513a26d840feabadf955591d22" category="list-text">向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。</block>
+  <block id="ed2dd81f2c51f4d72049803cf5ce6211" category="list-text">刪除任何資源，例如原則。</block>
+  <block id="b22e0a0c145eff4bd34bc6c46894b2a1" category="section-title">試用 30 天免費試用</block>
+  <block id="32189cd03c61f38449d8257d3878988b" category="paragraph">您可以使用 30 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是 BlueXP  組織管理員才能開始免費試用。</block>
+  <block id="38a5d26da81a262d0ad6fb78bf23a0d6" category="admonition">隨著 2024 年 10 月發行， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
+  <block id="3ad87b9da828fc1c8e612ab5674dbabe" category="paragraph">您可以隨時取得授權或訂閱、直到 30 天試用期結束為止、您將不會被收取費用。若要在 30 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。</block>
+  <block id="a668e7961280a1c2dd9b2e1867761d44" category="paragraph">免費試用結束後，您可以透過其中一個行銷網站訂閱，或是向 NetApp 購買授權。</block>
+  <block id="022abbaa1179c7b286ddd8c130ac5457" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="3cddb13ecf5de3b5c62958c1a6e3afc3" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
+  <block id="917d119556d0b3f155ab93c6b6decde7" category="section-title">透過 Google Cloud Marketplace 訂閱</block>
+  <block id="d8f27ca121921f3e7ff84cea1c2c6371" category="paragraph">本程序提供如何直接在 Google Cloud Marketplace 中訂閱的高階概觀。</block>
+  <block id="68bc8bfc745c7a7d97cfbee96126b749" category="paragraph"><block ref="68bc8bfc745c7a7d97cfbee96126b749" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4670fc47f2031ab5b19a35024f4b55e9" category="list-text">在「付款方式」頁面中，選取 * 在 Google Cloud Marketplace* 中訂閱。</block>
+  <block id="da8e2dc452002a12a0ac8683be633a4d" category="list-text">在 Google Cloud Marketplace 中，選取 * 訂閱 * 。</block>
+  <block id="0d08ffcba407e2477fe1d1c22776d966" category="inline-image-macro">Google Cloud Marketplace 訂閱頁面</block>
+  <block id="637f0e4e0fda6c116753682cdcaa5a03" category="list-text">使用 Google Cloud Marketplace 訂閱 BlueXP  勒索軟體保護。<block ref="fb3373bf1b0a953c29606efc6ca2ad62" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="987b6c6063cff28e3432df5ac7a5ccad" category="admonition">系統會傳送電子郵件給您，其中包含 BlueXP  勒索軟體保護序號，並指出 BlueXP  勒索軟體保護功能已在 Google Cloud Marketplace 中訂閱。</block>
+  <block id="0db2f901fd9f624905ee76fafab211b8" category="list-text">組織管理 Privileges 的 BlueXP  使用者帳戶，用於探索資源。</block>
+  <block id="c3f8e7faba40535b5ced28331a2ed534" category="list-text">BlueXP  Connector 的容器必須<block ref="d5aabb6133fba5c7ef5a4e8db21d18ae" prefix=" " category="inline-code"></block>處於作用中狀態。</block>
+  <block id="f89c934c898fc55d4773d10ee90d485e" category="list-text">內部部署 ONTAP 執行個體上已啟用 ONTAP One 授權。</block>
+  <block id="14b35f939fcc508bbbe9bbcc95c9d281" category="paragraph">在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。如需如何在 BlueXP  勒索軟體保護中設定備份目的地的詳細<block ref="d7283f05508223892c3d4b2693d5a6af" category="inline-link-macro-rx"></block>資訊，請參閱。</block>
+  <block id="6b0e91bb98e8a9394dda94307f3217d0" category="doc">使用 BlueXP  分類來掃描個人識別資訊</block>
+  <block id="753b6b8856f736c4d2bafca31e68a6ef" category="paragraph">在 BlueXP  勒索軟體保護服務中、您可以使用 BlueXP  分類（ BlueXP  系列的核心元件）、在檔案共用工作負載上掃描及分類資料。分類資料有助於識別資料是否包含個人識別資訊（ PII ），進而增加安全風險。</block>
+  <block id="f812376fe75506b0d28c7b58d3b279f0" category="admonition">BlueXP  分類可以部署在內部部署，雲端（非 SaaS 部署），或是技術預覽中的 SaaS 模式。使用非 SaaS 部署或現有部署時，通常會在 BlueXP  勒索軟體保護中掃描 PII 資料，而非在 Preview 中掃描。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。請參閱 <block ref="71b7fcd43dad68a28f1c1ae3bbb6f526" category="inline-link-macro-rx"></block>。</block>
+  <block id="5526010a5b298ea10d9a56b593ab9bce" category="admonition">此程序可能會影響工作負載的重要性，有助於確保您獲得適當的保護。</block>
+  <block id="8b34ad1076790f662c3b4dd16a74cfc2" category="admonition">您只需執行一次，如果您選擇另一個檔案共用工作負載來識別曝光，就不需要再次啟用 BlueXP  分類。</block>
+  <block id="ae4cd989261438ef1ac70ec8ce13114e" category="paragraph">透過使用 BlueXP  分類 UI 作為替代方法，系統管理員可以在 BlueXP  勒索軟體保護中啟用 BlueXP  分類。</block>
+  <block id="ae026bf5e2ca5066c55b7b1740de800e" category="inline-image-macro">顯示隱私權曝險欄的保護頁面</block>
+  <block id="9dedf1958376570fec810d3b47c2d3ec" category="paragraph"><block ref="9dedf1958376570fec810d3b47c2d3ec" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c9a29e458dc19d719bdef7e1781fc91a" category="list-text">若要啟用 BlueXP  分類來掃描您的資料以取得個人識別資料，請在 * 隱私權曝光 * 欄中，選取 * 識別曝光 * 。</block>
+  <block id="c2addd6f8ea1a9a6c5d798758a7b188a" category="paragraph">BlueXP  分類會安裝 BlueXP  Connector ，從遠端連線至您的工作負載資料，並在 NetApp 雲端（ Amazon Web Services ， WS-West-1 ）中進行掃描。只有找出的洞見和指標才會保留 NetApp 雲端。</block>
+  <block id="cb00df8d7d83fc54f38d8f958caeff1f" category="paragraph">掃描完成時，隱私權曝光欄會將曝光等級顯示為低，中或高。</block>
+  <block id="44c62ea7c0b79fd032ba2255784b788f" category="paragraph">BlueXP  分類掃描個人識別資訊（ PII ）之後，您可以查看 PII 資料風險。</block>
+  <block id="f698eb407c336f1d3c594ba3daa8afa2" category="paragraph"><block ref="f698eb407c336f1d3c594ba3daa8afa2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="892409e59d34cf771dbbaf3f9b3f3fa8" category="admonition">如果狀態變更，隱私權曝險欄中會出現上下箭頭，表示隱私權曝險變更。</block>
+  <block id="0bb4a1497d3056f8b2f0423eff14e160" category="inline-image-macro">工作負載詳細資料畫面，顯示隱私權曝光方塊</block>
+  <block id="7b0824f1068863bca201f38cc7763786" category="paragraph"><block ref="7b0824f1068863bca201f38cc7763786" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c16da9377e1db1ff8cb28a6b3eb6f462" category="list-text">在工作負載詳細資料頁面中，檢閱隱私權曝險方塊中的資訊。</block>
+  <block id="0628dae6f78a8b7a2f042377f5dfa2f9" category="admonition">如果隱私權曝險變更會影響工作負載的重要性，工作負載重要性狀態旁邊會出現向上或向下箭頭。</block>
+  <block id="832d9d8d5372bc4ce84e2841b0cf5035" category="section-title">直接在 BlueXP  分類中調查隱私權曝險</block>
+  <block id="967005b88b6b7e8a1d4934a2422fa68b" category="paragraph">從 BlueXP  勒索軟體保護功能中，您可以選取工作負載，檢視其詳細資料，然後在 BlueXP  分類中調查暴露情況。</block>
+  <block id="24dbdd027eb164627feaa78ea9845741" category="paragraph">BlueXP  分類服務隨即開啟，顯示「調查」索引標籤。</block>
+  <block id="b527ec4bbaefe3d1e8074f5ab75d2698" category="inline-image-macro">BlueXP 分類</block>
+  <block id="8b554765454fbcd031b59e4342f9d5cb" category="paragraph"><block ref="8b554765454fbcd031b59e4342f9d5cb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6736e75fd4558dc613260e8bd3225269" category="list-text">檢閱「調查」索引標籤中的資訊。</block>
+  <block id="df2e0d01e3d847f1df1fc2912de1bed7" category="list-text">若要返回 BlueXP  勒索軟體保護服務，請選取 * 返回 BlueXP  勒索軟體保護 * 。</block>
+  <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">以取得更多資訊</block>
+  <block id="b6ed68904b26faac81b9a6914f1b95cd" category="paragraph"><block ref="b6ed68904b26faac81b9a6914f1b95cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a46946c5eab68e6301fa937c5e483bd2" category="paragraph"><block ref="a46946c5eab68e6301fa937c5e483bd2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d1da278e2b200d15590ed650467d6ca5" category="paragraph">您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。您也可以顯示未來的預覽功能。</block>
+  <block id="fe22f8915783035f8b302deb7cd76e3f" category="list-text">顯示即將推出的預覽功能。</block>
+  <block id="c442f897ba9f28d5d7d3b1643ea9284a" category="paragraph">您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub ， Microsoft Sentinel 或 Splunk Cloud 做為 SIEM 。</block>
+  <block id="cd4d66bdd803d46b839b94afd734cbcd" category="section-title">設定 Microsoft Sentinel 進行威脅偵測</block>
+  <block id="a788a2126e1d7e43efbc7cabca65b065" category="paragraph">在 BlueXP  勒索軟體保護中啟用 Microsoft Sentinel 之前，您必須先在 Microsoft Sentinel 中執行下列高階步驟：</block>
+  <block id="fc01add8dc5e609f9be29c977daabdb7" category="list-text">*先決條件*</block>
+  <block id="37f2e7903c233bd04580bbd9be3e01dd" category="list-text">啟用 Microsoft Sentinel 。</block>
+  <block id="4b78ed88f7480fc055e7d156d68bc76f" category="list-text">在 Microsoft Sentinel 中建立自訂角色。</block>
+  <block id="a264061275bb43462c63644cbcfe1cdd" category="list-text">* 註冊 *</block>
+  <block id="3febab1d1d3902de7a521bc5966202b9" category="list-text">註冊 BlueXP  勒索軟體保護，以接收來自 Microsoft Sentinel 的事件。</block>
+  <block id="e9533d3cc3450cc437e3452b21f4e97f" category="list-text">建立登錄密碼。</block>
+  <block id="d0d26c22c8bcacd0db2ef7f6857801c1" category="list-text">* 權限 * ：指派應用程式的權限。</block>
+  <block id="634e092bf22459996810a1c2929824dc" category="list-text">* 驗證 * ：輸入應用程式的驗證認證。</block>
+  <block id="7a183e1af9011b3614a78324d4616e15" category="list-title">啟用 Microsoft Sentinel 的步驟</block>
+  <block id="08a65e7044425c8d2c782e9b34c3e654" category="list-text">前往 Microsoft Sentinel 。</block>
+  <block id="8c871324b9c8d6f9e574d61e6af06ac8" category="list-text">建立 * 記錄分析工作區 * 。</block>
+  <block id="d7f9c1502929f8a9624aeb8a459be84e" category="list-text">啟用 Microsoft Sentinel 以使用您剛建立的 Log Analytics 工作區。</block>
+  <block id="74ac1228e90a795447fcd3ef5d57fbb9" category="list-title">在 Microsoft Sentinel 中建立自訂角色的步驟</block>
+  <block id="c81259b70bf3f6091a6ea9d12a1516c3" category="list-text">選擇 * 訂閱 * &gt; * 存取控制（ IAM ） * 。</block>
+  <block id="de840911018ebdf938f31217b1b76a07" category="list-text">輸入自訂角色名稱。使用名稱 * 勒索軟體保護 BlueXP  組態器 * 。</block>
+  <block id="dcec7acebd109f04b4e2a5e7982c2ca6" category="list-text">複製下列 JSON 並貼到 * JSON* 標籤中。</block>
+  <block id="f14b670805869bff13be2818d420e8b9" category="list-text">檢閱並儲存您的設定。</block>
+  <block id="3c4d825efc2df2b19597c39ba37472ab" category="list-title">註冊 BlueXP  勒索軟體保護以接收來自 Microsoft Sentinel 的事件的步驟</block>
+  <block id="cc29294d0b591a10fc322169b7f1f026" category="list-text">選擇 * Entra ID* &gt; * Applications* &gt; * 應用程式註冊 * 。</block>
+  <block id="c632da85946bb71d482e282ff8d705c8" category="list-text">對於應用程式的 * 顯示名稱 * ，請輸入「 * BlueXP  勒索軟體保護 * 」。</block>
+  <block id="b98526e9d91b1e1635367700d6012267" category="list-text">在 * 支援的帳戶類型 * 欄位中，選取 * 僅此組織目錄中的帳戶 * 。</block>
+  <block id="51a88bb9413dd5cc0217d3341c14146a" category="list-text">選擇一個 * 預設索引 * ，以推送事件。</block>
+  <block id="b99a9a5879442c5ad3ae30c94964ccb3" category="list-text">選擇* Review *。</block>
+  <block id="d7f089d595dc5d8b4b35eb5acb6cf354" category="list-text">選擇 * 註冊 * 以儲存您的設定。</block>
+  <block id="5293737739d192ce4c823f55d6348b38" category="paragraph">註冊之後， Microsoft Entra 管理中心會顯示應用程式概觀窗格。</block>
+  <block id="08d457149f23a08e7d52fc0144d0ba4d" category="list-title">建立登錄秘密的步驟</block>
+  <block id="110778c40d9a0f7258c68cac989bbe9c" category="list-text">選擇 * 證書和機密 * &gt; * 客戶機密 * &gt; * 新客戶機密 * 。</block>
+  <block id="25b912035505a8c7f4db26a790036f2e" category="list-text">新增應用程式機密的說明。</block>
+  <block id="8d630138be955f4fdc041c611342cd58" category="list-text">選擇一個 * 過期 * 作爲機密，或指定自定義壽命。</block>
+  <block id="485fdedb0c7094275d346a406c7511bc" category="admonition">用戶端機密生命週期限制為兩年（ 24 個月）或更短。Microsoft 建議您將到期值設定為少於 12 個月。</block>
+  <block id="1ff868ad6c260db8589989baff2a8980" category="list-text">選取 * 新增 * 以建立您的秘密。</block>
+  <block id="c669e93c1e1c1457b26eee151fca6438" category="list-text">在驗證步驟中記錄要使用的機密。離開此頁面後，不會再顯示密碼。</block>
+  <block id="260a969e6beee33bb0d12186ae95be83" category="list-title">指派應用程式權限的步驟</block>
+  <block id="9917d3e3752f3388fb31aaf44f32cf72" category="list-text">選取 * 新增 * &gt; * 新增角色指派 * 。</block>
+  <block id="ac85bdfc3359843e395378de64bb445a" category="list-text">對於 * 貴賓管理員角色 * 欄位，請選取 * 勒索軟體保護 BlueXP  組態器 * 。</block>
+  <block id="fa4157795fdbaed676b0486ebceb9f1a" category="admonition">這是您先前建立的自訂角色。</block>
+  <block id="f4de5688569435ae5792856a75a3ed96" category="list-text">在 * 指派存取權限給 * 欄位中，選取 * 使用者，群組或服務主體 * 。</block>
+  <block id="0a045d426b1169b24173fe93e9297739" category="list-text">選取 * 選取成員 * 。然後，選取 * 勒索軟體保護 BlueXP  組態器 * 。</block>
+  <block id="eb882a818e0a3cc0adcb1bd7313e9832" category="list-text">在 * 使用者可以做什麼 * feld 中，選取 * 允許使用者指派所有角色，但特權管理員角色擁有者， UAA ， RBAC （建議） * 除外。</block>
+  <block id="0427238efbd6d8ab4d12c132cb4cae7d" category="list-text">選取 * 檢閱並指派 * 來指派權限。</block>
+  <block id="b37c7df6ed28d0c6b82990a40be5956c" category="list-title">輸入應用程式驗證認證的步驟</block>
+  <block id="9d4673f4ba59f2e834f5cc5a15b8a533" category="list-text">輸入認證：</block>
+  <block id="df399ba2a5bc8f8f94de9d50ed1b4f39" category="list-text">輸入租戶 ID ，用戶端應用程式 ID 和用戶端應用程式機密。</block>
+  <block id="f5bddff63a6b1a5fa177990d3578de9c" category="list-text">按一下*驗證*。</block>
+  <block id="53e68cb1edb551af8b1c0d8fee230e44" category="admonition">驗證成功後，會出現「驗證」訊息。</block>
+  <block id="00bcd4c2f217493f06ecbb6ddfa3862b" category="list-text">輸入應用程式的 Log Analytics 工作區詳細資料。</block>
+  <block id="b263ba58e894356680bda9edd8c52400" category="list-text">選取訂閱 ID ，資源群組和記錄分析工作區。</block>
+  <block id="6d7cbe8caa190a79506b1314d84bb01b" category="paragraph"><block ref="6d7cbe8caa190a79506b1314d84bb01b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="466e22ed907b69bcece2ccdfba36fdb4" category="list-text">在「設定」頁面中，選取 SIEM 連線方塊中的 * 連線 * 。</block>
+  <block id="322bdafeaec3f2756e524c7676eec70b" category="inline-image-macro">啟用威脅偵測詳細資料頁面</block>
+  <block id="a79d3cc091ba614079e19b05bd4144d7" category="paragraph"><block ref="a79d3cc091ba614079e19b05bd4144d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="51b72b90a4718219881b0d84075810c4" category="section-title">顯示預覽功能</block>
+  <block id="d908f6613094698e53cc5d8f2a363d84" category="paragraph">您可以在即將推出的「預覽」功能發行之前試用這些功能。這些功能會在 UI 中顯示「預覽」標籤。</block>
+  <block id="062ede60ed0171c1667d278364784a58" category="paragraph">您需要 BlueXP  勒索軟體保護產品團隊提供的金鑰，才能顯示「預覽」功能。若要取得金鑰，請傳送電子郵件至 mailto ： NetApp .com 。</block>
+  <block id="4c27fcab4d515ee8181a6a9243ba54f3" category="list-text">在 * 預覽功能 * 方塊中，選取 * 顯示 * 。</block>
+  <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">輸入金鑰。</block>
+  <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">選取 * 顯示 * 。</block>
+  <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  勒索軟體保護的新功能</block>
+  <block id="07c8845dbdef949b860ebfc99bd558ac" category="section-title">2024 年 11 月 6 日</block>
+  <block id="7d02192f3436d747f16f0854f54cd837" category="list-text">* 啟用資料分類並掃描個人識別資訊（ PII ） * ：此版本可讓 BlueXP  系列的核心元件 BlueXP  分類功能，掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。</block>
+  <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
+  <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。</block>
+  <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">請參閱<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block>。</block>
+  <block id="dc2ee5afb67051a37353df40cc16729a" category="paragraph">若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。</block>
+  <block id="4dc0491313939f9597e6bce367054443" category="paragraph"><block ref="0e7ea879583dcbdf58a2050df8592221" category="inline-link-rx"></block>。</block>
+  <block id="41e1ecfc5a85ff11563226784ee15ba6" category="list-text">* 在即將推出的 Preview 功能發佈之前先試用 * ：您現在可以先試用一些標示為「 Preview 」的功能，再發行這些功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。</block>
+  <block id="7a5ad35792efc88c3a5c05a313202699" category="list-text">* SIEM 與 Microsoft Sentinel* 整合：您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ）進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。</block>
+  <block id="9d163bfc4f18cfe82e5ab58246fe3e03" category="list-text">* 免費試用 30 天 * ：此版本推出後， BlueXP  勒索軟體保護的新部署現在可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
+  <block id="2f5cba8ef7e3d3ce9ca484acfa021d1e" category="list-text">* 在 Podman* 的檔案層級還原應用程式工作負載：在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。</block>
+  <block id="4b55af6e5a9948a11e84a0809a34edfb" category="sidebar">掃描個人識別資料</block>
 </blocks>

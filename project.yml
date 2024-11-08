@@ -8,13 +8,15 @@ settings:
     pdf_enabled: true
     harmony_enabled: false
   rss_page: whats-new.html
-  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: BlueXP 勒索軟體保護文件
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: BlueXP 勒索軟體保護的新功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 瞭解 BlueXP 勒索軟體保護
@@ -45,6 +47,8 @@ sidebar:
       entries:
       - title: 利用勒索軟體保護策略保護工作負載
         url: "/rp-use-protect.html"
+      - title: 掃描個人識別資料
+        url: "/rp-use-protect-classify.html"
     - title: 回應偵測到的警示
       url: "/rp-use-alert.html"
     - title: 從勒索軟體攻擊中恢復

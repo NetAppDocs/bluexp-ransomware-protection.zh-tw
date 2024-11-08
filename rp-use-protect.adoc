@@ -8,7 +8,7 @@ summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -75,7 +75,7 @@ BlueXP  勒索軟體保護策略不需要備份原則。
 ** 從儀表板的資料保護窗格中、選取 * 檢視全部 * 。
 ** 從功能表中選取 * 保護 * 。
 +
-image:screen-protection3.png["保護頁面"]
+image:screen-protection.png["保護頁面"]
 
 
 
@@ -260,7 +260,7 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 .建立勒索軟體保護策略的步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
-image:screen-protection3.png["管理策略頁面"]
+image:screen-protection.png["管理策略頁面"]
 
 . 從「保護」頁面選取 * 管理保護策略 * 。
 +
@@ -331,7 +331,7 @@ TIP: 若要在次要儲存設備上啟用備份鎖定、請使用 * 設定 * 選
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
-image:screen-protection3.png["管理策略頁面"]
+image:screen-protection.png["管理策略頁面"]
 
 . 從「保護」頁面選取工作負載、然後選取 * 保護 * 。
 +
@@ -378,7 +378,7 @@ image:screen-protect-br-policies.png["顯示 BlueXP 備份與還原原則的「�
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
-image:screen-protection3.png["管理策略頁面"]
+image:screen-protection.png["管理策略頁面"]
 
 . 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
 +
@@ -418,52 +418,6 @@ image:screen-protection-groups-policy.png["新增保護群組 - 原則頁面"]
 . 選擇*下一步*。
 . 檢閱保護群組的選項。
 . 選取*「Add*」。
-
-
-
-
-=== 新增更多工作負載至群組
-
-您稍後可能需要將更多工作負載新增至現有群組。
-
-如果群組包含僅由 BlueXP  勒索軟體保護（而非由 SnapCenter 或 BlueXP  備份與還原管理）所管理的工作負載、則應針對僅由 BlueXP  勒索軟體保護所管理的工作負載、使用個別群組、而針對由其他服務管理的工作負載、使用另一個群組。
-
-.步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
-+
-image:screen-protection-groups.png["保護群組頁面"]
-
-. 選取您要新增更多工作負載的群組。
-+
-image:screen-protection-groups-more-workloads.png["保護群組詳細資料頁面"]
-
-. 從選定的保護群組頁面中、選取 * 新增 * 。
-+
-BlueXP  勒索軟體保護功能只會顯示群組中尚未使用與群組相同快照和備份原則的工作負載。
-
-+
-
-TIP: 頁面頂端會顯示維護快照、備份和偵測原則的服務。
-
-. 選取應新增至群組的其他工作負載。
-. 選擇*保存*。
-
-
-
-
-=== 編輯群組保護
-
-您可以變更現有群組上的偵測原則。如果尚未將偵測原則新增至此群組、您可以立即新增。
-
-.步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 從「保護」頁面中、選取 * 保護群組 * 索引標籤。
-+
-image:screen-protection-groups-edit.png["顯示「編輯」選項的「保護群組」頁面"]
-
-. 從「保護」窗格中、選取 * 編輯保護 * 。
-. 選取或新增偵測原則至此群組。
 
 
 

@@ -8,7 +8,7 @@ summary: 如果您不想再使用 BlueXP  勒索軟體保護服務、您可以�
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]

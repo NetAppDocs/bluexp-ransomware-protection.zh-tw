@@ -22,9 +22,9 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 
 您可以使用下列授權類型：
 
-* 註冊 90 天免費試用。
-* 您很快就能透過 Amazon Web Services （ AWS ） Marketplace 購買隨用隨付（ PAYGO ）訂閱。
-* 您很快就能自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
+* 註冊 30 天免費試用。
+* 向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
+* 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
 * 如何啟用 BlueXP 勒索軟體保護？ *
@@ -42,8 +42,7 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
 
 == 存取
 
-* 什麼是 BlueXP 勒索軟體保護 URL ？ *
-對於 URL 、請在瀏覽器中輸入： https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 存取 BlueXP 主控台。
+* 什麼是 BlueXP 勒索軟體保護 URL ？ *對於 URL 、在瀏覽器中輸入： https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/ransomware-protection"^] 以存取 BlueXP  主控台。
 
 * 如何處理存取權限？ *只有組織管理員才能啟動服務並探索工作負載（因為這涉及使用資源）。後續互動可由任何角色執行。
 

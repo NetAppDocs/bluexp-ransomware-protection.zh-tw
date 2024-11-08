@@ -8,7 +8,7 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
-:imagesdir: ./media
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -16,8 +16,8 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 
 您可以使用下列授權類型：
 
-* 註冊 90 天免費試用。
-* 向 Amazon Web Services （ AWS ） Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
+* 註冊 30 天免費試用。
+* 向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
 * 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
@@ -31,20 +31,22 @@ NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟
 在免費試用結束或授權或訂閱過期之後、您仍可在服務中執行下列動作：
 
 * 檢視工作負載和工作負載健全狀況。
-* 刪除任何資源、例如工作負載或原則。
+* 刪除任何資源，例如原則。
 * 執行試用期間或授權期間所建立的所有排程作業。
 
 
 
 
-== 試用 90 天免費試用
+== 試用 30 天免費試用
 
-您可以使用 90 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是 BlueXP  組織管理員、才能開始免費試用。
+您可以使用 30 天免費試用版、試用 BlueXP 勒索軟體保護功能。您必須是 BlueXP  組織管理員才能開始免費試用。
 
 
-NOTE: 試用期間不會強制執行容量限制。
+NOTE: 隨著 2024 年 10 月發行， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
 
-您可以隨時取得授權或訂閱、直到 90 天試用期結束為止、您將不會被收取費用。若要在 90 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。
+試用期間不會強制執行容量限制。
+
+您可以隨時取得授權或訂閱、直到 30 天試用期結束為止、您將不會被收取費用。若要在 30 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。
 
 試用期間、您擁有完整功能。
 
@@ -68,9 +70,9 @@ image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 * 試用結束後、請取得訂閱或授權 *
 
-免費試用結束後、您可以透過 AWS Marketplace 訂閱、或是向 NetApp 購買授權。
+免費試用結束後，您可以透過其中一個行銷網站訂閱，或是向 NetApp 購買授權。
 
-<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
+<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<透過 Google Cloud Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
 
 
 
@@ -143,6 +145,54 @@ image:screen-license-payment-methods2.png["BlueXP 勒索軟體保護付款方法
 +
 
 NOTE: 系統會傳送一封電子郵件給您、其中包含 BlueXP 勒索軟體保護序號、並指出 BlueXP 勒索軟體保護已在 Azure Marketplace 中訂閱。
+
+. 返回 BlueXP 勒索軟體保護付款方法頁面。
+. 選擇 * 將授權新增至 BlueXP* 、將授權新增至 BlueXP 。
++
+BlueXP 數位錢包服務會顯示「新增授權」頁面。
+
++
+image:screen-license-dw-add-license.png["BlueXP 數位錢包新增授權頁面"]
+
+. 在 BlueXP 數位錢包的「新增授權」頁面中、選取 * 輸入序號 * 、輸入傳送給您的電子郵件中所包含的序號、然後選取 * 新增授權 * 。
+. 若要在 BlueXP 數位錢包中檢視授權詳細資料、請從 BlueXP 左側瀏覽器中選取 * Governance * > * Digital wall* 。
++
+** 若要查看訂閱資訊、請選取 * 訂閱 * 。
+** 若要查看 BYOL 授權、請選取 * 資料服務授權 * 。
++
+image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權頁面"]
+
+
+
+. 返回 BlueXP 勒索軟體保護。從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
++
+此時會出現訊息、表示已新增授權。
+
+
+
+
+
+== 透過 Google Cloud Marketplace 訂閱
+
+本程序提供如何直接在 Google Cloud Marketplace 中訂閱的高階概觀。
+
+.步驟
+. 在 BlueXP 勒索軟體保護中、執行下列其中一項：
++
+** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
+** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
++
+image:screen-license-payment-methods3-gcp.png["BlueXP 勒索軟體保護付款方法頁面"]
+
+
+
+. 在「付款方式」頁面中，選取 * 在 Google Cloud Marketplace* 中訂閱。
+. 在 Google Cloud Marketplace 中，選取 * 訂閱 * 。
+. 使用 Google Cloud Marketplace 訂閱 BlueXP  勒索軟體保護。image:screen-license-payments-gcp.png["Google Cloud Marketplace 訂閱頁面"]
+. 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
++
+
+NOTE: 系統會傳送電子郵件給您，其中包含 BlueXP  勒索軟體保護序號，並指出 BlueXP  勒索軟體保護功能已在 Google Cloud Marketplace 中訂閱。
 
 . 返回 BlueXP 勒索軟體保護付款方法頁面。
 . 選擇 * 將授權新增至 BlueXP* 、將授權新增至 BlueXP 。
