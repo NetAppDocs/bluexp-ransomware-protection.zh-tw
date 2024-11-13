@@ -1,0 +1,11 @@
+= 自訂檔案共用工作負載群組
+:allow-uri-read: 
+
+
+
+
+=== 自訂檔案共用工作負載群組
+
+有了這個版本，您現在可以將檔案共用分組，讓您更容易保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組"]。

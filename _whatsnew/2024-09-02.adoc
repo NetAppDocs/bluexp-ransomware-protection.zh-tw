@@ -1,0 +1,35 @@
+= Digital Advisor 的安全風險評估
+:allow-uri-read: 
+
+
+
+
+=== Digital Advisor 的安全風險評估
+
+BlueXP  勒索軟體保護現在可從 NetApp 數位顧問收集與叢集相關的高關鍵安全風險資訊。如果發現任何風險、 BlueXP  勒索軟體保護會在儀表板的 * 建議動作 * 窗格中提供建議：「修正叢集 <name> 上的已知安全性弱點。」在儀表板上的建議中、按一下 * 檢閱與修正 * 、建議檢閱 Digital Advisor 和常見弱點（ CVE ）文章、以解決安全性風險。如果存在多種安全風險、請檢閱 Digital Advisor 中的資訊。
+
+請參閱 https://docs.netapp.com/us-en/active-iq/index.html["數位顧問文件"^]。
+
+
+
+=== 備份至 Google Cloud Platform
+
+透過此版本，您可以將備份目的地設定為 Google Cloud Platform 儲存庫。之前、您只能將備份目的地新增至 NetApp StorageGRID 、 Amazon Web Services 和 Microsoft Azure 。
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
+
+
+
+=== 支援 Google Cloud Platform
+
+這項服務現在支援 Cloud Volumes ONTAP for Google Cloud Platform 以保護儲存設備。此服務先前僅支援 Amazon Web Services 和 Microsoft Azure 的 Cloud Volumes ONTAP 、以及內部部署的 NAS 。
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP  勒索軟體保護及支援的資料來源、備份目的地及工作環境"]。
+
+
+
+=== 角色型存取控制
+
+您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。
+
+如需每個角色可執行之動作的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["角色型存取控制 Privileges"]。
