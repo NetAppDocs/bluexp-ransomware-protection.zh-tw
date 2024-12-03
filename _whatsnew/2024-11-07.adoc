@@ -8,23 +8,13 @@
 
 在此版本中，您可以啟用 BlueXP  分類，這是 BlueXP  系列的核心元件，來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
 
-部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
-
-BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。
+部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
 
 請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
 
 若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用 BlueXP  分類掃描個人識別敏感資料"]。
-
-
-
-=== 在即將推出的 Preview 功能發佈之前，請先試用這些功能
-
-您現在可以在發行前試用一些標示為「 Preview 」的功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
 
 

@@ -15,9 +15,6 @@ summary: 在 BlueXP  勒索軟體保護服務中、您可以使用 BlueXP  分
 在 BlueXP  勒索軟體保護服務中、您可以使用 BlueXP  分類（ BlueXP  系列的核心元件）、在檔案共用工作負載上掃描及分類資料。分類資料有助於識別資料是否包含個人識別資訊（ PII ），進而增加安全風險。
 
 
-IMPORTANT: BlueXP  分類可以部署在內部部署，雲端（非 SaaS 部署），或是技術預覽中的 SaaS 模式。使用非 SaaS 部署或現有部署時，通常會在 BlueXP  勒索軟體保護中掃描 PII 資料，而非在 Preview 中掃描。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。請參閱 link://rp-use-settings-html["設定 BlueXP 勒索軟體保護設定"]。
-
-
 TIP: 此程序可能會影響工作負載的重要性，有助於確保您獲得適當的保護。
 
 
@@ -26,12 +23,9 @@ TIP: 此程序可能會影響工作負載的重要性，有助於確保您獲得
 
 在 BlueXP  勒索軟體保護服務中使用 BlueXP  分類之前、您必須先啟用 BlueXP  分類來掃描資料。
 
-
-TIP: 您只需執行一次，如果您選擇另一個檔案共用工作負載來識別曝光，就不需要再次啟用 BlueXP  分類。
-
 透過使用 BlueXP  分類 UI 作為替代方法，系統管理員可以在 BlueXP  勒索軟體保護中啟用 BlueXP  分類。
 
-如需開始使用服務之前 BlueXP  分類的詳細資訊、檢閱這些資源可能會有所幫助。
+在開始使用服務之前，請先檢閱這些 BlueXP  分類資源，這可能很有幫助：
 
 * https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["瞭解 BlueXP 分類"^]
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["私有資料類別"^]
@@ -45,11 +39,6 @@ TIP: 您只需執行一次，如果您選擇另一個檔案共用工作負載來
 image:screen-protection-sensitive-preview-column.png["顯示隱私權曝險欄的保護頁面"]
 
 . 若要啟用 BlueXP  分類來掃描您的資料以取得個人識別資料，請在 * 隱私權曝光 * 欄中，選取 * 識別曝光 * 。
-+
-image:screen-protection-sensitive-data.png["識別敏感資料畫面"]
-
-. 檢閱 BlueXP  分類的相關資訊。
-. 選取 * 識別 * 。
 
 
 .結果
@@ -64,7 +53,7 @@ NOTE: 視資料量而定、掃描可能需要幾分鐘的時間。「保護」�
 
 === 檢閱隱私權曝險
 
-BlueXP  分類掃描個人識別資訊（ PII ）之後，您可以查看 PII 資料風險。
+BlueXP  分類掃描個人識別資訊（ PII ）之後、您可以查看 PII 資料風險。
 
 PII 資料可能具有下列其中一種隱私曝險狀態。
 
@@ -79,19 +68,11 @@ PII 資料可能具有下列其中一種隱私曝險狀態。
 +
 image:screen-protection-sensitive-preview-column-medium.png["顯示隱私權曝險欄的保護頁面"]
 
-+
-
-TIP: 如果狀態變更，隱私權曝險欄中會出現上下箭頭，表示隱私權曝險變更。
-
 . 選取工作負載欄中的工作負載連結、即可查看工作負載詳細資料。
 +
 image:screen-protection-workload-details-privacy-exposure.png["工作負載詳細資料畫面，顯示隱私權曝光方塊"]
 
 . 在工作負載詳細資料頁面中，檢閱隱私權曝險方塊中的資訊。
-+
-
-TIP: 如果隱私權曝險變更會影響工作負載的重要性，工作負載重要性狀態旁邊會出現向上或向下箭頭。
-
 
 
 
@@ -102,7 +83,7 @@ TIP: 如果隱私權曝險變更會影響工作負載的重要性，工作負載
 
 [cols="15,20a,20,20"]
 |===
-| 隱私權曝險時： | 來自此隱私權曝險 | 此隱私權曝險 | 然後，工作負載的重要性就能做到這一點：。 
+| 隱私權曝險時： | 在此隱私權曝險中： | 此隱私權曝險： | 然後，工作負載的重要性就能做到這一點：。 
 
 
 | * 減少 *  a| 
@@ -124,34 +105,6 @@ TIP: 如果隱私權曝險變更會影響工作負載的重要性，工作負載
 高
 | 從「標準」或「重要」變更為「重大」 
 |===
-
-
-== 直接在 BlueXP  分類中調查隱私權曝險
-
-從 BlueXP  勒索軟體保護功能中，您可以選取工作負載，檢視其詳細資料，然後在 BlueXP  分類中調查暴露情況。
-
-.步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
-. 在「保護」頁面中、在「工作負載」欄中找到檔案共用工作負載、此欄會在「隱私權曝險」欄中顯示狀態。
-+
-image:screen-protection-sensitive-preview-column-medium.png["顯示隱私權曝險欄的保護頁面"]
-
-. 在 Workload 欄中選擇工作負載以查看其詳細資料。
-+
-image:screen-protection-workload-details-privacy-exposure.png["顯示隱私權曝光窗格的工作負載詳細資料畫面"]
-
-. 在工作負載詳細資料頁面中，檢閱隱私權曝險方塊中的資訊。
-. 若要調查 BlueXP  分類中的曝光、請選取 * 調查 * 。
-+
-BlueXP  分類服務隨即開啟，顯示「調查」索引標籤。
-
-+
-image:screen-protection-classification-investigation.png["BlueXP 分類"]
-
-. 檢閱「調查」索引標籤中的資訊。
-. 若要返回 BlueXP  勒索軟體保護服務，請選取 * 返回 BlueXP  勒索軟體保護 * 。
-
-
 
 
 == 以取得更多資訊

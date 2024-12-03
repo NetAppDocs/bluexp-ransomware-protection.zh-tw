@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-start-login.html 
-keywords: bluexp login, ransomware protection, bluexp,cyber attack, log in 
+keywords: bluexp login, ransomware protection, bluexp,cyber attack, log in,access 
 summary: 透過 BlueXP 中的服務、開始使用 BlueXP 勒索軟體保護。 
 ---
 = 存取 BlueXP 勒索軟體保護

@@ -1083,7 +1083,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="ec2732dacf33a5e90fbcf1cf42cb9ef7" category="list-text">變更使用者的角色。輸入：</block>
   <block id="2d5422701fe060f1b4df91101404e4ba" category="list-text">返回 BlueXP  勒索軟體保護使用者介面使用。</block>
   <block id="bbb730a044e88545c3476ffea030b9f1" category="list-text">在儀表板中、您可以在每個窗格中執行下列動作：</block>
-  <block id="10111a2393d16789c78a9cdaedd4e858" category="admonition">按一下「我的附註」以查看此資料的秘訣。若要增加工作負載限制、請按一下本附註中的 * 增加工作負載限制 * 。按一下此選項即可前往 BlueXP  支援頁面、您可在其中建立案例通知單。</block>
   <block id="a0d3acda8b40798d6b03c633ead12276" category="cell">連線至 Seim 以回報威脅。</block>
   <block id="c00b830d377d62d0c3d20c11bcd0ce1e" category="cell">輸入 SIEM / XDR 伺服器詳細資料以啟用威脅偵測。請參閱 <block ref="9f0b279394cf25f00a608a52b5aed0b2" category="inline-link-macro-rx"></block>。</block>
   <block id="31d09a40fac7ed173c873af34fa091e3" category="paragraph">您可以根據擁有的工作負載保護來變更保護原則：</block>
@@ -1252,7 +1251,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="e7d05f872780d58e08011a44ce4be77b" category="doc">使用 BlueXP  分類掃描個人識別敏感資料</block>
   <block id="076729a2004741ee7d92b63f5cb3fe9a" category="section-title">啟用 BlueXP  分類</block>
   <block id="a43036419058d2ad4ca5da0ce6b97873" category="paragraph">在 BlueXP  勒索軟體保護服務中使用 BlueXP  分類之前、您必須先啟用 BlueXP  分類來掃描資料。</block>
-  <block id="a5d2c33289393df749cbf18c3be271dd" category="paragraph">如需開始使用服務之前 BlueXP  分類的詳細資訊、檢閱這些資源可能會有所幫助。</block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link">瞭解 BlueXP 分類</block>
   <block id="799ed37205c29a076a84d3694d53c585" category="list-text"><block ref="799ed37205c29a076a84d3694d53c585" category="inline-link-rx"></block></block>
   <block id="93f515959ce6187b986c42fa6959168b" category="inline-link">私有資料類別</block>
@@ -1260,10 +1258,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link">調查組織中儲存的資料</block>
   <block id="08e880effe206106422b9043908d11e9" category="list-text"><block ref="08e880effe206106422b9043908d11e9" category="inline-link-rx"></block></block>
   <block id="22da148f02a4f9df3c95fa55ebe1f0e4" category="list-text">在「保護」頁面中、在「工作負載」欄中找出檔案共用工作負載。</block>
-  <block id="04c2fdcb53dc660f7267061f2996a772" category="inline-image-macro">識別敏感資料畫面</block>
-  <block id="64af7ad3ab046769c51f4f24a86b7cf4" category="paragraph"><block ref="64af7ad3ab046769c51f4f24a86b7cf4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="969f986150648403974cc122eae60ccf" category="list-text">檢閱 BlueXP  分類的相關資訊。</block>
-  <block id="858cc0364fb5e649249551c7ef4f979a" category="list-text">選取 * 識別 * 。</block>
   <block id="9878a7973fa7782f8c21d56eb79d0aad" category="admonition">視資料量而定、掃描可能需要幾分鐘的時間。「保護」頁面顯示 BlueXP  分類正在識別檔案、並提供正在掃描的檔案數量指示。</block>
   <block id="70f91b9311063ebb918671e1632eea94" category="section-title">檢閱隱私權曝險</block>
   <block id="520cb83e421cf68c99eac9eb36fd6b63" category="paragraph">PII 資料可能具有下列其中一種隱私曝險狀態。</block>
@@ -1272,13 +1266,9 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="55d325ae2625ba4269051bf5ac42b2af" category="list-text">* 低 * ：大於 0 且少於 30% 的檔案有 PII</block>
   <block id="743c833ae848226cd938cbcdec4813e8" category="list-text">在「保護」頁面中、在「工作負載」欄中找到檔案共用工作負載、此欄會在「隱私權曝險」欄中顯示狀態。</block>
   <block id="648eb89d24fbd412ac4e5191ba6b3cfc" category="list-text">選取工作負載欄中的工作負載連結、即可查看工作負載詳細資料。</block>
-  <block id="fbb3a837089f0da9e0cebd46602a970a" category="inline-image-macro">顯示隱私權曝光窗格的工作負載詳細資料畫面</block>
-  <block id="49c64cfb6f35d57ce67294767ff57c01" category="paragraph"><block ref="49c64cfb6f35d57ce67294767ff57c01" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dffb203aa27226e3750f92c5c60829df" category="section-title">隱私權曝險對工作負載重要性的影響</block>
   <block id="61915adac4ce0b36ecdb70a5e446a80b" category="paragraph">隱私權曝險變更可能會影響工作負載的重要性。</block>
   <block id="a201dfb7539c6083e641a0bc8121201b" category="cell">隱私權曝險時：</block>
-  <block id="74ddd4c0b88f06f95621270e77b9b74c" category="cell">來自此隱私權曝險</block>
-  <block id="155b3b9cdf276603a429bb78f500f4cf" category="cell">此隱私權曝險</block>
   <block id="9a70ecaf65d678d97afe7382a0197469" category="cell">然後，工作負載的重要性就能做到這一點：。</block>
   <block id="e999cd086de455a56c2f7d169210876b" category="cell">* 減少 *</block>
   <block id="a479d5f7790c7e99c1c56e63d46a8d05" category="paragraph">高、中或低</block>
@@ -1292,8 +1282,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="f8307a8be7170a599a441165be60a2d7" category="cell">低或中</block>
   <block id="655d20c1ca69519ca647684edbb2db35" category="paragraph">高</block>
   <block id="f5bfc54a73042ca571add47438fea77e" category="cell">從「標準」或「重要」變更為「重大」</block>
-  <block id="520b356f51c07225dd16424209ff656e" category="list-text">在 Workload 欄中選擇工作負載以查看其詳細資料。</block>
-  <block id="eab784efeec8f5c6a6edd9d398ba81ff" category="list-text">若要調查 BlueXP  分類中的曝光、請選取 * 調查 * 。</block>
   <block id="15e674d84786450a9efe801faaf91922" category="paragraph">如需 BlueXP  分類的詳細資訊、請參閱下列 BlueXP  分類主題：</block>
   <block id="598d2be50cda45e73d61b0277fd8fe5b" category="doc">使用勒索軟體策略保護工作負載</block>
   <block id="c39a37a7df296279dc521553fc906d98" category="list-text">建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體保護所建立的原則（稱為 _ 偵測原則 _ ）。</block>
@@ -1400,34 +1388,20 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="14b35f939fcc508bbbe9bbcc95c9d281" category="paragraph">在備份目的地本身設定選項之後、您稍後會在 BlueXP 勒索軟體保護服務中將其設定為備份目的地。如需如何在 BlueXP  勒索軟體保護中設定備份目的地的詳細<block ref="d7283f05508223892c3d4b2693d5a6af" category="inline-link-macro-rx"></block>資訊，請參閱。</block>
   <block id="6b0e91bb98e8a9394dda94307f3217d0" category="doc">使用 BlueXP  分類來掃描個人識別資訊</block>
   <block id="753b6b8856f736c4d2bafca31e68a6ef" category="paragraph">在 BlueXP  勒索軟體保護服務中、您可以使用 BlueXP  分類（ BlueXP  系列的核心元件）、在檔案共用工作負載上掃描及分類資料。分類資料有助於識別資料是否包含個人識別資訊（ PII ），進而增加安全風險。</block>
-  <block id="f812376fe75506b0d28c7b58d3b279f0" category="admonition">BlueXP  分類可以部署在內部部署，雲端（非 SaaS 部署），或是技術預覽中的 SaaS 模式。使用非 SaaS 部署或現有部署時，通常會在 BlueXP  勒索軟體保護中掃描 PII 資料，而非在 Preview 中掃描。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。請參閱 <block ref="71b7fcd43dad68a28f1c1ae3bbb6f526" category="inline-link-macro-rx"></block>。</block>
   <block id="5526010a5b298ea10d9a56b593ab9bce" category="admonition">此程序可能會影響工作負載的重要性，有助於確保您獲得適當的保護。</block>
-  <block id="8b34ad1076790f662c3b4dd16a74cfc2" category="admonition">您只需執行一次，如果您選擇另一個檔案共用工作負載來識別曝光，就不需要再次啟用 BlueXP  分類。</block>
   <block id="ae4cd989261438ef1ac70ec8ce13114e" category="paragraph">透過使用 BlueXP  分類 UI 作為替代方法，系統管理員可以在 BlueXP  勒索軟體保護中啟用 BlueXP  分類。</block>
   <block id="ae026bf5e2ca5066c55b7b1740de800e" category="inline-image-macro">顯示隱私權曝險欄的保護頁面</block>
   <block id="9dedf1958376570fec810d3b47c2d3ec" category="paragraph"><block ref="9dedf1958376570fec810d3b47c2d3ec" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c9a29e458dc19d719bdef7e1781fc91a" category="list-text">若要啟用 BlueXP  分類來掃描您的資料以取得個人識別資料，請在 * 隱私權曝光 * 欄中，選取 * 識別曝光 * 。</block>
   <block id="c2addd6f8ea1a9a6c5d798758a7b188a" category="paragraph">BlueXP  分類會安裝 BlueXP  Connector ，從遠端連線至您的工作負載資料，並在 NetApp 雲端（ Amazon Web Services ， WS-West-1 ）中進行掃描。只有找出的洞見和指標才會保留 NetApp 雲端。</block>
   <block id="cb00df8d7d83fc54f38d8f958caeff1f" category="paragraph">掃描完成時，隱私權曝光欄會將曝光等級顯示為低，中或高。</block>
-  <block id="44c62ea7c0b79fd032ba2255784b788f" category="paragraph">BlueXP  分類掃描個人識別資訊（ PII ）之後，您可以查看 PII 資料風險。</block>
   <block id="f698eb407c336f1d3c594ba3daa8afa2" category="paragraph"><block ref="f698eb407c336f1d3c594ba3daa8afa2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="892409e59d34cf771dbbaf3f9b3f3fa8" category="admonition">如果狀態變更，隱私權曝險欄中會出現上下箭頭，表示隱私權曝險變更。</block>
   <block id="0bb4a1497d3056f8b2f0423eff14e160" category="inline-image-macro">工作負載詳細資料畫面，顯示隱私權曝光方塊</block>
   <block id="7b0824f1068863bca201f38cc7763786" category="paragraph"><block ref="7b0824f1068863bca201f38cc7763786" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c16da9377e1db1ff8cb28a6b3eb6f462" category="list-text">在工作負載詳細資料頁面中，檢閱隱私權曝險方塊中的資訊。</block>
-  <block id="0628dae6f78a8b7a2f042377f5dfa2f9" category="admonition">如果隱私權曝險變更會影響工作負載的重要性，工作負載重要性狀態旁邊會出現向上或向下箭頭。</block>
-  <block id="832d9d8d5372bc4ce84e2841b0cf5035" category="section-title">直接在 BlueXP  分類中調查隱私權曝險</block>
-  <block id="967005b88b6b7e8a1d4934a2422fa68b" category="paragraph">從 BlueXP  勒索軟體保護功能中，您可以選取工作負載，檢視其詳細資料，然後在 BlueXP  分類中調查暴露情況。</block>
-  <block id="24dbdd027eb164627feaa78ea9845741" category="paragraph">BlueXP  分類服務隨即開啟，顯示「調查」索引標籤。</block>
-  <block id="b527ec4bbaefe3d1e8074f5ab75d2698" category="inline-image-macro">BlueXP 分類</block>
-  <block id="8b554765454fbcd031b59e4342f9d5cb" category="paragraph"><block ref="8b554765454fbcd031b59e4342f9d5cb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6736e75fd4558dc613260e8bd3225269" category="list-text">檢閱「調查」索引標籤中的資訊。</block>
-  <block id="df2e0d01e3d847f1df1fc2912de1bed7" category="list-text">若要返回 BlueXP  勒索軟體保護服務，請選取 * 返回 BlueXP  勒索軟體保護 * 。</block>
   <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">以取得更多資訊</block>
   <block id="b6ed68904b26faac81b9a6914f1b95cd" category="paragraph"><block ref="b6ed68904b26faac81b9a6914f1b95cd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a46946c5eab68e6301fa937c5e483bd2" category="paragraph"><block ref="a46946c5eab68e6301fa937c5e483bd2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d1da278e2b200d15590ed650467d6ca5" category="paragraph">您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。您也可以顯示未來的預覽功能。</block>
-  <block id="fe22f8915783035f8b302deb7cd76e3f" category="list-text">顯示即將推出的預覽功能。</block>
   <block id="c442f897ba9f28d5d7d3b1643ea9284a" category="paragraph">您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub ， Microsoft Sentinel 或 Splunk Cloud 做為 SIEM 。</block>
   <block id="cd4d66bdd803d46b839b94afd734cbcd" category="section-title">設定 Microsoft Sentinel 進行威脅偵測</block>
   <block id="a788a2126e1d7e43efbc7cabca65b065" category="paragraph">在 BlueXP  勒索軟體保護中啟用 Microsoft Sentinel 之前，您必須先在 Microsoft Sentinel 中執行下列高階步驟：</block>
@@ -1482,15 +1456,7 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="466e22ed907b69bcece2ccdfba36fdb4" category="list-text">在「設定」頁面中，選取 SIEM 連線方塊中的 * 連線 * 。</block>
   <block id="322bdafeaec3f2756e524c7676eec70b" category="inline-image-macro">啟用威脅偵測詳細資料頁面</block>
   <block id="a79d3cc091ba614079e19b05bd4144d7" category="paragraph"><block ref="a79d3cc091ba614079e19b05bd4144d7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="51b72b90a4718219881b0d84075810c4" category="section-title">顯示預覽功能</block>
-  <block id="d908f6613094698e53cc5d8f2a363d84" category="paragraph">您可以在即將推出的「預覽」功能發行之前試用這些功能。這些功能會在 UI 中顯示「預覽」標籤。</block>
-  <block id="062ede60ed0171c1667d278364784a58" category="paragraph">您需要 BlueXP  勒索軟體保護產品團隊提供的金鑰，才能顯示「預覽」功能。若要取得金鑰，請傳送電子郵件至 mailto ： NetApp .com 。</block>
-  <block id="4c27fcab4d515ee8181a6a9243ba54f3" category="list-text">在 * 預覽功能 * 方塊中，選取 * 顯示 * 。</block>
-  <block id="1355ef6342e870ff08b7ae39b0126c7c" category="list-text">輸入金鑰。</block>
-  <block id="70c1d1656e0180e79913295ab5c3c06a" category="list-text">選取 * 顯示 * 。</block>
   <block id="bf43cf14a72445401d6804bee094443e" category="doc">BlueXP  勒索軟體保護的新功能</block>
-  <block id="f3da95789fee3d76f39c270803b7c7df" category="paragraph">部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
-  <block id="c2cb37c5316be80c5de2706c50799610" category="paragraph">BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。</block>
   <block id="14712989ac072dc4b44e9acf1def5f1f" category="paragraph">請參閱<block ref="a5026777e609bf5c1f12922a89f75f5b" category="inline-link-rx"></block>。</block>
   <block id="dc2ee5afb67051a37353df40cc16729a" category="paragraph">若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。</block>
   <block id="4dc0491313939f9597e6bce367054443" category="paragraph"><block ref="0e7ea879583dcbdf58a2050df8592221" category="inline-link-rx"></block>。</block>
@@ -1509,8 +1475,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>。</block>
   <block id="86510b95a05ce4c22c6d48d2fd9228a9" category="doc">啟用資料分類，並掃描個人識別資訊（ PII ）</block>
   <block id="d599e3d1b6a5137e404ea89f314a22e4" category="paragraph">在此版本中，您可以啟用 BlueXP  分類，這是 BlueXP  系列的核心元件，來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。</block>
-  <block id="4d4b17a43409a8c299995a21ddaef39b" category="section-title">在即將推出的 Preview 功能發佈之前，請先試用這些功能</block>
-  <block id="c86f9a52cdb00d7109bfa8ee10b48074" category="paragraph">您現在可以在發行前試用一些標示為「 Preview 」的功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。</block>
   <block id="a2c442ceb4053f2fbfe23023529b9acb" category="section-title">SIEM 與 Microsoft Sentinel 整合</block>
   <block id="5148a0988dead45b54188f22121bb178" category="paragraph">您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ），以進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。</block>
   <block id="178324624f63d3f322bedd1a0cf9e6fc" category="section-title">30 天免費試用</block>
@@ -1565,4 +1529,11 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="f6d0e776adfe1ac52ce17e76a4f5e7a4" category="paragraph">您現在可以檢視更多鑑識詳細資料，以調查偵測到的潛在攻擊。<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block>。</block>
   <block id="1308d0f084fdb39839541aaf971b23ff" category="section-title">恢復程序</block>
   <block id="44d292cf2891eaa1e67cfa3d9504b58b" category="paragraph">恢復程序已增強。現在，您可以針對工作負載，依磁碟區或所有磁碟區來恢復磁碟區。<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>。</block>
+  <block id="3406306d1e826f71d49547332136491d" category="paragraph">部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
+  <block id="7285eda1178a7e67d7c7d057c4e50b4c" category="admonition">按一下「 i 」註解，即可查看此資料的秘訣。若要增加工作負載限制、請按一下本附註中的 * 增加工作負載限制 * 。按一下此選項即可前往 BlueXP  支援頁面、您可在其中建立案例通知單。</block>
+  <block id="6868255e9fc11eab5e761151418b48f9" category="paragraph">在開始使用服務之前，請先檢閱這些 BlueXP  分類資源，這可能很有幫助：</block>
+  <block id="69fb8dfc3b2247a2a33825a8a26cde0a" category="paragraph">BlueXP  分類掃描個人識別資訊（ PII ）之後、您可以查看 PII 資料風險。</block>
+  <block id="65dc756d3347a26af4774cab05b6f1a6" category="cell">在此隱私權曝險中：</block>
+  <block id="8dc6cf962cd8b6b9d4c2ec1c25942b36" category="cell">此隱私權曝險：</block>
+  <block id="c3e1bb58158cecbe933786ef28873165" category="paragraph">您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。</block>
 </blocks>
