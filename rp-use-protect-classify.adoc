@@ -42,10 +42,7 @@ image:screen-protection-sensitive-preview-column.png["顯示隱私權曝險欄�
 
 
 .結果
-BlueXP  分類會安裝 BlueXP  Connector ，從遠端連線至您的工作負載資料，並在 NetApp 雲端（ Amazon Web Services ， WS-West-1 ）中進行掃描。只有找出的洞見和指標才會保留 NetApp 雲端。
-
-
-NOTE: 視資料量而定、掃描可能需要幾分鐘的時間。「保護」頁面顯示 BlueXP  分類正在識別檔案、並提供正在掃描的檔案數量指示。
+視資料量而定、掃描可能需要幾分鐘的時間。「保護」頁面顯示 BlueXP  分類正在識別檔案、並提供正在掃描的檔案數量指示。
 
 掃描完成時，隱私權曝光欄會將曝光等級顯示為低，中或高。
 
