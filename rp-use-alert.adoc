@@ -12,7 +12,7 @@ summary: 如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒�
 
 
 [role="lead"]
-如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒索軟體保護儀表板和右上角的 BlueXP 通知會出現警示、表示可能發生勒索軟體攻擊。服務也會立即啟動 Snapshot 複本。此時、您應該在 BlueXP 勒索軟體保護 * 警示 * 標籤中查看潛在風險。
+如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒索軟體保護儀表板和右上角的 BlueXP 通知會出現警示、表示可能發生勒索軟體攻擊。該服務也會立即開始執行快照複本。此時、您應該在 BlueXP 勒索軟體保護 * 警示 * 標籤中查看潛在風險。
 
 您可以排除誤報、或決定立即恢復資料。
 
@@ -66,11 +66,11 @@ CAUTION: 在您解除攻擊之後、您無法再變更此項。如果您解除�
 
 == 檢視警示
 
-您可以從 BlueXP 勒索軟體保護儀表板或 * Alerts * 標籤存取警示。
+您可以從 BlueXP  勒索軟體保護儀表板或 * 警示 * 標籤存取警示。
 
 .步驟
 . 在 BlueXP 勒索軟體保護儀表板中、檢閱警示窗格。
-. 在其中一個雕像下方選取 * 檢視全部 * 。
+. 在其中一個狀態下選擇 * 檢視全部 * 。
 . 按一下警示、即可針對每個警示、檢閱每個磁碟區上的所有事件。
 . 若要檢閱其他警示、請按一下左上角階層的 * 警示 * 。
 . 檢閱「警示」頁面上的警示。
@@ -79,8 +79,101 @@ image:screen-alerts.png["警示頁面"]
 
 . 繼續：
 +
+** <<Detect anomalous user behavior>>。
 ** <<將勒索軟體事件標示為準備好進行恢復（在事件被消除之後）>>。
 ** <<消除非潛在攻擊事件>>。
+
+
+
+
+
+
+== 偵測惡意活動和異常的使用者行為
+
+查看「警示」標籤，您可以識別是否有惡意活動。顯示的詳細資料取決於警示的觸發方式：
+
+* 觸發於 ONTAP 的自主勒索軟體保護功能。這會根據磁碟區中檔案的行為來偵測惡意活動。
+* 由 Data Infrastructure Insights Workload Security 觸發。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。此功能可偵測儲存工作負載中的異常使用者行為，並可讓您封鎖該使用者，使其無法進一步存取。
++
+若要在 BlueXP  勒索軟體保護中啟用工作負載安全，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。
+
++
+如需 Data Infrastucure Insights Workload Security 的總覽，請參閱 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]
+
+
+
+
+TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。
+
+當發生惡意活動時，系統會產生警示並擷取自動快照。
+
+
+
+=== 只能檢視自主勒索軟體保護的惡意活動
+
+當 BlueXP  勒索軟體保護觸發警示時，您可以檢視下列詳細資料：
+
+* 傳入資料的 Entropy
+* 新檔案的預期建立率與偵測到的速度相比較
+* 檔案的預期刪除率與偵測到的速度相比較
+* 與偵測到的速率相比，預期的檔案重新命名速率
+
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 警示 * 。
+. 選取警示。
+. 檢閱警示中的事件。
++
+image:screen-alerts-incidents3.png["警示事件頁面"]
+
+. 選取事件以檢閱事件的詳細資料。
++
+image:screen-alerts-incidents-details-arp.png["事件詳細資料頁面"]
+
+
+
+
+
+=== 在 Data Infrastructure Insights Workload Security 中檢視異常的使用者行為
+
+當 Data Infrastructure Insights Workload Security 觸發 BlueXP  勒索軟體保護警示時，您可以在 Data Infrastructure Insights Workload Security 中檢視可疑使用者，封鎖使用者，並直接調查使用者活動。
+
+
+TIP: 這些功能是「僅限自主勒索軟體保護」提供的詳細資料之外的一部分。
+
+.開始之前
+此選項需要資料基礎架構洞見工作負載安全性的授權，而且您可以在 BlueXP  勒索軟體保護中啟用。
+
+若要在 BlueXP  勒索軟體保護中啟用工作負載安全，請執行下列步驟：
+
+. 前往 * 設定 * 頁面。
+. 選取 * 工作負載安全連線 * 選項。
++
+如需詳細資訊、請參閱 link:rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
+
+
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 警示 * 。
+. 選取警示。
+. 檢閱警示中的事件。
++
+image:screen-alerts-incidents-diiws.png["顯示工作負載安全詳細資料的警示事件頁面"]
+
+. 若要封鎖受 BlueXP  監控的可疑使用者，使其無法在您的環境中進一步存取，請選取 * 封鎖使用者 * 連結。
+. 研究警示中的警示或事件：
++
+.. 若要在 Data Infrastructure Insights Workload Security 中進一步研究警示，請選取 * 調查工作負載安全 * 連結。
+.. 選取事件以檢閱事件的詳細資料。
++
+image:screen-alerts-incidents-details-arp-diiws.png["顯示工作負載安全詳細資料的事件詳細資料頁面"]
+
++
+Data Infrastructure Insights Workload Security 會在新索引標籤中開啟。
+
++
+image:screen-alerts-incidents-diiws-diiwspage.png["調查工作負載安全性"]
+
 
 
 
@@ -99,7 +192,7 @@ image:screen-alerts.png["警示頁面"]
 . 在「警示」頁面中、選取警示。
 . 檢閱警示中的事件。
 +
-image:screen-alerts-incidents2.png["警示事件頁面"]
+image:screen-alerts-incidents3.png["警示事件頁面"]
 
 . 如果您確定事件已準備好進行恢復，請選擇 *Mark restore 需求 * 。
 . 確認動作、然後選取 * 標示需要還原 * 。
@@ -134,8 +227,8 @@ image:screen-alerts-incidents2.png["警示事件頁面"]
 . 選取一或多個事件。或者、選取表格左上角的事件 ID 方塊、以選取所有事件。
 . 如果您確定事件並非威脅、請將其視為假陽性：
 +
-** 如果您選擇了一個事件，請選擇 *Actions* … 圖示在右側、選取 * 編輯狀態 * 。
-** 如果您選取多個事件、請選取表格上方的 * 編輯狀態 * 按鈕。
+** 選取事件。
+** 選取表格上方的 * 編輯狀態 * 按鈕。
 +
 image:screen-alerts-status-edit.png["警示編輯狀態頁面"]
 

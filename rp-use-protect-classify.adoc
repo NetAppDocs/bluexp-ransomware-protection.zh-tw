@@ -19,7 +19,7 @@ TIP: 此程序可能會影響工作負載的重要性，有助於確保您獲得
 
 
 
-=== 啟用 BlueXP  分類
+== 啟用 BlueXP  分類
 
 在 BlueXP  勒索軟體保護服務中使用 BlueXP  分類之前、您必須先啟用 BlueXP  分類來掃描資料。
 
@@ -31,6 +31,9 @@ TIP: 此程序可能會影響工作負載的重要性，有助於確保您獲得
 * https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html["私有資料類別"^]
 * https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["調查組織中儲存的資料"^]
 
+
+.開始之前
+部署 BlueXP  分類的客戶可以掃描 BlueXP  勒索軟體保護的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
@@ -48,7 +51,7 @@ image:screen-protection-sensitive-preview-column.png["顯示隱私權曝險欄�
 
 
 
-=== 檢閱隱私權曝險
+== 檢閱隱私權曝險
 
 BlueXP  分類掃描個人識別資訊（ PII ）之後、您可以查看 PII 資料風險。
 
@@ -74,7 +77,7 @@ image:screen-protection-workload-details-privacy-exposure.png["工作負載詳�
 
 
 
-=== 隱私權曝險對工作負載重要性的影響
+== 隱私權曝險對工作負載重要性的影響
 
 隱私權曝險變更可能會影響工作負載的重要性。
 

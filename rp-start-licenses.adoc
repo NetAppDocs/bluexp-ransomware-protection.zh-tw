@@ -21,11 +21,6 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 * 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
-BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
-
-
-NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
-
 設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP  數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP  數位錢包 * 訂閱 * 標籤中查看有效訂閱。
 
 在免費試用結束或授權或訂閱過期之後、您仍可在服務中執行下列動作：
@@ -34,6 +29,20 @@ NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟
 * 刪除任何資源，例如原則。
 * 執行試用期間或授權期間所建立的所有排程作業。
 
+
+
+
+=== 其他授權考量
+
+BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
+
+
+NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
+
+您可以利用 Data Infrastructure Insights Workload Security 來檢視異常的使用者行為。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。如需 Data Infrastucure Insights Workload Security 的總覽，請參閱 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]
+
+
+TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。
 
 
 
@@ -58,7 +67,7 @@ NOTE: 隨著 2024 年 10 月發行， BlueXP  勒索軟體保護的新部署現
 如果這是您第一次登入此服務、就會出現登陸頁面。
 
 +
-image:screen-rp-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
+image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 . 如果您尚未新增 Connector for 其他服務、請新增一個。
 +

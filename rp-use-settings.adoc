@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-settings.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware settings, backup destination 
-summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包括備份目的地。 
+summary: 您可以在 BlueXP  勒索軟體保護服務中設定多種選項，包括備份目的地，威脅偵測，以及資料基礎架構洞見工作負載安全性。 
 ---
 = 設定 BlueXP 勒索軟體保護設定
 :hardbreaks:
@@ -12,9 +12,14 @@ summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包
 
 
 [role="lead"]
-您可以在儀表板上檢閱建議、或存取 * 設定 * 選項、來設定備份目的地或啟用威脅偵測。
+您可以存取 * 設定 * 選項，設定備份目的地，啟用威脅偵測，或設定資料基礎架構 Insights 工作負載安全性的連線。啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析。
 
-啟用威脅偵測功能會自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析。
+在「設定」頁面中、您可以執行下列動作：
+
+* 設定資料基礎架構 Insights 工作負載安全性的連線，以查看勒索軟體警示中可疑的使用者資訊。
+* 新增備份目的地。
+* 連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。
+
 
 
 
@@ -24,12 +29,38 @@ summary: 您可以在 BlueXP 勒索軟體保護服務中設定多個選項、包
 
 . 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
 . 從下拉式功能表中、選取 * 設定 * 。
-. 在「設定」頁面中、您可以執行下列動作：
+
+
+
+
+== 連線至 Data Infrastructure Insights 工作負載安全功能，查看可疑的異常使用者行為
+
+您必須先設定資料基礎架構洞見工作負載安全系統的連線，才能檢視 BlueXP  勒索軟體保護中可疑的異常使用者行為詳細資料。
+
+
+
+=== 從 Data Infrastructure Insights Workload 安全系統取得 API 存取權杖
+
+從 Data Infrastructure Insights Workload 安全系統取得 API 存取權杖。
+
+. 登入 Data Infrastructure Insights Workload 安全系統。
+. 從左側導航欄中，選擇 *Admin* > *API Access* 。
 +
-** 新增備份目的地。
-** 連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。
+image:../media/screen-alerts-ci-api-access-token.png["Data Infrastructure Insights 工作負載安全性中的 API 存取頁面"]
+
+. 建立 API 存取權杖或使用現有的權杖。
+. 複製 API 存取權杖。
 
 
+
+
+=== 連線至 Data Infrastructure Insights 工作負載安全性
+
+. 從 BlueXP  勒索軟體保護設定功能表中，選取 * 工作負載安全連線 * 。
+. 選擇*連接*。
+. 輸入資料基礎架構工作負載安全 UI 的 URL 。
+. 輸入可存取工作負載安全性的 API 存取權杖。
+. 選擇*連接*。
 
 
 
@@ -46,7 +77,7 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 * Microsoft Azure
 
 
-您可以根據儀表板的建議動作來新增備份目的地。
+您可以根據儀表板上的建議動作或從功能表上的「設定」選項新增備份目的地。
 
 
 
@@ -62,18 +93,6 @@ image:screen-dashboard.png["儀表板頁面"]
 
 . 從儀表板中、選取 * 檢閱和修正 * 、以取得「準備 <backup provider> 做為備份目的地」的建議。
 . 根據備份供應商的不同、繼續執行相關指示。
-
-
-
-
-=== 從「動作」下拉式功能表存取「備份目的地」選項
-
-您可以從上方功能表附近的「動作」選項輕鬆存取「設定」頁面。
-
-.步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
-. 從下拉式功能表中、選取 * 設定 * 。
-. 若要新增備份目的地、請選取 * 新增 * 。
 
 
 
