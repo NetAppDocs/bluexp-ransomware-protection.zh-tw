@@ -1522,15 +1522,12 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="8dc6cf962cd8b6b9d4c2ec1c25942b36" category="cell">此隱私權曝險：</block>
   <block id="e6ecd439699f8fefa13e20f9536a72a6" category="doc">使用 Data Infrastructure Insights Storage Workload Security 偵測異常的使用者行為</block>
   <block id="4b9b02f7da7210970cff1fcbe2d8369e" category="paragraph">在此版本中，您可以使用 Data Infrastructure Insights Storage Workload Security 來偵測儲存工作負載中異常的使用者行為。此功能可協助您識別潛在的安全威脅，並封鎖潛在的惡意使用者，以保護您的資料。</block>
-  <block id="f95023611244a13b93dbe02a38838885" category="paragraph">如需詳細資訊、請 <block ref="6530a738c0275d57755f32143a89eb32" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="f06819927bc06d4d2a9a3e3e868f76de" category="paragraph">在使用 Data Infrastructure Insights Storage Workload Security 偵測異常使用者行為之前，您必須先使用 BlueXP  勒索軟體保護 * 設定 * 選項來設定選項。</block>
-  <block id="24a6d729a8d1aa0927fb5447da199fd2" category="paragraph">請參閱 <block ref="71b7fcd43dad68a28f1c1ae3bbb6f526" category="inline-link-macro-rx"></block>。</block>
   <block id="ae65c0d044427130470e493bcfa5e9a3" category="section-title">選取要探索及保護的工作負載</block>
   <block id="df7afd566315c6467b9ae3e88d9f948d" category="paragraph">使用此版本，您現在可以執行下列動作：</block>
   <block id="8865ff9ead0ee9de28506714448478d3" category="list-text">在每個 Connector 中，選取您要探索工作負載的工作環境。如果您想要保護環境中的特定工作負載，而非其他工作負載，您可能會受益於此功能。</block>
   <block id="b26d0bf0b9d2f848756ba4fcb103860d" category="list-text">在工作負載探索期間，您可以針對每個 Connector 自動探索工作負載。此功能可讓您選取要保護的工作負載。</block>
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">探索先前所選工作環境的新建立工作負載。</block>
-  <block id="2a4b59673cf47f4cb519a01ea261799b" category="paragraph">請參閱 <block ref="1da0570eec00a4d5dabdb7f59b574d39" category="inline-link-macro-rx"></block>。</block>
   <block id="2260f3efb7f7ff8d7a4a295911d64e87" category="list-text">* 偵測 * 可能是勒索軟體攻擊的異常狀況。註腳： [ 雖然攻擊可能無法偵測，但我們的研究顯示， NetApp 技術已導致對某些檔案加密型勒索軟體攻擊的高度偵測。 ]</block>
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">為了偵測異常的使用者行為， BlueXP  勒索軟體保護採用 NetApp 自主勒索軟體保護，這是 ONTAP 內偵測惡意檔案活動的機器學習（ ML ）模式。BlueXP  勒索軟體保護授權包含此模型。您也可以使用 Data Infrastructure Insights （前身為 Cloud Insights ）工作負載安全性（需要授權）來調查使用者行為，並封鎖特定使用者，使其不再從事其他活動。</block>
   <block id="9c5ddfb123b6c64ea81793c4ce56b957" category="list-text">使用 ONTAP ，自主勒索軟體保護，資料基礎架構洞見（前身為 Cloud Insights ）工作負載安全和 FPolicy 技術，判斷攻擊相關工作負載的特定可疑檔案和地圖。</block>
@@ -1630,4 +1627,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="7b8dea3ad80826211495f59e062f08d1" category="list-text">輸入可存取工作負載安全性的 API 存取權杖。</block>
   <block id="4ec94f814f491d45c196584c149a7d3e" category="paragraph">您可以根據儀表板上的建議動作或從功能表上的「設定」選項新增備份目的地。</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024 年 16 月 12 日</block>
+  <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">如需詳細資訊、請<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>參閱。</block>
+  <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">請參閱<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
 </blocks>

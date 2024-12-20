@@ -8,11 +8,11 @@
 
 在此版本中，您可以使用 Data Infrastructure Insights Storage Workload Security 來偵測儲存工作負載中異常的使用者行為。此功能可協助您識別潛在的安全威脅，並封鎖潛在的惡意使用者，以保護您的資料。
 
-如需詳細資訊、請 link://rp-use-alert.html["回應偵測到的勒索軟體警示"]參閱。
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["回應偵測到的勒索軟體警示"]參閱。
 
 在使用 Data Infrastructure Insights Storage Workload Security 偵測異常使用者行為之前，您必須先使用 BlueXP  勒索軟體保護 * 設定 * 選項來設定選項。
 
-請參閱 link://rp-use-settings-html["設定 BlueXP 勒索軟體保護設定"]。
+請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
 
 
 
@@ -25,4 +25,4 @@
 * 探索先前所選工作環境的新建立工作負載。
 
 
-請參閱 link://rp-start-discover-html["探索工作負載"]。
+請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索工作負載"]。
