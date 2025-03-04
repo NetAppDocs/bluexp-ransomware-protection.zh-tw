@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒索軟體保護儀表板上會出現警示、指出可能的勒索軟體攻擊。服務也會立即啟動 Snapshot 複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。 
+summary: 如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。服務也會立即啟動 Snapshot 複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。 
 ---
 = 回應偵測到的勒索軟體警示
 :hardbreaks:
@@ -79,7 +79,7 @@ image:screen-alerts.png["警示頁面"]
 
 . 繼續：
 +
-** <<Detect anomalous user behavior>>。
+** <<偵測惡意活動和異常的使用者行為>>。
 ** <<將勒索軟體事件標示為準備好進行恢復（在事件被消除之後）>>。
 ** <<消除非潛在攻擊事件>>。
 

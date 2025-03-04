@@ -521,7 +521,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1ac10a835f53c6060811d5cfb8fbff70" category="paragraph">建議會從「待辦事項」清單中清除、並顯示在「已解僱」清單中。</block>
   <block id="d546413031876c1e4d267a59f45f1a37" category="admonition">您稍後可以將已解除的項目變更為待辦事項項目。當您將項目標記為已完成、或將已解除項目變更為待辦事項時、「總」動作會增加 1 。</block>
   <block id="91ac2d2291b1ce27106b795a77ccc0f3" category="list-text">若要檢閱如何根據建議採取行動的資訊、請選取 * 資訊 * 圖示。</block>
-  <block id="4f8bbc1e1bfabe0de65bf89f703d9f6c" category="summary">如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒索軟體保護儀表板上會出現警示、指出可能的勒索軟體攻擊。服務也會立即啟動 Snapshot 複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。</block>
   <block id="a8fd9e3988acb841854762788963d815" category="paragraph">若要開始恢復資料、請將警示標記為已準備好恢復、以便儲存管理員開始恢復程序。</block>
   <block id="bba950bac873be0f9671b852bd7790e8" category="paragraph">每個警示可能會在不同磁碟區上有多個狀態不同的事件、因此請務必查看所有事件。</block>
   <block id="fae160f7262e5c6f08478e6435238dc7" category="paragraph">此服務提供的資訊稱為 _ 證據 _ 、說明導致發出警示的原因、例如：</block>
@@ -1565,7 +1564,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="31565cee794bb7c0060f825cf5913e0b" category="paragraph">您可以從 BlueXP  勒索軟體保護儀表板或 * 警示 * 標籤存取警示。</block>
   <block id="6f619b1b7d17720e868f27a6a00e82c3" category="list-text">在其中一個狀態下選擇 * 檢視全部 * 。</block>
   <block id="1b02c89819a9f8ec9b1164be1da7b688" category="paragraph"><block ref="1b02c89819a9f8ec9b1164be1da7b688" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="803f5091a12e3e35b6d3d6140feba229" category="list-text"><block ref="19af54988de342a4a41b6206c0236ba4" category="inline-xref-macro-rx"></block>。</block>
   <block id="be962bd392a7a1672125ea27465c8bd8" category="section-title">偵測惡意活動和異常的使用者行為</block>
   <block id="0e7cf92e4233591a071d880a54dd482a" category="paragraph">查看「警示」標籤，您可以識別是否有惡意活動。顯示的詳細資料取決於警示的觸發方式：</block>
   <block id="bb74e4460d1a07bd08ea60f0fbde3d0d" category="list-text">觸發於 ONTAP 的自主勒索軟體保護功能。這會根據磁碟區中檔案的行為來偵測惡意活動。</block>
@@ -1629,4 +1627,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024 年 16 月 12 日</block>
   <block id="51713ddd834a60df7d06db728cf08e05" category="paragraph">如需詳細資訊、請<block ref="7a6c0b2db283aa3c348e6e1a2f1f32b0" category="inline-link-rx"></block>參閱。</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">請參閱<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
+  <block id="22ce28643829ddd0f15a1b23febaeee6" category="summary">如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。服務也會立即啟動 Snapshot 複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。</block>
+  <block id="16bb8d2d09aea22c9fad5f111efb3676" category="list-text"><block ref="d322145e637b6e2be162f7cd827e67de" category="inline-xref-macro-rx"></block>。</block>
 </blocks>
