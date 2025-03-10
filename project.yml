@@ -33,7 +33,9 @@ sidebar:
       url: "/rp-start-licenses.html"
     - title: 探索工作負載
       url: "/rp-start-discover.html"
-    - title: 設定備份目的地並啟用威脅偵測
+    - title: 模擬勒索軟體攻擊
+      url: "/rp-start-simulate.html"
+    - title: 在「設定」中設定備份，威脅偵測和攻擊模擬
       url: "/rp-use-settings.html"
     - title: 常見問題集
       url: "/rp-start-faq.html"

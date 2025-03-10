@@ -28,6 +28,7 @@ TIP: 如果您決定關閉警示、服務將會學習此行為、並將其與正
 * 檔案副檔名已建立或變更
 * 檔案建立已完成、並以列出的百分比增加
 * 檔案刪除已發生、並以列出的百分比增加
+* 當加密速度較高時，沒有檔案副檔名變更
 
 
 警示是以下列行為類型為基礎：
@@ -93,12 +94,12 @@ image:screen-alerts.png["警示頁面"]
 查看「警示」標籤，您可以識別是否有惡意活動。顯示的詳細資料取決於警示的觸發方式：
 
 * 觸發於 ONTAP 的自主勒索軟體保護功能。這會根據磁碟區中檔案的行為來偵測惡意活動。
-* 由 Data Infrastructure Insights Workload Security 觸發。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。此功能可偵測儲存工作負載中的異常使用者行為，並可讓您封鎖該使用者，使其無法進一步存取。
+* 由 Data Infrastructure Insights 工作負載安全性所觸發。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。此功能可偵測儲存工作負載中的異常使用者行為，並可讓您封鎖該使用者，使其無法進一步存取。
 +
-若要在 BlueXP  勒索軟體保護中啟用工作負載安全，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。
+若要在 BlueXP  勒索軟體保護中啟用工作負載安全性，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。
 
 +
-如需 Data Infrastucure Insights Workload Security 的總覽，請參閱 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]
+有關 Data Infrastucure Insights Workload 安全性的概述，請查看 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]。
 
 
 
@@ -117,6 +118,7 @@ TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒
 * 新檔案的預期建立率與偵測到的速度相比較
 * 檔案的預期刪除率與偵測到的速度相比較
 * 與偵測到的速率相比，預期的檔案重新命名速率
+* 受影響的檔案和目錄
 
 
 .步驟
@@ -127,16 +129,13 @@ TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒
 image:screen-alerts-incidents3.png["警示事件頁面"]
 
 . 選取事件以檢閱事件的詳細資料。
-+
-image:screen-alerts-incidents-details-arp.png["事件詳細資料頁面"]
 
 
 
 
+=== 在 Data Infrastructure Insights 工作負載安全性中檢視異常的使用者行為
 
-=== 在 Data Infrastructure Insights Workload Security 中檢視異常的使用者行為
-
-當 Data Infrastructure Insights Workload Security 觸發 BlueXP  勒索軟體保護警示時，您可以在 Data Infrastructure Insights Workload Security 中檢視可疑使用者，封鎖使用者，並直接調查使用者活動。
+當 Data Infrastructure Insights Workload 安全性觸發 BlueXP  勒索軟體保護警示時，您可以在 Data Infrastructure Insights Workload 安全性中檢視可疑使用者，封鎖使用者，並直接調查使用者活動。
 
 
 TIP: 這些功能是「僅限自主勒索軟體保護」提供的詳細資料之外的一部分。
@@ -144,7 +143,7 @@ TIP: 這些功能是「僅限自主勒索軟體保護」提供的詳細資料之
 .開始之前
 此選項需要資料基礎架構洞見工作負載安全性的授權，而且您可以在 BlueXP  勒索軟體保護中啟用。
 
-若要在 BlueXP  勒索軟體保護中啟用工作負載安全，請執行下列步驟：
+若要在 BlueXP  勒索軟體保護中啟用工作負載安全性，請執行下列步驟：
 
 . 前往 * 設定 * 頁面。
 . 選取 * 工作負載安全連線 * 選項。
@@ -163,11 +162,8 @@ image:screen-alerts-incidents-diiws.png["顯示工作負載安全詳細資料的
 . 若要封鎖受 BlueXP  監控的可疑使用者，使其無法在您的環境中進一步存取，請選取 * 封鎖使用者 * 連結。
 . 研究警示中的警示或事件：
 +
-.. 若要在 Data Infrastructure Insights Workload Security 中進一步研究警示，請選取 * 調查工作負載安全 * 連結。
+.. 若要在 Data Infrastructure Insights Workload 安全性中進一步研究警示，請選取 * 調查工作負載安全 * 連結。
 .. 選取事件以檢閱事件的詳細資料。
-+
-image:screen-alerts-incidents-details-arp-diiws.png["顯示工作負載安全詳細資料的事件詳細資料頁面"]
-
 +
 Data Infrastructure Insights Workload Security 會在新索引標籤中開啟。
 
@@ -222,7 +218,7 @@ image:screen-alerts.png["警示頁面"]
 
 . 在「警示」頁面中、選取警示。
 +
-image:screen-alerts-incidents2.png["警示事件頁面"]
+image:screen-alerts-incidents3.png["警示事件頁面"]
 
 . 選取一或多個事件。或者、選取表格左上角的事件 ID 方塊、以選取所有事件。
 . 如果您確定事件並非威脅、請將其視為假陽性：

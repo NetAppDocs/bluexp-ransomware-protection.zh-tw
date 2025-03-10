@@ -24,8 +24,8 @@ indexpage:
       url: "/rp-start-quick-start.html"
     - title: 設定備份目的地並啟用威脅偵測
       url: "/rp-use-settings.html"
-    - title: 常見問題集
-      url: "/rp-start-faq.html"
+    - title: 模擬勒索軟體攻擊
+      url: "/rp-start-simulate.html"
   - title: 使用 BlueXP 勒索軟體保護
     links:
     - title: 請使用 BlueXP 勒索軟體保護總覽

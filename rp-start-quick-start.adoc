@@ -22,9 +22,11 @@ link:rp-start-prerequisites.html["確保您的環境符合這些要求"]。
 [role="quick-margin-list"]
 * link:rp-start-setup.html["準備 NetApp StorageGRID 、 Amazon Web Services 或 Microsoft Azure 作為備份目的地"]。
 * link:rp-start-setup.html["在 BlueXP 中設定 Connector"]。
+* link:rp-start-licenses.html["設定授權"]。
+* link:rp-start-discover.html["探索 BlueXP 中的工作負載"]。
 * link:rp-start-setup.html["設定備份目的地"]。
 * link:rp-start-setup.html["選擇性啟用威脅偵測"]。
-* link:rp-start-discover.html["探索 BlueXP 中的工作負載"]。
+* link:rp-start-simulate.html["您也可以選擇進行勒索軟體攻擊準備度訓練"]。
 
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 接下來呢？

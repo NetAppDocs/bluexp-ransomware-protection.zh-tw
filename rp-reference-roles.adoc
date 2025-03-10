@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用組織管理和檢視器（非組織管理）的核心 BlueXP  角色。 
+summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用 BlueXP  勒索軟體保護（ RPS ）特有的角色。 
 ---
-= BlueXP  勒索軟體保護角色型存取控制 Privileges
+= BlueXP  勒索軟體保護功能的角色型存取
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,13 +12,19 @@ summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來�
 
 
 [role="lead"]
-BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用組織管理和檢視器（非組織管理）的核心 BlueXP  角色。
+BlueXP  勒索軟體保護採用角色來管理每位使用者對特定功能和行動的存取。
 
-下表指出每個角色可以執行的動作。
+BlueXP  勒索軟體保護使用下列角色：
+
+* 組織管理員
+* 檢視器（非組織管理員）
+
+
+下表指出每個 BlueXP  勒索軟體保護角色可以執行的動作。
 
 [cols="40,20a,20a"]
 |===
-| 功能與行動 | BlueXP  組織管理員 | 非管理員（檢視器） 
+| 功能與行動 | 組織管理員 | 檢視者 
 
 
 | 開始免費試用  a| 
