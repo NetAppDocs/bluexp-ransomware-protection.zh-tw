@@ -1527,8 +1527,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1ad499ee6cba4f056f735fb9eae4b5ce" category="paragraph">在每個 Connector 中，選取您要探索工作負載的工作環境。</block>
   <block id="98ab4e23cce41ca38b39c7baf6ef4567" category="admonition">此程序可能需要幾分鐘的時間。</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">探索工作負載螢幕擷取畫面</block>
-  <block id="d79f191c2ec9abafe65a74f3afd2fd3e" category="paragraph"><block ref="d79f191c2ec9abafe65a74f3afd2fd3e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="db2242d67fcc7ed40d59b104f2d8d0b1" category="list-text">選取您要探索工作負載的工作環境，或選取表格頂端的方塊，以探索所有探索到的工作負載環境中的工作負載。</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇* Discover（探索）*。</block>
   <block id="39d30ea27067e18c7724603fcd547e90" category="paragraph">此服務只會針對具有選定工作環境的連接器探索工作負載資料。</block>
   <block id="d816d69cfca30588b735f0def37770e3" category="inline-image-macro">工作負載探索到螢幕快照</block>
@@ -1602,7 +1600,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">此版本包含選擇性探索和重新探索程序的增強功能：</block>
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">使用此版本，您可以探索新增至先前所選工作環境的新建立工作負載。</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
-  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">如果您想要選擇所有探索到的工作負載，您可以使用 * 全選 * 選項來執行。</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。</block>
   <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">使用「設定」選項設定擷取</block>
   <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>。</block>
@@ -1620,18 +1617,14 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="06135c09643e0b875311a4989ef81443" category="paragraph">此服務會評估現有的保護層級，包括目前的備份保護，快照複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。</block>
   <block id="bcd1f982603e49ee85ee4aa3816ec786" category="list-text">選擇 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
   <block id="ea84e987da35b78faef15d182ea98e25" category="paragraph">此服務會在您的 BlueXP  Connectors 中尋找工作環境。</block>
-  <block id="1fe55988352f69acacdb9b10814fc08e" category="list-text">若要為所有連接器選取工作環境，請選取 * 選取所有工作環境 * 。</block>
   <block id="656ebea707f2c709a19d8f845b2477e7" category="list-text">若要探索特定 Connector 的工作負載，請在您要探索工作負載的 Connector 旁選取 * 尋找新的工作環境 * 。</block>
   <block id="4c21761c15d83552dd8cd3a0a8db257d" category="paragraph">此時會出現工作環境清單。</block>
   <block id="546750f8dfe95d6b98eb842b8bf02faf" category="paragraph"><block ref="546750f8dfe95d6b98eb842b8bf02faf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="683b598a3c2decc48c00425ef8b86635" category="paragraph"><block ref="683b598a3c2decc48c00425ef8b86635" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c02e66aaa8def7a1b94dfd795479c114" category="paragraph">如果您已經選取要探索的工作環境，可以從儀表板探索這些環境的新建立工作負載。</block>
   <block id="70b4939004396411f22f03d5d20bd5e4" category="list-text">若要識別上次探索的日期，請從儀表板查看右上方 * 重新整理 * 圖示旁的日期和時間戳記。</block>
-  <block id="0b60c421fc6bce0a5ff3b730591a0ac5" category="list-text">從儀表板選取 * 重新整理圖示 * ，然後在出現的工具提示中選取 * 探索工作負載 * 。</block>
   <block id="e8d91f884eae05c3d90259b4c84b75d2" category="section-title">探索新建立的工作環境</block>
   <block id="a1b34a4244cd73e84bed71e0bf383360" category="paragraph">如果您已經探索到工作環境，可以從儀表板探索任何新建立的工作環境。</block>
-  <block id="a048ca602eaaea1a6182ff74398a9c85" category="list-text">從儀表板選取 * 新增 * ，然後在出現的工具提示中選取 * 新增工作環境 * 。</block>
-  <block id="63a31ad1e15ab514cc2378a692e2c8db" category="list-text">從 BlueXP  勒索軟體保護功能表中，選取<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>右上角的垂直 ... 選項。從下拉式功能表中、選取 * 設定 * 。在工作負載探索卡中，選取 * 探索工作負載 * 。</block>
   <block id="0e6eeee847f00d7ef1cb454555892f49" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block>。</block>
   <block id="63de46c3feae8642d94945ea3e056fed" category="inline-link-macro">您也可以選擇進行勒索軟體攻擊準備度訓練</block>
   <block id="39bdb514f38135f0ca92651ade127954" category="list-text"><block ref="2280163364b5b58f435fe47eab713eb2" category="inline-link-macro-rx"></block>。</block>
@@ -1647,44 +1640,21 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="4733f8632e3639026823ab315aa1fde4" category="paragraph"><block ref="4733f8632e3639026823ab315aa1fde4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e8d3b4eb775e09a46424412f734068b0" category="list-text">選取您要用於準備工作訓練的 BlueXP  Connector 。</block>
   <block id="03e372e5a12da124a082cb418529a0c7" category="list-text">選擇測試工作環境。</block>
-  <block id="83d67ad1d05b6c81b83e16e427218874" category="list-text">選取要建立的新測試工作負載。</block>
   <block id="000346285fa0b7654e9ce18381bba66f" category="paragraph">此時會出現一則訊息，表示已設定就緒性訓練環境。在該訊息中，選取 * 開始準備就緒訓練 * 以開始訓練。</block>
   <block id="b5ffafbc91e02195737c6716b418141e" category="admonition">您可以稍後使用「設定」頁面編輯整備訓練組態。</block>
   <block id="187666a138e7f6f15224af7bcef93040" category="section-title">開始準備訓練</block>
   <block id="b30d5003eb8b470d6df77c1edbb96724" category="paragraph">設定就緒訓練之後，您可以開始訓練。</block>
-  <block id="948feeea05a56419435cc007ac7abd68" category="list-text">從 BlueXP  勒索軟體保護設定功能表中，選取 * 開始準備就緒訓練 * 。</block>
-  <block id="f577e0a326d286f796539335e08e4b68" category="list-text">或者，從「設定」頁面的「準備度訓練」卡中，選取 * 「開始準備度訓練」 * 。</block>
   <block id="48c1e999e8171604f472f6a173e90a06" category="list-text">如果您尚未設定就緒訓練，會出現一則訊息，表示您需要先設定準備訓練。</block>
   <block id="2bad3a1005ba6708ddbc592b74412409" category="inline-image-macro">設定頁面會顯示您需要設定準備就緒訓練的準備就緒訓練訊息</block>
   <block id="fbb94dad4d4b0b642b9e4bcfccb31a40" category="paragraph"><block ref="fbb94dad4d4b0b642b9e4bcfccb31a40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="648815687f26cfff9af80401c05502e1" category="list-text">選取 * 設定整備狀況訓練測試環境 * 。</block>
   <block id="2e80fabefee51d121eee410fb4a3be19" category="list-text">繼續執行上一節的指示，在「設定」選項中設定鑽孔測試環境。</block>
-  <block id="e920bf03ef2a5c4203f6db8e43f9ca34" category="list-text">如果您已設定就緒訓練，則會出現「開始準備度訓練」頁面：</block>
-  <block id="65a0085cbf921f3e953b8693c2b63281" category="inline-image-macro">開始準備度訓練頁面</block>
-  <block id="3c118708db99643af58b322e8633f99e" category="paragraph"><block ref="3c118708db99643af58b322e8633f99e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cc99cd6550a548e2a6a10be11a7acf67" category="list-text">選擇* Start*。</block>
   <block id="8c5a9997ae160f52e3c8ede0e2590504" category="admonition">訓練開始後，您無法編輯準備就緒訓練組態。您可以改為停止。</block>
-  <block id="c0c593ce47c0b08a83ed2122000f2d53" category="section-title">清理並停止準備訓練</block>
-  <block id="4a19556f13e6b47441abc553ac3daf39" category="paragraph">如果您需要停止準備訓練，可以隨時進行。當您停止訓練時， BlueXP  勒索軟體保護會清理測試工作負載，並移除測試檔案。</block>
-  <block id="4ee662381f867d717a479a810920b73a" category="list-text">在 BlueXP  勒索軟體保護設定功能表中，將游標移至整備訓練磚的編輯選項上，然後選取 * 清除整備訓練 * 。</block>
-  <block id="629c4b84903c512b14e9482c870995ec" category="list-text">從 BlueXP  勒索軟體保護功能表中，選取<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>右上角的垂直 ... 選項，然後選取 * 清除整備訓練 * 。</block>
-  <block id="a068ddd4cd9819d66507b988292a9d04" category="inline-image-macro">顯示準備度訓練停止選項的設定頁面</block>
-  <block id="05a4ec5098b9bce4d19d3e7fecddeac2" category="paragraph"><block ref="05a4ec5098b9bce4d19d3e7fecddeac2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f8a4bf2c70949bcbe79cf9fdb34e3b9c" category="admonition">您也可以從「設定」頁面停止或清理整備訓練，顯示整備訓練卡。</block>
-  <block id="220dce46cde86e50505d7d6717501507" category="list-text">檢閱工作負載準備度訓練資訊。</block>
-  <block id="15462a9fa9524dab33f93bd1451cd0fd" category="list-text">選取 * 清除 * 。</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">回應準備就緒訓練警示</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">回應準備度訓練警示，以測試您的準備度。</block>
-  <block id="845eb30eb602283ce1d22c4b4cbe210f" category="list-text">或者，從功能表中，選取「 * 通知 * 」圖示，然後選取準備就緒訓練警示旁的 * 檢視警示 * 。</block>
-  <block id="b4076ebb4154aa074b806f8ad5c2e03e" category="inline-image-macro">顯示準備度訓練警示的通知區段</block>
-  <block id="511db98909b9ae56251aa794f36145bd" category="paragraph"><block ref="511db98909b9ae56251aa794f36145bd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ef3efb89176a9b4600c400e3cafc6bc3" category="paragraph">「警示」頁面隨即出現。在「警示」頁面的「警示 ID 」欄中，「準備度訓練」會顯示在 ID 旁邊。</block>
   <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">警示頁面，顯示準備度訓練警示</block>
   <block id="fd9f53769c15c2cf878c35f4cbc5a081" category="paragraph"><block ref="fd9f53769c15c2cf878c35f4cbc5a081" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2eaecc134241ebd3fe43cec088fc9216" category="list-text">選擇具有「準備度訓練」指示的事件。</block>
   <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">顯示準備度訓練警示的「事件」頁面</block>
-  <block id="e4bcff284aee2a73455b69a73101cec5" category="paragraph"><block ref="e4bcff284aee2a73455b69a73101cec5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8fccaa7f058711628b8a8a2f5f4ccc9c" category="list-text">檢閱警示詳細資料。</block>
   <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">以下是一些要注意的事項：</block>
   <block id="b780e790d05aeda37075d8fd4a6d9b89" category="list-text">查看潛在攻擊類型。如果「類型」顯示使用者懷疑有惡意活動，請檢閱使用者名稱。</block>
   <block id="8b558629c5c33cde93683d61a4115e2d" category="list-text">您可能想要選取 * 封鎖使用者 * 來封鎖使用者。</block>
@@ -1702,7 +1672,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1428f7ff07a53448ce6c5a848493a542" category="list-text">如果應還原測試工作負載，請執行下列步驟：</block>
   <block id="402892b652810818eb61e703ca333d06" category="list-text">選取 * 需要標記還原 * 。</block>
   <block id="f1a43a1191cd8e11a5db942f4175b31f" category="list-text">檢閱確認，然後在確認方塊中選取 * 標示還原為必要 * 。</block>
-  <block id="428f9aacf80ab1666e7e9a35356b08be" category="list-text">選取您要還原的測試工作負載。</block>
   <block id="98576e747c7efb09ca0d1e50a58ae308" category="list-text">在「還原」頁面中，提供還原資訊：</block>
   <block id="05e2304cb46b92601ea1e826aa3fec0b" category="list-text">選取來源快照複本。</block>
   <block id="773018347112b716b659352d9f401251" category="list-text">選取目的地 Volume 。</block>
@@ -1755,4 +1724,19 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="574f730f175872b7e8ae030664be0b63" category="list-text">從 BlueXP  勒索軟體保護設定功能表，找出 * 工作負載安全連線 * 磚。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
   <block id="a216cb7967dcfa49b3b976657369cd25" category="sidebar">在「設定」中設定備份，威脅偵測和攻擊模擬</block>
+  <block id="8e409065d2ff7418c22e196d64a6f17c" category="paragraph"><block ref="8e409065d2ff7418c22e196d64a6f17c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="28f4eac4cfa4a0f9f4579a8d7853aa5d" category="list-text">選取您要探索工作負載的工作環境，或選取表格頂端的方塊，以探索所有探索到的工作負載環境中的工作負載。</block>
+  <block id="6cd7d81917c9dbf1647c62c550c7a4a0" category="list-text">從儀表板選取 * 重新整理圖示 * ，以開始探索新的工作負載。</block>
+  <block id="ce5939b4e8126f1cd90a90e246bba04d" category="list-text">從 BlueXP  勒索軟體保護功能表中，選取<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>右上角的垂直 ... 選項。從下拉式功能表中、選取 * 設定 * 。</block>
+  <block id="7834f1609389d2dc0ac0789a0ac2db2f" category="list-text">在工作負載探索卡中，選取 * 探索工作負載 * 。</block>
+  <block id="25c2a18f9bef5efa05b349a8a6bf472f" category="list-text">輸入要建立的新測試工作負載名稱。</block>
+  <block id="ccf00254ed4dd27ce3cb568ef11757f1" category="list-text">從 BlueXP  勒索軟體保護設定功能表中，選取 * 準備度訓練 * ，然後在準備度訓練頁面中選取 * 開始 * 。</block>
+  <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">或者，從「設定」頁面的「準備工作」訓練卡中，選取 * 開始 * 。</block>
+  <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">如果您已經設定就緒訓練，則在選擇 * 開始 * 之後，準備工作訓練就會開始。</block>
+  <block id="3764eabaa6dd82955df6528cd4a5a9b7" category="paragraph">「警示」頁面隨即出現。在警示 ID 欄中， ID 旁邊會出現「準備度訓練」。</block>
+  <block id="a699ac7dcfe917f4ef6bfe5b42313497" category="list-text">選擇具有「準備度訓練」指示的警示。此時會出現事件警示清單。</block>
+  <block id="c7173a995c95a8992913692d7f8b29a3" category="list-text">檢閱警示事件。</block>
+  <block id="8094150588327954ce01d91cf529ccfc" category="list-text">選取警示事件。</block>
+  <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="001b6bed17667ada4d5dad085e5729b3" category="list-text">選取標示為「準備度訓練」的測試工作負載，以供您還原。</block>
 </blocks>
