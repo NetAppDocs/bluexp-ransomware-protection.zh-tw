@@ -1649,7 +1649,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="fbb94dad4d4b0b642b9e4bcfccb31a40" category="paragraph"><block ref="fbb94dad4d4b0b642b9e4bcfccb31a40" category="inline-image-macro-rx" type="image"></block></block>
   <block id="648815687f26cfff9af80401c05502e1" category="list-text">選取 * 設定整備狀況訓練測試環境 * 。</block>
   <block id="2e80fabefee51d121eee410fb4a3be19" category="list-text">繼續執行上一節的指示，在「設定」選項中設定鑽孔測試環境。</block>
-  <block id="8c5a9997ae160f52e3c8ede0e2590504" category="admonition">訓練開始後，您無法編輯準備就緒訓練組態。您可以改為停止。</block>
   <block id="1e4a43fb392ed69a6d5a047ba0d88826" category="section-title">回應準備就緒訓練警示</block>
   <block id="6128067a6b325891717a7cfc23e60bae" category="paragraph">回應準備度訓練警示，以測試您的準備度。</block>
   <block id="bfb2eabf2e2f3750c3b857a9c0072bfa" category="inline-image-macro">警示頁面，顯示準備度訓練警示</block>
@@ -1687,11 +1686,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">遭駁回：如果您懷疑該活動並非勒索軟體攻擊，請將狀態變更為「遭解僱」。</block>
   <block id="ff8d215b189dca41bf900d6545392594" category="admonition">在您消除攻擊之後，您無法將其重新變更。如果您解除工作負載，系統會永久刪除所有自動擷取的快照複本，以因應可能的勒索軟體攻擊。如果您關閉警示，準備度訓練就會視為完成。</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">已解決：事件已減輕。</block>
-  <block id="1be5568d0c3f299b7d0fa2b810d4b90d" category="section-title">檢閱準備度訓練報告</block>
-  <block id="1618fcb06831249fd4142102d83577f5" category="paragraph">準備工作訓練完成後，您可能會想要檢閱並儲存訓練報告。</block>
-  <block id="50ca22b8d354f001a742f726d3cf2be9" category="inline-image-macro">顯示準備度訓練報告的報告頁面</block>
-  <block id="179e5ea4317177f519c688d15ef67987" category="paragraph"><block ref="179e5ea4317177f519c688d15ef67987" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e462715e9b155f4f9638da4f314c8aff" category="list-text">選擇 * 整備訓練 * 和 * 下載 * 下載整備訓練報告。</block>
   <block id="7491606097f73ec9ee4cd8649e24e37b" category="list-text">當加密速度較高時，沒有檔案副檔名變更</block>
   <block id="0152e4b08d769def55f114d835660cb2" category="list-text">由 Data Infrastructure Insights 工作負載安全性所觸發。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。此功能可偵測儲存工作負載中的異常使用者行為，並可讓您封鎖該使用者，使其無法進一步存取。</block>
   <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">若要在 BlueXP  勒索軟體保護中啟用工作負載安全性，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。</block>
@@ -1739,4 +1733,5 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">選取警示事件。</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
   <block id="001b6bed17667ada4d5dad085e5729b3" category="list-text">選取標示為「準備度訓練」的測試工作負載，以供您還原。</block>
+  <block id="241197791593ba6fe12006bc7c44e045" category="admonition">訓練開始後，您無法編輯準備就緒訓練組態。您可以將其重設為重新啟動。</block>
 </blocks>
