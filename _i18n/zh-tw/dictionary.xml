@@ -1646,8 +1646,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="fd9f53769c15c2cf878c35f4cbc5a081" category="paragraph"><block ref="fd9f53769c15c2cf878c35f4cbc5a081" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf6725ca3f9665491e02c1818a34d256" category="inline-image-macro">顯示準備度訓練警示的「事件」頁面</block>
   <block id="dba36383db70a071d84d9ad78273ce43" category="paragraph">以下是一些要注意的事項：</block>
-  <block id="b780e790d05aeda37075d8fd4a6d9b89" category="list-text">查看潛在攻擊類型。如果「類型」顯示使用者懷疑有惡意活動，請檢閱使用者名稱。</block>
-  <block id="989cf4fcfe1664c1f40afc7abd89c986" category="list-text">您可能也想在 Data Infrastructure Insights Workload Security 中選取 * 調查工作負載安全性 * ，以深入調查使用者。</block>
   <block id="c7243cc109c65ad504b84c3e805c784c" category="list-text">查看檔案活動和可疑程序：</block>
   <block id="fdb29353d86a86580fc253dc319e3e0b" category="list-text">查看傳入偵測到的資料與預期資料的比較結果。</block>
   <block id="929c013ec98095ed1024dac131501e30" category="list-text">查看偵測到的檔案建立率與預期速度相比較。</block>
@@ -1672,7 +1670,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="37eb9cec5c575b48f279378f147d9523" category="section-title">在準備就緒訓練之後變更警示狀態</block>
   <block id="c5e154a9c9a68a0fdd2cda956aafb0e1" category="paragraph">檢閱整備訓練警示並還原工作負載之後，您可能需要變更警示的狀態。</block>
   <block id="b707d985234424bd425b96580911950e" category="list-text">再次選取警示。</block>
-  <block id="162c9c11fab2a0b1844f31cfa4184c72" category="list-text">選取 * 編輯 * 以指出狀態，並將狀態變更為下列其中一項：</block>
   <block id="e0a30b860c06e610cadc21ebf64426da" category="list-text">遭駁回：如果您懷疑該活動並非勒索軟體攻擊，請將狀態變更為「遭解僱」。</block>
   <block id="ff8d215b189dca41bf900d6545392594" category="admonition">在您消除攻擊之後，您無法將其重新變更。如果您解除工作負載，系統會永久刪除所有自動擷取的快照複本，以因應可能的勒索軟體攻擊。如果您關閉警示，準備度訓練就會視為完成。</block>
   <block id="36b45588cbfa3653d0bdeb91883b49f4" category="list-text">已解決：事件已減輕。</block>
@@ -1718,7 +1715,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">或者，從「設定」頁面的「準備工作」訓練卡中，選取 * 開始 * 。</block>
   <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">如果您已經設定就緒訓練，則在選擇 * 開始 * 之後，準備工作訓練就會開始。</block>
   <block id="3764eabaa6dd82955df6528cd4a5a9b7" category="paragraph">「警示」頁面隨即出現。在警示 ID 欄中， ID 旁邊會出現「準備度訓練」。</block>
-  <block id="a699ac7dcfe917f4ef6bfe5b42313497" category="list-text">選擇具有「準備度訓練」指示的警示。此時會出現事件警示清單。</block>
   <block id="c7173a995c95a8992913692d7f8b29a3" category="list-text">檢閱警示事件。</block>
   <block id="8094150588327954ce01d91cf529ccfc" category="list-text">選取警示事件。</block>
   <block id="b0e402efbf054d8b9cab93c3c4e53922" category="paragraph"><block ref="b0e402efbf054d8b9cab93c3c4e53922" category="inline-image-macro-rx" type="image"></block></block>
@@ -1727,4 +1723,21 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="65314129adf0c0a55f929809a17904c9" category="section-title">探索新的工作環境</block>
   <block id="2826595d22ba9331559905631772b32d" category="paragraph">如果您已經探索到工作環境，您可以探索先前探索程序中未選取的任何新建立的工作環境或工作環境。</block>
   <block id="5f214ff0fb35d9a440af52567382d505" category="admonition">此程序可能需要幾分鐘的時間，如處理中的載入圖示所示。</block>
+  <block id="e5c9ae1c3da88c26e9ef5e7a52710eef" category="doc">BlueXP  勒索軟體保護的已知限制</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="paragraph">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
+  <block id="e742b92803487dd57d41c5028236224e" category="section-title">整備訓練重設選項問題</block>
+  <block id="ac36698324cb58e80610e027dc77d907" category="paragraph">如果您選擇 ONTAP 9.11.1 Volume 進行勒索軟體攻擊準備訓練， BlueXP  勒索軟體保護會發出警示通知您。如果您使用「複製到 Volume 」選項恢復資料並重設鑽孔，重設作業將會失敗。</block>
+  <block id="c97840e501e12a9e468c80b3e3aaf1e4" category="list-text">從下拉式功能表中，選取 * 整備訓練 * 或 * 設定 * 。</block>
+  <block id="0b51810a1136dc1d22b2a572727e3531" category="paragraph">當您開始準備訓練時， BlueXP  勒索軟體保護會跳過學習模式，並以使用中模式開始訓練。工作負載的偵測狀態為「作用中」。</block>
+  <block id="4210647acc9b0dff8ae60481f5dbae02" category="admonition">工作負載可以具有勒索軟體偵測 * 學習模式 * 狀態，表示最近已將勒索軟體偵測原則指派給工作負載，而服務正在掃描工作負載。* 主動 * 的偵測狀態表示已指派勒索軟體偵測保護原則。</block>
+  <block id="918afe8d47cac8e65affe228df4d1798" category="list-text">選擇具有「準備度訓練」指示的警示。「警示」詳細資料頁面上會顯示事件警示清單。</block>
+  <block id="81ec450a746d2846c599b97e0284672a" category="inline-image-macro">警示詳細資料頁面，顯示準備度訓練警示</block>
+  <block id="2869923d8a7e4947ee11eff41f3267f2" category="paragraph"><block ref="2869923d8a7e4947ee11eff41f3267f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a01e31bb54fb84b5dbc9ee51947a45b" category="list-text">查看潛在攻擊類型。</block>
+  <block id="7d8343c0bc6249f96b5c9e2c1d4f8d8f" category="paragraph">如果「類型」顯示使用者懷疑有惡意活動，請檢閱使用者名稱。您可能想要在 Data Infrastructure Insights Workload Security 中深入調查使用者，請選取 * 調查工作負載安全 * 。</block>
+  <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">選取 * 編輯狀態 * 並將狀態變更為下列其中一項，以指出狀態：</block>
+  <block id="3ce945a70891d1550d3b785a4c8624ed" category="section-title">下載整備訓練報告</block>
+  <block id="153e13288e2e43aabfecd526b2fef2b5" category="paragraph">準備工作訓練完成後，您可能會想要檢閱並儲存訓練的 CSV 報告。</block>
+  <block id="bd048471c80988072b8f583ab0ca3a12" category="list-text">選取警示並選取 * 下載 * 箭頭以下載 CSV 檔案。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
 </blocks>

@@ -17,6 +17,8 @@ sidebar:
     entries:
     - title: BlueXP 勒索軟體保護的新功能
       url: "/whats-new.html"
+    - title: 已知限制
+      url: "/rp-reference-limitations.html"
   - title: 開始使用
     entries:
     - title: 瞭解 BlueXP 勒索軟體保護

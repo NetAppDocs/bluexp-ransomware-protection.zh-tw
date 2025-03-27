@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: rp-reference-limitations.html 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
+summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用 BlueXP  勒索軟體保護（ RPS ）特有的角色。 
+---
+= BlueXP  勒索軟體保護的已知限制
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。
+
+
+
+== 整備訓練重設選項問題
+
+如果您選擇 ONTAP 9.11.1 Volume 進行勒索軟體攻擊準備訓練， BlueXP  勒索軟體保護會發出警示通知您。如果您使用「複製到 Volume 」選項恢復資料並重設鑽孔，重設作業將會失敗。
