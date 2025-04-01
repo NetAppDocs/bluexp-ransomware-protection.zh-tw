@@ -601,7 +601,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="b77e52b2729a45733366be275a2b1834" category="list-text">從 BlueXP 勒索軟體保護功能表中、選取 * 報告 * 。</block>
   <block id="2bb8f47d5dd5e5e9025658aa3c0fc126" category="list-text">如果您選取 * 報告 * 選項、請選取其中一個預先設定的 CSV 檔案名稱、然後選取 * 下載（ CSV ） * 或 * 下載（ JSON ） * 。</block>
   <block id="44f0d43cd92781ec793d9ba50c2d422e" category="inline-image-macro">報告頁面</block>
-  <block id="4aa52d006a13407e9446998cde5abf48" category="paragraph"><block ref="4aa52d006a13407e9446998cde5abf48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fcb74668c58aed2ac30ddcdee292a0c5" category="inline-link-macro">選擇性啟用威脅偵測</block>
   <block id="896465c47d1995c6e7b722de16fa80e5" category="list-text"><block ref="4e4968353ad45e1648e9b700ebce5a49" category="inline-link-macro-rx"></block>。</block>
   <block id="01d9db102d1bd61a6c3336ec537d1d6b" category="list-text">為工作負載指派勒索軟體保護策略。</block>
@@ -1601,8 +1600,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">使用此版本，您可以探索新增至先前所選工作環境的新建立工作負載。</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。</block>
-  <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">使用「設定」選項設定擷取</block>
-  <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>。</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">偵測到高加密時發出警示</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。</block>
   <block id="ab27c5853140d6fe360c8b6756a8c2c6" category="summary">BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用 BlueXP  勒索軟體保護（ RPS ）特有的角色。</block>
@@ -1736,8 +1733,10 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="7a01e31bb54fb84b5dbc9ee51947a45b" category="list-text">查看潛在攻擊類型。</block>
   <block id="7d8343c0bc6249f96b5c9e2c1d4f8d8f" category="paragraph">如果「類型」顯示使用者懷疑有惡意活動，請檢閱使用者名稱。您可能想要在 Data Infrastructure Insights Workload Security 中深入調查使用者，請選取 * 調查工作負載安全 * 。</block>
   <block id="2da9a9f4e6a92f5857d147337ae308f7" category="list-text">選取 * 編輯狀態 * 並將狀態變更為下列其中一項，以指出狀態：</block>
-  <block id="3ce945a70891d1550d3b785a4c8624ed" category="section-title">下載整備訓練報告</block>
-  <block id="153e13288e2e43aabfecd526b2fef2b5" category="paragraph">準備工作訓練完成後，您可能會想要檢閱並儲存訓練的 CSV 報告。</block>
-  <block id="bd048471c80988072b8f583ab0ca3a12" category="list-text">選取警示並選取 * 下載 * 箭頭以下載 CSV 檔案。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
+  <block id="210e4b14373af6b033275b95f93f9177" category="inline-link">使用「設定」選項設定功能</block>
+  <block id="b094aa2183c533f36783add64e674cad" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="852406c43f066a159f215dbd2c4abfc1" category="inline-link-rx"></block>。</block>
+  <block id="7992a2f93dea39d7df576f4591a08a35" category="paragraph"><block ref="7992a2f93dea39d7df576f4591a08a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe4a10adefd95198c71721789b65ec39" category="paragraph"><block ref="fe4a10adefd95198c71721789b65ec39" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fc75a3cf3d58a1a3fcbe221a5a34b910" category="paragraph"><block ref="fc75a3cf3d58a1a3fcbe221a5a34b910" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

@@ -26,7 +26,7 @@ BlueXP 勒索軟體保護儀表板提供工作負載保護健全狀況的概覽�
 探索之後、儀表板會顯示工作負載資料保護的健全狀況。
 
 +
-image:screen-dashboard.png["儀表板頁面"]
+image:screen-dashboard2.png["儀表板頁面"]
 
 . 在儀表板中、您可以在每個窗格中執行下列動作：
 +
@@ -164,7 +164,7 @@ CSV 檔案包含所有 BlueXP 工作環境中所有工作負載的資料。
 .步驟
 . 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
 +
-image:screen-dashboard.png["儀表板頁面"]
+image:screen-dashboard2.png["儀表板頁面"]
 
 . 從頁面中、選取右上角的 * 重新整理 * image:button-refresh.png["重新整理選項"] 選項、以重新整理將出現在檔案中的資料。
 . 執行下列其中一項：

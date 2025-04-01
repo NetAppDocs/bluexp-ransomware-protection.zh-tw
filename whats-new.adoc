@@ -39,7 +39,7 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 * 您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。
 
 
-如需詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索先前所選工作環境的新建立工作負載"]參閱和 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["使用「設定」選項設定擷取"]。
+如需詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索先前所選工作環境的新建立工作負載"]參閱和 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["使用「設定」選項設定功能"]。
 
 
 

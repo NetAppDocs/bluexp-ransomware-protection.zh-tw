@@ -35,7 +35,7 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 否則、 BlueXP 勒索軟體保護儀表板就會出現。
 
 +
-image:screen-dashboard.png["BlueXP 勒索軟體保護儀表板"]
+image:screen-dashboard2.png["BlueXP 勒索軟體保護儀表板"]
 
 +
 

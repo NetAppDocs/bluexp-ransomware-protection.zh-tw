@@ -42,6 +42,6 @@ image:screen-dashboard.png["儀表板頁面"]
 
 . 如果您選取 * 報告 * 選項、請選取其中一個預先設定的 CSV 檔案名稱、然後選取 * 下載（ CSV ） * 或 * 下載（ JSON ） * 。
 +
-image:screen-reports.png["報告頁面"]
+image:screen-reports0.png["報告頁面"]
 
 
