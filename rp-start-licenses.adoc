@@ -17,7 +17,7 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 您可以使用下列授權類型：
 
 * 註冊 30 天免費試用。
-* 向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
+* 透過 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace 購買隨用隨付（ PAYGO ）訂閱。
 * 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
@@ -80,6 +80,8 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 * 試用結束後、請取得訂閱或授權 *
 
 免費試用結束後，您可以透過其中一個行銷網站訂閱，或是向 NetApp 購買授權。
+
+如果您已經有 PAYGO 訂閱，授權會在免費試用結束後自動切換至訂閱。
 
 <<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<透過 Google Cloud Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
 
@@ -286,4 +288,17 @@ TIP: 此訊息也會出現在 BlueXP 數位錢包和中 https://docs.netapp.com/
 .. 選取 * 資料服務授權 * 標籤、選取要更新之服務序號的 * 動作 ... * 圖示、然後選取 * 更新授權 * 。
 
 
+
+
+
+
+== 結束 PAYGO 訂閱
+
+如果您想要結束 PAYGO 訂閱，您可以隨時結束訂閱。
+
+.步驟
+. 在 BlueXP  勒索軟體保護的右上角，選取授權選項。
+. 選取 * 檢視付款方式 * 。
+. 在下拉式詳細資料中，取消勾選 * 在目前付款方式過期後使用 * 方塊。
+. 選擇*保存*。
 

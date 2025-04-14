@@ -77,7 +77,7 @@ NOTE: 隨著 2024 年 10 月發行，新部署的 BlueXP  勒索軟體保護功
 
 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟體保護、則受這兩種產品保護的任何一般資料、將僅由 BlueXP  勒索軟體保護支付費用。
 
-購買授權或 PayGo 訂閱後、任何已啟用勒索軟體偵測原則（自主勒索軟體保護）（由 BlueXP  勒索軟體保護所探索或設定）的工作負載、 而且 BlueXP  勒索軟體保護至少有一個快照或備份原則會將其歸類為「受保護」、並根據購買的容量或 PayGo 訂閱來計費。如果發現工作負載時沒有偵測原則（ ARP ）、即使它有備份或快照原則、也會將其分類為「有風險」、而且不會根據購買的容量來計算。
+購買授權或 PayGo 訂閱後、任何已啟用勒索軟體偵測原則（自主勒索軟體保護）（由 BlueXP  勒索軟體保護所探索或設定）的工作負載、 而且 BlueXP  勒索軟體保護至少有一個快照或備份原則會將其歸類為「受保護」、並根據購買的容量或 PayGo 訂閱來計費。如果發現工作負載時沒有偵測原則，即使它有備份或快照原則，也會將其分類為「有風險」，而且不會根據購買的容量來計算。
 
 受保護的工作負載會在 90 天試用期結束後、根據購買的容量或訂閱數量來計算。BlueXP  勒索軟體保護是以每 GB 為單位、針對與受保護工作負載相關的資料收取費用、然後再提高效率。
 
@@ -113,8 +113,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 | * 識別 *  a| 
 * 尋找所有連線至 BlueXP 的客戶內部 NAS （ NFS 和 CIFS 通訊協定）和 Cloud Volumes ONTAP 資料。
 * 識別來自 ONTAP 和 SnapCenter 服務 API 的客戶資料、並將其與工作負載建立關聯。深入瞭解 https://docs.netapp.com/us-en/ontap-family/["ONTAP"^] 和 https://docs.netapp.com/us-en/snapcenter/index.html["軟件SnapCenter"^]。
-* 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後、該服務會使用 BlueXP 備份與還原、 ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護、 FPolicy 、備份原則和 Snapshot 原則）、將這種保護狀態與工作負載建立關聯。
-深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
+* 探索每個磁碟區目前的 NetApp Snapshot 複本和備份原則保護層級、以及任何隨裝即用的偵測功能。然後，該服務會使用 BlueXP  備份與還原， ONTAP 服務和 NetApp 技術（例如自主勒索軟體保護（根據您的 ONTAP 版本而定， ARP 或 ARP/AI ）， FPolicy ，備份原則和 Snapshot 原則），將此保護狀態與工作負載建立關聯。深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]、 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
 * 根據自動探索到的保護層級、為每個工作負載指派業務優先順序、並根據工作負載的業務優先順序、建議保護原則。工作負載優先順序是根據已套用至與工作負載相關之每個 Volume 的 Snapshot 頻率。
 
 
@@ -129,20 +128,20 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 | * 偵測 *  a| 
 * 利用整合式機器學習（ ML ）模式偵測潛在的攻擊、以偵測可能異常的加密和活動。
 * 提供雙層偵測功能、從偵測主要儲存設備中可能發生的勒索軟體攻擊開始、並透過額外的自動 Snapshot 複本來建立最近的資料還原點來回應異常活動。這項服務可讓您更深入探索、更精確地識別潛在攻擊、而不會影響主要工作負載的效能。
-* 使用 ONTAP ，自主勒索軟體保護，資料基礎架構洞見（前身為 Cloud Insights ）工作負載安全和 FPolicy 技術，判斷攻擊相關工作負載的特定可疑檔案和地圖。
+* 使用 ONTAP ，自主勒索軟體保護（根據您的 ONTAP 版本而定的 ARP 或 ARP/AI ），資料基礎架構洞見（前身為 Cloud Insights ）工作負載安全性和 FPolicy 技術，判斷攻擊相關工作負載的特定可疑檔案和對應。
 
 
 
 
 | * 回應 *  a| 
 * 顯示相關資料、例如檔案活動、使用者活動和 Entropy 、以協助您完成攻擊的鑑識審查。
-* 使用 NetApp 技術和產品（例如 ONTAP 、自主勒索軟體保護和 FPolicy ）來啟動快速 Snapshot 複本。
+* 使用 NetApp 技術和產品（例如 ONTAP ，自主勒索軟體保護（根據 ONTAP 版本而定的 ARP 或 ARP/AI ）和 FPolicy ）來啟動快速 Snapshot 複本。
 
 
 
 
 | * 恢復 *  a| 
-* 決定最佳的 Snapshot 或備份、並使用 BlueXP 備份與還原、 ONTAP 、自主勒索軟體保護及 FPolicy 技術與服務、建議最佳的實際還原點（ RPA ）。
+* 決定最佳的快照或備份，並使用 BlueXP  備份與還原， ONTAP ，自主勒索軟體保護（根據 ONTAP 版本而定的 ARP 或 ARP/AI ），以及 FPolicy 技術與服務，建議最佳的實際還原點（ RPA ）。
 * 協調工作負載的恢復、包括 VM 、檔案共用和資料庫、並確保應用程式一致性。
 
 
