@@ -30,7 +30,9 @@ TIP: 若要在 BlueXP  勒索軟體保護中探索，除了 * 勒索軟體保�
 * * 資料服務角色 * 僅限於特定的資料服務。根據您的工作，您可以擁有多個資料服務角色。BlueXP  勒索軟體保護是 BlueXP  資料服務之一。
 
 
-如需平台角色的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  設定與管理文件"^]。
+在 BlueXP  勒索軟體保護中，其他 BlueXP  平台角色被視為觀眾。例如， * 組織檢視器 * 角色可讓您檢視保護計畫，但不允許您在 BlueXP  勒索軟體保護中執行任何動作。
+
+如需所有 BlueXP  平台角色的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  設定與管理文件"^]。
 
 下表說明每個 BlueXP  勒索軟體保護角色可以執行的動作。
 

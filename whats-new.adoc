@@ -257,7 +257,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === 主儲存設備上的 Snapshot 複本鎖定
 
-啟用此選項可鎖定主要儲存設備上的 Snapshot 複本，即使勒索軟體攻擊管理其通往備份儲存目的地的方式，也無法在一段時間內修改或刪除它們。
+啟用此選項可鎖定主儲存設備上的快照複本，即使勒索軟體攻擊管理其通往備份儲存目的地的方式，也無法在一段時間內修改或刪除快照複本。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何保護工作負載、並在勒索軟體保護策略中啟用備份鎖定功能"]。
 
@@ -317,7 +317,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["
 
 === 勒索軟體保護策略
 
-如果工作負載上不存在 Snapshot 或 Backup 原則，您可以建立勒索軟體保護策略，其中可能包含您在此服務中建立的下列原則：
+如果工作負載上不存在快照或備份原則，您可以建立勒索軟體保護策略，其中可能包含您在此服務中建立的下列原則：
 
 * Snapshot原則
 * 備份原則
