@@ -105,6 +105,9 @@ BlueXP 勒索軟體保護可識別尚未備份的工作負載、也可識別尚�
 * Microsoft Azure
 
 
+
+NOTE: Amazon FSX for NetApp ONTAP 的工作負載無法使用備份目的地。使用適用於 ONTAP 備份服務的 FSX 執行備份作業。
+
 您可以根據儀表板上的建議動作或從功能表上的「設定」選項新增備份目的地。
 
 

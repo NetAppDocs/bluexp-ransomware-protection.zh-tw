@@ -19,3 +19,13 @@ summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來�
 == 整備訓練重設選項問題
 
 如果您選擇 ONTAP 9.11.1 Volume 進行勒索軟體攻擊準備訓練， BlueXP  勒索軟體保護會發出警示通知您。如果您使用「複製到 Volume 」選項恢復資料並重設鑽孔，重設作業將會失敗。
+
+
+
+== 適用於 NetApp ONTAP 的 Amazon FSX 限制
+
+BlueXP  勒索軟體保護支援 Amazon FSX for NetApp ONTAP 工作環境。下列限制適用於此工作環境：
+
+* ONTAP 的 FSX 不支援備份原則。在此環境中，您應該使用 Amazon FS for ONTAP 備份服務來執行備份作業。您可以使用 BlueXP  勒索軟體保護快照來還原這些工作負載。
+* 還原作業只能從快照執行。
+

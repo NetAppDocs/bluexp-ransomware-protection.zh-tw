@@ -85,7 +85,7 @@ NOTE: 隨著 2024 年 10 月發行，新部署的 BlueXP  勒索軟體保護功
 
 == 授權
 
-有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或是自行攜帶授權。
+有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案、包括免費試用、隨用隨付訂閱、或自帶授權。
 
 BlueXP  勒索軟體保護服務需要 NetApp ONTAP One 授權。
 
@@ -173,6 +173,11 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 * 適用於 AWS 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
 * 適用於 Google Cloud Platform 的 Cloud Volumes ONTAP 9.11.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
 * 適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.12.1 或更新版本（使用 NFS 和 CIFS 通訊協定）
+* Amazon FSX for NetApp ONTAP 使用自主勒索軟體保護（ ARP 而非 ARP/AI ）。
++
+
+NOTE: ARP/AI 需要 ONTAP 9.16 或更高版本。
+
 
 
 

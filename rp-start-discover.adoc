@@ -57,7 +57,7 @@ image:screen-discover-workloads1.png["探索工作負載螢幕擷取畫面"]
 此時會出現工作環境清單。
 
 +
-image:screen-discover-workloads-select-no-autodiscovery.png["探索工作負載螢幕擷取畫面"]
+image:screen-discover-workloads-select.png["探索工作負載螢幕擷取畫面"]
 
 . 選取您要探索工作負載的工作環境，或選取表格頂端的方塊，以探索所有探索到的工作負載環境中的工作負載。
 . 選擇* Discover（探索）*。

@@ -18,6 +18,33 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 
 
 
+== 2025 年 4 月 29 日
+
+
+
+=== 支援Amazon FSX for NetApp ONTAP 功能
+
+此版本支援 Amazon FSX for NetApp ONTAP 。此功能可透過 BlueXP  勒索軟體保護，協助您保護適用於 ONTAP 工作負載的 FSX 。
+
+適用於 ONTAP 的 FSX 是一項完全託管的服務，可在雲端提供 NetApp ONTAP 儲存設備的強大功能。它提供與內部部署相同的功能，效能和管理功能，以及原生 AWS 服務的敏捷度和擴充性。
+
+BlueXP  勒索軟體保護工作流程已進行下列變更：
+
+* 探索包括適用於 ONTAP 9.15 工作環境的 FSX 中的工作負載。
+* Protection 索引標籤會顯示適用於 ONTAP 環境的 FSX 中的工作負載。在此環境中，您應該使用適用於 ONTAP 備份服務的 FSX 執行備份作業。您可以使用 BlueXP  勒索軟體保護快照來還原這些工作負載。
++
+
+TIP: 無法在 BlueXP  中設定在適用於 ONTAP 的 FSX 上執行之工作負載的備份原則。在 Amazon FSX for NetApp ONTAP 中設定的任何現有備份原則都會保持不變。
+
+* 警示事件會顯示適用於 ONTAP 工作環境的全新 FSX 。
+
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP  勒索軟體保護與工作環境"]參閱。
+
+如需支援選項的相關資訊，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  勒索軟體保護限制"]。
+
+
+
 == 2025 年 4 月 14 日
 
 

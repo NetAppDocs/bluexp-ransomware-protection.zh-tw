@@ -42,7 +42,7 @@ NOTE: 如果您同時擁有 BlueXP  備份與還原、以及 BlueXP  勒索軟
 您可以利用 Data Infrastructure Insights Workload Security 來檢視異常的使用者行為。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。如需 Data Infrastucure Insights Workload Security 的總覽，請參閱 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]
 
 
-TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。
+TIP: 如果您沒有資料基礎架構洞見工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。
 
 
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 如果您已經有 PAYGO 訂閱，授權會在免費試用結束後自動切換至訂閱。
 
-<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<透過 Google Cloud Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
+<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<Subscribe through Google Cloud Marketplace>> <<自帶授權（ BYOL ）>>
 
 
 
@@ -97,11 +97,11 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 ** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
 ** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
 +
-image:screen-license-payment-methods2.png["BlueXP 勒索軟體保護付款方法頁面"]
+image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法頁面"]
 
 
 
-. 在「付款方式」頁面中、選取 * 在 AWS Marketplace* 中訂閱。
+. 在「付款方式」頁面中，選取 * 訂閱 * * * * Amazon Web Services* 。
 . 在 AWS Marketplace 中、選取 * 檢視購買選項 * 。
 . 使用 AWS Marketplace 訂閱 BlueXP 勒索軟體保護。
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
@@ -145,11 +145,11 @@ image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權
 ** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
 ** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
 +
-image:screen-license-payment-methods2.png["BlueXP 勒索軟體保護付款方法頁面"]
+image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法頁面"]
 
 
 
-. 在「付款方式」頁面中、選取 * 在 Azure Marketplace 中訂閱 * 。
+. 在「付款方式」頁面中，針對 * Microsoft Azure Marketplace* 選取 * 訂閱 * 。
 . 在 Azure Marketplace 中、選取 * 檢視購買選項 * 。
 . 使用 Azure Marketplace 訂閱 BlueXP 勒索軟體保護。
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
@@ -183,9 +183,9 @@ image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權
 
 
 
-== 透過 Google Cloud Marketplace 訂閱
+== 透過 Google Cloud Platform Marketplace 訂閱
 
-本程序提供如何直接在 Google Cloud Marketplace 中訂閱的高階概觀。
+本程序提供如何直接在 Google Cloud Platform Marketplace 中訂閱的高階概觀。
 
 .步驟
 . 在 BlueXP 勒索軟體保護中、執行下列其中一項：
@@ -193,17 +193,17 @@ image:screen-dw-data-services-license.png["BlueXP 數位錢包資料服務授權
 ** 您會看到一則訊息、表示免費試用即將到期。在訊息中、選取 * 檢視付款方式 * 。
 ** 按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。
 +
-image:screen-license-payment-methods3-gcp.png["BlueXP 勒索軟體保護付款方法頁面"]
+image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法頁面"]
 
 
 
-. 在「付款方式」頁面中，選取 * 在 Google Cloud Marketplace* 中訂閱。
-. 在 Google Cloud Marketplace 中，選取 * 訂閱 * 。
-. 使用 Google Cloud Marketplace 訂閱 BlueXP  勒索軟體保護。image:screen-license-payments-gcp.png["Google Cloud Marketplace 訂閱頁面"]
+. 在「付款方式」頁面中，選取 * 訂閱 * 以取得 Google Cloud Platform Marketplace* 。
+. 在 Google Cloud Platform Marketplace 中，選取 * 訂閱 * 。
+. 使用 Google Cloud Platform Marketplace 訂閱 BlueXP  勒索軟體保護。image:screen-license-payments-gcp.png["Google Cloud Marketplace 訂閱頁面"]
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
 +
 
-NOTE: 系統會傳送電子郵件給您，其中包含 BlueXP  勒索軟體保護序號，並指出 BlueXP  勒索軟體保護功能已在 Google Cloud Marketplace 中訂閱。
+NOTE: 系統會傳送電子郵件給您，其中包含 BlueXP  勒索軟體保護序號，並指出 BlueXP  勒索軟體保護功能已在 Google Cloud Platform Marketplace 中訂閱。
 
 . 返回 BlueXP 勒索軟體保護付款方法頁面。
 . 選擇 * 將授權新增至 BlueXP* 、將授權新增至 BlueXP 。
