@@ -39,7 +39,7 @@ summary: 瞭解 BlueXP 勒索軟體保護的新功能。
 
 您可以在探索後下載探索程序的結果。
 
-如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discovery.html["探索 BlueXP 勒索軟體保護的工作負載"]參閱。
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索 BlueXP 勒索軟體保護的工作負載"]參閱。
 
 
 

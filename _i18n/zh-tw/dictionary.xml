@@ -1796,7 +1796,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
   <block id="579848aa0d8bdd4f7904793483675637" category="paragraph">您可以在初始探索期間檢視不受支援的工作環境，或是稍後從「設定」頁面中的 * 工作負載探索 * 選項檢視。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。</block>
   <block id="4c47a495695584c11b9bc39a46126b3f" category="paragraph">您可以在探索後下載探索程序的結果。</block>
-  <block id="39c54f7d4df40cc8068c415171304f04" category="paragraph">如需詳細資訊、請<block ref="52ea2f296b1d66ace77da9b46bb70668" category="inline-link-rx"></block>參閱。</block>
   <block id="aad9baa97ac0eac36d06a06e92779e20" category="admonition">不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。Azure NetApp Files 上的工作負載不受支援。服務會探索並顯示支援和不支援的工作環境組態。</block>
   <block id="63e2bb0c5a3c29dbfc9712f5986829f5" category="list-text">探索新的工作環境。</block>
   <block id="ba0a4542cb75319d2d7ef0f3aedde438" category="paragraph">服務會同時尋找支援和不支援的工作環境。此程序可能需要幾分鐘的時間。</block>
@@ -1811,4 +1810,5 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="9d5c8a6e3597683b4559e2c596a2ead9" category="list-text">選取測試儲存設備 SVM 。</block>
   <block id="6773f809e3f238c4a8a25adcd8e46f13" category="list-text">輸入要建立的新測試工作負載名稱。請勿在名稱中包含破折號。</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025 年 13 月 5 日</block>
+  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">如需詳細資訊、請<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>參閱。</block>
 </blocks>
