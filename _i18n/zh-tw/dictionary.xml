@@ -1446,12 +1446,9 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="1c2afeca94eb9c399bfa2c175f98ac90" category="paragraph">為了偵測異常的使用者行為， BlueXP  勒索軟體保護採用 NetApp 自主勒索軟體保護，這是 ONTAP 內偵測惡意檔案活動的機器學習（ ML ）模式。BlueXP  勒索軟體保護授權包含此模型。您也可以使用 Data Infrastructure Insights （前身為 Cloud Insights ）工作負載安全性（需要授權）來調查使用者行為，並封鎖特定使用者，使其不再從事其他活動。</block>
   <block id="7c74958c48ce3d27f457ae44b83cfb4c" category="paragraph">您可以執行下列動作：</block>
   <block id="1ad499ee6cba4f056f735fb9eae4b5ce" category="paragraph">在每個 Connector 中，選取您要探索工作負載的工作環境。</block>
-  <block id="98ab4e23cce41ca38b39c7baf6ef4567" category="admonition">此程序可能需要幾分鐘的時間。</block>
   <block id="18eb5242d6e5ac768698e677b047a0eb" category="inline-image-macro">探索工作負載螢幕擷取畫面</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇* Discover（探索）*。</block>
-  <block id="39d30ea27067e18c7724603fcd547e90" category="paragraph">此服務只會針對具有選定工作環境的連接器探索工作負載資料。</block>
   <block id="d816d69cfca30588b735f0def37770e3" category="inline-image-macro">工作負載探索到螢幕快照</block>
-  <block id="994043f7651608eba900e66133c89241" category="list-text">若要下載探索到的工作負載清單，請選取 * 下載結果（ CSV ） * 。</block>
   <block id="955afffb8a05f2f0ed1bf75405e20929" category="list-text">若要顯示 BlueXP  勒索軟體保護儀表板，請選取 * 前往儀表板 * 。</block>
   <block id="54a939b9714096ed5c428eb009f07a1c" category="paragraph">儀表板會顯示資料保護的健全狀況。受風險或受保護的工作負載數量會根據新發現的工作負載而增加。</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="section-title">探索先前所選工作環境的新建立工作負載</block>
@@ -1525,10 +1522,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="51871ed75f741b0dab90d2d1612f6499" category="doc">BlueXP  勒索軟體保護功能的角色型存取</block>
   <block id="9f8dac12ddf6d062aacb043cac5a6b8d" category="paragraph">BlueXP  勒索軟體保護採用角色來管理每位使用者對特定功能和行動的存取。</block>
   <block id="06135c09643e0b875311a4989ef81443" category="paragraph">此服務會評估現有的保護層級，包括目前的備份保護，快照複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。</block>
-  <block id="ea84e987da35b78faef15d182ea98e25" category="paragraph">此服務會在您的 BlueXP  Connectors 中尋找工作環境。</block>
-  <block id="656ebea707f2c709a19d8f845b2477e7" category="list-text">若要探索特定 Connector 的工作負載，請在您要探索工作負載的 Connector 旁選取 * 尋找新的工作環境 * 。</block>
-  <block id="4c21761c15d83552dd8cd3a0a8db257d" category="paragraph">此時會出現工作環境清單。</block>
-  <block id="683b598a3c2decc48c00425ef8b86635" category="paragraph"><block ref="683b598a3c2decc48c00425ef8b86635" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c02e66aaa8def7a1b94dfd795479c114" category="paragraph">如果您已經選取要探索的工作環境，可以從儀表板探索這些環境的新建立工作負載。</block>
   <block id="70b4939004396411f22f03d5d20bd5e4" category="list-text">若要識別上次探索的日期，請從儀表板查看右上方 * 重新整理 * 圖示旁的日期和時間戳記。</block>
   <block id="0e6eeee847f00d7ef1cb454555892f49" category="list-text"><block ref="92c4728cc5c0729bcbef66420d0a7a81" category="inline-link-macro-rx"></block>。</block>
@@ -1614,12 +1607,9 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="574f730f175872b7e8ae030664be0b63" category="list-text">從 BlueXP  勒索軟體保護設定功能表，找出 * 工作負載安全連線 * 磚。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
   <block id="a216cb7967dcfa49b3b976657369cd25" category="sidebar">在「設定」中設定備份，威脅偵測和攻擊模擬</block>
-  <block id="8e409065d2ff7418c22e196d64a6f17c" category="paragraph"><block ref="8e409065d2ff7418c22e196d64a6f17c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="28f4eac4cfa4a0f9f4579a8d7853aa5d" category="list-text">選取您要探索工作負載的工作環境，或選取表格頂端的方塊，以探索所有探索到的工作負載環境中的工作負載。</block>
   <block id="6cd7d81917c9dbf1647c62c550c7a4a0" category="list-text">從儀表板選取 * 重新整理圖示 * ，以開始探索新的工作負載。</block>
   <block id="ce5939b4e8126f1cd90a90e246bba04d" category="list-text">從 BlueXP  勒索軟體保護功能表中，選取<block ref="ddacd9651566dbd67045ad6fbaf81a6c" category="inline-image-macro-rx" type="image"></block>右上角的垂直 ... 選項。從下拉式功能表中、選取 * 設定 * 。</block>
   <block id="7834f1609389d2dc0ac0789a0ac2db2f" category="list-text">在工作負載探索卡中，選取 * 探索工作負載 * 。</block>
-  <block id="25c2a18f9bef5efa05b349a8a6bf472f" category="list-text">輸入要建立的新測試工作負載名稱。</block>
   <block id="ccf00254ed4dd27ce3cb568ef11757f1" category="list-text">從 BlueXP  勒索軟體保護設定功能表中，選取 * 準備度訓練 * ，然後在準備度訓練頁面中選取 * 開始 * 。</block>
   <block id="8d2bd4422410271303c0633a19aefea9" category="list-text">或者，從「設定」頁面的「準備工作」訓練卡中，選取 * 開始 * 。</block>
   <block id="f54a2552361ef76d1d69e95fc2f63e90" category="list-text">如果您已經設定就緒訓練，則在選擇 * 開始 * 之後，準備工作訓練就會開始。</block>
@@ -1713,7 +1703,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="0e6583bdbbf88acbfc57d3f868629d3c" category="cell">更新探索組態</block>
   <block id="5439d77b96ff7a9498be958a6755e89a" category="cell">檢視探索組態</block>
   <block id="1ed006cd78ff9bf590a02c6fc268141f" category="cell">* 在「報告」標籤 * 上：</block>
-  <block id="6863f1e2b172aa86375945f4be5c9f9e" category="admonition">不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。不支援 Amazon FSX for NetApp ONTAP 或 Azure NetApp Files 上的工作負載。探索程序結束後， BlueXP  會在儀表板上的不受支援磁碟區上回報勒索軟體保護。</block>
   <block id="b5bf014c6bc530be1a7b68b5bcfb8ce0" category="list-text">透過 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace 購買隨用隨付（ PAYGO ）訂閱。</block>
   <block id="8fe507392e8a4aeb2bd185146f2e7aa5" category="paragraph">如果您已經有 PAYGO 訂閱，授權會在免費試用結束後自動切換至訂閱。</block>
   <block id="36fba8530ad94f3768ad1e658bd480e1" category="section-title">結束 PAYGO 訂閱</block>
@@ -1781,7 +1770,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="5668e6bae7d2d785f6d070533231a9fb" category="paragraph">BlueXP  勒索軟體保護支援 Amazon FSX for NetApp ONTAP 工作環境。下列限制適用於此工作環境：</block>
   <block id="094cfa33c7eca5353db86f232ec97ece" category="list-text">ONTAP 的 FSX 不支援備份原則。在此環境中，您應該使用 Amazon FS for ONTAP 備份服務來執行備份作業。您可以使用 BlueXP  勒索軟體保護快照來還原這些工作負載。</block>
   <block id="ae06555bf1899a4ef9c10d46f1e1d5ab" category="list-text">還原作業只能從快照執行。</block>
-  <block id="de73a0aa09da7ce72e71260570480f65" category="paragraph"><block ref="de73a0aa09da7ce72e71260570480f65" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5ea39ab903803ce7754cfdbc99b11099" category="admonition">如果您沒有資料基礎架構洞見工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。</block>
   <block id="6bc331c26571e71e2fd090b87423f299" category="paragraph"><block ref="6bc331c26571e71e2fd090b87423f299" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1136b7614d1f28d3b605ae13cff2a9b9" category="list-text">在「付款方式」頁面中，選取 * 訂閱 * * * * Amazon Web Services* 。</block>
@@ -1798,4 +1786,29 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="463f5e1b668b83efc12cf4dbc90300ff" category="list-text">* 受保護 * ：套用原則。所有與工作負載相關的磁碟區都會啟用 ARP （或 ARP/AI ，視 ONTAP 版本而定）。</block>
   <block id="065ced4e95bc23c02a22f53b7d00da49" category="admonition">Amazon FSX for NetApp ONTAP 的工作負載無法使用備份目的地。使用適用於 ONTAP 備份服務的 FSX 執行備份作業。</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025 年 4 月 29 日</block>
+  <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="doc">報告 BlueXP  勒索軟體保護中不受支援的工作環境</block>
+  <block id="b42180eb0fa303da5a11adbc08be431f" category="paragraph">在探索工作流程期間，當您將游標移到支援或不支援的工作負載上時， BlueXP  勒索軟體保護會報告更多詳細資料。這將有助於您瞭解為何部分工作負載或工作環境不屬於儀表板的一部分，或是由勒索軟體保護服務管理。BlueXP  勒索軟體保護服務目前不支援下列工作環境。</block>
+  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
+  <block id="c8e90ee73047c3063b54a44eae9d4af6" category="list-text">E 系列</block>
+  <block id="8496bc8fa09162b4a1d6b5482545d7e5" category="list-text">Google Cloud Platform（GCP）</block>
+  <block id="48b747470192bb1f3eb893cd89cddb83" category="list-text">ONTAP 9.11.1 及更早版本</block>
+  <block id="9b705ea007b3ac220c55a333054a1e7c" category="list-text">非由 BlueXP  Connector 管理的 ONTAP 直接內部部署叢集</block>
+  <block id="392d70ca39f31f10bd637936769788df" category="list-text">StorageGRID</block>
+  <block id="579848aa0d8bdd4f7904793483675637" category="paragraph">您可以在初始探索期間檢視不受支援的工作環境，或是稍後從「設定」頁面中的 * 工作負載探索 * 選項檢視。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。</block>
+  <block id="4c47a495695584c11b9bc39a46126b3f" category="paragraph">您可以在探索後下載探索程序的結果。</block>
+  <block id="39c54f7d4df40cc8068c415171304f04" category="paragraph">如需詳細資訊、請<block ref="52ea2f296b1d66ace77da9b46bb70668" category="inline-link-rx"></block>參閱。</block>
+  <block id="aad9baa97ac0eac36d06a06e92779e20" category="admonition">不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。Azure NetApp Files 上的工作負載不受支援。服務會探索並顯示支援和不支援的工作環境組態。</block>
+  <block id="63e2bb0c5a3c29dbfc9712f5986829f5" category="list-text">探索新的工作環境。</block>
+  <block id="ba0a4542cb75319d2d7ef0f3aedde438" category="paragraph">服務會同時尋找支援和不支援的工作環境。此程序可能需要幾分鐘的時間。</block>
+  <block id="4c7b7f129d904ef9645325e6106a26cc" category="paragraph"><block ref="4c7b7f129d904ef9645325e6106a26cc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4ca9313727b27bd23777fa2f2642a687" category="list-text">若要探索特定 Connector 的工作負載，請在您想要探索工作負載的 Connector 旁選取 * 選取工作環境 * 。</block>
+  <block id="83f7d0abba284cbb1363333164129384" category="list-text">選取您要探索工作負載的工作環境。</block>
+  <block id="c92c64e9822e5690e2695093c40d414f" category="paragraph">此服務只會針對具有選定工作環境的連接器探索工作負載資料。此程序可能需要幾分鐘的時間。</block>
+  <block id="b9a71444c25e02475b7567dd75e6f5bc" category="paragraph"><block ref="b9a71444c25e02475b7567dd75e6f5bc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="60b91ac4e4f14d7cb892956fc74437d2" category="list-text">若要下載探索到的工作負載清單，請選取 * 下載結果 * 。</block>
+  <block id="ac63ea00f0dd830473ac8e776eef3502" category="list-text">此服務同時探索支援和不支援的工作環境。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。選取您要探索工作負載的工作環境。</block>
+  <block id="5382046ea385cbcd7367b36d70b4decb" category="list-text">請執行下列動作：</block>
+  <block id="9d5c8a6e3597683b4559e2c596a2ead9" category="list-text">選取測試儲存設備 SVM 。</block>
+  <block id="6773f809e3f238c4a8a25adcd8e46f13" category="list-text">輸入要建立的新測試工作負載名稱。請勿在名稱中包含破折號。</block>
+  <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025 年 13 月 5 日</block>
 </blocks>

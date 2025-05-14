@@ -17,7 +17,7 @@ summary: 在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Conn
 BlueXP 勒索軟體保護可評估 MySQL 應用程式、 Oracle 應用程式、 VMware 資料存放區和檔案共用。
 
 
-NOTE: 不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。不支援 Amazon FSX for NetApp ONTAP 或 Azure NetApp Files 上的工作負載。探索程序結束後， BlueXP  會在儀表板上的不受支援磁碟區上回報勒索軟體保護。
+NOTE: 不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。Azure NetApp Files 上的工作負載不受支援。服務會探索並顯示支援和不支援的工作環境組態。
 
 此服務會評估現有的保護層級，包括目前的備份保護，快照複本和 NetApp 自主勒索軟體保護選項。根據評估結果、服務接著會建議如何改善勒索軟體的保護。
 
@@ -25,6 +25,7 @@ NOTE: 不會探索使用 FlexGroup 或 iSCSI 的磁碟區工作負載。不支�
 
 * 在每個 Connector 中，選取您要探索工作負載的工作環境。如果您想要保護環境中的特定工作負載，而非其他工作負載，您可能會受益於此功能。
 * 探索先前所選工作環境的新建立工作負載。
+* 探索新的工作環境。
 
 
 
@@ -43,35 +44,21 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 . 從初始登錄頁面中、選取 * 探索工作負載 * 以開始。
 +
-此服務會在您的 BlueXP  Connectors 中尋找工作環境。
+服務會同時尋找支援和不支援的工作環境。此程序可能需要幾分鐘的時間。
 
 +
+image:screen-discover-workloads-unsupported.png["探索工作負載螢幕擷取畫面"]
 
-TIP: 此程序可能需要幾分鐘的時間。
-
-+
-image:screen-discover-workloads1.png["探索工作負載螢幕擷取畫面"]
-
-. 若要探索特定 Connector 的工作負載，請在您要探索工作負載的 Connector 旁選取 * 尋找新的工作環境 * 。
-+
-此時會出現工作環境清單。
-
-+
-image:screen-discover-workloads-select.png["探索工作負載螢幕擷取畫面"]
-
-. 選取您要探索工作負載的工作環境，或選取表格頂端的方塊，以探索所有探索到的工作負載環境中的工作負載。
+. 若要探索特定 Connector 的工作負載，請在您想要探索工作負載的 Connector 旁選取 * 選取工作環境 * 。
+. 選取您要探索工作負載的工作環境。
 . 選擇* Discover（探索）*。
 +
-此服務只會針對具有選定工作環境的連接器探索工作負載資料。
+此服務只會針對具有選定工作環境的連接器探索工作負載資料。此程序可能需要幾分鐘的時間。
 
 +
+image:screen-discover-workloads-unsupported-collected.png["工作負載探索到螢幕快照"]
 
-TIP: 此程序可能需要幾分鐘的時間。
-
-+
-image:screen-discover-workloads-found2.png["工作負載探索到螢幕快照"]
-
-. 若要下載探索到的工作負載清單，請選取 * 下載結果（ CSV ） * 。
+. 若要下載探索到的工作負載清單，請選取 * 下載結果 * 。
 . 若要顯示 BlueXP  勒索軟體保護儀表板，請選取 * 前往儀表板 * 。
 +
 儀表板會顯示資料保護的健全狀況。受風險或受保護的工作負載數量會根據新發現的工作負載而增加。
@@ -110,4 +97,6 @@ link:rp-use-dashboard.html["瞭解儀表板顯示的內容。"]
 
 TIP: 此程序可能需要幾分鐘的時間，如處理中的載入圖示所示。
 
+. 此服務同時探索支援和不支援的工作環境。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。選取您要探索工作負載的工作環境。
+. 選擇* Discover（探索）*。
 
