@@ -23,7 +23,7 @@ summary: 如果您只是想要快速回答問題、這個常見問題集就能�
 您可以使用下列授權類型：
 
 * 註冊 30 天免費試用。
-* 向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。
+* 透過 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace ，購買「隨用隨付」（ PAYGO ）訂閱，即可享有 NetApp 智慧型服務和 BlueXP  勒索軟體保護。
 * 請自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。
 
 
@@ -101,8 +101,6 @@ BlueXP  勒索軟體保護會以下列方式將資料與工作負載相關聯�
 
 * 新增的 Volume 、但尚未顯示 * 如果您在環境中新增新的 Volume 、請重新啟動探索、並套用保護原則來保護該新的 Volume 。
 
-* 儀表板不會顯示我所有的工作負載。可能出了什麼問題？ *目前僅支援 NFS 和 CIFS 磁碟區。 iSCSI 磁碟區和其他不受支援的組態會被篩選出來、不會出現在儀表板上。
-
 
 
 == 保護原則
@@ -148,6 +146,6 @@ BlueXP  勒索軟體保護可辨識在 BlueXP  備份與還原或 SnapCenter �
 
 * 您可以停用原則嗎？ *
 
-您可以使用 System Manager UI 、 API 或 CLI 在偵測原則中停用 ARP 。
+您可以使用 System Manager UI ， API 或 CLI 在偵測原則中停用 ARP 。
 
 您可以套用不包含 FPolicy 和備份原則的不同原則來停用 FPolicy 和備份原則。

@@ -705,7 +705,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="7e631c9d8ec15dd1dff8158210768f52" category="list-text">按一下右上角的 * 免費試用 * 通知、然後選取 * 檢視付款方式 * 。</block>
   <block id="931a199b616f21d26a763e06bea7d3bb" category="inline-image-macro">BlueXP 勒索軟體保護付款方法頁面</block>
   <block id="a06442e94af0d31f4eee679c83de7779" category="list-text">在 AWS Marketplace 中、選取 * 檢視購買選項 * 。</block>
-  <block id="e81ebeec0a217c8331fa7dbadbadd4fb" category="list-text">使用 AWS Marketplace 訂閱 BlueXP 勒索軟體保護。</block>
   <block id="b4d5b1e645dd8c91f8991fc8b857c3b3" category="list-text">當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。</block>
   <block id="3b320f2a6e71a9a0a54e58fcfb5dd0e3" category="admonition">系統會傳送一封電子郵件給您、其中包含 BlueXP 勒索軟體保護序號、並指出已在 AWS Marketplace 中訂閱 BlueXP 勒索軟體保護。</block>
   <block id="46f467b3e3ffe032a644e297a438a836" category="list-text">返回 BlueXP 勒索軟體保護付款方法頁面。</block>
@@ -787,7 +786,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="a3f3caf1f21e89003b986e3ef2b149b5" category="section-title">透過 Microsoft Azure Marketplace 訂閱</block>
   <block id="e26fedce20ced0057efd9db495512345" category="paragraph">本程序提供如何直接在 Azure Marketplace 中訂閱的高階概觀。</block>
   <block id="9b23faa6a0e739328dca3b84d8d4ac0e" category="list-text">在 Azure Marketplace 中、選取 * 檢視購買選項 * 。</block>
-  <block id="091ed0f1069a0b7035b8b4d3afc0e7ae" category="list-text">使用 Azure Marketplace 訂閱 BlueXP 勒索軟體保護。</block>
   <block id="1bb6c5e87f81a4dfb176e1e6591f70fd" category="admonition">系統會傳送一封電子郵件給您、其中包含 BlueXP 勒索軟體保護序號、並指出 BlueXP 勒索軟體保護已在 Azure Marketplace 中訂閱。</block>
   <block id="d40bb36908e07a46fbc5880def372b77" category="cell">新增勒索軟體保護原則。</block>
   <block id="a3b50e444d5d5789130de78ddb2b3e45" category="cell">準備 &lt;backup provider&gt; 作為備份目的地、以備份工作負載資料。</block>
@@ -816,8 +814,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="fe3f4461c233a8ac4062f3d5f2af86f7" category="paragraph"><block ref="fe3f4461c233a8ac4062f3d5f2af86f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="42af6072d9f6b15575af87c244abaa0a" category="section-title">還原檔案共用區或資料存放區</block>
   <block id="1dd6a4919bb3486348521d221ec659ba" category="list-text">選取要還原的檔案共用或資料存放區之後、在「還原」頁面上的「還原」範圍中、選取 * 依 Volume * 。</block>
-  <block id="2ee50d53d7474747be1bcd118f94fa54" category="inline-link-macro">準備 NetApp StorageGRID 、 Amazon Web Services 或 Microsoft Azure 作為備份目的地</block>
-  <block id="1ba64763d51f8c1aa85b17f2c5d95a50" category="list-text"><block ref="e4ac2374a696381099055121381c8366" category="inline-link-macro-rx"></block>。</block>
   <block id="e7c81f7323ce88fb040e5538bda0ea2a" category="paragraph">勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會在一天到數週之間中斷資料存取。</block>
   <block id="dface268a2071eff798d124445615938" category="list-text">* 恢復 * 您的工作負載可協調多項 NetApp 技術、協助加速工作負載正常運作時間。您可以選擇恢復特定的磁碟區。本服務針對最佳選項提供建議。</block>
   <block id="693cf7ee0375c87d1ecc02615f651ebe" category="inline-link">深入瞭解如何保護工作負載、並在勒索軟體保護策略中啟用備份鎖定功能</block>
@@ -987,7 +983,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="750e308955dde6d388078ddcebf42761" category="paragraph">* 什麼是「受保護的」工作負載？ *在 BlueXP  勒索軟體保護中、當工作負載啟用主要偵測原則時、會顯示「受保護」狀態。現在、這表示在所有與工作負載相關的磁碟區上都啟用 ARP 。</block>
   <block id="4909b811fdf0fea4db96f92f4f78a663" category="paragraph">* 什麼是「面臨風險」工作負載？ *如果工作負載未啟用主要偵測原則、即使已啟用備份和快照原則、也會有「風險」。</block>
   <block id="d392c29669bb00e39e150b48a9658870" category="paragraph">* 新增的 Volume 、但尚未顯示 * 如果您在環境中新增新的 Volume 、請重新啟動探索、並套用保護原則來保護該新的 Volume 。</block>
-  <block id="2a9a649caf4693e9c22548406af935a9" category="paragraph">* 儀表板不會顯示我所有的工作負載。可能出了什麼問題？ *目前僅支援 NFS 和 CIFS 磁碟區。 iSCSI 磁碟區和其他不受支援的組態會被篩選出來、不會出現在儀表板上。</block>
   <block id="077a87403fd7fb9db61f9c9df6d2f4cf" category="paragraph">* 勒索軟體保護策略需要哪些政策？ *</block>
   <block id="2c79851b67a6a4c6f49e977c30c7e88e" category="paragraph">勒索軟體保護策略需要下列原則：</block>
   <block id="9184cdbbfbcf15ba414f7d2b5b3f505c" category="paragraph">BlueXP  勒索軟體保護策略不需要備份原則。</block>
@@ -1004,7 +999,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="518f0b9f41f0f038466364ab7781803f" category="paragraph">* 您可以從 ONTAP 變更原則嗎？ *</block>
   <block id="33ed0f18e9fe197e38cc3205d4822035" category="paragraph">是的、您可以在 BlueXP  勒索軟體保護中變更 ONTAP 的原則。您也可以在 BlueXP  勒索軟體保護中建立新原則、並將其套用至工作負載。此動作會以在 BlueXP  勒索軟體保護中建立的原則取代現有的 ONTAP 原則。</block>
   <block id="1f25ef09ab6fce0b56c79cd4246453be" category="paragraph">* 您可以停用原則嗎？ *</block>
-  <block id="16bb1f43c7ea8d0bd89ed893a517b2de" category="paragraph">您可以使用 System Manager UI 、 API 或 CLI 在偵測原則中停用 ARP 。</block>
   <block id="389b413db649d1d5d2854fd3e4faf2e6" category="paragraph">您可以套用不包含 FPolicy 和備份原則的不同原則來停用 FPolicy 和備份原則。</block>
   <block id="65b0401d3f724e2259009131f8634056" category="paragraph">設定 BYOL 或購買 PAYGO 訂閱後、您可以在 BlueXP  數位錢包 * 資料服務授權 * 標籤中查看授權、或在 BlueXP  數位錢包 * 訂閱 * 標籤中查看有效訂閱。</block>
   <block id="81ecb148314373b6868cc327725a5c74" category="paragraph">在免費試用結束或授權或訂閱過期之後、您仍可在服務中執行下列動作：</block>
@@ -1247,7 +1241,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024 年 9 月 30 日</block>
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組</block>
   <block id="d67482bbf82ef9c339e44809ea9873b1" category="sidebar">利用勒索軟體保護策略保護工作負載</block>
-  <block id="8f438477df4db40c8b526acbcdce5937" category="paragraph">BlueXP 勒索軟體保護是一項保護資料免受勒索軟體攻擊的服務。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud 和 Cloud Volumes ONTAP for Microsoft Azure （適用於 Cloud Volumes ONTAP 組織）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。</block>
   <block id="7d491636abfe1c22299d387cd25b5297" category="list-text">* 識別 * 在 NetApp 內部部署 NAS 中的所有應用程式型、檔案共用或 VMware 託管工作負載、以及 BlueXP  中的 NFS 或 CIFS 工作環境、以及 BlueXP  組織、專案和 BlueXP  Connectors 。接著服務會將資料優先順序分類、並針對勒索軟體保護改善提供建議。</block>
   <block id="28017f63775595195f8bc7296bf383df" category="paragraph">若要使用 BlueXP 勒索軟體保護、服務必須先探索資料。在探索期間、 BlueXP  勒索軟體保護會分析組織內所有 BlueXP  Connectors 和專案中工作環境中的所有磁碟區和檔案。</block>
   <block id="6b95918551f87e6ece870e17dd0bb85f" category="paragraph">* 如何處理存取權限？ *只有組織管理員才能啟動服務並探索工作負載（因為這涉及使用資源）。後續互動可由任何角色執行。</block>
@@ -1272,7 +1265,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="19bb2bd2050ae1b493e68252954c103c" category="paragraph">BlueXP  勒索軟體保護服務需要 NetApp ONTAP One 授權。</block>
   <block id="4d32d1cc8c36c71c8d57d570d802694f" category="list-text">適用於 Microsoft Azure 的 Cloud Volumes ONTAP 9.12.1 或更新版本（使用 NFS 和 CIFS 通訊協定）</block>
   <block id="63f202b7fcd80e9277a9e585cd35c7ae" category="list-text">註冊 30 天免費試用。</block>
-  <block id="a50976a8a60ebbc86ce147a2bc58e5b2" category="list-text">向 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace （即將推出）購買隨用隨付（ PAYGO ）訂閱。</block>
   <block id="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link"><block ref="8b77b7b1461ed2ee1005a76b8bde413d" category="inline-link-rx"></block></block>
   <block id="26907702c897b4840105eaeacdf31029" category="paragraph">* 什麼是 BlueXP 勒索軟體保護 URL ？ *對於 URL 、在瀏覽器中輸入：<block ref="af060db23189ba3a073087c2598bc50f" category="inline-link-rx"></block> 以存取 BlueXP  主控台。</block>
   <block id="97efbae4c31fd11ab78b098ad04da4de" category="paragraph">* BlueXP  勒索軟體保護如何與 BlueXP  備份與還原及 SnapCenter 互動？ *</block>
@@ -1282,7 +1274,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="38a5d26da81a262d0ad6fb78bf23a0d6" category="admonition">隨著 2024 年 10 月發行， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
   <block id="3ad87b9da828fc1c8e612ab5674dbabe" category="paragraph">您可以隨時取得授權或訂閱、直到 30 天試用期結束為止、您將不會被收取費用。若要在 30 天試用之後繼續、您必須購買 BYOL 授權或 PAYGO 訂閱。</block>
   <block id="a668e7961280a1c2dd9b2e1867761d44" category="paragraph">免費試用結束後，您可以透過其中一個行銷網站訂閱，或是向 NetApp 購買授權。</block>
-  <block id="022abbaa1179c7b286ddd8c130ac5457" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="3cddb13ecf5de3b5c62958c1a6e3afc3" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
   <block id="0d08ffcba407e2477fe1d1c22776d966" category="inline-image-macro">Google Cloud Marketplace 訂閱頁面</block>
   <block id="0db2f901fd9f624905ee76fafab211b8" category="list-text">組織管理 Privileges 的 BlueXP  使用者帳戶，用於探索資源。</block>
   <block id="c3f8e7faba40535b5ced28331a2ed534" category="list-text">BlueXP  Connector 的容器必須<block ref="d5aabb6133fba5c7ef5a4e8db21d18ae" prefix=" " category="inline-code"></block>處於作用中狀態。</block>
@@ -1452,7 +1443,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="955afffb8a05f2f0ed1bf75405e20929" category="list-text">若要顯示 BlueXP  勒索軟體保護儀表板，請選取 * 前往儀表板 * 。</block>
   <block id="54a939b9714096ed5c428eb009f07a1c" category="paragraph">儀表板會顯示資料保護的健全狀況。受風險或受保護的工作負載數量會根據新發現的工作負載而增加。</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="section-title">探索先前所選工作環境的新建立工作負載</block>
-  <block id="9c3d907170e1845e766897c24642117c" category="section-title">其他授權考量</block>
   <block id="9655cd831b69781db448703e74b15bf4" category="inline-link">關於工作負載安全性</block>
   <block id="8c57134a9d3e8421e280c8ad5994173b" category="paragraph">您可以利用 Data Infrastructure Insights Workload Security 來檢視異常的使用者行為。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。如需 Data Infrastucure Insights Workload Security 的總覽，請參閱<block ref="4d48aa780e6eb7eaea8fb83a518d416e" category="inline-link-rx"></block></block>
   <block id="5b4781f0e7e48a742b977d0e4b034fcc" category="paragraph">如果 BlueXP 勒索軟體防護偵測到可能的攻擊、 BlueXP 勒索軟體保護儀表板和右上角的 BlueXP 通知會出現警示、表示可能發生勒索軟體攻擊。該服務也會立即開始執行快照複本。此時、您應該在 BlueXP 勒索軟體保護 * 警示 * 標籤中查看潛在風險。</block>
@@ -1778,7 +1768,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="bbb5bca13abd7924e4f249e451c252fa" category="paragraph">本程序提供如何直接在 Google Cloud Platform Marketplace 中訂閱的高階概觀。</block>
   <block id="d29d0373cd79b8e898203557819f515e" category="list-text">在「付款方式」頁面中，選取 * 訂閱 * 以取得 Google Cloud Platform Marketplace* 。</block>
   <block id="4513e0585e6fa1797f2c21b150a14a89" category="list-text">在 Google Cloud Platform Marketplace 中，選取 * 訂閱 * 。</block>
-  <block id="74063405fd45200a9db3c5fb00320ae2" category="list-text">使用 Google Cloud Platform Marketplace 訂閱 BlueXP  勒索軟體保護。<block ref="fb3373bf1b0a953c29606efc6ca2ad62" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9eec4c2f05425d810427a9b6f2efccd2" category="admonition">系統會傳送電子郵件給您，其中包含 BlueXP  勒索軟體保護序號，並指出 BlueXP  勒索軟體保護功能已在 Google Cloud Platform Marketplace 中訂閱。</block>
   <block id="0db03e668d4feaef689b9436d3ce8e4a" category="list-text">如果勒索軟體偵測原則是由 ONTAP 中的自主勒索軟體保護（根據 ONTAP 版本而定的 ARP 或 ARP/AI ）和 FPolicy 來管理，則這些工作負載會受到保護，並將繼續由 ARP 和 FPolicy 來管理。</block>
   <block id="375e52128c9aeb217244b1b9b6968d32" category="admonition">Amazon FSX for NetApp ONTAP 的工作負載無法使用備份目的地。使用適用於 ONTAP 備份服務的 FSX 執行備份作業。您可以在 AWS 中為 ONTAP 的 FSX 中設定工作負載的備份原則，而非在 BlueXP  勒索軟體保護中設定。備份原則會顯示在 BlueXP  勒索軟體保護中，並保持不變，不受 AWS 的約束。</block>
@@ -1805,4 +1794,14 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">在探索工作流程期間，當您將游標移到支援或不支援的工作負載上時， BlueXP  勒索軟體保護會報告更多詳細資料。這將有助於您瞭解為何 BlueXP  勒索軟體保護服務無法探索您的部分工作負載。</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">您可以在初始探索期間檢視不支援的工作環境，也可以下載結果。您也可以從「設定」頁面中的 * 工作負載探索 * 選項，檢視探索結果。</block>
+  <block id="6c38ac425b1212da5d296521d2fe28f0" category="paragraph">BlueXP  勒索軟體保護是一項服務，可保護您的資料免受勒索軟體攻擊。此服務可保護 Oracle 、 MySQL 、 VM 資料存放區和內部部署 NAS 儲存設備（使用 NFS 和 CIFS 通訊協定）上檔案共用的應用程式型工作負載、以及 BlueXP  for Amazon Web Services 、 Cloud Volumes ONTAP for Google Cloud 和 Cloud Volumes ONTAP for Microsoft Azure （適用於 Cloud Volumes ONTAP 組織）。此服務會將資料備份至 Amazon Web Services 、 Google Cloud 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。</block>
+  <block id="b40b1dd517da35050c4de0c3b7a728db" category="list-text">透過 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 和 Microsoft Azure Marketplace ，購買「隨用隨付」（ PAYGO ）訂閱，即可享有 NetApp 智慧型服務和 BlueXP  勒索軟體保護。</block>
+  <block id="c90f429b2fc82db14813e44ccf0893a7" category="paragraph">您可以使用 System Manager UI ， API 或 CLI 在偵測原則中停用 ARP 。</block>
+  <block id="231fd9de718f42c1c9e89368821092dd" category="section-title">其他授權</block>
+  <block id="b76f0a573a9dcc0fda06a2fc11b5e48e" category="paragraph"><block ref="eed70f716809a92cb07d13e4e8249b92" category="inline-xref-macro-rx"></block> <block ref="6c4a5bded5527a87f7d2259882488db9" category="inline-xref-macro-rx"></block> <block ref="7d94c68f4ae8e9fb2181e72f630d5e56" category="inline-xref-macro-rx"></block> <block ref="a7d4f4192837622a5e792bb08a0fc11c" category="inline-xref-macro-rx"></block></block>
+  <block id="c406c42ae433461652e1c5798baf1962" category="list-text">使用 AWS Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。</block>
+  <block id="5c72df8300e230aba2e597effb02dfe5" category="list-text">使用 Azure Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。</block>
+  <block id="4765fa29b81600ca4cb58e85d8f9afcb" category="list-text">使用 Google Cloud Platform Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。<block ref="4c5eeac1ebe644e1cfd576fdf97c0994" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0545ec91139cbe1d8ed0b333ebef939f" category="inline-link-macro">準備 NetApp StorageGRID ， Amazon Web Services ， Google Cloud Platform 或 Microsoft Azure 作為備份目的地</block>
+  <block id="72f842d16f2016131d4e9d7e14038e88" category="list-text"><block ref="9e4e7ea8cc8b7b041d3f5d7300c15c3a" category="inline-link-macro-rx"></block>。</block>
 </blocks>

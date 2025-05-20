@@ -32,7 +32,7 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 
 
 
-=== 其他授權考量
+== 其他授權
 
 BlueXP  勒索軟體保護授權不包含額外的 NetApp 產品。BlueXP  勒索軟體保護可以使用 BlueXP  備份與還原、即使您沒有授權也沒問題。
 
@@ -83,7 +83,7 @@ image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 如果您已經有 PAYGO 訂閱，授權會在免費試用結束後自動切換至訂閱。
 
-<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<Subscribe through Google Cloud Marketplace>> <<自帶授權（ BYOL ）>>
+<<透過 AWS Marketplace 訂閱>> <<透過 Microsoft Azure Marketplace 訂閱>> <<透過 Google Cloud Platform Marketplace 訂閱>> <<自帶授權（ BYOL ）>>
 
 
 
@@ -103,7 +103,7 @@ image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法
 
 . 在「付款方式」頁面中，選取 * 訂閱 * * * * Amazon Web Services* 。
 . 在 AWS Marketplace 中、選取 * 檢視購買選項 * 。
-. 使用 AWS Marketplace 訂閱 BlueXP 勒索軟體保護。
+. 使用 AWS Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
 +
 
@@ -151,7 +151,7 @@ image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法
 
 . 在「付款方式」頁面中，針對 * Microsoft Azure Marketplace* 選取 * 訂閱 * 。
 . 在 Azure Marketplace 中、選取 * 檢視購買選項 * 。
-. 使用 Azure Marketplace 訂閱 BlueXP 勒索軟體保護。
+. 使用 Azure Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
 +
 
@@ -199,7 +199,7 @@ image:screen-license-payment-methods3.png["BlueXP 勒索軟體保護付款方法
 
 . 在「付款方式」頁面中，選取 * 訂閱 * 以取得 Google Cloud Platform Marketplace* 。
 . 在 Google Cloud Platform Marketplace 中，選取 * 訂閱 * 。
-. 使用 Google Cloud Platform Marketplace 訂閱 BlueXP  勒索軟體保護。image:screen-license-payments-gcp.png["Google Cloud Marketplace 訂閱頁面"]
+. 使用 Google Cloud Platform Marketplace 訂閱 * NetApp Intelligent Services* 和 * BlueXP  勒索軟體保護 * 。image:screen-license-payments-gcp2.png["Google Cloud Marketplace 訂閱頁面"]
 . 當您返回 BlueXP 勒索軟體保護時、會出現訊息指出您已訂閱。
 +
 
