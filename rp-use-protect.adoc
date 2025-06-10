@@ -4,7 +4,7 @@ permalink: rp-use-protect.html
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
 summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載、以保護工作負載免受勒索軟體攻擊。 
 ---
-= 利用勒索軟體保護策略保護工作負載
+= 使用 BlueXP 勒索軟體保護策略保護工作負載
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,11 @@ summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載
 
 
 [role="lead"]
-您可以使用 BlueXP 勒索軟體保護來完成下列動作、以保護工作負載免受勒索軟體攻擊。
+您可以透過啟用工作負載一致性保護或在 BlueXP 勒索軟體保護中建立勒索軟體保護策略來保護工作負載免受勒索軟體攻擊。
+
+*必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
+*如何保護工作負載？ *使用 BlueXP 勒索軟體保護來保護工作負載包括以下任務：
 
 * 啟用工作負載一致的保護功能、可與 SnapCenter 軟體或 SnapCenter Plug-in for VMware vSphere 搭配使用。
 * 建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體保護所建立的原則（稱為 _ 偵測原則 _ ）。

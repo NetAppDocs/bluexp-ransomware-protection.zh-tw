@@ -36,6 +36,8 @@ indexpage:
       url: "/rp-use-dashboard.html"
     - title: 保護工作負載
       url: "/rp-use-protect.html"
+    - title: 使用 BlueXP  分類來掃描個人識別資訊
+      url: "/rp-use-protect-classify.html"
     - title: 回應偵測到的警示
       url: "/rp-use-alert.html"
     - title: 從攻擊中恢復

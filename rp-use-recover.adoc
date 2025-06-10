@@ -4,7 +4,7 @@ permalink: rp-use-recover.html
 keywords: ransomware protection recovery, recover from a ransomware attack, recovery point, RPA 
 summary: 攻擊後、 BlueXP 勒索軟體保護會驗證二次儲存設備上的備份資料是否乾淨、建議使用實際還原點（ RPA ）、並協調工作流程以進行防損還原。 
 ---
-= 從勒索軟體攻擊中恢復（在事件被消除之後）
+= 利用 BlueXP 勒索軟體保護從勒索軟體攻擊中恢復（事件消除後）
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -59,6 +59,8 @@ image:screen-recovery2.png["恢復頁面"]
 
 如果需要還原、應用程式狀態將會變更。如果應用程式包含在備份中、則會從控制檔還原至先前的狀態。還原完成後、應用程式會以讀寫模式開啟。
 
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 回復 * 。
 . 檢閱 * 恢復 * 頁面中的工作負載資訊。
@@ -90,6 +92,8 @@ TIP: BlueXP 勒索軟體保護可將最佳還原點識別為事件發生前的�
 == 還原非由 SnapCenter 管理的工作負載
 
 使用 BlueXP 勒索軟體保護、儲存管理員可以決定如何從建議的還原點或偏好的還原點還原工作負載。
+
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 安全儲存管理員可以在不同層級恢復資料：
 

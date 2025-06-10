@@ -62,7 +62,7 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 下一步是設定 BlueXP 和 BlueXP 勒索軟體保護服務。
 
-檢閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]。
+複習 https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["BlueXP 標準模式要求"^]。
 
 
 
@@ -70,7 +70,7 @@ summary: 若要使用 BlueXP 勒索軟體保護、請執行幾個步驟來設定
 
 您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP Connector 時、它會包含勒索軟體保護服務的適當功能。
 
-若要在使用此服務之前在 BlueXP 中建立 Connector 、請參閱說明的 BlueXP 文件 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["如何建立 BlueXP Connector"^]。
+若要在使用服務之前在 BlueXP 中建立連接器，請聯絡具有建立連接器權限的 BlueXP 組織管理員，並參考描述 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["如何建立 BlueXP Connector"^] 。
 
 
 NOTE: 如果您有多個 BlueXP Connectors 、服務將會掃描 BlueXP UI 目前所顯示以外的所有 Connectors 資料。此服務會探索與此組織相關的所有專案和所有 Connector 。

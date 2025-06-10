@@ -14,7 +14,9 @@ summary: 設定授權、開始使用 BlueXP 勒索軟體保護。
 [role="lead"]
 有了 BlueXP 勒索軟體保護、您可以使用不同的授權方案。
 
-您可以使用下列授權類型：
+*必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
+*許可證類型* 您可以使用下列許可證類型：
 
 * 註冊 30 天免費試用。
 * 透過 Amazon Web Services （ AWS ） Marketplace ， Google Cloud Marketplace 或 Azure Marketplace 購買隨用隨付（ PAYGO ）訂閱。

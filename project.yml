@@ -35,7 +35,7 @@ sidebar:
       url: "/rp-start-licenses.html"
     - title: 探索工作負載
       url: "/rp-start-discover.html"
-    - title: 模擬勒索軟體攻擊
+    - title: 透過準備演習模擬勒索軟體攻擊
       url: "/rp-start-simulate.html"
     - title: 在「設定」中設定備份，威脅偵測和攻擊模擬
       url: "/rp-use-settings.html"
@@ -60,10 +60,6 @@ sidebar:
     - title: 下載報告
       url: "/rp-use-reports.html"
   - section: support
-  - title: 參考資料
-    entries:
-    - title: 角色型存取控制 Privileges
-      url: "/rp-reference-roles.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 product-family:

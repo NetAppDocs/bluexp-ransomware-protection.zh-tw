@@ -24,3 +24,11 @@ TIP: 無法在 BlueXP  中設定在適用於 ONTAP 的 FSX 上執行之工作�
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP  勒索軟體保護與工作環境"]參閱。
 
 如需支援選項的相關資訊，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  勒索軟體保護限制"]。
+
+
+
+=== 需要 BlueXP 存取角色
+
+您現在需要以下存取角色之一來檢視、發現或管理 BlueXP 勒索軟體防護：組織管理員、資料夾或專案管理員、勒索軟體防護管理員或勒索軟體防護檢視器。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^]。

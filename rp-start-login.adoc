@@ -14,11 +14,9 @@ summary: 透過 BlueXP 中的服務、開始使用 BlueXP 勒索軟體保護。
 [role="lead"]
 您可以使用 NetApp BlueXP 登入 BlueXP 勒索軟體保護服務。
 
-BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定動作的存取。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["深入瞭解所有服務的 BlueXP  角色"^]。
-
-如需每個角色可執行之動作的詳細資訊，請參閱link:rp-reference-roles.html["BlueXP  勒索軟體保護角色型存取控制 Privileges"]。
-
 若要登入BlueXP、您可以使用NetApp 支援網站 您的不實證資料、也可以使用電子郵件和密碼註冊NetApp雲端登入。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["深入瞭解登入"^]。
+
+*必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員、勒索軟體保護管理員或勒索軟體保護檢視器角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 .步驟
 . 開啟網頁瀏覽器、前往 https://console.bluexp.netapp.com/["BlueXP主控台"^]。
@@ -31,17 +29,17 @@ BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每�
 如果這是您第一次登入此服務、就會出現登陸頁面。
 
 +
+
+NOTE: 如果您沒有 BlueXP 連接器或它不是適用於此服務的連接器，則需要部署一個。link:rp-start-setup.html["了解如何設定連接器"]。
+
++
 image:screen-landing.png["BlueXP 勒索軟體保護的登陸頁快照"]
 
 +
 否則、 BlueXP 勒索軟體保護儀表板就會出現。
 
 +
-image:screen-dashboard2.png["BlueXP 勒索軟體保護儀表板"]
-
-+
-
-NOTE: 如果您沒有 BlueXP Connector 、或不是這項服務的連接器、您可能需要聯絡 NetApp 支援部門。
+image:screen-dashboard3.png["BlueXP 勒索軟體保護儀表板"]
 
 . 如果您尚未這麼做、請選取 * 探索工作負載 * 選項。
 +

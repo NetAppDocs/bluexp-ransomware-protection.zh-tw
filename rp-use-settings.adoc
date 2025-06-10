@@ -14,7 +14,9 @@ summary: 您可以在 BlueXP  勒索軟體保護服務中設定多種選項，�
 [role="lead"]
 您可以存取 * 設定 * 選項，設定備份目的地，啟用威脅偵測，執行攻擊準備度訓練，設定工作負載探索，或設定資料基礎架構 Insights 工作負載安全性的連線。
 
-在「設定」頁面中、您可以執行下列動作：
+*必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
+*您可以在「設定」頁面做什麼？ *在「設定」頁面中、您可以執行下列動作：
 
 * 模擬勒索軟體攻擊，方法是進行準備度訓練，並回應模擬勒索軟體警示。如需詳細資訊、請參閱 link:rp-start-simulate.html["進行勒索軟體攻擊準備訓練"]。
 * 設定工作負載探索。
@@ -120,7 +122,7 @@ NOTE: Amazon FSX for NetApp ONTAP 的工作負載無法使用備份目的地。�
 . 從 BlueXP 左側瀏覽器中、選取 * 保護 * > * 勒索軟體保護 * 。
 . 檢閱儀表板的建議動作窗格。
 +
-image:screen-dashboard.png["儀表板頁面"]
+image:screen-dashboard3.png["儀表板頁面"]
 
 . 從儀表板中、選取 * 檢閱和修正 * 、以取得「準備 <backup provider> 做為備份目的地」的建議。
 . 根據備份供應商的不同、繼續執行相關指示。

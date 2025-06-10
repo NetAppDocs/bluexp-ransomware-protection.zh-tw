@@ -4,7 +4,7 @@ permalink: rp-start-simulate.html
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert, simulate, readiness drill, practice, ransomware attack, ransomware attack response, ransomware attack readiness drill 
 summary: 在新建立的範例工作負載上模擬勒索軟體攻擊，以進行勒索軟體準備工作演練。然後，調查模擬攻擊並恢復範例工作負載。您可以多次執行勒索軟體準備訓練。 
 ---
-= 透過準備度訓練模擬勒索軟體攻擊
+= 在 BlueXP 勒索軟體保護中進行勒索軟體攻擊準備演習
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,23 +12,36 @@ summary: 在新建立的範例工作負載上模擬勒索軟體攻擊，以進�
 
 
 [role="lead"]
-在新建立的範例工作負載上模擬勒索軟體攻擊，以進行勒索軟體準備工作演練。然後，調查模擬攻擊並恢復範例工作負載。此功能可測試警示通知，回應和還原程序，協助您瞭解在發生實際勒索軟體攻擊時，您已做好準備。您可以多次執行勒索軟體準備訓練。
+透過模擬對新範例工作負載的攻擊來執行勒索軟體攻擊就緒演練。調查模擬攻擊並恢復工作負載。使用此功能測試警報通知、回應和恢復。根據需要定期運行演練。
 
 
-TIP: 您的實際工作負載資料不會受到影響。
+TIP: 您的實際工作量資料不會受到影響。
+
+您可以對 NFS 和 CIFS (SMB) 工作負載進行準備情況演練。
 
 
 
 == 設定勒索軟體攻擊準備訓練
 
-在進行模擬之前，您需要使用「設定」頁面來設定訓練。您可以從上方功能表附近的「動作」選項輕鬆存取「設定」頁面。
+在執行模擬之前，請在「設定」頁面上設定演練。從頂部選單中的“操作”選項存取“設定”頁面。
+
+在以下情況下您將需要輸入使用者名稱和密碼：
+
+* 如果先前選擇的儲存虛擬機器的使用者名稱或密碼發生更改
+* 如果您選擇不同的 CIFS (SMB) 儲存體 VM
+* 如果您輸入不同的測試工作負載名稱
+
+
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 .步驟
-. 從 BlueXP 勒索軟體保護功能表中、選取垂直市場 image:button-actions-vertical.png["垂直行動"]... 選項位於右上方。
-. 從下拉式功能表中，選取 * 整備訓練 * 或 * 設定 * 。
+. 從 BlueXP 勒索軟體防護選單中，選擇右上角的 *運行準備演練* 按鈕。
++
+image:screen-dashboard3.png["顯示「運行準備度演練」按鈕的儀表板頁面"]
+
 . 在「設定」頁面的「就緒」訓練卡中，選取 * 「設定」 * 。
 +
-此時會出現「設定就緒」訓練頁面。
+BlueXP 顯示配置準備演練頁面。
 
 +
 image:screen-settings-alert-drill-configure.png["設定整備訓練頁面"]
@@ -38,6 +51,7 @@ image:screen-settings-alert-drill-configure.png["設定整備訓練頁面"]
 .. 選取您要用於準備工作訓練的 BlueXP  Connector 。
 .. 選擇測試工作環境。
 .. 選取測試儲存設備 SVM 。
+.. 如果您選擇了 CIFS (SMB) 儲存虛擬機，則會顯示「使用者名稱」和「密碼」欄位。輸入儲存虛擬機器的使用者名稱和密碼。
 .. 輸入要建立的新測試工作負載名稱。請勿在名稱中包含破折號。
 
 
@@ -53,15 +67,20 @@ TIP: 您可以稍後使用「設定」頁面編輯整備訓練組態。
 
 設定就緒訓練之後，您可以開始訓練。
 
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
 當您開始準備訓練時， BlueXP  勒索軟體保護會跳過學習模式，並以使用中模式開始訓練。工作負載的偵測狀態為「作用中」。
 
 
-TIP: 工作負載可以具有勒索軟體偵測 * 學習模式 * 狀態，表示最近已將勒索軟體偵測原則指派給工作負載，而服務正在掃描工作負載。* 主動 * 的偵測狀態表示已指派勒索軟體偵測保護原則。
+TIP: 當最近分配了檢測策略並且服務掃描工作負載時，工作負載可以具有勒索軟體偵測*學習模式*狀態。
 
 .步驟
 . 執行下列其中一項：
 +
-** 從 BlueXP  勒索軟體保護設定功能表中，選取 * 準備度訓練 * ，然後在準備度訓練頁面中選取 * 開始 * 。
+** 從 BlueXP 勒索軟體防護選單中，選擇右上角的 *運行準備演練* 按鈕。
++
+image:screen-dashboard3.png["顯示「運行準備度演練」按鈕的儀表板頁面"]
+
 ** 或者，從「設定」頁面的「準備工作」訓練卡中，選取 * 開始 * 。
 
 
@@ -77,10 +96,12 @@ NOTE: 訓練開始後，您無法編輯準備就緒訓練組態。您可以將�
 
 回應準備度訓練警示，以測試您的準備度。
 
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 警示 * 。
 +
-「警示」頁面隨即出現。在警示 ID 欄中， ID 旁邊會出現「準備度訓練」。
+BlueXP 顯示「警報」頁面。在「警報 ID」欄位中，您會在 ID 旁看到「就緒演練」。
 
 +
 image:screen-alerts-readiness.png["警示頁面，顯示準備度訓練警示"]
@@ -120,7 +141,9 @@ image:screen-alerts-readiness-incidents2.png["顯示準備度訓練警示的「�
 
 == 還原測試工作負載
 
-檢閱整備訓練警示後，您可能會想要還原測試工作負載。
+審查準備演習警報後，如有必要，恢復測試工作量。
+
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 .步驟
 . 返回警示詳細資料頁面。
@@ -141,10 +164,10 @@ image:screen-alerts-readiness-incidents2.png["顯示準備度訓練警示的「�
 
 . 在還原檢閱頁面中，選取 * 還原 * 。
 +
-「恢復」頁面會將準備工作訓練還原的狀態顯示為「進行中」。
+BlueXP 在恢復頁面上將準備演練恢復的狀態顯示為「進行中」。
 
 +
-還原完成後，工作負載的狀態會變更為 * 還原 * 。
+恢復完成後，BlueXP 將工作負載的狀態變更為「*已恢復*」。
 
 . 檢閱還原的工作負載。
 
@@ -156,7 +179,9 @@ TIP: 如需還原程序的詳細資訊，請參閱link:rp-use-recover.html["從�
 
 == 在準備就緒訓練之後變更警示狀態
 
-檢閱整備訓練警示並還原工作負載之後，您可能需要變更警示的狀態。
+審查準備情況演習警報並恢復工作量後，根據需要變更警報狀態。
+
+*所需的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 .步驟
 . 返回警示詳細資料頁面。
@@ -178,6 +203,8 @@ IMPORTANT: 在您消除攻擊之後，您無法將其重新變更。如果您解
 == 檢閱準備度訓練報告
 
 準備工作訓練完成後，您可能會想要檢閱並儲存訓練報告。
+
+*必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員、勒索軟體保護管理員或勒索軟體檢視器角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 報告 * 。
