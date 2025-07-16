@@ -1429,8 +1429,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="0152e4b08d769def55f114d835660cb2" category="list-text">由 Data Infrastructure Insights 工作負載安全性所觸發。這需要資料基礎架構洞見工作負載安全性的授權，而且您必須在 BlueXP  勒索軟體保護中啟用。此功能可偵測儲存工作負載中的異常使用者行為，並可讓您封鎖該使用者，使其無法進一步存取。</block>
   <block id="900224a7eb4d4424692600ce3e4b5262" category="paragraph">若要在 BlueXP  勒索軟體保護中啟用工作負載安全性，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。</block>
   <block id="425da964d78a62f785936af67e3c687f" category="inline-link">關於工作負載安全性</block>
-  <block id="d4f7642c0debd8dc1a4caac9d3b8fa1c" category="paragraph">有關 Data Infrastucure Insights Workload 安全性的概述，請查看<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block>。</block>
-  <block id="f45da5a45d45864a04012a2336cb4b3f" category="admonition">如果您沒有資料基礎架構工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。</block>
   <block id="627c9caf27de22ab63a8c85f8e162aeb" category="list-text">受影響的檔案和目錄</block>
   <block id="bf33e88f89f8370f960763fdaf5e0753" category="section-title">在 Data Infrastructure Insights 工作負載安全性中檢視異常的使用者行為</block>
   <block id="d27458084722491c4ddb4bb5f1966d73" category="paragraph">當 Data Infrastructure Insights Workload 安全性觸發 BlueXP  勒索軟體保護警示時，您可以在 Data Infrastructure Insights Workload 安全性中檢視可疑使用者，封鎖使用者，並直接調查使用者活動。</block>
@@ -1572,7 +1570,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="dd039569367d819e345c8f6be240f7d8" category="paragraph">* BlueXP 勒索軟體保護是否能感知 NetApp ONTAP 中的保護設定？ *是的， BlueXP  勒索軟體保護會探索 ONTAP 中設定的快照排程。</block>
   <block id="66c2a4e2a6f031ea74c393c1c9ef41a3" category="paragraph">* BlueXP 勒索軟體保護如何優先處理工作負載資料？ *資料優先順序取決於所製作的快照複本和排程的備份。</block>
   <block id="19c94ea5372746331c5809f6307cfa3d" category="paragraph">工作負載優先順序（關鍵，標準，重要）是由已套用至與工作負載相關之每個 Volume 的快照頻率所決定。</block>
-  <block id="ea0d3754a202d50b0ac3e93babe7d310" category="summary">如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。該服務也會立即開始執行快照複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。</block>
   <block id="5295c827fac90b16880fb1c75f51694f" category="admonition">在您解除攻擊之後、您無法再變更此項。如果您解除工作負載，系統會永久刪除所有自動擷取的快照複本，以因應可能的勒索軟體攻擊。</block>
   <block id="4f303d58ecece08d64f03bf8e77bc7a5" category="list-text">* 警示 * ：包括所有警示的狀態和詳細資料，包括警示總數和自動快照。</block>
   <block id="be4771625b56693d7077bb50b9ce2ffd" category="admonition">「還原點」窗格中的「原因」欄會顯示快照或備份為「排程」或「自動回應勒索軟體事件」的原因。</block>
@@ -1708,7 +1705,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="ddc6c453c965c414db89d40920292b62" category="paragraph">*出現了哪些細節？ *顯示的詳細資料取決於警示的觸發方式：</block>
   <block id="3950c317c3c61c1f422abb2e301a90ca" category="paragraph">阻止攻擊後，通知儲存管理員資料已準備就緒，以便他們可以開始恢復。</block>
   <block id="0d65ccc6a323f2dc093c64fd9ee55da4" category="paragraph">審查事件之後、您需要判斷事件是否為潛在攻擊。如果不滿足前述條件，他們就可以被解僱。</block>
-  <block id="2d009582c788b082d1655de90757d890" category="paragraph">您可以排除誤報、或決定立即恢復資料。如果您關閉警報，服務將了解此行為並將其與正常操作相關聯，並且不會再次針對此類行為發出警報。</block>
   <block id="5a5533258cfacee641d19f7f201b727f" category="paragraph">如果您解除工作負載，則為應對潛在勒索軟體攻擊而自動取得的所有快照副本都將永久刪除。</block>
   <block id="0d77ad85eefae95571395461b82d0990" category="paragraph">將顯示有關工作負載以及已刪除快照副本的其他資訊。</block>
   <block id="da754c5b4e36c5f41df7372441ba3df1" category="doc">使用 BlueXP 勒索軟體保護儀表板監控工作負載健康狀況</block>
@@ -1764,14 +1760,8 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">此版本包含對BlueXP ransomware protection中 SAN 工作負載的支援。現在，除了 NFS 和 CIFS 工作負載之外，您還可以保護 SAN 工作負載。</block>
   <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">如需詳細資訊、請 <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">改進的工作負載保護</block>
-  <block id="6221ab5554b5d3e0db095000c99ba117" category="paragraph">此版本改善了保護工作負載的工作流程，無論是否啟用資料保護。如果您使用其他NetApp資料保護工具（例如SnapCenter或BlueXP backup and recovery）來處理快照或備份， BlueXP ransomware protection會發現這些工具，並允許您保留控制這些工具的策略。在這個版本中，您可以將這些策略替換為BlueXP ransomware protection策略，也可以繼續使用現有策略。</block>
-  <block id="93fc7709d1644ed6e29ed01f149bda1b" category="paragraph">如需詳細資訊、請<block ref="188a19487c814fdd2606d06b97bea154" category="inline-link-rx"></block>參閱。</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
-  <block id="3a60790dda30a91a55583973f6b71ca1" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向您設定的電子郵件地址發送電子郵件。該服務也會立即啟動快照。</block>
-  <block id="fa5ea5d07e6e245b2470f85837725f54" category="paragraph">此時，您應該查看電子郵件，其中列出了嚴重性和受影響的資源，並查看BlueXP ransomware protection*警報* 標籤中的潛在風險。</block>
-  <block id="284b692777b519f280cdc038cca76279" category="paragraph">如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM)，該服務會向您的 SIEM 系統發送警報詳細資訊。</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link">處理偵測到的勒索軟體警報</block>
-  <block id="c9919fb4d12ef0868dc54924ba92c214" category="paragraph">如需詳細資訊、請<block ref="f5c08491560330056ed27a3a5a41c318" category="inline-link-rx"></block>參閱。</block>
   <block id="9f757ad28ed67f0f0c51cd1de91c8bbc" category="summary">BlueXP ransomware protection服務可讓您查看網路安全相關訊息，並評估您的組織抵禦網路攻擊的韌性。它還為您提供警報清單和補救措施，以提高您的資料安全性。</block>
   <block id="841f32df73c3e26168caae171cbe303e" category="paragraph">勒索軟體攻擊可能會封鎖對資料的存取、攻擊者可能會要求勒索贖金、以換取資料的釋放或解密。根據 IDC 的調查、勒索軟體受害者經常遭受多種勒索軟體攻擊。攻擊可能會中斷對您資料的訪問，持續時間從一天到數週不等。</block>
   <block id="089ae557d982eb6beade74a8ca41d157" category="paragraph">BlueXP  勒索軟體保護是一項服務，可保護您的資料免受勒索軟體攻擊。此服務可保護 BlueXP 組織中的本機 NAS 儲存體（使用 NFS 和 CIFS 協定）和 SAN 儲存體（FC、iSCSI 和 NVMe）上的應用程式的工作負載，以及適用於 Amazon Web Services 的Cloud Volumes ONTAP 、適用於 Google Cloud 的Cloud Volumes ONTAP 、適用於 MicrosoftCloud Cloud Volumes ONTAP 、Amazon FSx for NetApp ONTAPBlueXP此服務會將資料備份至 Amazon Web Services 、 Google Cloud 、 Microsoft Azure 雲端儲存設備和 NetApp StorageGRID 。</block>
@@ -1801,7 +1791,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="d00e098bc6c4321c2b684839ca74f01b" category="list-text">如果您的本機ONTAP叢集或 AWS 或 Azure 雲端中的Cloud Volumes ONTAP尚未加入BlueXP，則您需要一個BlueXP連接器。</block>
   <block id="0885a21123eeb2ad2e03289064c229ea" category="list-text">NetApp StorageGRID、AWS S3、Azure Blob 或 Google Cloud Platform 中用於備份目標的帳戶以及設定的存取權。</block>
   <block id="ddf0d8cb7fa932ccfbf9231d4f27f992" category="list-text">選擇“查看其他資訊”以顯示使用者名稱。</block>
-  <block id="4f858e67fc48b09c62f03c91ac157622" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向您配置的電子郵件地址發送一封電子郵件，提示潛在的勒索軟體攻擊。該服務也會立即啟動快照。此時、您應該在 BlueXP 勒索軟體保護 * 警示 * 標籤中查看潛在風險。</block>
   <block id="4da187364d63bcda0c1ea8730221bf1a" category="admonition">對於 SAN 環境，警告僅基於高熵。</block>
   <block id="fdfe1c881a4c1b0fc74986ab458d8937" category="admonition">如果您在「設定」頁面中的BlueXP ransomware protection中設定了安全性和事件管理系統 (SIEM)，該服務會向您的 SIEM 系統發送警報詳細資訊。</block>
   <block id="96f2e06ea6a3042c6d492dfbd3ef6aeb" category="list-text">繼續下列操作之一：</block>
@@ -1894,4 +1883,15 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="43360d747c31106b5dbf428088f9fabc" category="list-text">連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。啟用威脅偵測功能會自動將資料傳送至您的 SIEM ，以進行威脅分析。</block>
   <block id="e82028134cc149b687f7fdb64684dbf7" category="section-title">連接到安全性和事件管理系統 (SIEM) 進行威脅分析和偵測</block>
   <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025 年 15 月 7 日</block>
+  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">此版本改進了使用其他NetApp工具（例如SnapCenter或BlueXP backup and recovery）的快照和備份策略的工作負載的設定流程。在先前的版本中， BlueXP ransomware protection會發現其他工具的策略，因此您只能變更偵測策略。在這個版本中，您現在可以將快照和備份策略替換為BlueXP ransomware protection策略，也可以繼續使用其他工具的策略。</block>
+  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">如需詳細資訊、請 <block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中會出現通知，並且會向您設定的電子郵件地址發送電子郵件。</block>
+  <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">電子郵件包含有關嚴重性、受影響的工作負載的信息，以及BlueXP ransomware protection「警報」標籤中警報的連結。</block>
+  <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM) 系統，該服務會向您的 SIEM 系統發送警報詳細資訊。</block>
+  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">如需詳細資訊、請 <block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="8478d2d2f131fab50a6128e5da639963" category="summary">如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。</block>
+  <block id="8748f9cf0f2ac9c5e804697f114dd880" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向設定的位址發送電子郵件。該電子郵件包含有關嚴重程度、受影響工作負載的信息，以及指向BlueXP ransomware protection「警報」標籤中警報的連結。</block>
+  <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">有關Data Infrastructure Insights工作負載安全性的概述，請查看<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> 。</block>
+  <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">如果您沒有資料基礎架構工作負載安全許可證，並且沒有在BlueXP ransomware protection中啟用它，您將看不到異常使用者行為資訊。</block>
+  <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">您可以排除誤報、或決定立即恢復資料。如果您關閉警報，服務會了解此行為，將其與正常操作關聯，並且不會再次針對此類行為發出警報。</block>
 </blocks>

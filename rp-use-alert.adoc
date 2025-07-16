@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-use-alert.html 
 keywords: ransomware protection alert, ransomware protection attack, detect ransomware alert 
-summary: 如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。該服務也會立即開始執行快照複本。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。 
+summary: 如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  勒索軟體保護儀表板上會出現警示，指出可能的攻擊。此時、您應該在 BlueXP 勒索軟體保護警示索引標籤中查看潛在風險。 
 ---
 = 使用 BlueXP 勒索軟體保護處理偵測到的勒索軟體警報
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 如果 BlueXP  勒索軟體防護偵測到可能的攻擊， BlueXP  
 [role="lead"]
 當 BlueXP 勒索軟體防護偵測到潛在攻擊時，它會在儀表板和通知區域顯示警報。該服務會立即拍攝快照。請在 BlueXP 勒索軟體防護的「警報」標籤中查看潛在風險。
 
-如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向您配置的電子郵件地址發送一封電子郵件，提示潛在的勒索軟體攻擊。該服務也會立即啟動快照。此時、您應該在 BlueXP 勒索軟體保護 * 警示 * 標籤中查看潛在風險。
+如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向設定的位址發送電子郵件。該電子郵件包含有關嚴重程度、受影響工作負載的信息，以及指向BlueXP ransomware protection「警報」標籤中警報的連結。
 
 您可以排除誤報、或決定立即恢復資料。
 
@@ -152,12 +152,12 @@ TIP: 若要訂閱電子郵件通知，請參閱 https://docs.netapp.com/us-en/bl
 若要在 BlueXP  勒索軟體保護中啟用工作負載安全性，請前往 * 設定 * 頁面，然後選取 * 工作負載安全連線 * 選項。
 
 +
-有關 Data Infrastucure Insights Workload 安全性的概述，請查看 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^]。
+有關Data Infrastructure Insights工作負載安全性的概述，請查看 https://docs.netapp.com/us-en/data-infrastructure-insights/cs_intro.html["關於工作負載安全性"^] 。
 
 
 
 
-TIP: 如果您沒有資料基礎架構工作負載安全性的授權，而且沒有在 BlueXP  勒索軟體保護中啟用，您就不會看到異常的使用者行為資訊。
+TIP: 如果您沒有資料基礎架構工作負載安全許可證，並且沒有在BlueXP ransomware protection中啟用它，您將看不到異常使用者行為資訊。
 
 當發生惡意活動時，系統會產生警示並擷取自動快照。
 
@@ -262,7 +262,7 @@ image:screen-alerts-incidents3.png["警示事件頁面"]
 
 審查事件之後、您需要判斷事件是否為潛在攻擊。如果不滿足前述條件，他們就可以被解僱。
 
-您可以排除誤報、或決定立即恢復資料。如果您關閉警報，服務將了解此行為並將其與正常操作相關聯，並且不會再次針對此類行為發出警報。
+您可以排除誤報、或決定立即恢復資料。如果您關閉警報，服務會了解此行為，將其與正常操作關聯，並且不會再次針對此類行為發出警報。
 
 如果您解除工作負載，則為應對潛在勒索軟體攻擊而自動取得的所有快照副本都將永久刪除。
 
