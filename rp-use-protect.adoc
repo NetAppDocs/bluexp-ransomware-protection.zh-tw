@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: rp-use-protect.html 
-keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, protect, malware, attack 
+keywords: ransomware protection, protect against ransomware attacks, anti-ransomware policies, detection, protection, policy, malware 
 summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載、以保護工作負載免受勒索軟體攻擊。 
 ---
 = 使用 BlueXP 勒索軟體保護策略保護工作負載
@@ -16,53 +16,50 @@ summary: 您可以在 BlueXP 勒索軟體保護中將原則指派給工作負載
 
 *必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
-*如何保護工作負載？ *使用 BlueXP 勒索軟體保護來保護工作負載包括以下任務：
-
-* 啟用工作負載一致的保護功能、可與 SnapCenter 軟體或 SnapCenter Plug-in for VMware vSphere 搭配使用。
-* 建立或管理勒索軟體保護策略、包括您為快照、備份和勒索軟體保護所建立的原則（稱為 _ 偵測原則 _ ）。
-* 匯入策略並加以調整。
-* 群組檔案共用、讓您更容易保護工作負載、而非個別保護工作負載。
-* 刪除勒索軟體保護策略。
 
 
-* 哪些服務用於保護？ *下列服務可用於管理保護原則。BlueXP  勒索軟體保護中會顯示這些服務的保護資訊：
+== 了解BlueXP ransomware protection策略
+
+BlueXP ransomware protection策略包括_偵測_和_保護_策略。
+
+* **偵測策略**偵測勒索軟體威脅並選擇性地阻止可疑檔案副檔名。
+* **防護策略**包含快照策略和備份策略。偵測策略和快照策略是防護策略的必選策略，備份策略是可選策略。
++
+如果您使用其他NetApp產品來保護您的工作負載， BlueXP ransomware protection會發現這些產品並提供以下選項：
+
++
+** 使用勒索軟體偵測策略並繼續使用其他NetApp工具建立的快照和備份策略，或者
+** 使用BlueXP ransomware protection來管理偵測、快照和備份。
+
+
+
+
+
+TIP: 為了增強對資料資產的管理和保護，您可以創建link:#group-file-shares-for-easier-protection["群組文件共享"]透過策略來集體保護卷。
+
+
+
+=== 與其他NetApp託管服務結合的保護策略
+
+除了BlueXP ransomware protection之外，還可以使用以下服務來管理防護：
 
 * 檔案共用、 VM 檔案共用的 BlueXP  備份與還原
 * 適用於 VMware 的 SnapCenter for VM 資料存放區
 * SnapCenter for Oracle 和 MySQL
 
 
+這些服務的防護資訊顯示在BlueXP ransomware protection中。您可以使用BlueXP ransomware protection為這些服務新增偵測策略。使用BlueXP ransomware protection添加防護策略將取代現有的防護策略。
 
-
-== 保護原則
-
-您可能會發現檢閱有關您可以變更的保護原則、以及保護策略中的原則類型等資訊很有幫助。
-
-* 您可以變更哪些保護原則？ *
-
-您可以根據擁有的工作負載保護來變更保護原則：
-
-* * 工作負載不受 NetApp 應用程式保護 * ：這些工作負載並非由 SnapCenter 、 SnapCenter Plug-in for VMware vSphere 或 BlueXP  備份與還原所管理。這些工作負載可能會將快照當成 ONTAP 或其他產品的一部分。如果 ONTAP FPolicy 保護已就緒、您可以使用 ONTAP 變更 FPolicy 保護。
-* * 由 NetApp 應用程式提供現有保護的工作負載 * ：這些工作負載具有由 SnapCenter 、 SnapCenter for VMware vSphere 或 BlueXP  備份與還原所管理的備份或快照原則。
-+
-** 如果快照或備份原則是由 SnapCenter 、 SnapCenter for VMware 或 BlueXP  備份與還原管理、則這些原則將繼續由這些應用程式管理。使用 BlueXP  勒索軟體保護、您也可以將勒索軟體偵測原則套用至這些工作負載。
-** 如果勒索軟體偵測原則是由 ONTAP 中的自主勒索軟體保護（根據 ONTAP 版本而定的 ARP 或 ARP/AI ）和 FPolicy 來管理，則這些工作負載會受到保護，並將繼續由 ARP 和 FPolicy 來管理。
-
-
-
+如果勒索軟體偵測策略由ONTAP中的自主勒索軟體防護（ARP 或 ARP/AI，取決於ONTAP版本）和 FPolicy 管理，則這些工作負載將受到保護並將繼續由 ARP 和 FPolicy 管理。
 
 
 NOTE: Amazon FSX for NetApp ONTAP 的工作負載無法使用備份目的地。使用適用於 ONTAP 備份服務的 FSX 執行備份作業。您可以在 AWS 中為 ONTAP 的 FSX 中設定工作負載的備份原則，而非在 BlueXP  勒索軟體保護中設定。備份原則會顯示在 BlueXP  勒索軟體保護中，並保持不變，不受 AWS 的約束。
 
-* 勒索軟體保護策略需要哪些政策？ *
-
-勒索軟體保護策略需要下列原則：
-
-* 勒索軟體偵測原則
-* Snapshot原則
 
 
-BlueXP  勒索軟體保護策略不需要備份原則。
+=== 針對不受NetApp應用程式保護的工作負載的保護策略
+
+如果您的工作負載不是由BlueXP backup and recovery、 BlueXP ransomware protection、 SnapCenter或SnapCenter Plug-in for VMware vSphere管理，則它可能具有作為ONTAP或其他產品的一部分拍攝的快照。如果 ONTAP FPolicy 保護已就緒、您可以使用 ONTAP 變更 FPolicy 保護。
 
 
 
@@ -71,8 +68,9 @@ BlueXP  勒索軟體保護策略不需要備份原則。
 保護工作負載的第一步之一、就是檢視您目前的工作負載及其保護狀態。您可以看到下列類型的工作負載：
 
 * 應用程式工作負載
-* VM 工作負載
+* 阻止工作負載
 * 檔案共用工作負載
+* VM 工作負載
 
 
 .步驟
@@ -90,11 +88,11 @@ image:screen-protection.png["保護頁面"]
 
 
 
-NOTE: 對於已有 SnapCenter 或 BlueXP 備份與還原服務保護原則的工作負載、您無法編輯保護。對於這些工作負載，如果 BlueXP  勒索軟體已在其他服務中啟動，則可啟用自主勒索軟體保護和 FPolicy 保護。深入瞭解 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^]、 https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^]和 https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^]。
+NOTE: 看link:#add-a-ransomware-protection-strategy["新增勒索軟體保護策略"]了解在存在具有SnapCenter或BlueXP backup and recovery服務的保護策略的情況下使用BlueXP ransomware protection的情況。
 
 
 
-=== 保護詳細資料請參閱保護頁面
+=== 了解保護頁面
 
 「保護」頁面顯示工作負載保護的下列資訊：
 
@@ -138,7 +136,7 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 * * 標準 * ：每天拍攝超過 1 份快照複本
 
 
-* 預先定義的偵測原則 *
+*預定義偵測策略* [[預定義]]
 
 您可以選擇符合工作負載重要性的下列 BlueXP  勒索軟體保護預先定義原則之一：
 
@@ -232,7 +230,7 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 
 . 請依照相關資訊、使用 BlueXP 備份與還原、為 VMware vSphere 主機註冊 SnapCenter 或 SnapCenter 外掛程式。
 . 返回 BlueXP 勒索軟體保護。
-. 從 BlueXP 勒索軟體保護開始、請前往儀表板、再次啟動探索程序。
+. 從BlueXP ransomware protection中，導航到儀表板並再次啟動發現過程。
 . 從 BlueXP 勒索軟體保護中、選取 * 保護 * 以檢視保護頁面。
 . 檢閱「保護」頁面上「快照與備份原則」欄中的詳細資料、查看原則是否在其他地方受到管理。
 
@@ -241,16 +239,35 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 
 == 新增勒索軟體保護策略
 
-您可以為工作負載新增勒索軟體保護策略。執行方式取決於快照和備份原則是否已經存在：
+有三種增加勒索軟體保護策略：
 
-* * 如果您沒有快照或備份原則、請建立勒索軟體保護策略 * 。如果工作負載上不存在快照或備份原則、您可以建立勒索軟體保護策略、其中包括您在 BlueXP  勒索軟體保護中建立的下列原則：
+* **如果您沒有快照或備份策略，請建立勒索軟體防護策略。 **
++
+勒索軟體防護策略包括：
+
 +
 ** Snapshot原則
-** 備份原則
 ** 勒索軟體偵測原則
+** 備份原則
 
 
-* * 為已有快照和備份原則 * 的工作負載建立偵測原則、這些原則可在其他 NetApp 產品或服務中管理。偵測原則不會變更在其他產品中管理的原則。
+* **以BlueXP ransomware protection管理的保護策略取代SnapCenter或BlueXP backup and recovery保護中的現有快照或備份策略。 **
++
+勒索軟體防護策略包括：
+
++
+** Snapshot原則
+** 勒索軟體偵測原則
+** 備份原則
+
+
+* *使用其他NetApp產品或服務中管理的現有快照和備份策略為工作負載建立偵測策略。 *
++
+檢測策略不會改變其他產品中管理的策略。
+
++
+如果其他服務已啟用「自主勒索軟體防護」和「FPolicy」防護，則偵測策略將啟用它們。了解更多link:https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自主勒索軟體保護"^] ， link:https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["BlueXP 備份與還原"^] ， 和link:https://docs.netapp.com/us-en/ontap/nas-audit/two-parts-fpolicy-solution-concept.html["ONTAP FPolicy"^] 。
+
 
 
 
@@ -264,12 +281,12 @@ BlueXP 勒索軟體保護會根據每個工作負載的分析、在探索期間�
 * 勒索軟體偵測原則
 
 
-.建立勒索軟體保護策略的步驟
+.創造勒索軟體防護策略的步驟 [[步驟]]
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
 image:screen-protection.png["管理策略頁面"]
 
-. 從「保護」頁面選取 * 管理保護策略 * 。
+. 在「保護」頁面中，選擇一個工作負載，然後選擇「*保護*」。
 +
 image:screen-protection-strategy.png["管理策略"]
 
@@ -296,7 +313,7 @@ NOTE: 如果您選擇複製及修改現有策略、服務會將「 _copy 」附�
 
 ** * Snapshot 原則 * ：
 +
-*** * Snapshot 原則基礎名稱 * ：選取原則或選取 * Create * 並輸入快照原則的名稱。
+*** *快照策略基礎名稱*：選擇一個政策或選擇*建立*並輸入快照策略的名稱。
 *** * Snapshot 鎖定 * ：啟用此選項可鎖定主儲存設備上的快照複本、即使勒索軟體攻擊管理其通往備份儲存目的地的方式、仍無法在一段時間內修改或刪除快照複本。這也稱為 _immutable 儲存設備 _ 。如此可加快還原時間。
 +
 快照鎖定時、磁碟區過期時間會設為快照複本的到期時間。
@@ -324,63 +341,72 @@ TIP: 若要在次要儲存設備上啟用備份鎖定、請使用 * 設定 * 選
 
 
 
-=== 將偵測原則新增至已有快照和備份原則的工作負載
+=== 在具有由SnapCenter或BlueXP backup and recovery管理的現有快照和備份策略的工作負載中新增偵測策略
 
-透過 BlueXP  勒索軟體保護、您可以將勒索軟體偵測原則指派給已有快照和備份原則的工作負載、這些原則是在其他 NetApp 產品或服務中管理的。偵測原則不會變更在其他產品中管理的原則。
+BlueXP ransomware protection可讓您為已在其他NetApp產品或服務中管理快照和備份保護的工作負載指派偵測策略或保護策略。其他服務（例如BlueXP backup and recovery以及SnapCenter）使用策略來管理快照、複製到二級儲存或備份到物件儲存。
 
-其他服務（例如 BlueXP 備份與還原及 SnapCenter ）則使用下列類型的原則來管理工作負載：
 
-* 管理快照的原則
-* 管理複寫至次要儲存設備的原則
-* 管理備份至物件儲存設備的原則
 
+==== 在具有現有備份或快照策略的工作負載中新增偵測策略
+
+如果您已有包含BlueXP backup and recovery或SnapCenter的快照或備份策略，則可以新增策略來偵測勒索軟體攻擊。若要使用BlueXP ransomware protection來管理保護和偵測，請參閱<<protection,使用BlueXP ransomware protection進行保護>> 。
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
 image:screen-protection.png["管理策略頁面"]
 
-. 從「保護」頁面選取工作負載、然後選取 * 保護 * 。
+. 在「保護」頁面中，選擇一個工作負載，然後選擇「*保護*」。
+. BlueXP ransomware protection偵測是否有現有的活動SnapCenter或BlueXP backup and recovery策略。
+. 若要保留現有的BlueXP backup and recovery或SnapCenter策略並僅套用_偵測_策略，請取消勾選**取代現有策略**方塊。
+. 若要查看SnapCenter策略的詳細信息，請選擇「向下箭頭」。
 +
-「保護」頁面會顯示由 SnapCenter 軟體、 SnapCenter for VMware vSphere 和 BlueXP 備份與還原所管理的原則。
+選擇檢測策略，然後選擇**保護**。
 
+. 在「保護」頁面上，查看**檢測狀態**以確認檢測處於活動狀態。
+
+
+
+
+==== 以BlueXP ransomware protection策略取代現有的備份或快照策略
+
+您可以將現有的備份或快照策略替換為BlueXP ransomware protection策略。此方法會移除外部管理的防護，並在BlueXP ransomware protection中配置偵測和防護。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 +
-下列範例顯示 SnapCenter 所管理的原則：
+image:screen-protection.png["管理策略頁面"]
 
-+
-image:screen-protect-sc-policies.png["顯示 SnapCenter 原則的「保護」頁面"]
-
-+
-以下範例顯示 BlueXP 備份與還原所管理的原則：
-
-+
-image:screen-protect-br-policies.png["顯示 BlueXP 備份與還原原則的「保護」頁面"]
-
-. 若要查看其他管理原則的詳細資料、請按一下 * 向下箭頭 * 。
-. 若要套用偵測原則、以及在其他地方管理的快照和備份原則、請選取偵測原則。
-. 選取 * 保護 * 。
-. 在「保護」頁面上、檢閱「偵測原則」欄、查看指派的「偵測原則」。此外、快照和備份原則欄也會顯示管理原則的產品或服務名稱。
+. 在「保護」頁面中，選擇一個工作負載，然後選擇「*保護*」。
+. BlueXP ransomware protection會偵測是否有現有的有效BlueXP backup and recovery或SnapCenter策略。若要取代現有的BlueXP backup and recovery或SnapCenter策略，請勾選「取代現有政策」複選框。勾選此複選框後， BlueXP ransomware protection會將偵測策略清單替換為偵測策略。
+. 選擇一個保護策略。如果不存在保護策略，請選擇「新增」以建立新策略。有關建立策略的信息，請參閱<<steps,建立保護原則>> 。選擇「*下一步*」。
+. 選擇備份目標或建立新的備份目標。選擇「*下一步*」。
+. 查看新的保護策略，然後選擇**保護**來套用它。
+. 在「保護」頁面上，查看**檢測狀態**以確認檢測處於活動狀態。
 
 
 
 
 === 指派不同的原則
 
-您可以指派不同的保護原則來取代目前的保護原則。
+您可以用其他策略取代現有策略。
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
 . 從「保護」頁面的工作負載列中、選取 * 編輯保護 * 。
-. 在「原則」頁面中、按一下您要指派的原則向下箭頭、以檢閱詳細資料。
+. 如果工作負載具有您想要維護的現有BlueXP backup and recovery或SnapCenter策略，請取消選取「取代現有政策」。若要取代現有策略，請勾選「取代現有策略」。
+. 在「策略」頁面中，選擇要指派的策略的向下箭頭以查看詳細資訊。
 . 選取您要指派的原則。
-. 選取 * 保護 * 以完成變更。
+. 選擇*保護*以完成變更。
 
 
 
 
 == 群組檔案共用以更容易保護
 
-群組檔案共用可讓您更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區、而非分別保護每個磁碟區。
+將文件共享分組到保護組中，可以更輕鬆地保護資料資產。此服務可以同時保護群組中的所有捲，而無需單獨保護每個磁碟區。
+
+您可以建立群組，無論其保護狀態如何（即不受保護的群組和受保護的群組）。將保護策略新增至保護群組時，新的保護策略將取代任何現有策略，包括由BlueXP backup and recovery以及SnapCenter管理的策略。
 
 .步驟
 . 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
@@ -396,22 +422,6 @@ image:screen-protection-groups.png["保護群組頁面"]
 image:screen-protection-groups-add.png["新增保護群組頁面"]
 
 . 輸入保護群組的名稱。
-. 請完成下列其中一個步驟：
-+
-.. 如果您已經有保護原則、請根據工作負載是否由下列其中一項管理、選擇是否要將其分組：
-+
-*** BlueXP 勒索軟體保護
-*** SnapCenter 或 BlueXP  備份與還原
-
-
-.. 如果您尚未制定保護原則、頁面會顯示預先設定的勒索軟體保護策略。
-+
-... 選擇一個選項來保護您的群組、然後選取 * 下一步 * 。
-... 如果您選擇的工作負載在多個工作環境中都有磁碟區、請選取多個工作環境的備份目的地、以便將它們備份到雲端。
-
-
-
-
 . 選取要新增至群組的工作負載。
 +
 
@@ -421,10 +431,25 @@ TIP: 若要查看工作負載的詳細資料、請向右捲動。
 +
 image:screen-protection-groups-policy.png["新增保護群組 - 原則頁面"]
 
-. 選取管理此群組保護的原則。
+. 選擇策略來管理該群組的保護。
 . 選擇*下一步*。
 . 檢閱保護群組的選項。
 . 選取*「Add*」。
+
+
+
+
+=== 編輯群組保護
+
+您可以變更現有群組上的偵測原則。
+
+.步驟
+. 從 BlueXP 勒索軟體保護功能表中、選取 * 保護 * 。
+. 在「保護」頁面中，選擇「保護群組」選項卡，然後選擇要修改其政策的群組。
+. 從保護群組的概覽頁面中，選擇「編輯保護」。
+. 選擇要套用的現有保護策略，或選擇「新增」以建立新的保護策略。有關添加保護策略的更多信息，請參閱<<steps,建立保護原則>> 。然後選擇**儲存**。
+. 在備份目標概覽中，選擇現有的備份目標或**新增新的備份目標**。
+. 選擇**下一步**來查看您的變更。
 
 
 
@@ -485,7 +510,7 @@ image:screen-protection-groups-more-workloads.png["保護群組詳細資料頁�
 +
 image:screen-protection-strategy-list.png["勒索軟體保護策略畫面會顯示策略清單"]
 
-. 在勒索軟體保護策略頁面的受保護工作負載欄中、按一下列結尾的向下箭頭。
+. 在「勒索軟體防護策略」頁面的「受保護的工作負載」欄位中，選擇行末的向下箭頭。
 
 
 

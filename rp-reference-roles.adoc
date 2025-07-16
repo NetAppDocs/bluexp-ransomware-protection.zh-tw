@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rp-reference-roles.html 
 keywords: ransomware protection, protect against ransomware attacks, anti-ransomware, role-based access control, rbac, role, permission, access rights, organization,project,account 
-summary: BlueXP  勒索軟體保護使用角色型存取控制（ RBAC ）來控制每位使用者對特定功能和動作的存取。此服務使用 BlueXP  勒索軟體保護（ RPS ）特有的角色。 
+summary: BlueXP  勒索軟體保護採用角色來管理每位使用者對特定功能和行動的存取。 
 ---
 = BlueXP  勒索軟體保護功能的角色型存取
 :hardbreaks:
@@ -20,15 +20,7 @@ BlueXP  勒索軟體保護採用角色來管理每位使用者對特定功能�
 * * 勒索軟體保護檢視器 * ：檢視工作負載資料，檢視警示資料，下載恢復資料及下載報告。
 
 
-適用於所有 BlueXP  服務的 BlueXP  平台使用下列類型的角色：
-
-* * 平台角色 * 可讓您管理使用者，將其指派給資源，並將角色與其他平台範圍的行動一起提供給他們。
-* * 資料服務角色 * 僅限於特定的資料服務。根據您的工作，您可以擁有多個資料服務角色。BlueXP  勒索軟體保護是 BlueXP  資料服務之一。
-
-
-在 BlueXP  勒索軟體保護中，其他 BlueXP  平台角色被視為觀眾。例如，*勒索軟體保護檢視者*角色允許您查看保護計劃，但不允許您在 BlueXP 勒索軟體保護中執行任何操作。
-
-如需所有 BlueXP  平台角色的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  設定與管理文件"^]。
+這些角色是對BlueXP平台角色的補充，用於管理對BlueXP服務和其他服務（例如資料保護、工作負載管理等）的存取。如需所有 BlueXP  平台角色的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  設定與管理文件"^]。
 
 下表說明每個 BlueXP  勒索軟體保護角色可以執行的動作。
 

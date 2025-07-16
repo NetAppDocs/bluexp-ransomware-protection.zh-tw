@@ -12,7 +12,7 @@ summary: 您可以在 BlueXP  勒索軟體保護服務中設定多種選項，�
 
 
 [role="lead"]
-您可以存取 * 設定 * 選項，設定備份目的地，啟用威脅偵測，執行攻擊準備度訓練，設定工作負載探索，或設定資料基礎架構 Insights 工作負載安全性的連線。
+您可以透過存取「設定」選項來設定備份目標、將資料傳送至外部安全性和事件管理 (SIEM) 系統、進行攻擊準備演習、設定工作負載發現或設定與Data Infrastructure Insights工作負載安全的連線。
 
 *必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
@@ -22,7 +22,7 @@ summary: 您可以在 BlueXP  勒索軟體保護服務中設定多種選項，�
 * 設定工作負載探索。
 * 設定資料基礎架構 Insights 工作負載安全性的連線，以查看勒索軟體警示中可疑的使用者資訊。
 * 新增備份目的地。
-* 啟用威脅偵測，並連接安全與事件管理系統（ SIEM ）以進行威脅分析與偵測。啟用威脅偵測功能會自動將資料傳送至您的 SIEM ，以進行威脅分析。
+* 連接您的安全與事件管理系統（ SIEM ）、進行威脅分析與偵測。啟用威脅偵測功能會自動將資料傳送至您的 SIEM ，以進行威脅分析。
 
 
 
@@ -315,7 +315,7 @@ image:screen-settings-backup-destinations-list2.png["「備份目的地」頁面
 
 
 
-== 啟用威脅偵測
+== 連接到安全性和事件管理系統 (SIEM) 進行威脅分析和偵測
 
 您可以自動將資料傳送至安全與事件管理系統（ SIEM ）、以進行威脅分析與偵測。您可以選擇 AWS Security Hub ， Microsoft Sentinel 或 Splunk Cloud 做為 SIEM 。
 

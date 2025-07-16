@@ -14,19 +14,23 @@ summary: 開始使用 BlueXP 勒索軟體保護、驗證您的環境、網路存
 [role="lead"]
 開始使用 BlueXP 勒索軟體保護、驗證您的作業環境、登入、網路存取和網頁瀏覽器是否準備就緒。
 
-若要使用 BlueXP  勒索軟體保護、您需要具備這些必要條件。
+要使用BlueXP ransomware protection，您需要滿足先決條件。
 
 
 
 == 在 BlueXP  中
 
 * 組織管理 Privileges 的 BlueXP  使用者帳戶，用於探索資源。
-* BlueXP  組織、至少有一個使用中的 BlueXP  Connector 連線至內部部署 ONTAP 叢集、或連線至 AWS 或 Azure 中的 Cloud Volumes ONTAP 。
+* 一個BlueXP組織，至少有一個活動的BlueXP連接器連接到本地ONTAP叢集或 AWS 或 Azure 中的Cloud Volumes ONTAP 。
 * BlueXP  Connector 的容器必須 `cloudmanager-ransomware-protection`處於作用中狀態。
-* 在 AWS 或 Azure 中至少有一個 BlueXP  工作環境、其中有 NetApp 內部部署 ONTAP 叢集或 Cloud Volume ONTAP （使用 NAS 或 CIFS 通訊協定）。
+* 至少一個BlueXP工作環境，其中包含NetApp本地ONTAP叢集或 AWS 或 Azure 中的Cloud Volumes ONTAPBlueXP ransomware protection支援 NAS（NFS 和 SMB）和 SAN（iSCSI、FC 和 NVMe）協定。
 +
-** 支援使用 ONTAP OS 9.11.1 版或更新版本的 ONTAP 或 Cloud Volume ONTAP 叢集。
-** 如果您的內部部署 ONTAP 叢集或 AWS 或 Azure 雲端中的 Cloud Volume ONTAP 尚未在 BlueXP  中加入、則您需要 BlueXP  Connector 。
+** 支援具有ONTAP OS 版本 9.11.1 或更高版本的ONTAP或Cloud Volumes ONTAP叢集。
++
+
+NOTE: 僅ONTAP 9.17.1 及更高版本支援 SAN 工作負載。
+
+** 如果您的本機ONTAP叢集或 AWS 或 Azure 雲端中的Cloud Volumes ONTAP尚未加入BlueXP，則您需要一個BlueXP連接器。
 +
 請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["瞭解如何設定 BlueXP  Connector"] 和 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]。
 
@@ -59,7 +63,7 @@ NOTE: BlueXP 勒索軟體保護的一般版本與 Preview 版本不同、包含 
 
 == 用於資料備份
 
-* NetApp StorageGRID 、 AWS S3 或 Azure Blob 中用於備份目標和存取權限集的帳戶。
+* NetApp StorageGRID、AWS S3、Azure Blob 或 Google Cloud Platform 中用於備份目標的帳戶以及設定的存取權。
 +
 如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions.html["AWS 、 Azure 或 S3 權限清單"^] 。
 
@@ -77,7 +81,7 @@ BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目�
 
 . 登入 BlueXP  、尋找需要更新其 ONTAP 使用者權限的工作環境。
 . 按兩下工作環境以查看詳細資料。
-. 按一下 * 檢視顯示使用者名稱的其他資訊 * 。
+. 選擇“查看其他資訊”以顯示使用者名稱。
 . 使用管理員使用者登入 ONTAP 叢集 CLI 。
 . 顯示該使用者的現有角色。輸入：
 +

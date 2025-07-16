@@ -16,10 +16,10 @@ summary: 在探索期間、 BlueXP 勒索軟體保護會分析所有 BlueXP Conn
 
 *必要的 BlueXP 角色* 組織管理員、資料夾或專案管理員或勒索軟體防護管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
 
-*該服務發現了什麼？ *BlueXP 勒索軟體保護可評估 MySQL 應用程式、 Oracle 應用程式、 VMware 資料存放區和檔案共用。
+*該服務發現了什麼？ *BlueXP ransomware protection評估 MySQL 應用程式、Oracle 應用程式、VMware 資料儲存、檔案共用和區塊儲存。
 
 
-NOTE: 本服務未發現使用 FlexGroup 或 iSCSI 的磁碟區的工作負載。
+NOTE: 本服務未發現使用FlexGroup 的磁碟區的工作負載。
 
 BlueXP 勒索軟體防護在儀表板中發現並顯示支援和不支援的工作環境配置。
 
