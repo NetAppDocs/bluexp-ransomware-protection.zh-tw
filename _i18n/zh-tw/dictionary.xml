@@ -1771,8 +1771,6 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="4282433f8f5c0e6acad137adab28f337" category="paragraph">如果您同時擁有BlueXP backup and recovery以及BlueXP ransomware protection，則受這兩種產品保護的任何公開資料僅由BlueXP ransomware protection計費。</block>
   <block id="feccdf428c2b7a1a214161ac19c68ca0" category="list-text">尋找連接到BlueXP 的所有客戶本地 NAS（NFS 和 CIFS 協定）、SAN（FC、iSCSI 和 NVMe）和Cloud Volumes ONTAP資料。</block>
   <block id="26871f0800751ffb8b48674992b42dfe" category="list-text">協調包括虛擬機器、文件共享、區塊儲存和資料庫在內的工作負載的恢復，並保持應用程式一致性。</block>
-  <block id="78e699264ce91050e8afe900e83193b2" category="paragraph">使用BlueXP ransomware protection來查看您的資料對以下類型的備份目標、工作環境和工作負載資料來源的網路攻擊的抵禦能力：</block>
-  <block id="ec756c3d78ad9564b3bcd967a807328f" category="paragraph">BlueXP勒索軟體支援以下工作環境和備份目的地：</block>
   <block id="36471da59b7d9b72aa431fd1f5059d05" category="list-text">本地ONTAP SAN（使用 FC、iSCSI 和 NVMe 協定），採用ONTAP版本 9.17.1 及更高版本</block>
   <block id="35042137939d246a1fd01199cb942d15" category="list-text">適用於 AWS、Google Cloud Platform 和 Microsoft Azure 的Cloud Volumes ONTAP 9.17.1 或更高版本（使用 FC、iSCSI 和 NVMe 協定）</block>
   <block id="54d1e9634870c74de38de33364a86d27" category="list-text">Amazon FSx for NetApp ONTAP，使用自主勒索軟體防護（ARP 而非 ARP/AI）</block>
@@ -1894,4 +1892,5 @@ BlueXP 勒索軟體保護不需要任何啟用。BlueXP 左側導覽會自動啟
   <block id="fc16f99f8f194db3c5491ab6fef98d3c" category="paragraph">有關Data Infrastructure Insights工作負載安全性的概述，請查看<block ref="61a89dd403e895daaa4d98a27b91c870" category="inline-link-rx"></block> 。</block>
   <block id="a411a37a314e9f2b77d0a4559ae70ea2" category="admonition">如果您沒有資料基礎架構工作負載安全許可證，並且沒有在BlueXP ransomware protection中啟用它，您將看不到異常使用者行為資訊。</block>
   <block id="05526b7ad3e4bf2881f5ccf1a99ea6c2" category="paragraph">您可以排除誤報、或決定立即恢復資料。如果您關閉警報，服務會了解此行為，將其與正常操作關聯，並且不會再次針對此類行為發出警報。</block>
+  <block id="a815e68282b1aa9bd3ce4985ebc97a8f" category="paragraph">BlueXP勒索軟體支援以下備份目標、工作環境和資料來源：</block>
 </blocks>

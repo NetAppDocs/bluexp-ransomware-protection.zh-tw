@@ -157,9 +157,7 @@ image:diagram-rp-architecture-preview3.png["顯示 BlueXP 勒索軟體保護架�
 
 == 支援的備份目標、工作環境和工作負載資料來源
 
-使用BlueXP ransomware protection來查看您的資料對以下類型的備份目標、工作環境和工作負載資料來源的網路攻擊的抵禦能力：
-
-BlueXP勒索軟體支援以下工作環境和備份目的地：
+BlueXP勒索軟體支援以下備份目標、工作環境和資料來源：
 
 * 支援的備份目標 *
 
