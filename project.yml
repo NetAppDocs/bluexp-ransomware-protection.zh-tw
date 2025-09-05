@@ -38,8 +38,6 @@ sidebar:
       url: "/rp-start-simulate.html"
     - title: 在「設定」中設定備份，威脅偵測和攻擊模擬
       url: "/rp-use-settings.html"
-    - title: 常見問題集
-      url: "/rp-start-faq.html"
   - title: 使用 BlueXP 勒索軟體保護
     entries:
     - title: 請使用 BlueXP 勒索軟體保護總覽
@@ -59,6 +57,8 @@ sidebar:
     - title: 下載報告
       url: "/rp-use-reports.html"
   - section: support
+  - title: 常見問題集
+    url: "/rp-start-faq.html"
   - title: 法律聲明
     url: "/legal-notices.html"
 product-family:
